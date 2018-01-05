@@ -582,3 +582,181 @@ Session ID: bfcdbb55e118716c29995e32392271e8
 2018-01-05 19:30:53,882 [main] INFO Amend_Credit_MultiSupplier - Changing Name
 2018-01-05 19:30:54,069 [main] INFO Amend_Credit_MultiSupplier - Changed name
 2018-01-05 19:31:10,164 [main] INFO Amend_Credit_MultiSupplier - Amended For DOTW Room
+2018-01-05 19:44:04,944 [main] INFO Amend_Credit_MultiSupplier - Test Case Started
+2018-01-05 19:44:08,022 [main] INFO Amend_Credit_MultiSupplier - Browser Opened
+2018-01-05 19:44:13,684 [main] INFO Amend_Credit_MultiSupplier - Test Case Started
+2018-01-05 19:44:20,448 [main] INFO Amend_Credit_MultiSupplier - Login Successful
+2018-01-05 19:44:23,093 [main] INFO Amend_Credit_MultiSupplier - Searching Customer
+2018-01-05 19:44:23,097 [main] INFO Amend_Credit_MultiSupplier - Navigating to customer search page
+2018-01-05 19:44:28,994 [main] INFO Amend_Credit_MultiSupplier - Navigated to customer search page
+2018-01-05 19:44:32,161 [main] INFO Amend_Credit_MultiSupplier - Selecting Customer
+2018-01-05 19:44:48,395 [main] INFO Amend_Credit_MultiSupplier - Customer Selected
+2018-01-05 19:44:48,398 [main] INFO Amend_Credit_MultiSupplier - Applying search Filters for Supplier Room
+2018-01-05 19:44:48,398 [main] INFO Amend_Credit_MultiSupplier - Starting HotelSearch Prepay for Supplier Room
+2018-01-05 19:45:03,826 [main] INFO Amend_Credit_MultiSupplier - Hotel Search Complete Prepay for Supplier Room
+2018-01-05 19:45:03,827 [main] INFO Amend_Credit_MultiSupplier - Starting Hotel Save for Supplier Room
+2018-01-05 19:45:06,594 [main] INFO Amend_Credit_MultiSupplier - Entering Passenger details
+2018-01-05 19:45:15,442 [main] INFO Amend_Credit_MultiSupplier - Entered Passenger details for Supplier Room
+2018-01-05 19:45:24,864 [main] INFO Amend_Credit_MultiSupplier - Hotel Save Complete Prepay for Supplier Room
+2018-01-05 19:45:24,896 [main] INFO Amend_Credit_MultiSupplier - Applying search Filters for DOTW Room
+2018-01-05 19:45:24,896 [main] INFO Amend_Credit_MultiSupplier - Starting HotelSearch Prepay for DOTW Room
+2018-01-05 19:45:38,271 [main] INFO Amend_Credit_MultiSupplier - Hotel Search Complete Prepay for DOTW Room
+2018-01-05 19:45:38,272 [main] INFO Amend_Credit_MultiSupplier - Starting Hotel Save for DOTW Room
+2018-01-05 19:45:40,522 [main] INFO Amend_Credit_MultiSupplier - Entering Passenger details
+2018-01-05 19:45:46,586 [main] INFO Amend_Credit_MultiSupplier - Entered Passenger details for DOTW Room
+2018-01-05 19:46:09,693 [main] INFO Amend_Credit_MultiSupplier - Hotel Save Complete Prepay for DOTW Room
+2018-01-05 19:46:09,693 [main] INFO Amend_Credit_MultiSupplier - Starting Hotel Book from Saved Itenary Multi Supplier
+2018-01-05 19:46:28,728 [main] INFO Amend_Credit_MultiSupplier - Hotel Book Complete Prepay Book from Saved Itenary Multi Supplier
+2018-01-05 19:46:34,986 [main] INFO Amend_Credit_MultiSupplier - Navigating to Amend Page For DOTW Room
+2018-01-05 19:46:37,812 [main] INFO Amend_Credit_MultiSupplier - Navigated to Amend Page For DOTW Room
+2018-01-05 19:46:39,925 [main] INFO Amend_Credit_MultiSupplier - Starting to Amend For DOTW Room
+2018-01-05 19:46:39,925 [main] INFO Amend_Credit_MultiSupplier - Changing Name
+2018-01-05 19:46:40,112 [main] INFO Amend_Credit_MultiSupplier - Changed name
+2018-01-05 19:46:56,143 [main] INFO Amend_Credit_MultiSupplier - Amended For DOTW Room
+2018-01-05 19:47:13,113 [main] INFO Amend_Credit_MultiSupplier - Test Case Started
+2018-01-05 19:47:16,252 [main] INFO Amend_Credit_MultiSupplier - Browser Opened
+2018-01-05 19:47:20,404 [main] INFO Amend_Credit_MultiSupplier - Test Case Started
+2018-01-05 19:47:26,667 [main] INFO Amend_Credit_MultiSupplier - Login Successful
+2018-01-05 19:47:28,791 [main] INFO Amend_Credit_MultiSupplier - Searching Customer
+2018-01-05 19:47:28,807 [main] INFO Amend_Credit_MultiSupplier - Navigating to customer search page
+2018-01-05 19:47:34,140 [main] INFO Amend_Credit_MultiSupplier - Navigated to customer search page
+2018-01-05 19:47:37,239 [main] INFO Amend_Credit_MultiSupplier - Selecting Customer
+2018-01-05 19:47:53,670 [main] INFO Amend_Credit_MultiSupplier - Customer Selected
+2018-01-05 19:47:53,670 [main] INFO Amend_Credit_MultiSupplier - Applying search Filters for Supplier Room
+2018-01-05 19:47:53,671 [main] INFO Amend_Credit_MultiSupplier - Starting HotelSearch Prepay for Supplier Room
+2018-01-05 19:48:02,050 [main] INFO Amend_Credit_MultiSupplier - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir13036_12415}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 7014e3057d9024ec3e152b32845b2998
+*** Element info: {Using=xpath, value=//button[@type='submit']}
+2018-01-05 19:48:26,707 [main] INFO Amend_Credit_MultiSupplier - Test Case Started
+2018-01-05 19:48:29,726 [main] INFO Amend_Credit_MultiSupplier - Browser Opened
+2018-01-05 19:48:33,902 [main] INFO Amend_Credit_MultiSupplier - Test Case Started
+2018-01-05 19:48:40,203 [main] INFO Amend_Credit_MultiSupplier - Login Successful
+2018-01-05 19:48:42,366 [main] INFO Amend_Credit_MultiSupplier - Searching Customer
+2018-01-05 19:48:42,367 [main] INFO Amend_Credit_MultiSupplier - Navigating to customer search page
+2018-01-05 19:48:47,673 [main] INFO Amend_Credit_MultiSupplier - Navigated to customer search page
+2018-01-05 19:48:50,774 [main] INFO Amend_Credit_MultiSupplier - Selecting Customer
+2018-01-05 19:49:04,184 [main] INFO Amend_Credit_MultiSupplier - Customer Selected
+2018-01-05 19:49:04,184 [main] INFO Amend_Credit_MultiSupplier - Applying search Filters for Supplier Room
+2018-01-05 19:49:04,185 [main] INFO Amend_Credit_MultiSupplier - Starting HotelSearch Prepay for Supplier Room
+2018-01-05 19:49:21,829 [main] INFO Amend_Credit_MultiSupplier - Hotel Search Complete Prepay for Supplier Room
+2018-01-05 19:49:21,831 [main] INFO Amend_Credit_MultiSupplier - Starting Hotel Save for Supplier Room
+2018-01-05 19:49:25,854 [main] INFO Amend_Credit_MultiSupplier - chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir21784_2788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 32bff121eae04f0d9b7d172c52240275
+*** Element info: {Using=xpath, value=//input[@type='radio']}
+2018-01-05 19:54:03,164 [main] INFO Amend_Credit_MultiSupplier - Test Case Started
+2018-01-05 19:54:06,179 [main] INFO Amend_Credit_MultiSupplier - Browser Opened
+2018-01-05 19:54:10,334 [main] INFO Amend_Credit_MultiSupplier - Test Case Started
+2018-01-05 19:54:16,607 [main] INFO Amend_Credit_MultiSupplier - Login Successful
+2018-01-05 19:54:18,761 [main] INFO Amend_Credit_MultiSupplier - Searching Customer
+2018-01-05 19:54:18,761 [main] INFO Amend_Credit_MultiSupplier - Navigating to customer search page
+2018-01-05 19:54:24,097 [main] INFO Amend_Credit_MultiSupplier - Navigated to customer search page
+2018-01-05 19:54:27,202 [main] INFO Amend_Credit_MultiSupplier - Selecting Customer
+2018-01-05 19:54:41,643 [main] INFO Amend_Credit_MultiSupplier - Customer Selected
+2018-01-05 19:54:41,644 [main] INFO Amend_Credit_MultiSupplier - Applying search Filters for Supplier Room
+2018-01-05 19:54:41,644 [main] INFO Amend_Credit_MultiSupplier - Starting HotelSearch Prepay for Supplier Room
+2018-01-05 19:54:55,370 [main] INFO Amend_Credit_MultiSupplier - Hotel Search Complete Prepay for Supplier Room
+2018-01-05 19:54:55,370 [main] INFO Amend_Credit_MultiSupplier - Starting Hotel Save for Supplier Room
+2018-01-05 19:54:58,212 [main] INFO Amend_Credit_MultiSupplier - Entering Passenger details
+2018-01-05 19:55:07,091 [main] INFO Amend_Credit_MultiSupplier - Entered Passenger details for Supplier Room
+2018-01-05 19:55:24,672 [main] INFO Amend_Credit_MultiSupplier - Hotel Save Complete Prepay for Supplier Room
+2018-01-05 19:55:28,690 [main] INFO Amend_Credit_MultiSupplier - chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir14644_29743}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e540038e4d903f0411e9153082825780
+*** Element info: {Using=xpath, value=//div[@id='sidebar']/span}
+2018-01-05 19:56:02,215 [main] INFO Amend_Credit_MultiSupplier - Test Case Started
+2018-01-05 19:56:05,225 [main] INFO Amend_Credit_MultiSupplier - Browser Opened
+2018-01-05 19:56:09,337 [main] INFO Amend_Credit_MultiSupplier - Test Case Started
+2018-01-05 19:56:15,643 [main] INFO Amend_Credit_MultiSupplier - Login Successful
+2018-01-05 19:56:17,786 [main] INFO Amend_Credit_MultiSupplier - Searching Customer
+2018-01-05 19:56:17,801 [main] INFO Amend_Credit_MultiSupplier - Navigating to customer search page
+2018-01-05 19:56:23,144 [main] INFO Amend_Credit_MultiSupplier - Navigated to customer search page
+2018-01-05 19:56:26,264 [main] INFO Amend_Credit_MultiSupplier - Selecting Customer
+2018-01-05 19:56:41,024 [main] INFO Amend_Credit_MultiSupplier - Customer Selected
+2018-01-05 19:56:41,025 [main] INFO Amend_Credit_MultiSupplier - Applying search Filters for Supplier Room
+2018-01-05 19:56:41,025 [main] INFO Amend_Credit_MultiSupplier - Starting HotelSearch Prepay for Supplier Room
+2018-01-05 19:56:56,533 [main] INFO Amend_Credit_MultiSupplier - chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir21820_29501}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 89f6e9b7fd255dce2278c24599f4451e
+*** Element info: {Using=xpath, value=//*[@id='searchResults']/div[3]/div[3]/button}
+2018-01-05 19:57:21,295 [main] INFO Amend_Credit_MultiSupplier - Test Case Started
+2018-01-05 19:57:25,068 [main] INFO Amend_Credit_MultiSupplier - Browser Opened
+2018-01-05 19:57:29,212 [main] INFO Amend_Credit_MultiSupplier - Test Case Started
+2018-01-05 19:57:35,542 [main] INFO Amend_Credit_MultiSupplier - Login Successful
+2018-01-05 19:57:37,706 [main] INFO Amend_Credit_MultiSupplier - Searching Customer
+2018-01-05 19:57:37,706 [main] INFO Amend_Credit_MultiSupplier - Navigating to customer search page
+2018-01-05 19:57:43,038 [main] INFO Amend_Credit_MultiSupplier - Navigated to customer search page
+2018-01-05 19:57:46,134 [main] INFO Amend_Credit_MultiSupplier - Selecting Customer
+2018-01-05 19:58:00,579 [main] INFO Amend_Credit_MultiSupplier - Customer Selected
+2018-01-05 19:58:00,579 [main] INFO Amend_Credit_MultiSupplier - Applying search Filters for Supplier Room
+2018-01-05 19:58:00,579 [main] INFO Amend_Credit_MultiSupplier - Starting HotelSearch Prepay for Supplier Room
+2018-01-05 19:58:16,491 [main] INFO Amend_Credit_MultiSupplier - Hotel Search Complete Prepay for Supplier Room
+2018-01-05 19:58:16,492 [main] INFO Amend_Credit_MultiSupplier - Starting Hotel Save for Supplier Room
+2018-01-05 19:58:19,276 [main] INFO Amend_Credit_MultiSupplier - Entering Passenger details
+2018-01-05 19:58:28,540 [main] INFO Amend_Credit_MultiSupplier - chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir20016_1565}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 61c30f863bb8f466d114aac10cd18a8e
+*** Element info: {Using=xpath, value=//*[@id='passengerDetails']/div[1]/div/div[3]/input}
+2018-01-05 20:04:22,369 [main] INFO Amend_Credit_MultiSupplier - Test Case Started
+2018-01-05 20:04:25,394 [main] INFO Amend_Credit_MultiSupplier - Browser Opened
+2018-01-05 20:04:29,542 [main] INFO Amend_Credit_MultiSupplier - Test Case Started
+2018-01-05 20:04:36,189 [main] INFO Amend_Credit_MultiSupplier - Login Successful
+2018-01-05 20:04:38,344 [main] INFO Amend_Credit_MultiSupplier - Searching Customer
+2018-01-05 20:04:38,344 [main] INFO Amend_Credit_MultiSupplier - Navigating to customer search page
+2018-01-05 20:04:43,722 [main] INFO Amend_Credit_MultiSupplier - Navigated to customer search page
+2018-01-05 20:04:46,810 [main] INFO Amend_Credit_MultiSupplier - Selecting Customer
+2018-01-05 20:05:02,640 [main] INFO Amend_Credit_MultiSupplier - Customer Selected
+2018-01-05 20:05:02,640 [main] INFO Amend_Credit_MultiSupplier - Applying search Filters for Supplier Room
+2018-01-05 20:05:02,640 [main] INFO Amend_Credit_MultiSupplier - Starting HotelSearch Prepay for Supplier Room
+2018-01-05 20:05:16,487 [main] INFO Amend_Credit_MultiSupplier - Hotel Search Complete Prepay for Supplier Room
+2018-01-05 20:05:16,488 [main] INFO Amend_Credit_MultiSupplier - Starting Hotel Save for Supplier Room
+2018-01-05 20:05:19,802 [main] INFO Amend_Credit_MultiSupplier - Entering Passenger details
+2018-01-05 20:05:29,987 [main] INFO Amend_Credit_MultiSupplier - Entered Passenger details for Supplier Room
+2018-01-05 20:05:44,640 [main] INFO Amend_Credit_MultiSupplier - Hotel Save Complete Prepay for Supplier Room
+2018-01-05 20:05:44,680 [main] INFO Amend_Credit_MultiSupplier - Applying search Filters for DOTW Room
+2018-01-05 20:05:44,680 [main] INFO Amend_Credit_MultiSupplier - Starting HotelSearch Prepay for DOTW Room
+2018-01-05 20:05:57,938 [main] INFO Amend_Credit_MultiSupplier - Hotel Search Complete Prepay for DOTW Room
+2018-01-05 20:05:57,939 [main] INFO Amend_Credit_MultiSupplier - Starting Hotel Save for DOTW Room
+2018-01-05 20:06:00,192 [main] INFO Amend_Credit_MultiSupplier - Entering Passenger details
+2018-01-05 20:06:06,284 [main] INFO Amend_Credit_MultiSupplier - Entered Passenger details for DOTW Room
+2018-01-05 20:06:19,937 [main] INFO Amend_Credit_MultiSupplier - Hotel Save Complete Prepay for DOTW Room
+2018-01-05 20:06:19,940 [main] INFO Amend_Credit_MultiSupplier - Starting Hotel Book from Saved Itenary Multi Supplier
+2018-01-05 20:06:40,043 [main] INFO Amend_Credit_MultiSupplier - Hotel Book Complete Prepay Book from Saved Itenary Multi Supplier
+2018-01-05 20:06:46,242 [main] INFO Amend_Credit_MultiSupplier - Navigating to Amend Page For DOTW Room
+2018-01-05 20:06:49,050 [main] INFO Amend_Credit_MultiSupplier - Navigated to Amend Page For DOTW Room
+2018-01-05 20:06:51,116 [main] INFO Amend_Credit_MultiSupplier - Starting to Amend For DOTW Room
+2018-01-05 20:06:51,116 [main] INFO Amend_Credit_MultiSupplier - Changing No Of Occupancy
+2018-01-05 20:06:51,369 [main] INFO Amend_Credit_MultiSupplier - Changed No Of Occupancy
+2018-01-05 20:07:06,816 [main] INFO Amend_Credit_MultiSupplier - Amended For Supplier Room

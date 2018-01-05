@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="SupplierSuite" duration-ms="171471" started-at="2018-01-05T13:58:21Z" finished-at="2018-01-05T14:01:12Z">
+  <suite name="SupplierSuite" duration-ms="167163" started-at="2018-01-05T14:34:21Z" finished-at="2018-01-05T14:37:09Z">
     <groups>
     </groups>
-    <test name="SupplierTestone" duration-ms="171471" started-at="2018-01-05T13:58:21Z" finished-at="2018-01-05T14:01:12Z">
-      <class name="Amend_MyAdmin.Amend_Credit_MultiSupplier">
-        <test-method status="PASS" signature="BookPrepayMultiSupplier(java.lang.String)[pri:0, instance:Amend_MyAdmin.Amend_Credit_MultiSupplier@1d371b2d]" name="BookPrepayMultiSupplier" duration-ms="171276" started-at="2018-01-05T19:28:21Z" finished-at="2018-01-05T19:31:12Z">
+    <test name="SupplierTestone" duration-ms="167163" started-at="2018-01-05T14:34:21Z" finished-at="2018-01-05T14:37:09Z">
+      <class name="Amend_MyAdmin.Amend_Credit_Card_MultiSupplier">
+        <test-method status="PASS" signature="BookPrepayMultiSupplier(java.lang.String)[pri:0, instance:Amend_MyAdmin.Amend_Credit_Card_MultiSupplier@1d371b2d]" name="BookPrepayMultiSupplier" duration-ms="166953" started-at="2018-01-05T20:04:21Z" finished-at="2018-01-05T20:07:08Z">
           <params>
             <param index="0">
               <value>
@@ -18,22 +18,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BookPrepayMultiSupplier -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Amend_MyAdmin.Amend_Credit_MultiSupplier@1d371b2d]" name="getResult" is-config="true" duration-ms="2" started-at="2018-01-05T19:31:12Z" finished-at="2018-01-05T19:31:12Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Amend_MyAdmin.Amend_Credit_Card_MultiSupplier@1d371b2d]" name="getResult" is-config="true" duration-ms="2" started-at="2018-01-05T20:07:08Z" finished-at="2018-01-05T20:07:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=BookPrepayMultiSupplier status=SUCCESS method=Amend_Credit_MultiSupplier.BookPrepayMultiSupplier(java.lang.String)[pri:0, instance:Amend_MyAdmin.Amend_Credit_MultiSupplier@1d371b2d] output={null}]]]>
+                <![CDATA[[TestResult name=BookPrepayMultiSupplier status=SUCCESS method=Amend_Credit_Card_MultiSupplier.BookPrepayMultiSupplier(java.lang.String)[pri:0, instance:Amend_MyAdmin.Amend_Credit_Card_MultiSupplier@1d371b2d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Amend_MyAdmin.Amend_Credit_MultiSupplier@1d371b2d]" name="afterTest" is-config="true" duration-ms="176" started-at="2018-01-05T19:31:12Z" finished-at="2018-01-05T19:31:12Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Amend_MyAdmin.Amend_Credit_Card_MultiSupplier@1d371b2d]" name="afterTest" is-config="true" duration-ms="184" started-at="2018-01-05T20:07:08Z" finished-at="2018-01-05T20:07:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- Amend_MyAdmin.Amend_Credit_MultiSupplier -->
+      </class> <!-- Amend_MyAdmin.Amend_Credit_Card_MultiSupplier -->
     </test> <!-- SupplierTestone -->
   </suite> <!-- SupplierSuite -->
 </testng-results>

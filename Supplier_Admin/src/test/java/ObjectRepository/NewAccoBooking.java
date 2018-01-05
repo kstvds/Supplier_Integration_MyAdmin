@@ -135,4 +135,6 @@ public class NewAccoBooking {
 	public static final By SameLastNameFirstNameTwoPax = By.xpath("//td[contains(text(),'Kaustav Das')]");
 	
 	public static final By SameLastNameFirstNameCreditCard = By.xpath("//td[contains(text(),'Kaustav Kaustav')]");
+	
+	public static final By NoofAdults = By.xpath("//*[@id='addRoomsHere']/tr[2]/td[1]/select");
 }
