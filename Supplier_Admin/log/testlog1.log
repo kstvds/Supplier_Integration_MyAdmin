@@ -1,0 +1,26 @@
+2018-01-05 11:49:03,931 [main] INFO Amend_Credit_Card_Within_DeadLine - Test Case Started
+2018-01-05 11:49:08,498 [main] INFO Amend_Credit_Card_Within_DeadLine - Browser Opened
+2018-01-05 11:49:14,297 [main] INFO Amend_Credit_Card_Within_DeadLine - Test Case Started
+2018-01-05 11:49:20,760 [main] INFO Amend_Credit_Card_Within_DeadLine - Login Successful
+2018-01-05 11:49:22,988 [main] INFO Amend_Credit_Card_Within_DeadLine - Searching Customer
+2018-01-05 11:49:22,989 [main] INFO Amend_Credit_Card_Within_DeadLine - Navigating to customer search page
+2018-01-05 11:49:28,410 [main] INFO Amend_Credit_Card_Within_DeadLine - Navigated to customer search page
+2018-01-05 11:49:30,503 [main] INFO Amend_Credit_Card_Within_DeadLine - Selecting Customer
+2018-01-05 11:49:48,057 [main] INFO Amend_Credit_Card_Within_DeadLine - Customer Selected
+2018-01-05 11:49:48,058 [main] INFO Amend_Credit_Card_Within_DeadLine - Applying search Filters
+2018-01-05 11:49:48,059 [main] INFO Amend_Credit_Card_Within_DeadLine - Starting HotelSearch Credit Card Within DeadLine
+2018-01-05 11:50:06,677 [main] INFO Amend_Credit_Card_Within_DeadLine - Hotel Search Complete Credit Card Within DeadLine
+2018-01-05 11:50:06,678 [main] INFO Amend_Credit_Card_Within_DeadLine - Starting Hotel Book
+2018-01-05 11:50:08,982 [main] INFO Amend_Credit_Card_Within_DeadLine - Entering Passenger details
+2018-01-05 11:50:19,201 [main] INFO Amend_Credit_Card_Within_DeadLine - Entered Passenger details
+2018-01-05 11:50:26,820 [main] INFO Amend_Credit_Card_Within_DeadLine - Entering Payment Details
+2018-01-05 11:50:30,375 [main] INFO Amend_Credit_Card_Within_DeadLine - Completed Payment Details
+2018-01-05 11:50:44,151 [main] INFO Amend_Credit_Card_Within_DeadLine - Hotel Book Complete Credit Card Within DeadLine
+2018-01-05 11:50:44,151 [main] INFO Amend_Credit_Card_Within_DeadLine - Navigating to Amend Page
+2018-01-05 11:50:47,085 [main] INFO Amend_Credit_Card_Within_DeadLine - Navigated to Amend Page
+2018-01-05 11:50:49,169 [main] INFO Amend_Credit_Card_Within_DeadLine - Starting to Amend
+2018-01-05 11:50:49,170 [main] INFO Amend_Credit_Card_Within_DeadLine - Changing Name
+2018-01-05 11:50:49,475 [main] INFO Amend_Credit_Card_Within_DeadLine - Changed name
+2018-01-05 11:50:49,475 [main] INFO Amend_Credit_Card_Within_DeadLine - Changing Dates
+2018-01-05 11:50:49,869 [main] INFO Amend_Credit_Card_Within_DeadLine - Changed Dates
+2018-01-05 11:51:11,775 [main] INFO Amend_Credit_Card_Within_DeadLine - Amended

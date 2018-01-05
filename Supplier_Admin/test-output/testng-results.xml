@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SupplierSuite" duration-ms="130763" started-at="2018-01-05T06:19:03Z" finished-at="2018-01-05T06:21:14Z">
+    <groups>
+    </groups>
+    <test name="SupplierTestone" duration-ms="130763" started-at="2018-01-05T06:19:03Z" finished-at="2018-01-05T06:21:14Z">
+      <class name="Amend_MyAdmin.Amend_Credit_Card_Within_DeadLine">
+        <test-method status="PASS" signature="AmendCreditCardWithinDeadLine(java.lang.String)[pri:0, instance:Amend_MyAdmin.Amend_Credit_Card_Within_DeadLine@1d371b2d]" name="AmendCreditCardWithinDeadLine" duration-ms="130491" started-at="2018-01-05T11:49:03Z" finished-at="2018-01-05T11:51:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmendCreditCardWithinDeadLine -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Amend_MyAdmin.Amend_Credit_Card_Within_DeadLine@1d371b2d]" name="getResult" is-config="true" duration-ms="18" started-at="2018-01-05T11:51:13Z" finished-at="2018-01-05T11:51:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AmendCreditCardWithinDeadLine status=SUCCESS method=Amend_Credit_Card_Within_DeadLine.AmendCreditCardWithinDeadLine(java.lang.String)[pri:0, instance:Amend_MyAdmin.Amend_Credit_Card_Within_DeadLine@1d371b2d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Amend_MyAdmin.Amend_Credit_Card_Within_DeadLine@1d371b2d]" name="afterTest" is-config="true" duration-ms="240" started-at="2018-01-05T11:51:14Z" finished-at="2018-01-05T11:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Amend_MyAdmin.Amend_Credit_Card_Within_DeadLine -->
+    </test> <!-- SupplierTestone -->
+  </suite> <!-- SupplierSuite -->
+</testng-results>
