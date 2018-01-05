@@ -66,6 +66,18 @@ public class Amend {
 		public static final By AmendCheckBox= By.xpath("//*[@id='agreeCancellation_0']");
 		
 		public static final By ProceedToAmend= By.xpath("//*[@id='confirmAmend']");
+		
+		public static final By SelectDOTWBooking= By.xpath("//*[@id='resultsBody']/tbody/tr[2]/td[2]");
+		
+		public static final By SelectSupplierBooking= By.xpath("//*[@id='resultsBody']/tbody/tr[3]/td[2]/strong");
+		
+		public static final By AddingSupplementDOTW= By.xpath("//*[@id='extraMealsContainer']/a");
+		
+		public static final By RatePlanSelect= By.xpath("//*[@id='ratePlan0']");
+		
+		public static final By Supplement= By.xpath("//*[@id='ratePlan0']");
+		
+		public static final By verifyfNameDOTWrPrePay= By.xpath("//*[@id='mainContainer']/div[1]/div/div[2]/div[4]/table/tbody/tr[4]/td[2]");
 	}
 
 
