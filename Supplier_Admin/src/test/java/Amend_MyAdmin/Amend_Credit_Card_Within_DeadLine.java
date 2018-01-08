@@ -49,7 +49,7 @@ public class Amend_Credit_Card_Within_DeadLine {
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void AmendCreditCardWithinDeadLine(String browsername) throws Exception {
-		  test = rep.startTest("Credit Amend Within DeadLine");
+		  test = rep.startTest("Credit Card Amend Within DeadLine");
 		  ExcelDataConfig excel;
 		  excel = new ExcelDataConfig(Config.getExcelPathAmendCancel());
 		  PropertyConfigurator.configure("Log4j.properties");
@@ -421,7 +421,7 @@ public class Amend_Credit_Card_Within_DeadLine {
 
 			rep.endTest(test);
 			rep.flush();
-			//driverqa.close();
+			driverqa.close();
 		}
 	 }
 

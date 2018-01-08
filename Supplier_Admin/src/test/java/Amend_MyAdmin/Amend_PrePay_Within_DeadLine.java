@@ -190,7 +190,7 @@ public class Amend_PrePay_Within_DeadLine {
 				 driverqa.findElement(NewAccoBooking.thirdPartyroomType).click();
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyDeadline));
 				 Thread.sleep(2000);
-				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Accommodation_Search_Prepay_Within_Deadline/Search-Result_Deadline.jpg");
+				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_Within_Deadline/Search-Result_Deadline.jpg");
 				 String actualdeadline= driverqa.findElement(NewAccoBooking.thirdPartyDeadline).getText();
 				 String expecteddeadline=excel.getData(0, 30, 1);
 				 Assert.assertTrue(result.contains(expected));

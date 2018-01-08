@@ -81,7 +81,11 @@ public class Amend {
 		
 		public static final By cancelButton= By.xpath("//*[@id='cancelBooking']");
 		
+		public static final By ProcdwithCancltn= By.xpath("//*[@id='confirmCancellation']");
 		
+		public static final By CancellationTitlePrePay= By.xpath("//h5[contains(text(),'Cancelled')]");
+		
+		public static final By ProceedwithwithinDeadlineCancellation= By.xpath("//button[contains(text(),'Yes')]");
 	}
 
 
