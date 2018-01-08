@@ -90,7 +90,7 @@ public class Credit_Amend_NFR {
 			rep.endTest(test);
 			rep.flush();
 			Assert.assertTrue(false, e.getMessage());
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Credit_Prepay_NFR/Log-In.jpg");
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_NFR/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
 		}
 		logger.info("Searching Customer");

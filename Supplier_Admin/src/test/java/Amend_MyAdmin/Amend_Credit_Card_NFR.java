@@ -48,7 +48,7 @@ public class Amend_Credit_Card_NFR {
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void AmendCreditCardNFR(String browsername) throws Exception {
-		  test = rep.startTest("Credit Amend NFR");
+		  test = rep.startTest("Credit Card Amend NFR");
 		  ExcelDataConfig excel;
 		  excel = new ExcelDataConfig(Config.getExcelPathAmendCancel());
 		  PropertyConfigurator.configure("Log4j.properties");
