@@ -47,7 +47,7 @@ public class Amend_Prepay_MultiSupplier {
 	String SearchRateexpected;
 	 @Test
 	 @Parameters({ "browsername" })
-	  public void BookPrepayMultiSupplier(String browsername) throws Exception {
+	  public void AmendPrepayMultiSupplier(String browsername) throws Exception {
 		  test = rep.startTest("Amend Prepay MultiSupplier");
 		  ExcelDataConfig excel;
 		  excel = new ExcelDataConfig(Config.getExcelPathAmendCancel());
@@ -83,7 +83,7 @@ public class Amend_Prepay_MultiSupplier {
 				logger.info("Login Successful");
 				wait.until(ExpectedConditions.visibilityOfElementLocated(HomePage.operation));
 				Thread.sleep(2000);
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_MultiSupplier/Log-In.jpg");
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/Log-In.jpg");
 
 		} catch (Exception e) {
 			logger.info(e.getMessage());
@@ -91,7 +91,7 @@ public class Amend_Prepay_MultiSupplier {
 			rep.endTest(test);
 			rep.flush();
 			Assert.assertTrue(false, e.getMessage());
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Log-In.jpg");
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_MultiSupplier/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
 		}
 		logger.info("Searching Customer");
@@ -111,14 +111,14 @@ public class Amend_Prepay_MultiSupplier {
 				 logger.info("Navigated to customer search page");
 				 test.log(LogStatus.PASS, "Navigated to customer search page");
 				 Thread.sleep(3000);
-				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_MultiSupplier/Customer-Search.jpg");
+				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/Customer-Search.jpg");
 			
 			} catch (Exception e) {
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Customer-Search.jpg");
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_MultiSupplier/Customer-Search.jpg");
 				Assert.assertTrue(false, e.getMessage());
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
 			}
@@ -134,7 +134,7 @@ public class Amend_Prepay_MultiSupplier {
 				 action.sendKeys(Keys.ENTER).build().perform();
 				 Thread.sleep(2000);
 				 
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_MultiSupplier/Customer-list.jpg");
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/Customer-list.jpg");
 				wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCustbook));
 				driverqa.findElement(Operations.chooseCustbook).click();
 				Thread.sleep(1000);
@@ -151,7 +151,7 @@ public class Amend_Prepay_MultiSupplier {
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Customer-list.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_MultiSupplier/Customer-list.jpg");
 					test.log(LogStatus.FAIL, "Customer Selection");
 				}
 			 logger.info("Applying search Filters for Supplier Room");
@@ -169,7 +169,7 @@ public class Amend_Prepay_MultiSupplier {
 				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 15, 2));
 				 String expected=excel.getData(0, 9, 1);
 				 Thread.sleep(2000);
-				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_MultiSupplier/Search-Hotel-Supplier-filters.jpg");
+				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/Search-Hotel-Supplier-filters.jpg");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.bookChannel));
 				 driverqa.findElement(NewAccoBooking.bookChannel).click();
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyChannel));
@@ -178,7 +178,7 @@ public class Amend_Prepay_MultiSupplier {
 				 driverqa.findElement(NewAccoBooking.thirdParty).click();
 				 Thread.sleep(2000);
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.searchButton));
-				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_MultiSupplier/Booking-Channel-Supplier-filters.jpg");
+				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/Booking-Channel-Supplier-filters.jpg");
 				 driverqa.findElement(NewAccoBooking.searchButton).click();
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyresultHotel));
 				 String result= driverqa.findElement(NewAccoBooking.thirdPartyresultHotel).getText();
@@ -187,7 +187,7 @@ public class Amend_Prepay_MultiSupplier {
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyroomType));
 				 driverqa.findElement(NewAccoBooking.thirdPartyroomType).click();
 				 Thread.sleep(2000);
-				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_MultiSupplier/Search-Result-Supplier.jpg");
+				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/Search-Result-Supplier.jpg");
 				 Assert.assertTrue(result.contains(expected));
 				 test.log(LogStatus.INFO, "Ending HotelSearch Prepay for Supplier Room");
 				 test.log(LogStatus.PASS, "PASSED HotelSearch Prepay for Supplier Room");
@@ -208,7 +208,7 @@ public class Amend_Prepay_MultiSupplier {
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyroomSelectionsaveoutdead));
 					 driverqa.findElement(NewAccoBooking.thirdPartyroomSelectionsaveoutdead).click();
 					 Thread.sleep(2000);
-					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_MultiSupplier/Room-Selection-Supplier.jpg");
+					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/Room-Selection-Supplier.jpg");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyprocedetoBooksaveoutdead));
 					 driverqa.findElement(NewAccoBooking.thirdPartyprocedetoBooksaveoutdead).click();
 					 logger.info("Entering Passenger details");
@@ -226,7 +226,7 @@ public class Amend_Prepay_MultiSupplier {
 					passengertitle2.selectByIndex(1);
 					driverqa.findElement(NewAccoBooking.acceptChkBX).click();
 					Thread.sleep(2000);
-					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_MultiSupplier/Passenger-Details-Supplier.jpg");
+					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/Passenger-Details-Supplier.jpg");
 					logger.info("Entered Passenger details for Supplier Room");
 					test.log(LogStatus.INFO, "Entered Passenger details for Supplier Room");
 					test.log(LogStatus.PASS, "Passenger details for Supplier Room");
@@ -238,7 +238,7 @@ public class Amend_Prepay_MultiSupplier {
 					String expectedhoteltitle=excel.getData(0, 9, 1);
 					Assert.assertTrue(actualhoteltitle.contains(expectedhoteltitle));
 					Thread.sleep(2000);
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_MultiSupplier/Itenary-Details-Supplier.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/Itenary-Details-Supplier.jpg");
 					test.log(LogStatus.INFO, "Ending HotelSave Prepay for Supplier Room");
 				    test.log(LogStatus.PASS, "PASSED HotelSave Prepay for Supplier Room");
 				    logger.info("Hotel Save Complete Prepay for Supplier Room");
@@ -251,7 +251,7 @@ public class Amend_Prepay_MultiSupplier {
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
 					test.log(LogStatus.FAIL, "Hotel Save Itenary Prepay for Supplier Room");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Save-Itenary-Supplier.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_MultiSupplier/Save-Itenary-Supplier.jpg");
 
 				}
 				try {
@@ -275,14 +275,14 @@ public class Amend_Prepay_MultiSupplier {
 					Select childage = new Select(driverqa.findElement(NewAccoBooking.childage));
 					childage.selectByIndex(5);
 					 Thread.sleep(2000);
-					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_MultiSupplier/Search-Hotel-filters-DOTW.jpg");
+					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/Search-Hotel-filters-DOTW.jpg");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.bookChannel));
 					 driverqa.findElement(NewAccoBooking.bookChannel).click();
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.OfflineContract));
 					 driverqa.findElement(NewAccoBooking.OfflineContract).click();
 					 Thread.sleep(2000);
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.searchButton));
-					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_MultiSupplier/Booking-Channel-filters-DOTW.jpg");
+					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/Booking-Channel-filters-DOTW.jpg");
 					 driverqa.findElement(NewAccoBooking.searchButton).click();
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyresultHotel));
 					 String result= driverqa.findElement(NewAccoBooking.thirdPartyresultHotel).getText();
@@ -291,7 +291,7 @@ public class Amend_Prepay_MultiSupplier {
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyroomType));
 					 driverqa.findElement(NewAccoBooking.thirdPartyroomType).click();
 					 Thread.sleep(2000);
-					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_MultiSupplier/Search-Result-DOTW.jpg");
+					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/Search-Result-DOTW.jpg");
 					 Assert.assertTrue(result.contains(expected));
 					 test.log(LogStatus.INFO, "Ending HotelSearch Prepay for DOTW Room");
 					 test.log(LogStatus.PASS, "PASSED HotelSearch Prepay for DOTW Room");
@@ -304,7 +304,7 @@ public class Amend_Prepay_MultiSupplier {
 						rep.flush();
 						Assert.assertTrue(false, e.getMessage());
 						test.log(LogStatus.FAIL, "Hotel Search Prepay for DOTW Room");
-						obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Search-Result-DOTW.jpg");
+						obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_MultiSupplier/Search-Result-DOTW.jpg");
 					}
 				try {
 					test.log(LogStatus.INFO, "Starting Hotel Save Itenary for DOTW Room");
@@ -325,7 +325,7 @@ public class Amend_Prepay_MultiSupplier {
 					passengertitle.selectByIndex(1);
 					driverqa.findElement(NewAccoBooking.acceptChkBX).click();
 					Thread.sleep(2000);
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_MultiSupplier/Passenger-Details-DOTW.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/Passenger-Details-DOTW.jpg");
 					logger.info("Entered Passenger details for DOTW Room");
 					test.log(LogStatus.INFO, "Entered Passenger details for DOTW Room");
 					test.log(LogStatus.PASS, "Passenger details for DOTW Room");
@@ -339,7 +339,7 @@ public class Amend_Prepay_MultiSupplier {
 					String expectedhoteltitle2=excel.getData(0, 10, 1);
 					Assert.assertTrue(actualhoteltitle2.contains(expectedhoteltitle2));
 					Thread.sleep(2000);
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_MultiSupplier/Itenary-Details-DOTW.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/Itenary-Details-DOTW.jpg");
 					test.log(LogStatus.INFO, "Ending HotelSave Prepay for DOTW Room");
 					test.log(LogStatus.PASS, "PASSED HotelSave Prepay for DOTW Room");
 					logger.info("Hotel Save Complete Prepay for DOTW Room");
@@ -350,7 +350,7 @@ public class Amend_Prepay_MultiSupplier {
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
 					test.log(LogStatus.FAIL, "Hotel Save Prepay for DOTW Room");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Search-Result-DOTW.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_MultiSupplier/Search-Result-DOTW.jpg");
 		
 				}
 				try {
@@ -400,7 +400,7 @@ public class Amend_Prepay_MultiSupplier {
 					 test.log(LogStatus.PASS, "PASSED HotelBook Prepay from Saved Itenary Multi Supplier");
 					 logger.info("Hotel Book Complete Prepay Book from Saved Itenary Multi Supplier");
 					 Thread.sleep(2000);
-					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_MultiSupplier/Booking-Details.jpg");
+					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Amend_MultiSupplier/Booking-Details.jpg");
 				} catch (Exception e) {
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
@@ -408,7 +408,7 @@ public class Amend_Prepay_MultiSupplier {
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
 					test.log(LogStatus.FAIL, "HotelBook Prepay Book from Saved Itenary Multi Supplier");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Booking-Details.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_MultiSupplier/Booking-Details.jpg");
 					
 				}
 				try {
@@ -424,7 +424,7 @@ public class Amend_Prepay_MultiSupplier {
 					test.log(LogStatus.PASS, "Navigating to Amend Page For DOTW Room");
 					logger.info("Navigated to Amend Page For DOTW Room");
 					Thread.sleep(2000);
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit_Card_Within_DeadLine/booking-Details.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/booking-Details.jpg");
 					test.log(LogStatus.INFO, "Starting to Amend For DOTW Room");
 					logger.info("Starting to Amend For DOTW Room");
 					test.log(LogStatus.INFO, "Changing Name");
@@ -444,7 +444,7 @@ public class Amend_Prepay_MultiSupplier {
 					test.log(LogStatus.PASS, "Supplement added");
 					logger.info("Supplement added");*/
 					Thread.sleep(3000);
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit/AmendPage.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/AmendPage.jpg");
 					driverqa.findElement(Amend.proceedAmend).click();
 					Thread.sleep(2000);
 					wait.until(ExpectedConditions.visibilityOfElementLocated(Amend.RatePlanSelect));
@@ -453,7 +453,7 @@ public class Amend_Prepay_MultiSupplier {
 						driverqa.findElement(Amend.RatePlanSelect).click();
 					}
 					Thread.sleep(3000);
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit/Confirm-AmendPage.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/Confirm-AmendPage.jpg");
 
 					driverqa.findElement(Amend.confirmAmend).click();
 					
@@ -476,7 +476,7 @@ public class Amend_Prepay_MultiSupplier {
 					System.out.println(newFname);
 					Assert.assertTrue(newFname.contains(expectedLname1));
 					 Thread.sleep(2000);
-					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit/After-Amend.jpg");
+					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_MultiSupplier/After-Amend.jpg");
 				} catch (Exception e) {
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
@@ -484,7 +484,7 @@ public class Amend_Prepay_MultiSupplier {
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
 					test.log(LogStatus.FAIL, "Hotel Amend Prepay for DOTW Room");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Search-Result-DOTW.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_MultiSupplier/Amend.jpg");
 		
 				}
 
