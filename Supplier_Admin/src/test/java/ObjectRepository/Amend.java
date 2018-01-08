@@ -78,6 +78,10 @@ public class Amend {
 		public static final By Supplement= By.xpath("//*[@id='ratePlan0']");
 		
 		public static final By verifyfNameDOTWrPrePay= By.xpath("//*[@id='mainContainer']/div[1]/div/div[2]/div[4]/table/tbody/tr[4]/td[2]");
+		
+		public static final By cancelButton= By.xpath("//*[@id='cancelBooking']");
+		
+		
 	}
 
 
