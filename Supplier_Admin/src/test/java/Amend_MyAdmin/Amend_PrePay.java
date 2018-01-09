@@ -49,7 +49,7 @@ public class Amend_PrePay {
 	  public void AmendPrepay(String browsername) throws Exception {
 		  test = rep.startTest("PrePay Amend");
 		  ExcelDataConfig excel;
-		  excel = new ExcelDataConfig(Config.getExcelPathAmendCancel());
+		  excel = new ExcelDataConfig(Config.getExcelPathBook());
 		  PropertyConfigurator.configure("Log4j.properties");
 		  logger.info("Test Case Started");
 		if (browsername.equalsIgnoreCase("CH")) {
@@ -63,7 +63,8 @@ public class Amend_PrePay {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-				driverqa.get(Config.getApplicationUrl());
+			    String URL = excel.getData(0, 1, 5);
+				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);
@@ -85,13 +86,14 @@ public class Amend_PrePay {
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay/Log-In.jpg");
 
 		} catch (Exception e) {
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Log-In.jpg");
+			test.log(LogStatus.FAIL, "Login");
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 			Assert.assertTrue(false, e.getMessage());
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Log-In.jpg");
-			test.log(LogStatus.FAIL, "Login");
+			
 		}
 		logger.info("Searching Customer");
 		
@@ -113,13 +115,13 @@ public class Amend_PrePay {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay/Customer-Search.jpg");
 			
 			} catch (Exception e) {
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Customer-Search.jpg");
+				test.log(LogStatus.FAIL, "Navigation to customer search page");
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Customer-Search.jpg");
 				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Navigation to customer search page");
 			}
 		     logger.info("Selecting Customer");
 		     test.log(LogStatus.INFO, "Selecting Customer");
@@ -145,13 +147,14 @@ public class Amend_PrePay {
 				
 			 }
 			 catch (Exception e) {
+				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Customer-list.jpg");
+					test.log(LogStatus.FAIL, "Customer Selection");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Customer-list.jpg");
-					test.log(LogStatus.FAIL, "Customer Selection");
+					
 				}
 			 logger.info("Applying search Filters");
 			 logger.info("Starting HotelSearch Prepay");
@@ -195,14 +198,14 @@ public class Amend_PrePay {
 				 test.log(LogStatus.PASS, "PASSED HotelSearch Prepay");
 				 logger.info("Hotel Search Complete Prepay");
 			} catch (Exception e) {
-				logger.info(e.getMessage());
+				test.log(LogStatus.FAIL, "Hotel Search Prepay");
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Search-Result.jpg");
+                logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
 				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Hotel Search Prepay");
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Search-Result.jpg");
-			}
+							}
 			
 				try {
 					test.log(LogStatus.INFO, "Starting Hotel Book PrePay");
@@ -258,14 +261,14 @@ public class Amend_PrePay {
 
 
 				} catch (Exception e) {
-					logger.info(e.getMessage());
+					test.log(LogStatus.FAIL, "Hotel Book Prepay");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Save-Itenary.jpg");
+                    logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					test.log(LogStatus.FAIL, "Hotel Book Prepay");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Save-Itenary.jpg");
-
+					
 				}
 				try {
 					test.log(LogStatus.INFO, "Navigating to Amend Page");
@@ -344,14 +347,14 @@ public class Amend_PrePay {
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay/After-Amend.jpg");
 
 				} catch (Exception e) {
-					logger.info(e.getMessage());
+					test.log(LogStatus.FAIL, "Hotel Amend Prepay");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Amending.jpg");
+                    logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					test.log(LogStatus.FAIL, "Hotel Amend Prepay");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Amending.jpg");
-
+					
 				}
 	 }
 	 

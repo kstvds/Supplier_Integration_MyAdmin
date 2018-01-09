@@ -63,7 +63,8 @@ public class Prepay_Amend_NFR {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-				driverqa.get(Config.getApplicationUrl());
+			    String URL = excel.getData(0, 1, 5);
+				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);
@@ -85,13 +86,14 @@ public class Prepay_Amend_NFR {
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_NFR/Log-In.jpg");
 
 		} catch (Exception e) {
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Log-In.jpg");
+			test.log(LogStatus.FAIL, "Login");
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 			Assert.assertTrue(false, e.getMessage());
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Log-In.jpg");
-			test.log(LogStatus.FAIL, "Login");
+			
 		}
 		logger.info("Searching Customer");
 		
@@ -118,8 +120,9 @@ public class Prepay_Amend_NFR {
 				rep.endTest(test);
 				rep.flush();
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Customer-Search.jpg");
-				Assert.assertTrue(false, e.getMessage());
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				Assert.assertTrue(false, e.getMessage());
+				
 			}
 		     logger.info("Selecting Customer");
 		     test.log(LogStatus.INFO, "Selecting Customer");
@@ -145,13 +148,14 @@ public class Prepay_Amend_NFR {
 				
 			 }
 			 catch (Exception e) {
+				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Customer-list.jpg");
+					test.log(LogStatus.FAIL, "Customer Selection");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Customer-list.jpg");
-					test.log(LogStatus.FAIL, "Customer Selection");
+					
 				}
 			 logger.info("Applying search Filters");
 			 logger.info("Starting HotelSearch Prepay");
@@ -200,6 +204,8 @@ public class Prepay_Amend_NFR {
 				 test.log(LogStatus.PASS, "PASSED HotelSearch Prepay NFR");
 				 logger.info("Hotel Search Complete Prepay NFR");
 			} catch (Exception e) {
+				test.log(LogStatus.FAIL, "Hotel Search Prepay NFR");
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Search-Result.jpg");
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -263,28 +269,28 @@ public class Prepay_Amend_NFR {
 
 
 				} catch (Exception e) {
-					logger.info(e.getMessage());
+					test.log(LogStatus.FAIL, "Hotel Book Prepay NFR");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Unable-To-Book.jpg");
+                    logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					test.log(LogStatus.FAIL, "Hotel Book Prepay NFR");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Unable-To-Book.jpg");
-
+					
 				}
 				try {
 					wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyconfirmStatus));
 					Assert.assertEquals(0, driverqa.findElements(Amend.amendBtn).size());
 					test.log(LogStatus.PASS, "PASSED Unable to Amend Prepay NFR");
 				} catch (Exception e) {
-					logger.info(e.getMessage());
+					test.log(LogStatus.FAIL, "Hotel Amend Prepay NFR");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Amend-Button-Present.jpg");
+                    logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					test.log(LogStatus.FAIL, "Hotel Amend Prepay NFR");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Amend-Button-Present.jpg");
-
+					
 				}
 	 }
 	 

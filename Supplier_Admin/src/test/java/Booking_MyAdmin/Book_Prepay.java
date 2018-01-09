@@ -63,15 +63,16 @@ public class Book_Prepay {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-				driverqa.get(Config.getApplicationUrl());
+			    String URL = excel.getData(0, 1, 5);
+				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);
 				username.clear();
-				username.sendKeys(excel.getData(0, 1, 0));
+				username.sendKeys(excel.getData(0, 1, 1));
 				WebElement password = driverqa.findElement(LoginPage.pwd);
 				password.clear();
-				password.sendKeys(excel.getData(0, 1, 1));
+				password.sendKeys(excel.getData(0, 1, 2));
 				driverqa.findElement(LoginPage.submit).click();
 				Thread.sleep(1000);
 				String expectedtitle = "DOTWconnect.com::DOTWconnect.com: My Admin";
@@ -85,13 +86,14 @@ public class Book_Prepay {
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay/Log-In.jpg");
 
 		} catch (Exception e) {
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay/Log-In.jpg");
+			test.log(LogStatus.FAIL, "Login");
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 			Assert.assertTrue(false, e.getMessage());
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay/Log-In.jpg");
-			test.log(LogStatus.FAIL, "Login");
+			
 		}
 		logger.info("Searching Customer");
 		
@@ -118,14 +120,15 @@ public class Book_Prepay {
 				rep.endTest(test);
 				rep.flush();
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay/Customer-Search.jpg");
-				Assert.assertTrue(false, e.getMessage());
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				Assert.assertTrue(false, e.getMessage());
+				
 			}
 		     logger.info("Selecting Customer");
 		     test.log(LogStatus.INFO, "Selecting Customer");
 			 try {
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
-				 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 4, 0));
+				 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 4, 1));
 				 Thread.sleep(2000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
@@ -145,28 +148,29 @@ public class Book_Prepay {
 				
 			 }
 			 catch (Exception e) {
+				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay/Customer-list.jpg");
+					test.log(LogStatus.FAIL, "Customer Selection");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay/Customer-list.jpg");
-					test.log(LogStatus.FAIL, "Customer Selection");
+					
 				}
 			 logger.info("Applying search Filters");
 			 logger.info("Starting HotelSearch Prepay");
 			 try{
 				 test.log(LogStatus.INFO, "Starting HotelSearch Prepay");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.AccomUnit));
-				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 7, 0));
+				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 9, 1));
 				 Thread.sleep(2000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
 				 driverqa.findElement(NewAccoBooking.inDate).clear();
-				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(0, 10, 0));
+				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(0, 15, 1));
 				 driverqa.findElement(NewAccoBooking.outDate).clear();
-				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 10, 1));
-				 String expected=excel.getData(0, 7, 0);
+				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 15, 2));
+				 String expected=excel.getData(0, 9, 1);
 				 Thread.sleep(2000);
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay/Search-Hotel-filters.jpg");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.bookChannel));
@@ -195,14 +199,14 @@ public class Book_Prepay {
 				 test.log(LogStatus.PASS, "PASSED HotelSearch Prepay");
 				 logger.info("Hotel Search Complete Prepay");
 			} catch (Exception e) {
+				test.log(LogStatus.FAIL, "Hotel Search Prepay");
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay/Search-Result.jpg");
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
 				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Hotel Search Prepay");
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay/Search-Result.jpg");
-			}
+							}
 			
 				try {
 					test.log(LogStatus.INFO, "Starting Hotel Book PrePay");
@@ -216,14 +220,14 @@ public class Book_Prepay {
 					 logger.info("Entering Passenger details");
 					 test.log(LogStatus.INFO, "Entering Passenger details");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.paxFname));
-					driverqa.findElement(NewAccoBooking.paxFname).sendKeys(excel.getData(0, 13, 0));
+					driverqa.findElement(NewAccoBooking.paxFname).sendKeys(excel.getData(0, 21, 1));
 					Thread.sleep(2000);
-					driverqa.findElement(NewAccoBooking.paxLname).sendKeys(excel.getData(0, 13, 1));
+					driverqa.findElement(NewAccoBooking.paxLname).sendKeys(excel.getData(0, 21, 2));
 					Select passengertitle = new Select(driverqa.findElement(NewAccoBooking.paxtitle));
 					passengertitle.selectByIndex(1);
-					driverqa.findElement(NewAccoBooking.paxFname2).sendKeys(excel.getData(0, 14, 0));
+					driverqa.findElement(NewAccoBooking.paxFname2).sendKeys(excel.getData(0, 22, 1));
 					Thread.sleep(1000);
-					driverqa.findElement(NewAccoBooking.paxLname2).sendKeys(excel.getData(0, 14, 1));
+					driverqa.findElement(NewAccoBooking.paxLname2).sendKeys(excel.getData(0, 22, 2));
 					Select passengertitle2 = new Select(driverqa.findElement(NewAccoBooking.paxtitle2));
 					passengertitle2.selectByIndex(1);
 					driverqa.findElement(NewAccoBooking.acceptChkBX).click();
@@ -241,13 +245,13 @@ public class Book_Prepay {
 					System.out.println(actualbookingstatus);
 					String actualhoteltitle= driverqa.findElement(NewAccoBooking.thirdPartyafterbookhotelprepay).getText();
 					System.out.println(actualhoteltitle);
-					String expectedhoteltitle=excel.getData(0, 7, 0);
+					String expectedhoteltitle=excel.getData(0, 9, 1);
 					String actualStartDate= driverqa.findElement(NewAccoBooking.thirdPartyafterbookCheckInPrepayOutDead).getText();
 					System.out.println(actualStartDate);
-					String expectedStartDate=excel.getData(0, 17, 0);
+					String expectedStartDate=excel.getData(0, 28, 1);
 					String actualEndDate= driverqa.findElement(NewAccoBooking.thirdPartyafterbookCheckOutPrepayOutDead).getText();
 					System.out.println(actualEndDate);
-					String expectedEndDate= excel.getData(0, 18, 0);
+					String expectedEndDate= excel.getData(0, 29, 1);
 					Assert.assertTrue(actualhoteltitle.contains(expectedhoteltitle));
 					Assert.assertTrue(actualStartDate.contains(expectedStartDate));
 					Assert.assertTrue(actualEndDate.contains(expectedEndDate));
@@ -258,14 +262,14 @@ public class Book_Prepay {
 
 
 				} catch (Exception e) {
+					test.log(LogStatus.FAIL, "Hotel Book Prepay");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay/Unable-To-Book-Itenary.jpg");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					test.log(LogStatus.FAIL, "Hotel Book Prepay");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay/Unable-To-Book-Itenary.jpg");
-
+					
 				}
 	 }
 	 

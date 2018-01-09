@@ -63,15 +63,16 @@ public class Credit_Book_Within_Deadline {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-				driverqa.get(Config.getApplicationUrl());
+			    String URL = excel.getData(0, 1, 5);
+				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);
 				username.clear();
-				username.sendKeys(excel.getData(3, 1, 1));
+				username.sendKeys(excel.getData(0, 1, 1));
 				WebElement password = driverqa.findElement(LoginPage.pwd);
 				password.clear();
-				password.sendKeys(excel.getData(3, 1, 2));
+				password.sendKeys(excel.getData(0, 1, 2));
 				driverqa.findElement(LoginPage.submit).click();
 				Thread.sleep(1000);
 				String expectedtitle = "DOTWconnect.com::DOTWconnect.com: My Admin";
@@ -125,7 +126,7 @@ public class Credit_Book_Within_Deadline {
 		     test.log(LogStatus.INFO, "Selecting Customer");
 			 try {
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
-				 driverqa.findElement(Operations.company).sendKeys(excel.getData(3, 5, 1));
+				 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 5, 1));
 				 Thread.sleep(2000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
@@ -158,15 +159,15 @@ public class Credit_Book_Within_Deadline {
 			 try{
 				 test.log(LogStatus.INFO, "Starting HotelSearch Credit Within Deadline");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.AccomUnit));
-				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(3, 12, 1));
+				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 12, 1));
 				 Thread.sleep(2000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
 				 driverqa.findElement(NewAccoBooking.inDate).clear();
-				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(3, 18, 1));
+				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(0, 18, 1));
 				 driverqa.findElement(NewAccoBooking.outDate).clear();
-				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(3, 18, 2));
-				 String expected=excel.getData(3, 12, 1);
+				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 18, 2));
+				 String expected=excel.getData(0, 12, 1);
 				 /*String expected=excel.getData(3, 12, 1);
 				 Select noofchild = new Select(driverqa.findElement(MultiAcco.child1));
 				 noofchild.selectByIndex(1);*/
@@ -197,7 +198,7 @@ public class Credit_Book_Within_Deadline {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Credit_Within_DeadLine/Search-Result.jpg");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyDeadline));
 				 String actualdeadline= driverqa.findElement(NewAccoBooking.thirdPartyDeadline).getText();
-				 String expecteddeadline=excel.getData(3, 30, 1);
+				 String expecteddeadline=excel.getData(0, 30, 1);
 				 Assert.assertTrue(result.contains(expected));
 				 Assert.assertTrue(actualdeadline.contains(expecteddeadline));
 				 test.log(LogStatus.INFO, "Ending HotelSearch Credit Within Deadline");
@@ -225,9 +226,9 @@ public class Credit_Book_Within_Deadline {
 					 logger.info("Entering Passenger details");
 					 test.log(LogStatus.INFO, "Entering Passenger details");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.paxFname));
-					driverqa.findElement(NewAccoBooking.paxFname).sendKeys(excel.getData(3, 21, 1));
+					driverqa.findElement(NewAccoBooking.paxFname).sendKeys(excel.getData(0, 21, 1));
 					Thread.sleep(2000);
-					driverqa.findElement(NewAccoBooking.paxLname).sendKeys(excel.getData(3, 21, 2));
+					driverqa.findElement(NewAccoBooking.paxLname).sendKeys(excel.getData(0, 21, 2));
 					Select passengertitle = new Select(driverqa.findElement(NewAccoBooking.paxtitle));
 					passengertitle.selectByIndex(1);
 					/*driverqa.findElement(NewAccoBooking.paxFname2).sendKeys(excel.getData(3, 22, 1));
@@ -250,13 +251,13 @@ public class Credit_Book_Within_Deadline {
 					System.out.println(actualbookingstatus);
 					String actualhoteltitle= driverqa.findElement(NewAccoBooking.thirdPartyafterbookhotelcredit).getText();
 					System.out.println(actualhoteltitle);
-					String expectedhoteltitle=excel.getData(3, 12, 1);
+					String expectedhoteltitle=excel.getData(0, 12, 1);
 					String actualStartDate= driverqa.findElement(NewAccoBooking.thirdPartyafterbookCheckInCreditOutDead).getText();
 					System.out.println(actualStartDate);
-					String expectedStartDate=excel.getData(3, 38, 1);
+					String expectedStartDate=excel.getData(0, 38, 1);
 					String actualEndDate= driverqa.findElement(NewAccoBooking.thirdPartyafterbookCheckOutCreditOutDead).getText();
 					System.out.println(actualEndDate);
-					String expectedEndDate= excel.getData(3, 39, 1);
+					String expectedEndDate= excel.getData(0, 39, 1);
 					Assert.assertTrue(actualhoteltitle.contains(expectedhoteltitle));
 					Assert.assertTrue(actualStartDate.contains(expectedStartDate));
 					Assert.assertTrue(actualEndDate.contains(expectedEndDate));

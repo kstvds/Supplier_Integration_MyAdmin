@@ -49,7 +49,7 @@ public class Amend_Credit {
 	  public void AmendCredit(String browsername) throws Exception {
 		  test = rep.startTest("Amend_Credit");
 		  ExcelDataConfig excel;
-		  excel = new ExcelDataConfig(Config.getExcelPathAmendCancel());
+		  excel = new ExcelDataConfig(Config.getExcelPathBook());
 		  PropertyConfigurator.configure("Log4j.properties");
 		  logger.info("Test Case Started");
 		if (browsername.equalsIgnoreCase("CH")) {
@@ -63,7 +63,8 @@ public class Amend_Credit {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-				driverqa.get(Config.getApplicationUrl());
+			    String URL = excel.getData(0, 1, 5);
+				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);
@@ -85,13 +86,14 @@ public class Amend_Credit {
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit/Log-In.jpg");
 
 		} catch (Exception e) {
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit/Log-In.jpg");
+			test.log(LogStatus.FAIL, "Login");
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 			Assert.assertTrue(false, e.getMessage());
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit/Log-In.jpg");
-			test.log(LogStatus.FAIL, "Login");
+			
 		}
 		logger.info("Searching Customer");
 		
@@ -113,13 +115,15 @@ public class Amend_Credit {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit/Customer-Search.jpg");
 			
 			} catch (Exception e) {
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit/Customer-Search.jpg");
+				test.log(LogStatus.FAIL, "Navigation to customer search page");
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit/Customer-Search.jpg");
+				
 				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				
 			}
 		     logger.info("Selecting Customer");
 		     test.log(LogStatus.INFO, "Selecting Customer");
@@ -145,13 +149,14 @@ public class Amend_Credit {
 				
 			 }
 			 catch (Exception e) {
+				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit/Customer-list.jpg");
+					test.log(LogStatus.FAIL, "Customer Selection");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit/Customer-list.jpg");
-					test.log(LogStatus.FAIL, "Customer Selection");
+					
 				}
 			 logger.info("Applying search Filters");
 			 logger.info("Starting HotelSearch Credit");
@@ -195,14 +200,14 @@ public class Amend_Credit {
 				 test.log(LogStatus.PASS, "PASSED HotelSearch credit");
 				 logger.info("Hotel Search Complete Credit");
 			} catch (Exception e) {
-				logger.info(e.getMessage());
+				test.log(LogStatus.FAIL, "Hotel Search Credit");
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit/Search-Result.jpg");
+                logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
 				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Hotel Search Credit");
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit/Search-Result.jpg");
-			}
+							}
 			
 				try {
 					test.log(LogStatus.INFO, "Starting Hotel Book Credit");
@@ -258,14 +263,14 @@ public class Amend_Credit {
 
 
 				} catch (Exception e) {
-					logger.info(e.getMessage());
+					test.log(LogStatus.FAIL, "Hotel Book Credit");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit/Save-Itenary.jpg");
+                    logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					test.log(LogStatus.FAIL, "Hotel Book Credit");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit/Save-Itenary.jpg");
-
+					
 				}
 				try {
 					test.log(LogStatus.INFO, "Navigating to Amend Page");
@@ -333,14 +338,14 @@ public class Amend_Credit {
 					 Thread.sleep(2000);
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit/After-Amend.jpg");
 				} catch (Exception e) {
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit/Amending.jpg");
+					test.log(LogStatus.FAIL, "Hotel Amend Credit");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					test.log(LogStatus.FAIL, "Hotel Amend Credit");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit/Amending.jpg");
-
+					
 				}
 		
 	 }

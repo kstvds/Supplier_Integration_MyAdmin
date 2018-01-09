@@ -65,7 +65,8 @@ public class Amend_Credit_Card_Within_DeadLine {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-				driverqa.get(Config.getApplicationUrl());
+			    String URL = excel.getData(0, 1, 5);
+				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);
@@ -87,13 +88,14 @@ public class Amend_Credit_Card_Within_DeadLine {
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit_Card_Within_DeadLine/Log-In.jpg");
 
 		} catch (Exception e) {
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_Within_DeadLine/Log-In.jpg");
+			test.log(LogStatus.FAIL, "Login");
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 			Assert.assertTrue(false, e.getMessage());
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_Within_DeadLine/Log-In.jpg");
-			test.log(LogStatus.FAIL, "Login");
+			
 		}
 		logger.info("Searching Customer");
 		
@@ -120,8 +122,9 @@ public class Amend_Credit_Card_Within_DeadLine {
 				rep.endTest(test);
 				rep.flush();
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_Within_DeadLine/Customer-Search.jpg");
-				Assert.assertTrue(false, e.getMessage());
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				Assert.assertTrue(false, e.getMessage());
+				
 			}
 		     logger.info("Selecting Customer");
 		     test.log(LogStatus.INFO, "Selecting Customer");
@@ -147,13 +150,14 @@ public class Amend_Credit_Card_Within_DeadLine {
 				
 			 }
 			 catch (Exception e) {
+				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_Within_DeadLine/Customer-list.jpg");
+					test.log(LogStatus.FAIL, "Customer Selection");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_Within_DeadLine/Customer-list.jpg");
-					test.log(LogStatus.FAIL, "Customer Selection");
+					
 				}
 			 logger.info("Applying search Filters");
 			 logger.info("Starting HotelSearch Credit Card Within DeadLine");
@@ -200,14 +204,14 @@ public class Amend_Credit_Card_Within_DeadLine {
 				 test.log(LogStatus.PASS, "PASSED HotelSearch Credit Card Within DeadLine");
 				 logger.info("Hotel Search Complete Credit Card Within DeadLine");
 			} catch (Exception e) {
+				test.log(LogStatus.FAIL, "Hotel Search Credit Card Within DeadLine");
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_Within_DeadLine/Search-Result.jpg");
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
 				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Hotel Search Credit Card Within DeadLine");
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_Within_DeadLine/Search-Result.jpg");
-			}
+							}
 			
 				try {
 					test.log(LogStatus.INFO, "Starting Hotel Book Credit Card Within DeadLine");
@@ -292,14 +296,14 @@ public class Amend_Credit_Card_Within_DeadLine {
 
 
 				} catch (Exception e) {
+					test.log(LogStatus.FAIL, "Hotel Book Credit Card Within DeadLine");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_Within_DeadLine/Save-Itenary.jpg");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					test.log(LogStatus.FAIL, "Hotel Book Credit Card Within DeadLine");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_Within_DeadLine/Save-Itenary.jpg");
-
+					
 				}
 				try {
 					test.log(LogStatus.INFO, "Navigating to Amend Page");
@@ -356,6 +360,7 @@ public class Amend_Credit_Card_Within_DeadLine {
 					Thread.sleep(3000);
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit_Card_Within_DeadLine/Procced-To-AmendPage.jpg");
 					driverqa.findElement(Amend.ProceedToAmend).click();
+					Thread.sleep(3000);
 					wait.until(ExpectedConditions.visibilityOfElementLocated(Amend.StatusAmend));
 					test.log(LogStatus.PASS, "Amend");
 					logger.info("Amended");
@@ -397,14 +402,14 @@ public class Amend_Credit_Card_Within_DeadLine {
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit_Card_Within_DeadLine/After-Amend.jpg");
 
 				} catch (Exception e) {
+					test.log(LogStatus.FAIL, "Hotel Amend Credit Card Within DeadLine");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_Within_DeadLine/Amending.jpg");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					test.log(LogStatus.FAIL, "Hotel Amend Credit Card Within DeadLine");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_Within_DeadLine/Amending.jpg");
-
+					
 				}
 	 }
 	 

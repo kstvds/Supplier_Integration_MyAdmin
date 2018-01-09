@@ -49,7 +49,7 @@ public class Cancel_Prepay_NFR {
 	  public void CancelPrepay(String browsername) throws Exception {
 		  test = rep.startTest("PrePay Cancel NFR");
 		  ExcelDataConfig excel;
-		  excel = new ExcelDataConfig(Config.getExcelPathAmendCancel());
+		  excel = new ExcelDataConfig(Config.getExcelPathBook());
 		  PropertyConfigurator.configure("Log4j.properties");
 		  logger.info("Test Case Started");
 		if (browsername.equalsIgnoreCase("CH")) {
@@ -63,7 +63,8 @@ public class Cancel_Prepay_NFR {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-				driverqa.get(Config.getApplicationUrl());
+			    String URL = excel.getData(0, 1, 5);
+				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);
@@ -85,13 +86,14 @@ public class Cancel_Prepay_NFR {
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Accommodation_Cancel_Prepay_NFR/Log-In.jpg");
 
 		} catch (Exception e) {
-			logger.info(e.getMessage());
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_NFR/Log-In.jpg");
+			
+			test.log(LogStatus.FAIL, "Login");
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 			Assert.assertTrue(false, e.getMessage());
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_NFR/Log-In.jpg");
-			test.log(LogStatus.FAIL, "Login");
+			logger.info(e.getMessage());
 		}
 		logger.info("Searching Customer");
 		
@@ -113,13 +115,14 @@ public class Cancel_Prepay_NFR {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Accommodation_Cancel_Prepay_NFR/Customer-Search.jpg");
 			
 			} catch (Exception e) {
-				logger.info(e.getMessage());
-				test.log(LogStatus.FAIL, e.getMessage());
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_NFR/Customer-Search.jpg");
+				test.log(LogStatus.FAIL, "Navigation to customer search page");
+		        test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_NFR/Customer-Search.jpg");
+				logger.info(e.getMessage());
 				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				
 			}
 		     logger.info("Selecting Customer");
 		     test.log(LogStatus.INFO, "Selecting Customer");
@@ -145,13 +148,14 @@ public class Cancel_Prepay_NFR {
 				
 			 }
 			 catch (Exception e) {
-					logger.info(e.getMessage());
-					test.log(LogStatus.FAIL, e.getMessage());
-					rep.endTest(test);
+				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_NFR/Customer-list.jpg");
+				 test.log(LogStatus.FAIL, "Customer Selection");	
+				 test.log(LogStatus.FAIL, e.getMessage());
+			    	rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_NFR/Customer-list.jpg");
-					test.log(LogStatus.FAIL, "Customer Selection");
+					logger.info(e.getMessage());
+					
 				}
 			 logger.info("Applying search Filters");
 			 logger.info("Starting HotelSearch Prepay");
@@ -200,13 +204,15 @@ public class Cancel_Prepay_NFR {
 				 test.log(LogStatus.PASS, "PASSED HotelSearch Prepay NFR");
 				 logger.info("Hotel Search Complete Prepay NFR");
 			} catch (Exception e) {
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_NFR/Search-Result.jpg");
+				test.log(LogStatus.FAIL, "Hotel Search Prepay NFR");
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
 				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Hotel Search Prepay NFR");
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_NFR/Search-Result.jpg");
+				
+				
 			}
 			
 				try {
@@ -263,27 +269,29 @@ public class Cancel_Prepay_NFR {
 
 
 				} catch (Exception e) {
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_NFR/Unable-To-Book.jpg");
+					test.log(LogStatus.FAIL, "Hotel Book Prepay NFR");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					test.log(LogStatus.FAIL, "Hotel Book Prepay NFR");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_NFR/Unable-To-Book.jpg");
-
-				}
+					
+					}
 				try {
 					wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyconfirmStatus));
 					Assert.assertEquals(0, driverqa.findElements(Amend.cancelButton).size());
 					test.log(LogStatus.PASS, "PASSED Unable to Cancel Prepay NFR");
 				} catch (Exception e) {
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_NFR/Cancel-Button-Present.jpg");
+					test.log(LogStatus.FAIL, "Hotel Cancel Prepay NFR");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					test.log(LogStatus.FAIL, "Hotel Cancel Prepay NFR");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_NFR/Cancel-Button-Present.jpg");
+					
+					
 
 				}
 	 }
@@ -301,7 +309,7 @@ public class Cancel_Prepay_NFR {
 
 			rep.endTest(test);
 			rep.flush();
-		//	driverqa.close();
+		    driverqa.close();
 		}
 	 }
 

@@ -64,15 +64,16 @@ public class Credit_Card_Book_Within_Deadline {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-				driverqa.get(Config.getApplicationUrl());
+			    String URL = excel.getData(0, 1, 5);
+				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);
 				username.clear();
-				username.sendKeys(excel.getData(3, 1, 1));
+				username.sendKeys(excel.getData(0, 1, 1));
 				WebElement password = driverqa.findElement(LoginPage.pwd);
 				password.clear();
-				password.sendKeys(excel.getData(3, 1, 2));
+				password.sendKeys(excel.getData(0, 1, 2));
 				driverqa.findElement(LoginPage.submit).click();
 				Thread.sleep(1000);
 				String expectedtitle = "DOTWconnect.com::DOTWconnect.com: My Admin";
@@ -126,7 +127,7 @@ public class Credit_Card_Book_Within_Deadline {
 		     test.log(LogStatus.INFO, "Selecting Customer");
 			 try {
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
-				 driverqa.findElement(Operations.company).sendKeys(excel.getData(3, 6, 1));
+				 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 6, 1));
 				 Thread.sleep(2000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
@@ -159,15 +160,15 @@ public class Credit_Card_Book_Within_Deadline {
 			 try{
 				 test.log(LogStatus.INFO, "Starting HotelSearch Credit Card Within Deadline");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.AccomUnit));
-				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(3, 12, 1));
+				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 12, 1));
 				 Thread.sleep(2000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
 				 driverqa.findElement(NewAccoBooking.inDate).clear();
-				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(3, 18, 1));
+				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(0, 18, 1));
 				 driverqa.findElement(NewAccoBooking.outDate).clear();
-				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(3, 18, 2));
-				 String expected=excel.getData(3, 12, 1);
+				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 18, 2));
+				 String expected=excel.getData(0, 12, 1);
 				 driverqa.findElement(MultiAcco.Plusroom).click();
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(MultiAcco.adult1));
 		         /*Select adult1 = new Select(driverqa.findElement(MultiAcco.adult1));
@@ -202,7 +203,7 @@ public class Credit_Card_Book_Within_Deadline {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Credit_Card_Within_DeadLine/Search-Result.jpg");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyDeadline));
 				 String actualdeadline= driverqa.findElement(NewAccoBooking.thirdPartyDeadline).getText();
-				 String expecteddeadline=excel.getData(3, 30, 1);
+				 String expecteddeadline=excel.getData(0, 30, 1);
 				 Assert.assertTrue(result.contains(expected));
 				 Assert.assertTrue(actualdeadline.contains(expecteddeadline));
 				 test.log(LogStatus.INFO, "Ending HotelSearch Credit Card Within Deadline");
@@ -231,29 +232,29 @@ public class Credit_Card_Book_Within_Deadline {
 					 logger.info("Entering Passenger details");
 					 test.log(LogStatus.INFO, "Entering Passenger details");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(MultiAcco.paxFname1room1));
-				     driverqa.findElement(MultiAcco.paxFname1room1).sendKeys(excel.getData(3, 21, 1));
+				     driverqa.findElement(MultiAcco.paxFname1room1).sendKeys(excel.getData(0, 21, 1));
 					Thread.sleep(2000);
-					driverqa.findElement(MultiAcco.paxLname1room1).sendKeys(excel.getData(3, 21, 2));
+					driverqa.findElement(MultiAcco.paxLname1room1).sendKeys(excel.getData(0, 21, 2));
 					Select passengertitle = new Select(driverqa.findElement(MultiAcco.paxtitle1room1));
 					passengertitle.selectByIndex(1);
-					driverqa.findElement(MultiAcco.paxFname2room1).sendKeys(excel.getData(3, 22, 1));
+					driverqa.findElement(MultiAcco.paxFname2room1).sendKeys(excel.getData(0, 22, 1));
 					Thread.sleep(1000);
-					driverqa.findElement(MultiAcco.paxLname2room1).sendKeys(excel.getData(3, 22, 2));
+					driverqa.findElement(MultiAcco.paxLname2room1).sendKeys(excel.getData(0, 22, 2));
 					Select passengertitle2 = new Select(driverqa.findElement(MultiAcco.paxtitle2room1));
 					passengertitle2.selectByIndex(1);
-					driverqa.findElement(MultiAcco.paxFname3room1).sendKeys(excel.getData(3, 23, 1));
+					driverqa.findElement(MultiAcco.paxFname3room1).sendKeys(excel.getData(0, 23, 1));
 					Thread.sleep(1000);
-					driverqa.findElement(MultiAcco.paxLname3room1).sendKeys(excel.getData(3, 23, 2));
+					driverqa.findElement(MultiAcco.paxLname3room1).sendKeys(excel.getData(0, 23, 2));
 					Select passengertitle3 = new Select(driverqa.findElement(MultiAcco.paxtitle3room1));
 					passengertitle3.selectByIndex(1);
-					driverqa.findElement(MultiAcco.paxFname1room2).sendKeys(excel.getData(3, 25, 1));
+					driverqa.findElement(MultiAcco.paxFname1room2).sendKeys(excel.getData(0, 25, 1));
 					Thread.sleep(1000);
-					driverqa.findElement(MultiAcco.paxLname1room2).sendKeys(excel.getData(3, 25, 2));
+					driverqa.findElement(MultiAcco.paxLname1room2).sendKeys(excel.getData(0, 25, 2));
 					Select passengertitle4 = new Select(driverqa.findElement(MultiAcco.paxtitle1room2));
 					passengertitle4.selectByIndex(1);
-					driverqa.findElement(MultiAcco.paxFname2room2).sendKeys(excel.getData(3, 26, 1));
+					driverqa.findElement(MultiAcco.paxFname2room2).sendKeys(excel.getData(0, 26, 1));
 					Thread.sleep(1000);
-					driverqa.findElement(MultiAcco.paxLname2room2).sendKeys(excel.getData(3, 26, 2));
+					driverqa.findElement(MultiAcco.paxLname2room2).sendKeys(excel.getData(0, 26, 2));
 					Select passengertitle5 = new Select(driverqa.findElement(MultiAcco.paxtitle2room2));
 					passengertitle5.selectByIndex(1);
 					driverqa.findElement(NewAccoBooking.acceptChkBX).click();
@@ -273,14 +274,14 @@ public class Credit_Card_Book_Within_Deadline {
 					wait.until(ExpectedConditions.visibilityOfElementLocated(PaymentPage.ccType));
 					Select paymentmode = new Select(driverqa.findElement(PaymentPage.ccType));
 					paymentmode.selectByIndex(1);
-					driverqa.findElement(PaymentPage.ccNum).sendKeys(excel.getData(3, 42, 1));
-					driverqa.findElement(PaymentPage.cvv).sendKeys(excel.getData(3, 43, 1));
-					driverqa.findElement(PaymentPage.ccName).sendKeys(excel.getData(3, 44, 1));
+					driverqa.findElement(PaymentPage.ccNum).sendKeys(excel.getData(0, 42, 1));
+					driverqa.findElement(PaymentPage.cvv).sendKeys(excel.getData(0, 43, 1));
+					driverqa.findElement(PaymentPage.ccName).sendKeys(excel.getData(0, 44, 1));
 					Select expiryYear = new Select(driverqa.findElement(PaymentPage.expYear));
 					expiryYear.selectByIndex(2);
 					Select expirydate = new Select(driverqa.findElement(PaymentPage.expMonth));
 					expirydate.selectByIndex(11);
-					driverqa.findElement(PaymentPage.zip).sendKeys(excel.getData(3, 41, 1));
+					driverqa.findElement(PaymentPage.zip).sendKeys(excel.getData(0, 41, 1));
 					driverqa.findElement(PaymentPage.termsconditions).click();
 					Thread.sleep(2000);
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Credit_Card_Card_Within_DeadLine/Card-Details.jpg");
@@ -298,17 +299,17 @@ public class Credit_Card_Book_Within_Deadline {
 					System.out.println(actualbookingstatus2);
 					String actualhoteltitle= driverqa.findElement(MultiAcco.Hotel).getText();
 					System.out.println(actualhoteltitle);
-					String expectedhoteltitle=excel.getData(3, 12, 1);
+					String expectedhoteltitle=excel.getData(0, 12, 1);
 					String actualStartDateroom1= driverqa.findElement(MultiAcco.Room1CheckIn).getText();
 					System.out.println(actualStartDateroom1);
-					String expectedStartDate=excel.getData(3, 38, 1);
+					String expectedStartDate=excel.getData(0, 38, 1);
 					String actualEndDateroom1= driverqa.findElement(MultiAcco.Room1CheckOut).getText();
 					System.out.println(actualEndDateroom1);
 					String actualStartDateroom2= driverqa.findElement(MultiAcco.Room2CheckIn).getText();
 					System.out.println(actualStartDateroom2);
 					String actualEndDateroom2= driverqa.findElement(MultiAcco.Room2CheckOut).getText();
 					System.out.println(actualEndDateroom2);
-					String expectedEndDate= excel.getData(3, 39, 1);
+					String expectedEndDate= excel.getData(0, 39, 1);
 					Assert.assertTrue(actualhoteltitle.contains(expectedhoteltitle));
 					Assert.assertTrue(actualStartDateroom1.contains(expectedStartDate));
 					Assert.assertTrue(actualEndDateroom1.contains(expectedEndDate));
@@ -346,6 +347,6 @@ public class Credit_Card_Book_Within_Deadline {
 
 			rep.endTest(test);
 			rep.flush();
-			//driverqa.close();
+			driverqa.close();
 		}
 	 }
