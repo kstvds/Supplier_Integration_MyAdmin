@@ -62,15 +62,16 @@ public class Book_Credit_Saved_Itenary_NFR {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-				driverqa.get(Config.getApplicationUrl());
+			    String URL = excel.getData(0, 1, 5);
+				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);
 				username.clear();
-				username.sendKeys(excel.getData(3, 1, 1));
+				username.sendKeys(excel.getData(0, 1, 1));
 				WebElement password = driverqa.findElement(LoginPage.pwd);
 				password.clear();
-				password.sendKeys(excel.getData(3, 1, 2));
+				password.sendKeys(excel.getData(0, 1, 2));
 				driverqa.findElement(LoginPage.submit).click();
 				Thread.sleep(1000);
 				String expectedtitle = "DOTWconnect.com::DOTWconnect.com: My Admin";
@@ -84,13 +85,14 @@ public class Book_Credit_Saved_Itenary_NFR {
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Credit_Saved_ITN_NFR/Log-In.jpg");
 
 		} catch (Exception e) {
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Saved_ITN_NFR/Log-In.jpg");
+			test.log(LogStatus.FAIL, "Login");
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 			Assert.assertTrue(false, e.getMessage());
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Saved_ITN_NFR/Log-In.jpg");
-			test.log(LogStatus.FAIL, "Login");
+			
 		}
 		logger.info("Searching Customer");
 		
@@ -117,14 +119,15 @@ public class Book_Credit_Saved_Itenary_NFR {
 				rep.endTest(test);
 				rep.flush();
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Saved_ITN_NFR/Customer-Search.jpg");
-				Assert.assertTrue(false, e.getMessage());
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				Assert.assertTrue(false, e.getMessage());
+				
 			}
 		     logger.info("Selecting Customer");
 		     test.log(LogStatus.INFO, "Selecting Customer");
 			 try {
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
-				 driverqa.findElement(Operations.company).sendKeys(excel.getData(3, 5, 1));
+				 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 5, 1));
 				 Thread.sleep(2000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
@@ -157,15 +160,15 @@ public class Book_Credit_Saved_Itenary_NFR {
 			 try{
 				 test.log(LogStatus.INFO, "Starting HotelSearch Credit NFR");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.AccomUnit));
-				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(3, 11, 1));
+				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 11, 1));
 				 Thread.sleep(2000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
 				 driverqa.findElement(NewAccoBooking.inDate).clear();
-				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(3, 17, 1));
+				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(0, 17, 1));
 				 driverqa.findElement(NewAccoBooking.outDate).clear();
-				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(3, 17, 2));
-				 String expected=excel.getData(3, 11, 1);
+				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 17, 2));
+				 String expected=excel.getData(0, 11, 1);
 				 Thread.sleep(2000);
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Credit_Saved_ITN_NFR/Search-Hotel-filters.jpg");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.bookChannel));
@@ -189,8 +192,8 @@ public class Book_Credit_Saved_Itenary_NFR {
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyDeadline));
 				 String actualdeadline= driverqa.findElement(NewAccoBooking.thirdPartyDeadline).getText();
 				 String actualNFR= driverqa.findElement(NewAccoBooking.thirdPartyNFR).getText();
-				 String expecteddeadline=excel.getData(3, 30, 1);
-				 String expectedNFR=excel.getData(3, 32, 1);
+				 String expecteddeadline=excel.getData(0, 30, 1);
+				 String expectedNFR=excel.getData(0, 32, 1);
 				 Assert.assertTrue(result.contains(expected));
 				 Assert.assertTrue(actualdeadline.contains(expecteddeadline));
 				 Assert.assertTrue(actualNFR.contains(expectedNFR));
@@ -198,14 +201,14 @@ public class Book_Credit_Saved_Itenary_NFR {
 				 test.log(LogStatus.PASS, "PASSED HotelSearch Credit NFR");
 				 logger.info("Hotel Search Complete Credit NFR");
 			} catch (Exception e) {
+				test.log(LogStatus.FAIL, "Hotel Search Credit NFR");
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Saved_ITN_NFR/Search-Result.jpg");
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
 				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Hotel Search Credit NFR");
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Saved_ITN_NFR/Search-Result.jpg");
-			}
+							}
 			
 				try {
 					test.log(LogStatus.INFO, "Starting Hotel Save Itenary");
@@ -219,14 +222,14 @@ public class Book_Credit_Saved_Itenary_NFR {
 					 logger.info("Entering Passenger details");
 					 test.log(LogStatus.INFO, "Entering Passenger details");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.paxFname));
-					driverqa.findElement(NewAccoBooking.paxFname).sendKeys(excel.getData(3, 21, 1));
+					driverqa.findElement(NewAccoBooking.paxFname).sendKeys(excel.getData(0, 21, 1));
 					Thread.sleep(2000);
-					driverqa.findElement(NewAccoBooking.paxLname).sendKeys(excel.getData(3, 21, 2));
+					driverqa.findElement(NewAccoBooking.paxLname).sendKeys(excel.getData(0, 21, 2));
 					Select passengertitle = new Select(driverqa.findElement(NewAccoBooking.paxtitle));
 					passengertitle.selectByIndex(1);
-					driverqa.findElement(NewAccoBooking.paxFname2).sendKeys(excel.getData(3, 22, 1));
+					driverqa.findElement(NewAccoBooking.paxFname2).sendKeys(excel.getData(0, 22, 1));
 					Thread.sleep(1000);
-					driverqa.findElement(NewAccoBooking.paxLname2).sendKeys(excel.getData(3, 22, 2));
+					driverqa.findElement(NewAccoBooking.paxLname2).sendKeys(excel.getData(0, 22, 2));
 					Select passengertitle2 = new Select(driverqa.findElement(NewAccoBooking.paxtitle2));
 					passengertitle2.selectByIndex(1);
 					driverqa.findElement(NewAccoBooking.acceptChkBX).click();
@@ -240,7 +243,7 @@ public class Book_Credit_Saved_Itenary_NFR {
 					driverqa.findElement(NewAccoBooking.thirdPartsaveItncart).click();
 					Thread.sleep(2000);
 					String actualhoteltitle= driverqa.findElement(NewAccoBooking.thirdPartyaftersavehotel).getText();
-					String expectedhoteltitle=excel.getData(3, 11, 1);
+					String expectedhoteltitle=excel.getData(0, 11, 1);
 					//String actualStartDate= driverqa.findElement(NewAccoBooking.thirdPartyaftersaveCheckin).getText();
 					//String expectedStartDate=excel.getData(3, 36, 1);
 					//String actualEndDate= driverqa.findElement(NewAccoBooking.thirdPartyaftersaveCheckout).getText();
@@ -256,14 +259,14 @@ public class Book_Credit_Saved_Itenary_NFR {
 				    logger.info("Hotel Save Complete Credit NFR");
 				}
 				catch (Exception e) {
+					test.log(LogStatus.FAIL, "Hotel Save Itenary Credit NFR");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Saved_ITN_NFR/Save-Itenary.jpg");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					test.log(LogStatus.FAIL, "Hotel Save Itenary Credit NFR");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Saved_ITN_NFR/Save-Itenary.jpg");
-
+					
 				}
 				try {
 					test.log(LogStatus.INFO, "Starting Hotel Book from Saved Itenary");
@@ -276,15 +279,15 @@ public class Book_Credit_Saved_Itenary_NFR {
 					 String expectedbookingstatus = "Confirmed";
 					 String actualbookingstatus = driverqa.findElement(NewAccoBooking.thirdPartyconfirmStatus).getText();
 					 System.out.println(actualbookingstatus);
-					 String actualhoteltitle= driverqa.findElement(NewAccoBooking.thirdPartyafterbookhotelprepay).getText();
+					 String actualhoteltitle= driverqa.findElement(NewAccoBooking.thirdPartyafterbookhotelcredit).getText();
 					 System.out.println(actualhoteltitle);
-					 String expectedhoteltitle=excel.getData(3, 11, 1);
-					 String actualStartDate= driverqa.findElement(NewAccoBooking.thirdPartyafterbookCheckInPrepayOutDead).getText();
+					 String expectedhoteltitle=excel.getData(0, 11, 1);
+					 String actualStartDate= driverqa.findElement(NewAccoBooking.thirdPartyafterbookCheckInCreditOutDead).getText();
 					 System.out.println(actualStartDate);
-					 String expectedStartDate=excel.getData(3, 36, 1);
-					 String actualEndDate= driverqa.findElement(NewAccoBooking.thirdPartyafterbookCheckOutPrepayOutDead).getText();
+					 String expectedStartDate=excel.getData(0, 36, 1);
+					 String actualEndDate= driverqa.findElement(NewAccoBooking.thirdPartyafterbookCheckOutCreditOutDead).getText();
 					 System.out.println(actualEndDate);
-					 String expectedEndDate= excel.getData(3, 37, 1);
+					 String expectedEndDate= excel.getData(0, 37, 1);
 					 System.out.println(expectedhoteltitle);
 					 System.out.println(expectedStartDate);
 					 System.out.println(expectedEndDate);
@@ -299,14 +302,14 @@ public class Book_Credit_Saved_Itenary_NFR {
 					 Thread.sleep(2000);
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Credit_Saved_ITN_NFR/Booking-Details.jpg");
 				} catch (Exception e) {
+					test.log(LogStatus.FAIL, "Hotel Book from Itenary Credit NFR");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Saved_ITN_NFR/Booking-Details.jpg");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					test.log(LogStatus.FAIL, "Hotel Book from Itenary Credit NFR");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Saved_ITN_NFR/Booking-Details.jpg");
-
+					
 				}
 	 }
 	 @AfterMethod
@@ -322,7 +325,7 @@ public class Book_Credit_Saved_Itenary_NFR {
 
 			rep.endTest(test);
 			rep.flush();
-			//driverqa.close();
+			driverqa.close();
 		}
 }
 

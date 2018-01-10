@@ -3,19 +3,19 @@
 <test name="SupplierTestone" >
 <parameter name="browsername" value="CH"/>
 <classes> 
-<class name="Booking_MyAdmin.Book_Prepay_MultiSupplier" />
+<class name="Booking_MyAdmin.Prepay_Book_Two_Pax_Same_First_Last_Name" />
 </classes> 
 </test>
 <test name="SupplierTesttwo" >
 <parameter name="browsername" value="CH"/>
 <classes> 
-<class name="Booking_MyAdmin.Book_Credit_MultiSupplier" />
+<class name="Booking_MyAdmin.Credit_Book_Two_Pax_Same_First_Last_Name" />
 </classes> 
 </test>
 <test name="SupplierTestthree" >
 <parameter name="browsername" value="CH"/>
 <classes> 
-<class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier" />
+<class name="Booking_MyAdmin.Credit_Card_Book_Two_Pax_Same_First_Last_Name" />
 </classes> 
 </test>
 </suite>

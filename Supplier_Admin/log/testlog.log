@@ -2244,3 +2244,521 @@ Session ID: e018819d5862239c6ddc6619735151f3
 2018-01-09 20:19:20,342 - Book_Credit_Card_MultiSupplier -INFO - Starting Hotel Book from Saved Itenary Multi Supplier
 2018-01-09 20:19:25,636 - Book_Credit_Card_MultiSupplier -INFO - Entering Payment Details
 2018-01-09 20:19:26,336 - Book_Credit_Card_MultiSupplier -INFO - Sheet index (2) is out of range (0..0)
+2018-01-10 12:30:12,120 - Book_Prepay_MultiSupplier -INFO - Test Case Started
+2018-01-10 12:30:27,703 - Book_Prepay_MultiSupplier -INFO - Browser Opened
+2018-01-10 12:30:33,226 - Book_Prepay_MultiSupplier -INFO - Test Case Started
+2018-01-10 12:30:39,536 - Book_Prepay_MultiSupplier -INFO - Login Successful
+2018-01-10 12:30:42,036 - Book_Prepay_MultiSupplier -INFO - Searching Customer
+2018-01-10 12:30:42,043 - Book_Prepay_MultiSupplier -INFO - Navigating to customer search page
+2018-01-10 12:30:47,421 - Book_Prepay_MultiSupplier -INFO - Navigated to customer search page
+2018-01-10 12:30:50,503 - Book_Prepay_MultiSupplier -INFO - Selecting Customer
+2018-01-10 12:31:03,016 - Book_Prepay_MultiSupplier -INFO - Customer Selected
+2018-01-10 12:31:03,016 - Book_Prepay_MultiSupplier -INFO - Applying search Filters for Supplier Room
+2018-01-10 12:31:03,017 - Book_Prepay_MultiSupplier -INFO - Starting HotelSearch Prepay for Supplier Room
+2018-01-10 12:31:19,382 - Book_Prepay_MultiSupplier -INFO - Hotel Search Complete Prepay for Supplier Room
+2018-01-10 12:31:19,383 - Book_Prepay_MultiSupplier -INFO - Starting Hotel Save for Supplier Room
+2018-01-10 12:31:22,708 - Book_Prepay_MultiSupplier -INFO - Entering Passenger details
+2018-01-10 12:31:31,491 - Book_Prepay_MultiSupplier -INFO - Entered Passenger details for Supplier Room
+2018-01-10 12:31:42,988 - Book_Prepay_MultiSupplier -INFO - Hotel Save Complete Prepay for Supplier Room
+2018-01-10 12:31:43,023 - Book_Prepay_MultiSupplier -INFO - Applying search Filters for DOTW Room
+2018-01-10 12:31:43,023 - Book_Prepay_MultiSupplier -INFO - Starting HotelSearch Prepay for DOTW Room
+2018-01-10 12:31:56,405 - Book_Prepay_MultiSupplier -INFO - Hotel Search Complete Prepay for DOTW Room
+2018-01-10 12:31:56,406 - Book_Prepay_MultiSupplier -INFO - Starting Hotel Save for DOTW Room
+2018-01-10 12:31:58,689 - Book_Prepay_MultiSupplier -INFO - Entering Passenger details
+2018-01-10 12:32:04,729 - Book_Prepay_MultiSupplier -INFO - Entered Passenger details for DOTW Room
+2018-01-10 12:32:21,368 - Book_Prepay_MultiSupplier -INFO - Hotel Save Complete Prepay for DOTW Room
+2018-01-10 12:32:21,369 - Book_Prepay_MultiSupplier -INFO - Starting Hotel Book from Saved Itenary Multi Supplier
+2018-01-10 12:32:40,675 - Book_Prepay_MultiSupplier -INFO - Hotel Book Complete Prepay Book from Saved Itenary Multi Supplier
+2018-01-10 12:32:45,523 - Book_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-10 12:32:47,986 - Book_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-10 12:32:52,043 - Book_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-10 12:32:58,336 - Book_Credit_MultiSupplier -INFO - Login Successful
+2018-01-10 12:33:00,464 - Book_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-10 12:33:00,473 - Book_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-10 12:33:05,811 - Book_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-10 12:33:08,901 - Book_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-10 12:33:27,323 - Book_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-10 12:33:27,323 - Book_Credit_MultiSupplier -INFO - Applying search Filters for Supplier Room
+2018-01-10 12:33:27,323 - Book_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-10 12:33:43,161 - Book_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for Supplier Room
+2018-01-10 12:33:43,162 - Book_Credit_MultiSupplier -INFO - Starting Hotel Save for Supplier Room
+2018-01-10 12:33:46,434 - Book_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-10 12:33:55,255 - Book_Credit_MultiSupplier -INFO - Entered Passenger details for Supplier Room
+2018-01-10 12:34:12,782 - Book_Credit_MultiSupplier -INFO - Hotel Save Complete Credit for Supplier Room
+2018-01-10 12:34:12,803 - Book_Credit_MultiSupplier -INFO - Applying search Filters for DOTW Room
+2018-01-10 12:34:12,803 - Book_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for DOTW Room
+2018-01-10 12:34:26,093 - Book_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for DOTW Room
+2018-01-10 12:34:26,094 - Book_Credit_MultiSupplier -INFO - Starting Hotel Save for DOTW Room
+2018-01-10 12:34:28,371 - Book_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-10 12:34:34,448 - Book_Credit_MultiSupplier -INFO - Entered Passenger details for DOTW Room
+2018-01-10 12:34:51,080 - Book_Credit_MultiSupplier -INFO - Hotel Save Complete Credit for DOTW Room
+2018-01-10 12:34:51,080 - Book_Credit_MultiSupplier -INFO - Starting Hotel Book from Saved Itenary Multi Supplier
+2018-01-10 12:35:24,300 - Book_Credit_MultiSupplier -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //div[contains(text(),'Confirmed')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir23960_4492}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 4a489cbbf2d2dac56d7a98c434df5826
+2018-01-10 12:35:26,866 - Book_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-10 12:35:30,033 - Book_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-10 12:35:35,212 - Book_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-10 12:35:41,803 - Book_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-10 12:35:43,920 - Book_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-10 12:35:43,931 - Book_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-10 12:35:49,349 - Book_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-10 12:35:52,450 - Book_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-10 12:36:05,899 - Book_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-10 12:36:05,905 - Book_Credit_Card_MultiSupplier -INFO - Applying search Filters for Supplier Room
+2018-01-10 12:36:05,905 - Book_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-10 12:36:22,097 - Book_Credit_Card_MultiSupplier -INFO - Hotel Search Complete Credit Card for Supplier Room
+2018-01-10 12:36:22,097 - Book_Credit_Card_MultiSupplier -INFO - Starting Hotel Save for Supplier Room
+2018-01-10 12:36:25,480 - Book_Credit_Card_MultiSupplier -INFO - Entering Passenger details
+2018-01-10 12:36:34,450 - Book_Credit_Card_MultiSupplier -INFO - Entered Passenger details for Supplier Room
+2018-01-10 12:36:47,436 - Book_Credit_Card_MultiSupplier -INFO - Hotel Save Complete Credit Card for Supplier Room
+2018-01-10 12:36:47,475 - Book_Credit_Card_MultiSupplier -INFO - Applying search Filters for DOTW Room
+2018-01-10 12:36:47,475 - Book_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for DOTW Room
+2018-01-10 12:37:01,400 - Book_Credit_Card_MultiSupplier -INFO - Hotel Search Complete Credit Card for DOTW Room
+2018-01-10 12:37:01,401 - Book_Credit_Card_MultiSupplier -INFO - Starting Hotel Save for DOTW Room
+2018-01-10 12:37:03,732 - Book_Credit_Card_MultiSupplier -INFO - Entering Passenger details
+2018-01-10 12:37:09,991 - Book_Credit_Card_MultiSupplier -INFO - Entered Passenger details for DOTW Room
+2018-01-10 12:37:22,041 - Book_Credit_Card_MultiSupplier -INFO - Hotel Save Complete Credit Card for DOTW Room
+2018-01-10 12:37:22,042 - Book_Credit_Card_MultiSupplier -INFO - Starting Hotel Book from Saved Itenary Multi Supplier
+2018-01-10 12:37:25,783 - Book_Credit_Card_MultiSupplier -INFO - Entering Payment Details
+2018-01-10 12:37:29,632 - Book_Credit_Card_MultiSupplier -INFO - Completed Payment Details
+2018-01-10 12:37:49,563 - Book_Credit_Card_MultiSupplier -INFO - Hotel Book Complete Credit Card Book from Saved Itenary Multi Supplier
+2018-01-10 13:08:50,044 - Book_Prepay_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:08:53,409 - Book_Prepay_Saved_Itenary_NFR -INFO - Browser Opened
+2018-01-10 13:08:58,981 - Book_Prepay_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:09:05,402 - Book_Prepay_Saved_Itenary_NFR -INFO - Login Successful
+2018-01-10 13:09:07,631 - Book_Prepay_Saved_Itenary_NFR -INFO - Searching Customer
+2018-01-10 13:09:07,632 - Book_Prepay_Saved_Itenary_NFR -INFO - Navigating to customer search page
+2018-01-10 13:09:12,982 - Book_Prepay_Saved_Itenary_NFR -INFO - Navigated to customer search page
+2018-01-10 13:09:15,072 - Book_Prepay_Saved_Itenary_NFR -INFO - Selecting Customer
+2018-01-10 13:09:47,632 - Book_Prepay_Saved_Itenary_NFR -INFO - Customer Selected
+2018-01-10 13:09:47,633 - Book_Prepay_Saved_Itenary_NFR -INFO - Applying search Filters
+2018-01-10 13:09:47,633 - Book_Prepay_Saved_Itenary_NFR -INFO - Starting HotelSearch Prepay NFR
+2018-01-10 13:10:34,007 - Book_Prepay_Saved_Itenary_NFR -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir26168_5197}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2f92313bc769e92b4b09df01450d355c
+2018-01-10 13:10:36,674 - Book_Credit_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:10:39,045 - Book_Credit_Saved_Itenary_NFR -INFO - Browser Opened
+2018-01-10 13:10:44,007 - Book_Credit_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:10:51,299 - Book_Credit_Saved_Itenary_NFR -INFO - Login Successful
+2018-01-10 13:10:53,473 - Book_Credit_Saved_Itenary_NFR -INFO - Searching Customer
+2018-01-10 13:10:53,473 - Book_Credit_Saved_Itenary_NFR -INFO - Navigating to customer search page
+2018-01-10 13:10:58,838 - Book_Credit_Saved_Itenary_NFR -INFO - Navigated to customer search page
+2018-01-10 13:11:00,921 - Book_Credit_Saved_Itenary_NFR -INFO - Selecting Customer
+2018-01-10 13:11:17,428 - Book_Credit_Saved_Itenary_NFR -INFO - Customer Selected
+2018-01-10 13:11:17,428 - Book_Credit_Saved_Itenary_NFR -INFO - Applying search Filters
+2018-01-10 13:11:17,429 - Book_Credit_Saved_Itenary_NFR -INFO - Starting HotelSearch Credit NFR
+2018-01-10 13:11:35,095 - Book_Credit_Saved_Itenary_NFR -INFO - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Strictly Non Refundable')]"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir25568_14425}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 82e85f01bb4a1f3ce4ee33efc3d6b821
+*** Element info: {Using=xpath, value=//span[contains(text(),'Strictly Non Refundable')]}
+2018-01-10 13:11:37,543 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:11:40,020 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Browser Opened
+2018-01-10 13:11:44,233 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:11:50,596 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Login Successful
+2018-01-10 13:11:52,730 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Searching Customer
+2018-01-10 13:11:52,730 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Navigating to customer search page
+2018-01-10 13:11:58,036 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Navigated to customer search page
+2018-01-10 13:12:00,130 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Selecting Customer
+2018-01-10 13:12:16,594 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Customer Selected
+2018-01-10 13:12:16,595 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Applying search Filters
+2018-01-10 13:12:16,595 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Starting HotelSearch Credit NFR
+2018-01-10 13:13:02,771 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir14916_31867}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 23d11b77cc5c28c2069a91111bca0427
+2018-01-10 13:14:05,191 - Book_Prepay_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:14:08,389 - Book_Prepay_Saved_Itenary_NFR -INFO - Browser Opened
+2018-01-10 13:14:12,615 - Book_Prepay_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:14:21,213 - Book_Prepay_Saved_Itenary_NFR -INFO - Login Successful
+2018-01-10 13:14:23,389 - Book_Prepay_Saved_Itenary_NFR -INFO - Searching Customer
+2018-01-10 13:14:23,389 - Book_Prepay_Saved_Itenary_NFR -INFO - Navigating to customer search page
+2018-01-10 13:14:28,676 - Book_Prepay_Saved_Itenary_NFR -INFO - Navigated to customer search page
+2018-01-10 13:14:30,766 - Book_Prepay_Saved_Itenary_NFR -INFO - Selecting Customer
+2018-01-10 13:14:48,627 - Book_Prepay_Saved_Itenary_NFR -INFO - Customer Selected
+2018-01-10 13:14:48,628 - Book_Prepay_Saved_Itenary_NFR -INFO - Applying search Filters
+2018-01-10 13:14:48,628 - Book_Prepay_Saved_Itenary_NFR -INFO - Starting HotelSearch Prepay NFR
+2018-01-10 13:15:32,649 - Book_Prepay_Saved_Itenary_NFR -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir24992_18384}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c82c8eb1c7b8e8529650c1356626324d
+2018-01-10 13:16:30,421 - Book_Prepay_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:16:33,484 - Book_Prepay_Saved_Itenary_NFR -INFO - Browser Opened
+2018-01-10 13:16:37,706 - Book_Prepay_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:16:44,110 - Book_Prepay_Saved_Itenary_NFR -INFO - Login Successful
+2018-01-10 13:16:46,269 - Book_Prepay_Saved_Itenary_NFR -INFO - Searching Customer
+2018-01-10 13:16:46,269 - Book_Prepay_Saved_Itenary_NFR -INFO - Navigating to customer search page
+2018-01-10 13:16:51,588 - Book_Prepay_Saved_Itenary_NFR -INFO - Navigated to customer search page
+2018-01-10 13:16:53,674 - Book_Prepay_Saved_Itenary_NFR -INFO - Selecting Customer
+2018-01-10 13:17:11,240 - Book_Prepay_Saved_Itenary_NFR -INFO - Customer Selected
+2018-01-10 13:17:11,240 - Book_Prepay_Saved_Itenary_NFR -INFO - Applying search Filters
+2018-01-10 13:17:11,241 - Book_Prepay_Saved_Itenary_NFR -INFO - Starting HotelSearch Prepay NFR
+2018-01-10 13:17:55,278 - Book_Prepay_Saved_Itenary_NFR -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir26384_7513}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 807847cef7609da2fc33ff105b97a7ae
+2018-01-10 13:41:25,885 - Book_Credit_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:41:29,425 - Book_Credit_Saved_Itenary_NFR -INFO - Browser Opened
+2018-01-10 13:41:34,741 - Book_Credit_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:41:40,773 - Book_Credit_Saved_Itenary_NFR -INFO - Login Successful
+2018-01-10 13:41:42,937 - Book_Credit_Saved_Itenary_NFR -INFO - Searching Customer
+2018-01-10 13:41:42,937 - Book_Credit_Saved_Itenary_NFR -INFO - Navigating to customer search page
+2018-01-10 13:41:46,310 - Book_Credit_Saved_Itenary_NFR -INFO - Navigated to customer search page
+2018-01-10 13:41:48,407 - Book_Credit_Saved_Itenary_NFR -INFO - Selecting Customer
+2018-01-10 13:42:03,850 - Book_Credit_Saved_Itenary_NFR -INFO - Customer Selected
+2018-01-10 13:42:03,851 - Book_Credit_Saved_Itenary_NFR -INFO - Applying search Filters
+2018-01-10 13:42:03,851 - Book_Credit_Saved_Itenary_NFR -INFO - Starting HotelSearch Credit NFR
+2018-01-10 13:42:19,865 - Book_Credit_Saved_Itenary_NFR -INFO - Hotel Search Complete Credit NFR
+2018-01-10 13:42:19,865 - Book_Credit_Saved_Itenary_NFR -INFO - Starting Hotel Save Itenary
+2018-01-10 13:42:23,193 - Book_Credit_Saved_Itenary_NFR -INFO - Entering Passenger details
+2018-01-10 13:42:32,639 - Book_Credit_Saved_Itenary_NFR -INFO - Entered Passenger details
+2018-01-10 13:42:47,270 - Book_Credit_Saved_Itenary_NFR -INFO - Hotel Save Complete Credit NFR
+2018-01-10 13:42:47,271 - Book_Credit_Saved_Itenary_NFR -INFO - Starting Hotel Book from Saved Itenary
+2018-01-10 13:43:00,524 - Book_Credit_Saved_Itenary_NFR -INFO - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='mainContainer']/div[1]/div/div[2]/div[3]/table/tbody/tr[2]/td[2]"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir26648_23725}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 6bf53a1f9b9bc2f7fae5856280d7cdc5
+*** Element info: {Using=xpath, value=//*[@id='mainContainer']/div[1]/div/div[2]/div[3]/table/tbody/tr[2]/td[2]}
+2018-01-10 13:44:03,539 - Book_Credit_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:44:06,837 - Book_Credit_Saved_Itenary_NFR -INFO - Browser Opened
+2018-01-10 13:44:11,130 - Book_Credit_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:44:17,841 - Book_Credit_Saved_Itenary_NFR -INFO - Login Successful
+2018-01-10 13:44:19,997 - Book_Credit_Saved_Itenary_NFR -INFO - Searching Customer
+2018-01-10 13:44:19,998 - Book_Credit_Saved_Itenary_NFR -INFO - Navigating to customer search page
+2018-01-10 13:44:25,401 - Book_Credit_Saved_Itenary_NFR -INFO - Navigated to customer search page
+2018-01-10 13:44:27,500 - Book_Credit_Saved_Itenary_NFR -INFO - Selecting Customer
+2018-01-10 13:44:44,779 - Book_Credit_Saved_Itenary_NFR -INFO - Customer Selected
+2018-01-10 13:44:44,780 - Book_Credit_Saved_Itenary_NFR -INFO - Applying search Filters
+2018-01-10 13:44:44,781 - Book_Credit_Saved_Itenary_NFR -INFO - Starting HotelSearch Credit NFR
+2018-01-10 13:44:58,515 - Book_Credit_Saved_Itenary_NFR -INFO - Hotel Search Complete Credit NFR
+2018-01-10 13:44:58,515 - Book_Credit_Saved_Itenary_NFR -INFO - Starting Hotel Save Itenary
+2018-01-10 13:45:01,303 - Book_Credit_Saved_Itenary_NFR -INFO - Entering Passenger details
+2018-01-10 13:45:10,379 - Book_Credit_Saved_Itenary_NFR -INFO - Entered Passenger details
+2018-01-10 13:45:19,727 - Book_Credit_Saved_Itenary_NFR -INFO - Hotel Save Complete Credit NFR
+2018-01-10 13:45:19,730 - Book_Credit_Saved_Itenary_NFR -INFO - Starting Hotel Book from Saved Itenary
+2018-01-10 13:45:32,935 - Book_Credit_Saved_Itenary_NFR -INFO - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='mainContainer']/div[1]/div/div[2]/div[3]/table/tbody/tr[2]/td[2]"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir24492_15900}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: cecbb7661ee93c1f5129227afbaca256
+*** Element info: {Using=xpath, value=//*[@id='mainContainer']/div[1]/div/div[2]/div[3]/table/tbody/tr[2]/td[2]}
+2018-01-10 13:47:37,859 - Book_Credit_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:47:40,834 - Book_Credit_Saved_Itenary_NFR -INFO - Browser Opened
+2018-01-10 13:47:45,068 - Book_Credit_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:47:51,469 - Book_Credit_Saved_Itenary_NFR -INFO - Login Successful
+2018-01-10 13:47:53,619 - Book_Credit_Saved_Itenary_NFR -INFO - Searching Customer
+2018-01-10 13:47:53,634 - Book_Credit_Saved_Itenary_NFR -INFO - Navigating to customer search page
+2018-01-10 13:47:59,104 - Book_Credit_Saved_Itenary_NFR -INFO - Navigated to customer search page
+2018-01-10 13:48:01,219 - Book_Credit_Saved_Itenary_NFR -INFO - Selecting Customer
+2018-01-10 13:48:16,108 - Book_Credit_Saved_Itenary_NFR -INFO - Customer Selected
+2018-01-10 13:48:16,108 - Book_Credit_Saved_Itenary_NFR -INFO - Applying search Filters
+2018-01-10 13:48:16,108 - Book_Credit_Saved_Itenary_NFR -INFO - Starting HotelSearch Credit NFR
+2018-01-10 13:48:29,922 - Book_Credit_Saved_Itenary_NFR -INFO - Hotel Search Complete Credit NFR
+2018-01-10 13:48:29,922 - Book_Credit_Saved_Itenary_NFR -INFO - Starting Hotel Save Itenary
+2018-01-10 13:48:33,241 - Book_Credit_Saved_Itenary_NFR -INFO - Entering Passenger details
+2018-01-10 13:48:42,116 - Book_Credit_Saved_Itenary_NFR -INFO - Entered Passenger details
+2018-01-10 13:48:55,737 - Book_Credit_Saved_Itenary_NFR -INFO - Hotel Save Complete Credit NFR
+2018-01-10 13:48:55,739 - Book_Credit_Saved_Itenary_NFR -INFO - Starting Hotel Book from Saved Itenary
+2018-01-10 13:49:09,096 - Book_Credit_Saved_Itenary_NFR -INFO - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='mainContainer']/div[1]/div/div[2]/div[3]/table/tbody/tr[2]/td[2]"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir27092_32256}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: db1d5a84a2491ef170790fb9119e3d7f
+*** Element info: {Using=xpath, value=//*[@id='mainContainer']/div[1]/div/div[2]/div[3]/table/tbody/tr[2]/td[2]}
+2018-01-10 13:52:31,512 - Book_Credit_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:52:34,501 - Book_Credit_Saved_Itenary_NFR -INFO - Browser Opened
+2018-01-10 13:52:38,939 - Book_Credit_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:52:45,510 - Book_Credit_Saved_Itenary_NFR -INFO - Login Successful
+2018-01-10 13:52:47,653 - Book_Credit_Saved_Itenary_NFR -INFO - Searching Customer
+2018-01-10 13:52:47,673 - Book_Credit_Saved_Itenary_NFR -INFO - Navigating to customer search page
+2018-01-10 13:52:53,043 - Book_Credit_Saved_Itenary_NFR -INFO - Navigated to customer search page
+2018-01-10 13:52:55,146 - Book_Credit_Saved_Itenary_NFR -INFO - Selecting Customer
+2018-01-10 13:53:09,627 - Book_Credit_Saved_Itenary_NFR -INFO - Customer Selected
+2018-01-10 13:53:09,628 - Book_Credit_Saved_Itenary_NFR -INFO - Applying search Filters
+2018-01-10 13:53:09,628 - Book_Credit_Saved_Itenary_NFR -INFO - Starting HotelSearch Credit NFR
+2018-01-10 13:53:23,649 - Book_Credit_Saved_Itenary_NFR -INFO - Hotel Search Complete Credit NFR
+2018-01-10 13:53:23,649 - Book_Credit_Saved_Itenary_NFR -INFO - Starting Hotel Save Itenary
+2018-01-10 13:53:26,987 - Book_Credit_Saved_Itenary_NFR -INFO - Entering Passenger details
+2018-01-10 13:53:35,908 - Book_Credit_Saved_Itenary_NFR -INFO - Entered Passenger details
+2018-01-10 13:53:49,573 - Book_Credit_Saved_Itenary_NFR -INFO - Hotel Save Complete Credit NFR
+2018-01-10 13:53:49,574 - Book_Credit_Saved_Itenary_NFR -INFO - Starting Hotel Book from Saved Itenary
+2018-01-10 13:54:03,162 - Book_Credit_Saved_Itenary_NFR -INFO - Hotel Book Complete Credit Book from Saved Itenary
+2018-01-10 13:55:47,129 - Book_Prepay_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:55:50,207 - Book_Prepay_Saved_Itenary_NFR -INFO - Browser Opened
+2018-01-10 13:55:54,451 - Book_Prepay_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:56:00,831 - Book_Prepay_Saved_Itenary_NFR -INFO - Login Successful
+2018-01-10 13:56:02,998 - Book_Prepay_Saved_Itenary_NFR -INFO - Searching Customer
+2018-01-10 13:56:02,999 - Book_Prepay_Saved_Itenary_NFR -INFO - Navigating to customer search page
+2018-01-10 13:56:08,450 - Book_Prepay_Saved_Itenary_NFR -INFO - Navigated to customer search page
+2018-01-10 13:56:10,530 - Book_Prepay_Saved_Itenary_NFR -INFO - Selecting Customer
+2018-01-10 13:56:27,123 - Book_Prepay_Saved_Itenary_NFR -INFO - Customer Selected
+2018-01-10 13:56:27,123 - Book_Prepay_Saved_Itenary_NFR -INFO - Applying search Filters
+2018-01-10 13:56:27,124 - Book_Prepay_Saved_Itenary_NFR -INFO - Starting HotelSearch Prepay NFR
+2018-01-10 13:56:43,006 - Book_Prepay_Saved_Itenary_NFR -INFO - Hotel Search Complete Prepay NFR
+2018-01-10 13:56:43,006 - Book_Prepay_Saved_Itenary_NFR -INFO - Starting Hotel Save Itenary
+2018-01-10 13:56:46,300 - Book_Prepay_Saved_Itenary_NFR -INFO - Entering Passenger details
+2018-01-10 13:56:55,239 - Book_Prepay_Saved_Itenary_NFR -INFO - Entered Passenger details
+2018-01-10 13:57:11,084 - Book_Prepay_Saved_Itenary_NFR -INFO - Hotel Save Complete Prepay NFR
+2018-01-10 13:57:11,085 - Book_Prepay_Saved_Itenary_NFR -INFO - Starting Hotel Book from Saved Itenary
+2018-01-10 13:57:24,893 - Book_Prepay_Saved_Itenary_NFR -INFO - Hotel Book Complete Prepay Book from Saved Itenary
+2018-01-10 13:57:27,290 - Book_Credit_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:57:29,997 - Book_Credit_Saved_Itenary_NFR -INFO - Browser Opened
+2018-01-10 13:57:34,251 - Book_Credit_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:57:40,979 - Book_Credit_Saved_Itenary_NFR -INFO - Login Successful
+2018-01-10 13:57:43,142 - Book_Credit_Saved_Itenary_NFR -INFO - Searching Customer
+2018-01-10 13:57:43,142 - Book_Credit_Saved_Itenary_NFR -INFO - Navigating to customer search page
+2018-01-10 13:57:48,555 - Book_Credit_Saved_Itenary_NFR -INFO - Navigated to customer search page
+2018-01-10 13:57:50,658 - Book_Credit_Saved_Itenary_NFR -INFO - Selecting Customer
+2018-01-10 13:58:07,143 - Book_Credit_Saved_Itenary_NFR -INFO - Customer Selected
+2018-01-10 13:58:07,144 - Book_Credit_Saved_Itenary_NFR -INFO - Applying search Filters
+2018-01-10 13:58:07,144 - Book_Credit_Saved_Itenary_NFR -INFO - Starting HotelSearch Credit NFR
+2018-01-10 13:58:23,083 - Book_Credit_Saved_Itenary_NFR -INFO - Hotel Search Complete Credit NFR
+2018-01-10 13:58:23,084 - Book_Credit_Saved_Itenary_NFR -INFO - Starting Hotel Save Itenary
+2018-01-10 13:58:26,391 - Book_Credit_Saved_Itenary_NFR -INFO - Entering Passenger details
+2018-01-10 13:58:35,264 - Book_Credit_Saved_Itenary_NFR -INFO - Entered Passenger details
+2018-01-10 13:58:51,144 - Book_Credit_Saved_Itenary_NFR -INFO - Hotel Save Complete Credit NFR
+2018-01-10 13:58:51,144 - Book_Credit_Saved_Itenary_NFR -INFO - Starting Hotel Book from Saved Itenary
+2018-01-10 13:59:04,668 - Book_Credit_Saved_Itenary_NFR -INFO - Hotel Book Complete Credit Book from Saved Itenary
+2018-01-10 13:59:06,989 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:59:09,499 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Browser Opened
+2018-01-10 13:59:13,693 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 13:59:20,363 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Login Successful
+2018-01-10 13:59:22,532 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Searching Customer
+2018-01-10 13:59:22,532 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Navigating to customer search page
+2018-01-10 13:59:27,859 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Navigated to customer search page
+2018-01-10 13:59:29,951 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Selecting Customer
+2018-01-10 13:59:44,366 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Customer Selected
+2018-01-10 13:59:44,366 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Applying search Filters
+2018-01-10 13:59:44,367 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Starting HotelSearch Credit NFR
+2018-01-10 14:00:30,895 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir17396_3638}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 55e45a3ae8dd94ab3cc5ad78f695355a
+2018-01-10 14:06:07,464 - Book_Credit_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 14:06:10,435 - Book_Credit_Saved_Itenary_NFR -INFO - Browser Opened
+2018-01-10 14:06:11,830 - Book_Credit_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 14:06:11,863 - Book_Credit_Saved_Itenary_NFR -INFO - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir7620_3462}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2554f15410996816c8334fbccdd9f6a5
+*** Element info: {Using=xpath, value=/html/body/div/form/input[2]}
+2018-01-10 14:06:28,489 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 14:06:31,860 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Browser Opened
+2018-01-10 14:06:37,021 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Test Case Started
+2018-01-10 14:06:43,677 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Login Successful
+2018-01-10 14:06:45,835 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Searching Customer
+2018-01-10 14:06:45,849 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Navigating to customer search page
+2018-01-10 14:06:51,416 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Navigated to customer search page
+2018-01-10 14:06:53,514 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Selecting Customer
+2018-01-10 14:07:25,974 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Customer Selected
+2018-01-10 14:07:25,979 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Applying search Filters
+2018-01-10 14:07:25,979 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Starting HotelSearch Credit NFR
+2018-01-10 14:08:10,941 - Book_Credit_Card_Saved_Itenary_NFR -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir27008_3685}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 944c52b5db55dfc6224caf15f0af31a2
+2018-01-10 16:12:35,698 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Test Case Started
+2018-01-10 16:12:39,366 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Browser Opened
+2018-01-10 16:12:43,856 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Test Case Started
+2018-01-10 16:12:50,238 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Login Successful
+2018-01-10 16:12:52,540 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Searching Customer
+2018-01-10 16:12:52,552 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Navigating to customer search page
+2018-01-10 16:12:57,922 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Navigated to customer search page
+2018-01-10 16:13:00,030 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Selecting Customer
+2018-01-10 16:13:16,697 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Customer Selected
+2018-01-10 16:13:16,701 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Applying search Filters
+2018-01-10 16:13:16,702 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Starting HotelSearch Prepay NFR Multirooms
+2018-01-10 16:13:31,822 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Hotel Search Complete Prepay NFR Multirooms
+2018-01-10 16:13:34,343 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Test Case Started
+2018-01-10 16:13:36,685 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Browser Opened
+2018-01-10 16:13:40,822 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Test Case Started
+2018-01-10 16:13:47,891 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Login Successful
+2018-01-10 16:13:50,028 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Searching Customer
+2018-01-10 16:13:50,029 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Navigating to customer search page
+2018-01-10 16:13:55,384 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Navigated to customer search page
+2018-01-10 16:13:57,467 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Selecting Customer
+2018-01-10 16:14:13,883 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Customer Selected
+2018-01-10 16:14:13,887 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Applying search Filters
+2018-01-10 16:14:13,887 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Starting HotelSearch Credit NFR Multirooms
+2018-01-10 16:14:29,307 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Hotel Search Complete Credit NFR Multirooms
+2018-01-10 16:14:29,520 - Credit_Card_Unable_To_Book_Multi_Room_NFR -INFO - Test Case Started
+2018-01-10 16:14:31,888 - Credit_Card_Unable_To_Book_Multi_Room_NFR -INFO - Browser Opened
+2018-01-10 16:14:36,112 - Credit_Card_Unable_To_Book_Multi_Room_NFR -INFO - Test Case Started
+2018-01-10 16:14:42,753 - Credit_Card_Unable_To_Book_Multi_Room_NFR -INFO - Login Successful
+2018-01-10 16:14:44,887 - Credit_Card_Unable_To_Book_Multi_Room_NFR -INFO - Searching Customer
+2018-01-10 16:14:44,887 - Credit_Card_Unable_To_Book_Multi_Room_NFR -INFO - Navigating to customer search page
+2018-01-10 16:14:48,243 - Credit_Card_Unable_To_Book_Multi_Room_NFR -INFO - Navigated to customer search page
+2018-01-10 16:14:50,346 - Credit_Card_Unable_To_Book_Multi_Room_NFR -INFO - Selecting Customer
+2018-01-10 16:15:06,802 - Credit_Card_Unable_To_Book_Multi_Room_NFR -INFO - Customer Selected
+2018-01-10 16:15:06,813 - Credit_Card_Unable_To_Book_Multi_Room_NFR -INFO - Applying search Filters
+2018-01-10 16:15:06,813 - Credit_Card_Unable_To_Book_Multi_Room_NFR -INFO - Starting HotelSearch Credit Card NFR Multirooms
+2018-01-10 16:15:21,857 - Credit_Card_Unable_To_Book_Multi_Room_NFR -INFO - Hotel Search Complete Credit Card NFR Multirooms
+2018-01-10 16:18:32,555 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Test Case Started
+2018-01-10 16:18:35,542 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Browser Opened
+2018-01-10 16:18:39,844 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Test Case Started
+2018-01-10 16:18:46,206 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Login Successful
+2018-01-10 16:18:48,354 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Searching Customer
+2018-01-10 16:18:48,370 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Navigating to customer search page
+2018-01-10 16:18:53,749 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Navigated to customer search page
+2018-01-10 16:18:55,842 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Selecting Customer
+2018-01-10 16:19:13,487 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Customer Selected
+2018-01-10 16:19:13,488 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Applying search Filters
+2018-01-10 16:19:13,488 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Starting HotelSearch Prepay NFR Multirooms
+2018-01-10 16:19:28,644 - Prepay_Unable_To_Book_Multi_Room_NFR -INFO - Hotel Search Complete Prepay NFR Multirooms
+2018-01-10 16:58:10,466 - Credit_Book_Single_Pax_Same_First_Last_Name -INFO - Test Case Started
+2018-01-10 16:58:13,425 - Credit_Book_Single_Pax_Same_First_Last_Name -INFO - Browser Opened
+2018-01-10 16:58:17,712 - Credit_Book_Single_Pax_Same_First_Last_Name -INFO - Test Case Started
+2018-01-10 16:58:27,277 - Credit_Book_Single_Pax_Same_First_Last_Name -INFO - Login Successful
+2018-01-10 16:58:29,408 - Credit_Book_Single_Pax_Same_First_Last_Name -INFO - Searching Customer
+2018-01-10 16:58:29,412 - Credit_Book_Single_Pax_Same_First_Last_Name -INFO - Navigating to customer search page
+2018-01-10 16:58:34,794 - Credit_Book_Single_Pax_Same_First_Last_Name -INFO - Navigated to customer search page
+2018-01-10 16:58:36,864 - Credit_Book_Single_Pax_Same_First_Last_Name -INFO - Selecting Customer
+2018-01-10 16:58:53,558 - Credit_Book_Single_Pax_Same_First_Last_Name -INFO - Customer Selected
+2018-01-10 16:58:53,558 - Credit_Book_Single_Pax_Same_First_Last_Name -INFO - Applying search Filters
+2018-01-10 16:58:53,559 - Credit_Book_Single_Pax_Same_First_Last_Name -INFO - Starting HotelSearch Credit
+2018-01-10 16:59:09,817 - Credit_Book_Single_Pax_Same_First_Last_Name -INFO - Hotel Search Complete Credit
+2018-01-10 16:59:09,818 - Credit_Book_Single_Pax_Same_First_Last_Name -INFO - Starting Hotel Book Credit Single PAX with Same First and Last Name
+2018-01-10 16:59:12,606 - Credit_Book_Single_Pax_Same_First_Last_Name -INFO - Entering Passenger details
+2018-01-10 16:59:20,144 - Credit_Book_Single_Pax_Same_First_Last_Name -INFO - Entered Passenger details
+2018-01-10 16:59:34,680 - Credit_Book_Single_Pax_Same_First_Last_Name -INFO - Hotel Book Complete Credit Single PAX with Same First and Last Name
+2018-01-10 16:59:35,041 - Prepay_Book_Single_Pax_Same_First_Last_Name -INFO - Test Case Started
+2018-01-10 16:59:37,345 - Prepay_Book_Single_Pax_Same_First_Last_Name -INFO - Browser Opened
+2018-01-10 16:59:41,287 - Prepay_Book_Single_Pax_Same_First_Last_Name -INFO - Test Case Started
+2018-01-10 16:59:51,145 - Prepay_Book_Single_Pax_Same_First_Last_Name -INFO - Login Successful
+2018-01-10 16:59:53,283 - Prepay_Book_Single_Pax_Same_First_Last_Name -INFO - Searching Customer
+2018-01-10 16:59:53,283 - Prepay_Book_Single_Pax_Same_First_Last_Name -INFO - Navigating to customer search page
+2018-01-10 16:59:58,665 - Prepay_Book_Single_Pax_Same_First_Last_Name -INFO - Navigated to customer search page
+2018-01-10 17:00:00,771 - Prepay_Book_Single_Pax_Same_First_Last_Name -INFO - Selecting Customer
+2018-01-10 17:00:16,698 - Prepay_Book_Single_Pax_Same_First_Last_Name -INFO - Customer Selected
+2018-01-10 17:00:16,699 - Prepay_Book_Single_Pax_Same_First_Last_Name -INFO - Applying search Filters
+2018-01-10 17:00:16,699 - Prepay_Book_Single_Pax_Same_First_Last_Name -INFO - Starting HotelSearch Prepay
+2018-01-10 17:00:32,937 - Prepay_Book_Single_Pax_Same_First_Last_Name -INFO - Hotel Search Complete Prepay
+2018-01-10 17:00:32,937 - Prepay_Book_Single_Pax_Same_First_Last_Name -INFO - Starting Hotel Book PrePay Single PAX with Same First and Last Name
+2018-01-10 17:00:35,727 - Prepay_Book_Single_Pax_Same_First_Last_Name -INFO - Entering Passenger details
+2018-01-10 17:00:43,287 - Prepay_Book_Single_Pax_Same_First_Last_Name -INFO - Entered Passenger details
+2018-01-10 17:00:56,376 - Prepay_Book_Single_Pax_Same_First_Last_Name -INFO - Hotel Book Complete Prepay Single PAX with Same First and Last Name
+2018-01-10 17:00:56,600 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Test Case Started
+2018-01-10 17:00:59,048 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Browser Opened
+2018-01-10 17:01:03,120 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Test Case Started
+2018-01-10 17:01:12,817 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Login Successful
+2018-01-10 17:01:14,953 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Searching Customer
+2018-01-10 17:01:14,953 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Navigating to customer search page
+2018-01-10 17:01:20,272 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Navigated to customer search page
+2018-01-10 17:01:22,380 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Selecting Customer
+2018-01-10 17:01:38,222 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Customer Selected
+2018-01-10 17:01:38,226 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Applying search Filters
+2018-01-10 17:01:38,226 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Starting HotelSearch Credit Card
+2018-01-10 17:01:55,330 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Hotel Search Complete Credit Card
+2018-01-10 17:01:55,331 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Starting Hotel Book Credit Card Single PAX with Same First and Last Name
+2018-01-10 17:01:58,641 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Entering Passenger details
+2018-01-10 17:02:06,160 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Entered Passenger details
+2018-01-10 17:02:13,812 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Entering Payment Details
+2018-01-10 17:02:17,398 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Completed Payment Details
+2018-01-10 17:02:33,825 - Credit_Card_Book_Single_Pax_Same_First_Last_Name -INFO - Hotel Book Complete Credit Card Single PAX with Same First and Last Name
+2018-01-10 17:42:36,658 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Test Case Started
+2018-01-10 17:42:39,727 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Browser Opened
+2018-01-10 17:42:45,325 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Test Case Started
+2018-01-10 17:42:52,792 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Login Successful
+2018-01-10 17:42:54,966 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Searching Customer
+2018-01-10 17:42:54,966 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Navigating to customer search page
+2018-01-10 17:43:00,333 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Navigated to customer search page
+2018-01-10 17:43:02,422 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Selecting Customer
+2018-01-10 17:43:18,868 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Customer Selected
+2018-01-10 17:43:18,871 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Applying search Filters
+2018-01-10 17:43:18,871 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - Starting HotelSearch Credit NFR Multirooms
+2018-01-10 17:43:53,115 - Credit_Unable_To_Book_Multi_Room_NFR -INFO - 
+2018-01-10 17:57:03,299 - Prepay_Book_Two_Pax_Same_First_Last_Name -INFO - Test Case Started
+2018-01-10 17:57:06,510 - Prepay_Book_Two_Pax_Same_First_Last_Name -INFO - Browser Opened
+2018-01-10 17:57:10,798 - Prepay_Book_Two_Pax_Same_First_Last_Name -INFO - Test Case Started
+2018-01-10 17:57:17,483 - Prepay_Book_Two_Pax_Same_First_Last_Name -INFO - Login Successful
+2018-01-10 17:57:19,673 - Prepay_Book_Two_Pax_Same_First_Last_Name -INFO - Searching Customer
+2018-01-10 17:57:19,674 - Prepay_Book_Two_Pax_Same_First_Last_Name -INFO - Navigating to customer search page
+2018-01-10 17:57:25,036 - Prepay_Book_Two_Pax_Same_First_Last_Name -INFO - Navigated to customer search page
+2018-01-10 17:57:27,124 - Prepay_Book_Two_Pax_Same_First_Last_Name -INFO - Selecting Customer
+2018-01-10 17:57:42,052 - Prepay_Book_Two_Pax_Same_First_Last_Name -INFO - Customer Selected
+2018-01-10 17:57:42,053 - Prepay_Book_Two_Pax_Same_First_Last_Name -INFO - Applying search Filters
+2018-01-10 17:57:42,053 - Prepay_Book_Two_Pax_Same_First_Last_Name -INFO - Starting HotelSearch Prepay
+2018-01-10 17:57:57,989 - Prepay_Book_Two_Pax_Same_First_Last_Name -INFO - Hotel Search Complete Prepay
+2018-01-10 17:57:57,989 - Prepay_Book_Two_Pax_Same_First_Last_Name -INFO - Starting Hotel Book PrePay Two PAX with Same First and Last Name
+2018-01-10 17:58:01,314 - Prepay_Book_Two_Pax_Same_First_Last_Name -INFO - Entering Passenger details
+2018-01-10 17:58:09,706 - Prepay_Book_Two_Pax_Same_First_Last_Name -INFO - Entered Passenger details
+2018-01-10 17:58:25,340 - Prepay_Book_Two_Pax_Same_First_Last_Name -INFO - Hotel Book Complete Prepay Two PAX with Same First and Last Name
+2018-01-10 17:58:25,684 - Credit_Book_Two_Pax_Same_First_Last_Name -INFO - Test Case Started
+2018-01-10 17:58:28,238 - Credit_Book_Two_Pax_Same_First_Last_Name -INFO - Browser Opened
+2018-01-10 17:58:32,276 - Credit_Book_Two_Pax_Same_First_Last_Name -INFO - Test Case Started
+2018-01-10 17:58:39,007 - Credit_Book_Two_Pax_Same_First_Last_Name -INFO - Login Successful
+2018-01-10 17:58:41,154 - Credit_Book_Two_Pax_Same_First_Last_Name -INFO - Searching Customer
+2018-01-10 17:58:41,154 - Credit_Book_Two_Pax_Same_First_Last_Name -INFO - Navigating to customer search page
+2018-01-10 17:58:46,531 - Credit_Book_Two_Pax_Same_First_Last_Name -INFO - Navigated to customer search page
+2018-01-10 17:58:48,716 - Credit_Book_Two_Pax_Same_First_Last_Name -INFO - Selecting Customer
+2018-01-10 17:59:18,065 - Credit_Book_Two_Pax_Same_First_Last_Name -INFO - Customer Selected
+2018-01-10 17:59:18,065 - Credit_Book_Two_Pax_Same_First_Last_Name -INFO - Applying search Filters
+2018-01-10 17:59:18,065 - Credit_Book_Two_Pax_Same_First_Last_Name -INFO - Starting HotelSearch Credit
+2018-01-10 17:59:34,391 - Credit_Book_Two_Pax_Same_First_Last_Name -INFO - Hotel Search Complete Credit
+2018-01-10 17:59:34,391 - Credit_Book_Two_Pax_Same_First_Last_Name -INFO - Starting Hotel Book Credit Two PAX with Same First and Last Name
+2018-01-10 17:59:37,693 - Credit_Book_Two_Pax_Same_First_Last_Name -INFO - Entering Passenger details
+2018-01-10 17:59:45,714 - Credit_Book_Two_Pax_Same_First_Last_Name -INFO - Entered Passenger details
+2018-01-10 18:00:00,162 - Credit_Book_Two_Pax_Same_First_Last_Name -INFO - Hotel Book Complete Credit Two PAX with Same First and Last Name
+2018-01-10 18:00:00,331 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Test Case Started
+2018-01-10 18:00:03,172 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Browser Opened
+2018-01-10 18:00:07,245 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Test Case Started
+2018-01-10 18:00:15,131 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Login Successful
+2018-01-10 18:00:17,275 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Searching Customer
+2018-01-10 18:00:17,275 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Navigating to customer search page
+2018-01-10 18:00:22,710 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Navigated to customer search page
+2018-01-10 18:00:24,792 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Selecting Customer
+2018-01-10 18:00:55,061 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Customer Selected
+2018-01-10 18:00:55,062 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Applying search Filters
+2018-01-10 18:00:55,062 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Starting HotelSearch Credit Card
+2018-01-10 18:01:11,186 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Hotel Search Complete Credit Card
+2018-01-10 18:01:11,186 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Starting Hotel Book Credit Card Two PAX with Same First and Last Name
+2018-01-10 18:01:14,487 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Entering Passenger details
+2018-01-10 18:01:22,820 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Entered Passenger details
+2018-01-10 18:01:33,123 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Entering Payment Details
+2018-01-10 18:01:36,696 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Completed Payment Details
+2018-01-10 18:01:51,329 - Credit_Card_Book_Two_Pax_Same_First_Last_Name -INFO - Hotel Book Complete Credit Card Two PAX with Same First and Last Name
