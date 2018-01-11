@@ -3,6 +3,12 @@
   <groupId>com.Supplier</groupId>
   <artifactId>Supplier_Admin</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+  <suiteXmlFile>src/test/java/testng.xml</suiteXmlFile>
+  <skipTests>false</skipTests>
+  </properties>
+  
   <dependencies>
               <dependency>
                      <groupId>org.testng</groupId>
@@ -88,6 +94,8 @@
                                   <suiteXmlFiles>
                                          <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
                                   </suiteXmlFiles>
+                                  
+                                  <testFailureIgnore>true</testFailureIgnore>
                            </configuration>
                      </plugin>
               </plugins>

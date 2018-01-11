@@ -65,7 +65,7 @@ public class NewAccoBooking {
 	
 	public static final By thirdPartyroomSelectionbookoutdead = By.xpath("//input[@type='radio']");
 	
-	public static final By thirdPartyroom2Selectionbookoutdead = By.xpath("//*[@id='roomtype_102042_1_0_0']");
+	public static final By thirdPartyroom2Selectionbookoutdead = By.xpath("//*[@id='roomtype_845095_1_0_0']");
 	
 	//public static final By thirdPartyprocedetoBooksaveoutdead = By.xpath("//*[@id='roomList_102042']/div[4]/div[3]/button");
 	public static final By thirdPartyprocedetoBooksaveoutdead = By.xpath("//button[contains(text(),'Proceed to booking')]"); 

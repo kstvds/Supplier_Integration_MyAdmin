@@ -63,15 +63,16 @@ public class Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-				driverqa.get(Config.getApplicationUrl() + "settings/framework/accommodation/booking-channels");
+			    String URL = excel.getData(0, 1, 5);
+				driverqa.get(URL + "settings/framework/accommodation/booking-channels");
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);
 				username.clear();
-				username.sendKeys(excel.getData(3, 1, 1));
+				username.sendKeys(excel.getData(0, 1, 1));
 				WebElement password = driverqa.findElement(LoginPage.pwd);
 				password.clear();
-				password.sendKeys(excel.getData(3, 1, 2));
+				password.sendKeys(excel.getData(0, 1, 2));
 				driverqa.findElement(LoginPage.submit).click();
 				Thread.sleep(1000);
 				String expectedtitle = "DOTWconnect.com::";
@@ -85,14 +86,14 @@ public class Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set {
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Log-In.jpg");
 
 		} catch (Exception e) {
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Log-In.jpg");
+			test.log(LogStatus.FAIL, "Login");
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 			Assert.assertTrue(false, e.getMessage());
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Log-In.jpg");
-			test.log(LogStatus.FAIL, "Login");
-		}
+					}
 	       
 			   
 			  try {
@@ -116,14 +117,14 @@ public class Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set {
 	                   driverqa.findElement(Others.Homebutton).click();
 					   			   }
 			} catch (Exception e) {
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Set-Flag.jpg");
+				test.log(LogStatus.FAIL, "Login");
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
 				Assert.assertTrue(false, e.getMessage());
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Log-In.jpg");
-				test.log(LogStatus.FAIL, "Login");
-			}
+							}
 			  logger.info("Searching Customer");
 				
 			     try {
@@ -149,15 +150,16 @@ public class Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set {
 					rep.endTest(test);
 					rep.flush();
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Customer-Search.jpg");
-					Assert.assertTrue(false, e.getMessage());
 					test.log(LogStatus.FAIL, "Navigation to customer search page");
+					Assert.assertTrue(false, e.getMessage());
+					
 				}
 			     logger.info("Selecting Customer");
 			     test.log(LogStatus.INFO, "Selecting Customer");
 				 try {
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
 				
-					 driverqa.findElement(Operations.company).sendKeys(excel.getData(3, 4, 1));
+					 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 4, 1));
 					 Thread.sleep(2000);
 					 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 					 action.sendKeys(Keys.ENTER).build().perform();
@@ -177,28 +179,28 @@ public class Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set {
 					
 				 }
 				 catch (Exception e) {
+					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Customer-list.jpg");
+						test.log(LogStatus.FAIL, "Customer Selection");
 						logger.info(e.getMessage());
 						test.log(LogStatus.FAIL, e.getMessage());
 						rep.endTest(test);
 						rep.flush();
 						Assert.assertTrue(false, e.getMessage());
-						obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Customer-list.jpg");
-						test.log(LogStatus.FAIL, "Customer Selection");
-					}
+											}
 				 logger.info("Applying search Filters");
 				 logger.info("Starting HotelSearch Prepay MultiRoom Within DeadLine");
 				 try{
 					 test.log(LogStatus.INFO, "Starting HotelSearch Prepay");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.AccomUnit));
-					 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(3, 12, 1));
+					 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 12, 1));
 					 Thread.sleep(2000);
 					 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 					 action.sendKeys(Keys.ENTER).build().perform();
 				     driverqa.findElement(NewAccoBooking.inDate).clear();
-					 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(3, 18, 1));
+					 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(0, 18, 1));
 					 driverqa.findElement(NewAccoBooking.outDate).clear();
-					 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(3, 18, 2));
-					 String expected=excel.getData(3, 12, 1);
+					 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 18, 2));
+					 String expected=excel.getData(0, 12, 1);
 					 Thread.sleep(3000);
 					 driverqa.findElement(MultiAcco.Plusroom).click();
 					 Thread.sleep(2000);
@@ -226,21 +228,21 @@ public class Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set {
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Search-Result.jpg");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyDeadline));
 					 String actualdeadline= driverqa.findElement(NewAccoBooking.thirdPartyDeadline).getText();
-					 String expecteddeadline=excel.getData(3, 30, 1);
+					 String expecteddeadline=excel.getData(0, 30, 1);
 					 Assert.assertTrue(result.contains(expected));
 					 Assert.assertTrue(actualdeadline.contains(expecteddeadline));
 					 test.log(LogStatus.INFO, "Ending HotelSearch Prepay MultiRoom Within DeadLine");
 					 test.log(LogStatus.PASS, "PASSED HotelSearch Prepay MultiRoom Within DeadLine");
 					 logger.info("Hotel Search Complete Prepay MultiRoom Within DeadLine");
 				} catch (Exception e) {
+					test.log(LogStatus.FAIL, "Hotel Search Prepay MultiRoom Within DeadLine");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Search-Result.jpg");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					test.log(LogStatus.FAIL, "Hotel Search Prepay MultiRoom Within DeadLine");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Search-Result.jpg");
-				}
+									}
 					try {
 						test.log(LogStatus.INFO, "Starting Hotel Book PrePay MultiRoom Within DeadLine");
 						 logger.info("Starting Hotel Book");
@@ -263,15 +265,15 @@ public class Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set {
 					}
 				 
 					catch (Exception e) {
+						test.log(LogStatus.FAIL, "Hotel Search Prepay");
+						obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Search-Result.jpg");
 						logger.info(e.getMessage());
 						test.log(LogStatus.FAIL, e.getMessage());
 						rep.endTest(test);
 						rep.flush();
 					    System.out.println(e.getMessage());
 					    Assert.assertTrue(false, e.getMessage());
-						test.log(LogStatus.FAIL, "Hotel Search Prepay");
-						obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Search-Result.jpg");
-					}
+											}
 	 }
 	 @AfterMethod
 		public void getResult(ITestResult result) {

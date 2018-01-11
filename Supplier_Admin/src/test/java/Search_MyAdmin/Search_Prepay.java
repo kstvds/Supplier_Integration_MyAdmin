@@ -45,10 +45,10 @@ public class Search_Prepay {
 	
 	 @Test
 	 @Parameters({ "browsername" })
-	  public void bookthirdparty(String browsername) throws Exception {
+	  public void SearchPrepay(String browsername) throws Exception {
 		  test = rep.startTest("PrePay Search");
 		  ExcelDataConfig excel;
-		  excel = new ExcelDataConfig(Config.getExcelPathSearch());
+		  excel = new ExcelDataConfig(Config.getExcelPathBook());
 		  PropertyConfigurator.configure("Log4j.properties");
 		  logger.info("Test Case Started");
 		if (browsername.equalsIgnoreCase("CH")) {
@@ -62,15 +62,16 @@ public class Search_Prepay {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-				driverqa.get(Config.getApplicationUrl());
+			    String URL = excel.getData(0, 1, 5);
+				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);
 				username.clear();
-				username.sendKeys(excel.getData(0, 1, 0));
+				username.sendKeys(excel.getData(0, 1, 1));
 				WebElement password = driverqa.findElement(LoginPage.pwd);
 				password.clear();
-				password.sendKeys(excel.getData(0, 1, 1));
+				password.sendKeys(excel.getData(0, 1, 2));
 				driverqa.findElement(LoginPage.submit).click();
 				Thread.sleep(1000);
 				String expectedtitle = "DOTWconnect.com::DOTWconnect.com: My Admin";
@@ -84,13 +85,15 @@ public class Search_Prepay {
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Accommodation_Search_Prepay/Log-In.jpg");
 
 		} catch (Exception e) {
+			
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Log-In.jpg");
+			test.log(LogStatus.FAIL, "Login");
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 			Assert.assertTrue(false, e.getMessage());
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Log-In.jpg");
-			test.log(LogStatus.FAIL, "Login");
+						
 		}
 		logger.info("Searching Customer");
 		
@@ -112,19 +115,21 @@ public class Search_Prepay {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Accommodation_Search_Prepay/Customer-Search.jpg");
 			
 			} catch (Exception e) {
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Customer-Search.jpg");
+				Assert.assertTrue(false, e.getMessage());
+				test.log(LogStatus.FAIL, "Navigation to customer search page");
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Customer-Search.jpg");
-				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				
+				
 			}
 		     logger.info("Selecting Customer");
 		     test.log(LogStatus.INFO, "Selecting Customer");
 			 try {
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
-				 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 4, 0));
+				 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 4, 1));
 				 Thread.sleep(2000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
@@ -144,28 +149,29 @@ public class Search_Prepay {
 				
 			 }
 			 catch (Exception e) {
+				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Customer-list.jpg");
+					test.log(LogStatus.FAIL, "Customer Selection");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Customer-list.jpg");
-					test.log(LogStatus.FAIL, "Customer Selection");
+					
 				}
 			 logger.info("Applying search Filters");
 			 logger.info("Starting HotelSearch Prepay");
 			 try{
 				 test.log(LogStatus.INFO, "Starting HotelSearch Prepay");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.AccomUnit));
-				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 7, 0));
+				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 9, 1));
 				 Thread.sleep(2000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
 				 driverqa.findElement(NewAccoBooking.inDate).clear();
-				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(0, 10, 0));
+				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(0, 15, 1));
 				 driverqa.findElement(NewAccoBooking.outDate).clear();
-				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 10, 1));
-				 String expected=excel.getData(0, 7, 0);
+				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 15, 2));
+				 String expected=excel.getData(0, 9, 1);
 				 Thread.sleep(2000);
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Accommodation_Search_Prepay/Search-Hotel-filters.jpg");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.bookChannel));
@@ -189,14 +195,14 @@ public class Search_Prepay {
 				 test.log(LogStatus.PASS, "PASSED HotelSearch Prepay");
 				 logger.info("Hotel Search Complete Prepay");
 			} catch (Exception e) {
+				test.log(LogStatus.FAIL, "Hotel Search Prepay");
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Search-Result.jpg");
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
 				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Hotel Search Prepay");
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Search-Result.jpg");
-			}
+							}
 	 }
 	 
 	  @AfterMethod
