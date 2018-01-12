@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="SupplierSuite" duration-ms="116359" started-at="2018-01-12T05:54:11Z" finished-at="2018-01-12T05:56:08Z">
+  <suite name="SupplierSuite" duration-ms="115343" started-at="2018-01-12T08:13:46Z" finished-at="2018-01-12T08:15:42Z">
     <groups>
     </groups>
-    <test name="SupplierTestone" duration-ms="116359" started-at="2018-01-12T05:54:11Z" finished-at="2018-01-12T05:56:08Z">
+    <test name="SupplierTestone" duration-ms="115343" started-at="2018-01-12T08:13:46Z" finished-at="2018-01-12T08:15:42Z">
       <class name="Booking_MyAdmin.Book_Prepay">
-        <test-method status="FAIL" signature="BookPrepay(java.lang.String)[pri:0, instance:Booking_MyAdmin.Book_Prepay@3d921e20]" name="BookPrepay" duration-ms="113948" started-at="2018-01-12T11:24:11Z" finished-at="2018-01-12T11:26:05Z">
+        <test-method status="FAIL" signature="BookPrepay(java.lang.String)[pri:0, instance:Booking_MyAdmin.Book_Prepay@8e24743]" name="BookPrepay" duration-ms="112899" started-at="2018-01-12T13:43:46Z" finished-at="2018-01-12T13:45:39Z">
           <params>
             <param index="0">
               <value>
@@ -21,16 +21,16 @@
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir14304_32442}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 73c99df31fc7628dcff23311d45447bf expected [true] but found [false]]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir15256_28734}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 14e4077e0d7bdefd6a7ec9029a4d9de4 expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[contains(text(),'Status: Confirmed')]
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir14304_32442}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 73c99df31fc7628dcff23311d45447bf expected [true] but found [false]
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir15256_28734}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 14e4077e0d7bdefd6a7ec9029a4d9de4 expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertTrue(Assert.java:42)
@@ -65,18 +65,18 @@ Session ID: 73c99df31fc7628dcff23311d45447bf expected [true] but found [false]
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BookPrepay -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Booking_MyAdmin.Book_Prepay@3d921e20]" name="getResult" is-config="true" duration-ms="1" started-at="2018-01-12T11:26:05Z" finished-at="2018-01-12T11:26:05Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Booking_MyAdmin.Book_Prepay@8e24743]" name="getResult" is-config="true" duration-ms="0" started-at="2018-01-12T13:45:39Z" finished-at="2018-01-12T13:45:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=BookPrepay status=FAILURE method=Book_Prepay.BookPrepay(java.lang.String)[pri:0, instance:Booking_MyAdmin.Book_Prepay@3d921e20] output={null}]]]>
+                <![CDATA[[TestResult name=BookPrepay status=FAILURE method=Book_Prepay.BookPrepay(java.lang.String)[pri:0, instance:Booking_MyAdmin.Book_Prepay@8e24743] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Booking_MyAdmin.Book_Prepay@3d921e20]" name="afterTest" is-config="true" duration-ms="2393" started-at="2018-01-12T11:26:05Z" finished-at="2018-01-12T11:26:08Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Booking_MyAdmin.Book_Prepay@8e24743]" name="afterTest" is-config="true" duration-ms="2429" started-at="2018-01-12T13:45:39Z" finished-at="2018-01-12T13:45:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
