@@ -3,10 +3,10 @@
 <test name="SupplierTestone" >
 <parameter name="browsername" value="CH"/>
 <classes> 
-<class name="Cancel_MyAdmin.Cancel_Credit" />
+<class name="Booking_MyAdmin.Book_Prepay" />
 </classes> 
 </test>
-<test name="SupplierTesttwo" >
+<!--test name="SupplierTesttwo" >
 <parameter name="browsername" value="CH"/>
 <classes> 
 <class name="Cancel_MyAdmin.Cancel_Credit_Card" />
@@ -17,5 +17,5 @@
 <classes> 
 <class name="Cancel_MyAdmin.Cancel_Credit_NFR" />
 </classes> 
-</test>
+</test-->
 </suite>
