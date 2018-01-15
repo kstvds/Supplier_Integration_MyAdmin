@@ -3,7 +3,7 @@
 <test name="SupplierTestone" >
 <parameter name="browsername" value="CH"/>
 <classes> 
-<class name="Booking_MyAdmin.Book_Prepay" />
+<class name="Search_MyAdmin.Search_Prepay" />
 </classes> 
 </test>
 <!--test name="SupplierTesttwo" >

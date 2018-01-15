@@ -3160,3 +3160,323 @@ Session ID: 14e4077e0d7bdefd6a7ec9029a4d9de4
 2018-01-12 13:53:54,017 - Book_Prepay -INFO - Entering Passenger details
 2018-01-12 13:54:02,773 - Book_Prepay -INFO - Entered Passenger details
 2018-01-12 13:54:15,191 - Book_Prepay -INFO - Hotel Book Complete Prepay
+2018-01-12 13:58:05,744 - Book_Prepay -INFO - Test Case Started
+2018-01-12 13:58:10,405 - Book_Prepay -INFO - Browser Opened
+2018-01-12 13:58:15,169 - Book_Prepay -INFO - Test Case Started
+2018-01-12 13:58:23,559 - Book_Prepay -INFO - Login Successful
+2018-01-12 13:58:25,838 - Book_Prepay -INFO - Searching Customer
+2018-01-12 13:58:25,848 - Book_Prepay -INFO - Navigating to customer search page
+2018-01-12 13:58:32,119 - Book_Prepay -INFO - Navigated to customer search page
+2018-01-12 13:58:34,251 - Book_Prepay -INFO - Selecting Customer
+2018-01-12 13:59:09,152 - Book_Prepay -INFO - Customer Selected
+2018-01-12 13:59:09,163 - Book_Prepay -INFO - Applying search Filters
+2018-01-12 13:59:09,163 - Book_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-12 13:59:29,836 - Book_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-12 13:59:29,836 - Book_Prepay -INFO - Starting Hotel Book
+2018-01-12 13:59:33,247 - Book_Prepay -INFO - Entering Passenger details
+2018-01-12 13:59:44,115 - Book_Prepay -INFO - Entered Passenger details
+2018-01-12 13:59:57,507 - Book_Prepay -INFO - Hotel Book Complete Prepay
+2018-01-12 14:05:41,554 - Book_Prepay -INFO - Test Case Started
+2018-01-12 14:05:46,288 - Book_Prepay -INFO - Browser Opened
+2018-01-12 14:05:50,907 - Book_Prepay -INFO - Test Case Started
+2018-01-12 14:05:59,015 - Book_Prepay -INFO - Login Successful
+2018-01-12 14:06:01,275 - Book_Prepay -INFO - Searching Customer
+2018-01-12 14:06:01,289 - Book_Prepay -INFO - Navigating to customer search page
+2018-01-12 14:06:07,633 - Book_Prepay -INFO - Navigated to customer search page
+2018-01-12 14:06:09,774 - Book_Prepay -INFO - Selecting Customer
+2018-01-12 14:06:26,895 - Book_Prepay -INFO - Customer Selected
+2018-01-12 14:06:26,904 - Book_Prepay -INFO - Applying search Filters
+2018-01-12 14:06:26,904 - Book_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-12 14:06:44,154 - Book_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-12 14:06:44,154 - Book_Prepay -INFO - Starting Hotel Book
+2018-01-12 14:06:48,095 - Book_Prepay -INFO - Entering Passenger details
+2018-01-12 14:06:59,048 - Book_Prepay -INFO - Entered Passenger details
+2018-01-12 14:07:12,369 - Book_Prepay -INFO - Hotel Book Complete Prepay
+2018-01-12 14:56:43,506 - Book_Prepay -INFO - Test Case Started
+2018-01-12 14:57:45,910 - Book_Prepay -INFO - Test Case Started
+2018-01-12 15:00:22,318 - Book_Prepay -INFO - Test Case Started
+2018-01-12 15:00:27,690 - Book_Prepay -INFO - Browser Opened
+2018-01-12 15:00:33,130 - Book_Prepay -INFO - Test Case Started
+2018-01-12 15:00:41,477 - Book_Prepay -INFO - Login Successful
+2018-01-12 15:00:43,744 - Book_Prepay -INFO - Searching Customer
+2018-01-12 15:00:43,745 - Book_Prepay -INFO - Navigating to customer search page
+2018-01-12 15:00:50,059 - Book_Prepay -INFO - Navigated to customer search page
+2018-01-12 15:00:52,184 - Book_Prepay -INFO - Selecting Customer
+2018-01-12 15:01:09,386 - Book_Prepay -INFO - Customer Selected
+2018-01-12 15:01:09,387 - Book_Prepay -INFO - Applying search Filters
+2018-01-12 15:01:09,387 - Book_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-12 15:01:29,619 - Book_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-12 15:01:29,619 - Book_Prepay -INFO - Starting Hotel Book
+2018-01-12 15:01:33,591 - Book_Prepay -INFO - Entering Passenger details
+2018-01-12 15:01:45,233 - Book_Prepay -INFO - Entered Passenger details
+2018-01-12 15:01:58,544 - Book_Prepay -INFO - Hotel Book Complete Prepay
+2018-01-12 15:04:24,152 - Book_Prepay -INFO - Test Case Started
+2018-01-12 15:04:26,772 - Book_Prepay -INFO - Browser Opened
+2018-01-12 15:04:32,073 - Book_Prepay -INFO - Test Case Started
+2018-01-12 15:04:39,090 - Book_Prepay -INFO - Login Successful
+2018-01-12 15:04:41,215 - Book_Prepay -INFO - Searching Customer
+2018-01-12 15:04:41,215 - Book_Prepay -INFO - Navigating to customer search page
+2018-01-12 15:04:46,560 - Book_Prepay -INFO - Navigated to customer search page
+2018-01-12 15:04:48,629 - Book_Prepay -INFO - Selecting Customer
+2018-01-12 15:05:03,709 - Book_Prepay -INFO - Customer Selected
+2018-01-12 15:05:03,709 - Book_Prepay -INFO - Applying search Filters
+2018-01-12 15:05:03,709 - Book_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-12 15:05:17,235 - Book_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-12 15:05:17,236 - Book_Prepay -INFO - Starting Hotel Book
+2018-01-12 15:05:20,495 - Book_Prepay -INFO - Entering Passenger details
+2018-01-12 15:05:29,300 - Book_Prepay -INFO - Entered Passenger details
+2018-01-12 15:05:42,859 - Book_Prepay -INFO - Hotel Book Complete Prepay
+2018-01-12 15:11:25,447 - Book_Prepay -INFO - Test Case Started
+2018-01-12 15:11:28,013 - Book_Prepay -INFO - Browser Opened
+2018-01-12 15:11:32,020 - Book_Prepay -INFO - Test Case Started
+2018-01-12 15:11:38,804 - Book_Prepay -INFO - Login Successful
+2018-01-12 15:11:40,913 - Book_Prepay -INFO - Searching Customer
+2018-01-12 15:11:40,913 - Book_Prepay -INFO - Navigating to customer search page
+2018-01-12 15:11:46,321 - Book_Prepay -INFO - Navigated to customer search page
+2018-01-12 15:11:48,393 - Book_Prepay -INFO - Selecting Customer
+2018-01-12 15:12:21,862 - Book_Prepay -INFO - Customer Selected
+2018-01-12 15:12:21,862 - Book_Prepay -INFO - Applying search Filters
+2018-01-12 15:12:21,862 - Book_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-12 15:12:35,564 - Book_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-12 15:12:35,564 - Book_Prepay -INFO - Starting Hotel Book
+2018-01-12 15:12:38,314 - Book_Prepay -INFO - Entering Passenger details
+2018-01-12 15:12:47,039 - Book_Prepay -INFO - Entered Passenger details
+2018-01-12 15:13:17,327 - Book_Prepay -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[contains(text(),'Status: Confirmed')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\WINDOWS\TEMP\scoped_dir11660_7172}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 28c5251f979f16158574d6ebd7026791
+2018-01-12 15:40:59,309 - Book_Prepay -INFO - Test Case Started
+2018-01-12 15:41:01,958 - Book_Prepay -INFO - Browser Opened
+2018-01-12 15:41:05,920 - Book_Prepay -INFO - Test Case Started
+2018-01-12 15:41:12,753 - Book_Prepay -INFO - Login Successful
+2018-01-12 15:41:14,873 - Book_Prepay -INFO - Searching Customer
+2018-01-12 15:41:14,874 - Book_Prepay -INFO - Navigating to customer search page
+2018-01-12 15:41:20,224 - Book_Prepay -INFO - Navigated to customer search page
+2018-01-12 15:41:22,282 - Book_Prepay -INFO - Selecting Customer
+2018-01-12 15:41:37,802 - Book_Prepay -INFO - Customer Selected
+2018-01-12 15:41:37,802 - Book_Prepay -INFO - Applying search Filters
+2018-01-12 15:41:37,802 - Book_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-12 15:41:53,859 - Book_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-12 15:41:53,859 - Book_Prepay -INFO - Starting Hotel Book
+2018-01-12 15:41:57,127 - Book_Prepay -INFO - Entering Passenger details
+2018-01-12 15:42:05,869 - Book_Prepay -INFO - Entered Passenger details
+2018-01-12 15:42:36,118 - Book_Prepay -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[contains(text(),'Status: Confirmed')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\WINDOWS\TEMP\scoped_dir10724_7336}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: dc693197bad66fa3a6079ae3f8982373
+2018-01-12 15:53:23,946 - Book_Prepay -INFO - Test Case Started
+2018-01-12 15:53:26,450 - Book_Prepay -INFO - Browser Opened
+2018-01-12 15:53:32,026 - Book_Prepay -INFO - Test Case Started
+2018-01-12 15:53:39,055 - Book_Prepay -INFO - Login Successful
+2018-01-12 15:53:41,188 - Book_Prepay -INFO - Searching Customer
+2018-01-12 15:53:41,188 - Book_Prepay -INFO - Navigating to customer search page
+2018-01-12 15:53:46,674 - Book_Prepay -INFO - Navigated to customer search page
+2018-01-12 15:53:48,732 - Book_Prepay -INFO - Selecting Customer
+2018-01-12 15:54:05,308 - Book_Prepay -INFO - Customer Selected
+2018-01-12 15:54:05,308 - Book_Prepay -INFO - Applying search Filters
+2018-01-12 15:54:05,308 - Book_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-12 15:54:19,254 - Book_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-12 15:54:19,254 - Book_Prepay -INFO - Starting Hotel Book
+2018-01-12 15:54:22,550 - Book_Prepay -INFO - Entering Passenger details
+2018-01-12 15:54:31,289 - Book_Prepay -INFO - Entered Passenger details
+2018-01-12 15:54:44,011 - Book_Prepay -INFO - Hotel Book Complete Prepay
+2018-01-12 17:18:57,277 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:19:00,063 - Book_Prepay -INFO - Browser Opened
+2018-01-12 17:19:05,404 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:19:11,799 - Book_Prepay -INFO - Login Successful
+2018-01-12 17:19:13,909 - Book_Prepay -INFO - Searching Customer
+2018-01-12 17:19:13,924 - Book_Prepay -INFO - Navigating to customer search page
+2018-01-12 17:19:19,285 - Book_Prepay -INFO - Navigated to customer search page
+2018-01-12 17:19:21,364 - Book_Prepay -INFO - Selecting Customer
+2018-01-12 17:19:35,845 - Book_Prepay -INFO - Customer Selected
+2018-01-12 17:19:35,845 - Book_Prepay -INFO - Applying search Filters
+2018-01-12 17:19:35,845 - Book_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-12 17:19:52,023 - Book_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-12 17:19:52,024 - Book_Prepay -INFO - Starting Hotel Book
+2018-01-12 17:19:55,306 - Book_Prepay -INFO - Entering Passenger details
+2018-01-12 17:20:04,088 - Book_Prepay -INFO - Entered Passenger details
+2018-01-12 17:20:16,451 - Book_Prepay -INFO - Hotel Book Complete Prepay
+2018-01-12 17:27:45,798 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:28:18,132 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:28:39,316 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:28:57,811 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:30:16,422 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:30:48,094 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:31:30,071 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:32:07,270 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:32:53,310 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:33:03,413 - Book_Prepay -INFO - Browser Opened
+2018-01-12 17:33:39,633 - Book_Prepay -INFO - Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=7.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bfaea3a5-e9d0-4a05-80c4-ad8f8bf65350
+2018-01-12 17:33:58,079 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:36:11,119 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:41:29,112 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:50:12,716 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:50:16,798 - Book_Prepay -INFO - Browser Opened
+2018-01-12 17:50:21,053 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:50:27,812 - Book_Prepay -INFO - Login Successful
+2018-01-12 17:50:30,147 - Book_Prepay -INFO - Searching Customer
+2018-01-12 17:50:30,147 - Book_Prepay -INFO - Navigating to customer search page
+2018-01-12 17:50:35,601 - Book_Prepay -INFO - Navigated to customer search page
+2018-01-12 17:50:37,676 - Book_Prepay -INFO - Selecting Customer
+2018-01-12 17:50:54,202 - Book_Prepay -INFO - Customer Selected
+2018-01-12 17:50:54,203 - Book_Prepay -INFO - Applying search Filters
+2018-01-12 17:50:54,203 - Book_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-12 17:51:10,641 - Book_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-12 17:51:10,642 - Book_Prepay -INFO - Starting Hotel Book
+2018-01-12 17:51:13,947 - Book_Prepay -INFO - Entering Passenger details
+2018-01-12 17:51:22,835 - Book_Prepay -INFO - Entered Passenger details
+2018-01-12 17:51:35,444 - Book_Prepay -INFO - Hotel Book Complete Prepay
+2018-01-12 17:53:38,123 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:53:41,008 - Book_Prepay -INFO - Browser Opened
+2018-01-12 17:53:45,053 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:53:51,584 - Book_Prepay -INFO - Login Successful
+2018-01-12 17:53:53,761 - Book_Prepay -INFO - Searching Customer
+2018-01-12 17:53:53,762 - Book_Prepay -INFO - Navigating to customer search page
+2018-01-12 17:53:59,168 - Book_Prepay -INFO - Navigated to customer search page
+2018-01-12 17:54:01,251 - Book_Prepay -INFO - Selecting Customer
+2018-01-12 17:54:16,687 - Book_Prepay -INFO - Customer Selected
+2018-01-12 17:54:16,688 - Book_Prepay -INFO - Applying search Filters
+2018-01-12 17:54:16,688 - Book_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-12 17:54:30,463 - Book_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-12 17:54:30,464 - Book_Prepay -INFO - Starting Hotel Book
+2018-01-12 17:54:33,940 - Book_Prepay -INFO - Entering Passenger details
+2018-01-12 17:54:43,340 - Book_Prepay -INFO - Entered Passenger details
+2018-01-12 17:54:55,844 - Book_Prepay -INFO - Hotel Book Complete Prepay
+2018-01-12 17:56:47,771 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:56:50,800 - Book_Prepay -INFO - Browser Opened
+2018-01-12 17:56:55,083 - Book_Prepay -INFO - Test Case Started
+2018-01-12 17:57:01,737 - Book_Prepay -INFO - Login Successful
+2018-01-12 17:57:03,881 - Book_Prepay -INFO - Searching Customer
+2018-01-12 17:57:03,881 - Book_Prepay -INFO - Navigating to customer search page
+2018-01-12 18:00:34,821 - Book_Prepay -INFO - Test Case Started
+2018-01-12 18:00:37,663 - Book_Prepay -INFO - Browser Opened
+2018-01-12 18:00:41,814 - Book_Prepay -INFO - Test Case Started
+2018-01-12 18:00:48,935 - Book_Prepay -INFO - Login Successful
+2018-01-12 18:00:51,159 - Book_Prepay -INFO - Searching Customer
+2018-01-12 18:00:51,175 - Book_Prepay -INFO - Navigating to customer search page
+2018-01-12 18:00:56,525 - Book_Prepay -INFO - Navigated to customer search page
+2018-01-12 18:00:58,608 - Book_Prepay -INFO - Selecting Customer
+2018-01-12 18:01:14,079 - Book_Prepay -INFO - Customer Selected
+2018-01-12 18:01:14,079 - Book_Prepay -INFO - Applying search Filters
+2018-01-12 18:01:14,079 - Book_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-12 18:01:27,999 - Book_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-12 18:01:28,000 - Book_Prepay -INFO - Starting Hotel Book
+2018-01-12 18:01:31,275 - Book_Prepay -INFO - Entering Passenger details
+2018-01-12 18:01:40,128 - Book_Prepay -INFO - Entered Passenger details
+2018-01-12 18:01:52,539 - Book_Prepay -INFO - Hotel Book Complete Prepay
+2018-01-15 11:57:54,322 - Book_Prepay -INFO - Test Case Started
+2018-01-15 11:57:58,204 - Book_Prepay -INFO - Browser Opened
+2018-01-15 11:58:03,758 - Book_Prepay -INFO - Test Case Started
+2018-01-15 11:58:10,022 - Book_Prepay -INFO - Login Successful
+2018-01-15 11:58:12,370 - Book_Prepay -INFO - Searching Customer
+2018-01-15 11:58:12,370 - Book_Prepay -INFO - Navigating to customer search page
+2018-01-15 11:58:17,715 - Book_Prepay -INFO - Navigated to customer search page
+2018-01-15 11:58:19,801 - Book_Prepay -INFO - Selecting Customer
+2018-01-15 11:58:51,119 - Book_Prepay -INFO - Customer Selected
+2018-01-15 11:58:51,119 - Book_Prepay -INFO - Applying search Filters
+2018-01-15 11:58:51,119 - Book_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-15 11:59:07,524 - Book_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-15 11:59:07,524 - Book_Prepay -INFO - Starting Hotel Book
+2018-01-15 11:59:10,806 - Book_Prepay -INFO - Entering Passenger details
+2018-01-15 11:59:19,658 - Book_Prepay -INFO - Entered Passenger details
+2018-01-15 11:59:50,037 - Book_Prepay -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[contains(text(),'Status: Confirmed')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\WINDOWS\TEMP\scoped_dir9384_1081}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f41f0ebff1dae7a9422d115099eba9ee
+2018-01-15 12:06:02,521 - Book_Prepay -INFO - Test Case Started
+2018-01-15 12:06:05,265 - Book_Prepay -INFO - Browser Opened
+2018-01-15 12:06:09,179 - Book_Prepay -INFO - Test Case Started
+2018-01-15 12:06:18,409 - Book_Prepay -INFO - Login Successful
+2018-01-15 12:06:20,569 - Book_Prepay -INFO - Searching Customer
+2018-01-15 12:06:20,570 - Book_Prepay -INFO - Navigating to customer search page
+2018-01-15 12:06:25,830 - Book_Prepay -INFO - Navigated to customer search page
+2018-01-15 12:06:27,907 - Book_Prepay -INFO - Selecting Customer
+2018-01-15 12:06:42,384 - Book_Prepay -INFO - Customer Selected
+2018-01-15 12:06:42,384 - Book_Prepay -INFO - Applying search Filters
+2018-01-15 12:06:42,385 - Book_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-15 12:06:56,490 - Book_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-15 12:06:56,491 - Book_Prepay -INFO - Starting Hotel Book
+2018-01-15 12:06:59,808 - Book_Prepay -INFO - Entering Passenger details
+2018-01-15 12:07:08,727 - Book_Prepay -INFO - Entered Passenger details
+2018-01-15 12:07:39,136 - Book_Prepay -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[contains(text(),'Status: Confirmed')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\WINDOWS\TEMP\scoped_dir9424_4676}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: ffd9cb4f446dd5a0f2f76b1b798a3145
+2018-01-15 12:13:02,762 - Search_Prepay -INFO - Test Case Started
+2018-01-15 12:13:05,928 - Search_Prepay -INFO - Browser Opened
+2018-01-15 12:13:10,077 - Search_Prepay -INFO - Test Case Started
+2018-01-15 12:13:16,732 - Search_Prepay -INFO - Login Successful
+2018-01-15 12:13:18,920 - Search_Prepay -INFO - Searching Customer
+2018-01-15 12:13:18,921 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-15 12:13:24,235 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-15 12:13:26,311 - Search_Prepay -INFO - Selecting Customer
+2018-01-15 12:13:43,165 - Search_Prepay -INFO - Customer Selected
+2018-01-15 12:13:43,165 - Search_Prepay -INFO - Applying search Filters
+2018-01-15 12:13:43,166 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-15 12:13:54,823 - Search_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-15 12:15:23,418 - Search_Prepay -INFO - Test Case Started
+2018-01-15 12:15:26,475 - Search_Prepay -INFO - Browser Opened
+2018-01-15 12:15:31,468 - Search_Prepay -INFO - Test Case Started
+2018-01-15 12:15:38,066 - Search_Prepay -INFO - Login Successful
+2018-01-15 12:15:40,199 - Search_Prepay -INFO - Searching Customer
+2018-01-15 12:15:40,200 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-15 12:15:45,444 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-15 12:15:47,520 - Search_Prepay -INFO - Selecting Customer
+2018-01-15 12:16:06,420 - Search_Prepay -INFO - Customer Selected
+2018-01-15 12:16:06,420 - Search_Prepay -INFO - Applying search Filters
+2018-01-15 12:16:06,421 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-15 12:16:20,109 - Search_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-15 12:19:48,238 - Search_Prepay -INFO - Test Case Started
+2018-01-15 12:19:50,843 - Search_Prepay -INFO - Browser Opened
+2018-01-15 12:19:55,135 - Search_Prepay -INFO - Test Case Started
+2018-01-15 12:20:04,031 - Search_Prepay -INFO - Login Successful
+2018-01-15 12:20:06,167 - Search_Prepay -INFO - Searching Customer
+2018-01-15 12:20:06,168 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-15 12:20:11,936 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-15 12:20:14,010 - Search_Prepay -INFO - Selecting Customer
+2018-01-15 12:20:31,665 - Search_Prepay -INFO - Customer Selected
+2018-01-15 12:20:31,665 - Search_Prepay -INFO - Applying search Filters
+2018-01-15 12:20:31,665 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-15 12:20:43,239 - Search_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-15 12:25:22,677 - Search_Prepay -INFO - Test Case Started
+2018-01-15 12:25:25,369 - Search_Prepay -INFO - Browser Opened
+2018-01-15 12:25:29,326 - Search_Prepay -INFO - Test Case Started
+2018-01-15 12:25:36,700 - Search_Prepay -INFO - Login Successful
+2018-01-15 12:25:38,822 - Search_Prepay -INFO - Searching Customer
+2018-01-15 12:25:38,822 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-15 12:25:42,230 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-15 12:25:44,294 - Search_Prepay -INFO - Selecting Customer
+2018-01-15 12:26:16,414 - Search_Prepay -INFO - Customer Selected
+2018-01-15 12:26:16,414 - Search_Prepay -INFO - Applying search Filters
+2018-01-15 12:26:16,415 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-15 12:26:27,922 - Search_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-15 13:49:21,545 - Search_Prepay -INFO - Test Case Started
+2018-01-15 13:49:24,409 - Search_Prepay -INFO - Browser Opened
+2018-01-15 13:49:28,231 - Search_Prepay -INFO - Test Case Started
+2018-01-15 13:49:34,719 - Search_Prepay -INFO - Login Successful
+2018-01-15 13:49:36,863 - Search_Prepay -INFO - Searching Customer
+2018-01-15 13:49:36,863 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-15 13:49:42,036 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-15 13:49:44,100 - Search_Prepay -INFO - Selecting Customer
+2018-01-15 13:50:00,188 - Search_Prepay -INFO - Customer Selected
+2018-01-15 13:50:00,188 - Search_Prepay -INFO - Applying search Filters
+2018-01-15 13:50:00,188 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-15 13:50:30,758 - Search_Prepay -INFO - Timed out after 30 seconds waiting for visibility of element located by By.id: destination
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\WINDOWS\TEMP\scoped_dir8484_21831}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e588de34372b3533bfd2be25df57e343
