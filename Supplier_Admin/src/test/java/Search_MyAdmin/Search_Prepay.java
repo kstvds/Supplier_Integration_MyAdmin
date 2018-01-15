@@ -75,6 +75,7 @@ public class Search_Prepay {
 				driverqa.findElement(LoginPage.submit).click();
 				Thread.sleep(1000);
 				String expectedtitle = "DOTWconnect.com::DOTWconnect.com: My Admin";
+				//String expectedtitle = "???";
 				String atualtitle = driverqa.getTitle();
 				Assert.assertEquals(atualtitle, expectedtitle);
 				test.log(LogStatus.INFO, "Ending Login");
@@ -87,7 +88,7 @@ public class Search_Prepay {
 		} catch (Exception e) {
 			
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Log-In.jpg");
-			test.log(LogStatus.FAIL, "Login");
+			test.log(LogStatus.FAIL, "Login", Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Log-In.jpg");
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -195,7 +196,7 @@ public class Search_Prepay {
 				 test.log(LogStatus.PASS, "PASSED HotelSearch Prepay");
 				 logger.info("Hotel Search Complete Prepay");
 			} catch (Exception e) {
-				test.log(LogStatus.FAIL, "Hotel Search Prepay");
+				test.log(LogStatus.FAIL, "Hotel Search Prepay" , Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Search-Result.jpg");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Search-Result.jpg");
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());

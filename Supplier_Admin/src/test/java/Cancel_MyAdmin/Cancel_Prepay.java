@@ -63,7 +63,7 @@ public class Cancel_Prepay {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-			    String URL = excel.getData(0, 1, 5);
+			    String URL = excel.getData(0, 1, 5) + "/interface/en";
 				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
@@ -113,6 +113,7 @@ public class Cancel_Prepay {
 				 test.log(LogStatus.PASS, "Navigated to customer search page");
 				 Thread.sleep(2000);
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Accommodation_Cancel_Prepay/Customer-Search.jpg");
+				 
 			
 			} catch (Exception e) {
 				logger.info(e.getMessage());
@@ -120,6 +121,7 @@ public class Cancel_Prepay {
 				rep.endTest(test);
 				rep.flush();
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/Customer-Search.jpg");
+				errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/Customer-Search.jpg"; 
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
 				Assert.assertTrue(false, e.getMessage());
 				

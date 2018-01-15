@@ -3480,3 +3480,57 @@ System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arc
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\WINDOWS\TEMP\scoped_dir8484_21831}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
 Session ID: e588de34372b3533bfd2be25df57e343
+2018-01-15 16:40:41,908 - Search_Prepay -INFO - Test Case Started
+2018-01-15 16:40:44,739 - Search_Prepay -INFO - Browser Opened
+2018-01-15 16:40:49,575 - Search_Prepay -INFO - Test Case Started
+2018-01-15 16:40:56,060 - Search_Prepay -INFO - Login Successful
+2018-01-15 16:40:58,193 - Search_Prepay -INFO - Searching Customer
+2018-01-15 16:40:58,193 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-15 16:41:03,507 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-15 16:41:05,572 - Search_Prepay -INFO - Selecting Customer
+2018-01-15 16:41:19,593 - Search_Prepay -INFO - Customer Selected
+2018-01-15 16:41:19,593 - Search_Prepay -INFO - Applying search Filters
+2018-01-15 16:41:19,593 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-15 16:41:50,131 - Search_Prepay -INFO - Timed out after 30 seconds waiting for visibility of element located by By.id: destination
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\WINDOWS\TEMP\scoped_dir2908_24320}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 0a4635f8b89dbecec745c7ae0c78c839
+2018-01-15 17:24:23,119 - Search_Prepay -INFO - Test Case Started
+2018-01-15 17:24:28,212 - Search_Prepay -INFO - Browser Opened
+2018-01-15 17:24:40,426 - Search_Prepay -INFO - Test Case Started
+2018-01-15 17:26:16,888 - Search_Prepay -INFO - Test Case Started
+2018-01-15 17:26:19,854 - Search_Prepay -INFO - Browser Opened
+2018-01-15 17:26:24,735 - Search_Prepay -INFO - Test Case Started
+2018-01-15 17:26:31,239 - Search_Prepay -INFO - Login Successful
+2018-01-15 17:26:33,400 - Search_Prepay -INFO - Searching Customer
+2018-01-15 17:26:33,400 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-15 17:26:38,663 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-15 17:26:40,730 - Search_Prepay -INFO - Selecting Customer
+2018-01-15 17:27:09,695 - Search_Prepay -INFO - Customer Selected
+2018-01-15 17:27:09,695 - Search_Prepay -INFO - Applying search Filters
+2018-01-15 17:27:09,696 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-15 17:27:39,781 - Search_Prepay -INFO - Timed out after 30 seconds waiting for visibility of element located by By.id: destination
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\WINDOWS\TEMP\scoped_dir15012_16970}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 0aeb3df502b3a2658b06948a231a67e3
+2018-01-15 17:59:13,926 - Search_Prepay -INFO - Test Case Started
+2018-01-15 17:59:17,442 - Search_Prepay -INFO - Browser Opened
+2018-01-15 17:59:22,264 - Search_Prepay -INFO - Test Case Started
+2018-01-15 17:59:28,304 - Search_Prepay -INFO - Login Successful
+2018-01-15 17:59:30,435 - Search_Prepay -INFO - Searching Customer
+2018-01-15 17:59:30,435 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-15 17:59:35,677 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-15 17:59:37,743 - Search_Prepay -INFO - Selecting Customer
+2018-01-15 17:59:52,835 - Search_Prepay -INFO - Customer Selected
+2018-01-15 17:59:52,835 - Search_Prepay -INFO - Applying search Filters
+2018-01-15 17:59:52,836 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-15 18:00:22,924 - Search_Prepay -INFO - Timed out after 30 seconds waiting for visibility of element located by By.id: destination
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\WINDOWS\TEMP\scoped_dir12704_16439}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c5de425dc4ddb43e5766cae47692de62
