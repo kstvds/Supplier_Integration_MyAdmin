@@ -44,6 +44,7 @@ public class Cancel_Prepay {
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Cancel_PrePay");
 	String SearchRateexpected;
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void CancelPrepay(String browsername) throws Exception {
@@ -87,6 +88,7 @@ public class Cancel_Prepay {
 
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/Log-In.jpg");
+			errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/Log-In.jpg";
 			test.log(LogStatus.FAIL, "Login");
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
@@ -116,14 +118,14 @@ public class Cancel_Prepay {
 				 
 			
 			} catch (Exception e) {
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/Customer-Search.jpg");
+				errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/Customer-Search.jpg"; 
+				test.log(LogStatus.FAIL, "Navigation to customer search page");
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/Customer-Search.jpg");
-				errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/Customer-Search.jpg"; 
-				test.log(LogStatus.FAIL, "Navigation to customer search page");
-				Assert.assertTrue(false, e.getMessage());
+								Assert.assertTrue(false, e.getMessage());
 				
 			}
 		     logger.info("Selecting Customer");
@@ -151,7 +153,8 @@ public class Cancel_Prepay {
 			 }
 			 catch (Exception e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/Customer-list.jpg");
-					test.log(LogStatus.FAIL, "Customer Selection");
+				    errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/Customer-list.jpg";	
+				    test.log(LogStatus.FAIL, "Customer Selection");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -203,7 +206,9 @@ public class Cancel_Prepay {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search Prepay");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/Search-Result.jpg");
+				errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/Search-Result.jpg";
 				logger.info(e.getMessage());
+				
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
@@ -265,7 +270,8 @@ public class Cancel_Prepay {
 
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Book Prepay");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/Save-Itenary.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/booking-Details.jpg");
+					errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/booking-Details.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -295,8 +301,9 @@ public class Cancel_Prepay {
 
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Cancel Prepay");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/Amending.jpg");
-                    logger.info(e.getMessage());
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/Cancellation.jpg");
+					errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay/Cancellation.jpg";
+					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
@@ -305,14 +312,14 @@ public class Cancel_Prepay {
 				}
 	 }
 	 
-	  @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
-
+	 @AfterMethod
+public void getResult(ITestResult result) {
+if (result.getStatus() == ITestResult.FAILURE) {
+test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+test.log(LogStatus.FAIL, result.getThrowable());
+}
+rep.endTest(test);
+}
 		@AfterTest
 		public void afterTest() {
 

@@ -45,6 +45,7 @@ public class Cancel_PrePay_Within_DeadLine {
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Cancel_PrePay_Within_DeadLine");
 	String SearchRateexpected;
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void CancelPrepayWithinDeadLine(String browsername) throws Exception {
@@ -318,12 +319,14 @@ public class Cancel_PrePay_Within_DeadLine {
 	 }
 	 
 	  @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	  public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		  
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 
 		@AfterTest
 		public void afterTest() {
