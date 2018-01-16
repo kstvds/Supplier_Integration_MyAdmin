@@ -46,6 +46,7 @@ public class Cancel_Credit_Card {
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Cancel_Credit_Card");
 	String SearchRateexpected;
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void CancelCreditCard(String browsername) throws Exception {
@@ -65,7 +66,7 @@ public class Cancel_Credit_Card {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-			    String URL = excel.getData(0, 1, 5);
+			    String URL = excel.getData(0, 1, 5) + "/_myadmin";
 				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
@@ -90,12 +91,13 @@ public class Cancel_Credit_Card {
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card/Log-In.jpg";
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 			Assert.assertTrue(false, e.getMessage());
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card/Log-In.jpg");
+			
 			test.log(LogStatus.FAIL, "Login");
 		}
 		logger.info("Searching Customer");
@@ -118,12 +120,14 @@ public class Cancel_Credit_Card {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Accommodation_Cancel_Credit_Card/Customer-Search.jpg");
 			
 			} catch (Exception e) {
+				
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card/Customer-Search.jpg");
+				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card/Customer-Search.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card/Customer-Search.jpg");
-				test.log(LogStatus.FAIL, "Navigation to customer search page");
 				Assert.assertTrue(false, e.getMessage());
 				
 			}
@@ -152,7 +156,8 @@ public class Cancel_Credit_Card {
 			 }
 			 catch (Exception e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card/Customer-list.jpg");
-					test.log(LogStatus.FAIL, "Customer Selection");
+				    errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card/Customer-list.jpg";
+				    test.log(LogStatus.FAIL, "Customer Selection");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -205,6 +210,7 @@ public class Cancel_Credit_Card {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search Credit Card");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card/Search-Result.jpg");
+				errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card/Search-Result.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -295,7 +301,8 @@ public class Cancel_Credit_Card {
 
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Book Credit Card");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card/Save-Itenary.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card/Booking.jpg");
+					errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card/Booking.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -324,7 +331,8 @@ public class Cancel_Credit_Card {
 					logger.info("Completed Cancellation Credit Card OutSide DeadLine");
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Cancel Credit Card");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card/Amending.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card/Cancellation.jpg");
+					errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card/Cancellation.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -336,12 +344,15 @@ public class Cancel_Credit_Card {
 	 }
 	 
 	  @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	  public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		 
+		
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 
 		@AfterTest
 		public void afterTest() {

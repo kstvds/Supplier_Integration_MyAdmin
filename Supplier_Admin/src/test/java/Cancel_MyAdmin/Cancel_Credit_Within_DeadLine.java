@@ -45,6 +45,7 @@ public class Cancel_Credit_Within_DeadLine {
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Cancel_Credit_Within_DeadLine");
 	String SearchRateexpected;
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void CancelCreditWithinDeadLine(String browsername) throws Exception {
@@ -64,7 +65,7 @@ public class Cancel_Credit_Within_DeadLine {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-			    String URL = excel.getData(0, 1, 5);
+			    String URL = excel.getData(0, 1, 5) + "/_myadmin";
 				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
@@ -88,6 +89,7 @@ public class Cancel_Credit_Within_DeadLine {
 
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Within_DeadLine/Log-In.jpg");
+			errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Within_DeadLine/Log-In.jpg";
 			test.log(LogStatus.FAIL, "Login");
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
@@ -121,6 +123,7 @@ public class Cancel_Credit_Within_DeadLine {
 				rep.endTest(test);
 				rep.flush();
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Within_DeadLine/Customer-Search.jpg");
+				errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Within_DeadLine/Customer-Search.jpg";
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
 				Assert.assertTrue(false, e.getMessage());
 				
@@ -150,7 +153,8 @@ public class Cancel_Credit_Within_DeadLine {
 			 }
 			 catch (Exception e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Within_DeadLine/Customer-list.jpg");
-					test.log(LogStatus.FAIL, "Customer Selection");
+				    errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Within_DeadLine/Customer-list.jpg";
+				    test.log(LogStatus.FAIL, "Customer Selection");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -205,6 +209,7 @@ public class Cancel_Credit_Within_DeadLine {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search Credit Within DeadLine");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Within_DeadLine/Search-Result.jpg");
+				errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Within_DeadLine/Search-Result.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -272,7 +277,8 @@ public class Cancel_Credit_Within_DeadLine {
 
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Book Credit Within DeadLine");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Within_DeadLine/Save-Itenary.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Within_DeadLine/Booking.jpg");
+					errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Within_DeadLine/Booking.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -307,7 +313,8 @@ public class Cancel_Credit_Within_DeadLine {
 
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Cancel Credit Within DeadLine");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Within_DeadLine/Amending.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Within_DeadLine/Cancel.jpg");
+					errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Within_DeadLine/Cancel.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -318,12 +325,13 @@ public class Cancel_Credit_Within_DeadLine {
 	 }
 	 
 	  @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	  public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		  test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 
 		@AfterTest
 		public void afterTest() {

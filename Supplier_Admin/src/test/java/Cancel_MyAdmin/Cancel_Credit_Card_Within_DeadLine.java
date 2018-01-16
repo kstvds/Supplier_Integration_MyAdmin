@@ -46,6 +46,7 @@ public class Cancel_Credit_Card_Within_DeadLine {
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Cancel_Credit_Card_Within_DeadLine");
 	String SearchRateexpected;
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void CancelCreditCardWithinDeadLine(String browsername) throws Exception {
@@ -65,7 +66,7 @@ public class Cancel_Credit_Card_Within_DeadLine {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-			    String URL = excel.getData(0, 1, 5);
+			    String URL = excel.getData(0, 1, 5) + "/_myadmin";
 				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
@@ -90,6 +91,7 @@ public class Cancel_Credit_Card_Within_DeadLine {
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card_Within_DeadLine/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card_Within_DeadLine/Log-In.jpg";
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -118,6 +120,7 @@ public class Cancel_Credit_Card_Within_DeadLine {
 			
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card_Within_DeadLine/Customer-Search.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -152,6 +155,7 @@ public class Cancel_Credit_Card_Within_DeadLine {
 			 catch (Exception e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card_Within_DeadLine/Customer-list.jpg");
 					test.log(LogStatus.FAIL, "Customer Selection");
+					errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card_Within_DeadLine/Customer-list.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -204,13 +208,15 @@ public class Cancel_Credit_Card_Within_DeadLine {
 				 test.log(LogStatus.PASS, "PASSED HotelSearch Credit Card Within DeadLine");
 				 logger.info("Hotel Search Complete Credit Card Within DeadLine");
 			} catch (Exception e) {
+				test.log(LogStatus.FAIL, "Hotel Search Credit Card Within DeadLine");
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card_Within_DeadLine/Search-Result.jpg");
+				errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card_Within_DeadLine/Search-Result.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
 				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Hotel Search Credit Card Within DeadLine");
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card_Within_DeadLine/Search-Result.jpg");
+				
 			}
 			
 				try {
@@ -297,7 +303,8 @@ public class Cancel_Credit_Card_Within_DeadLine {
 
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Book Credit Card Within DeadLine");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card_Within_DeadLine/Save-Itenary.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card_Within_DeadLine/Booking.jpg");
+					errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card_Within_DeadLine/Booking.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -332,7 +339,8 @@ public class Cancel_Credit_Card_Within_DeadLine {
 
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Cancel Credit Card Within DeadLine");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card_Within_DeadLine/Amending.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card_Within_DeadLine/Cancellation.jpg");
+					errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Credit_Card_Within_DeadLine/Cancellation.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -343,12 +351,16 @@ public class Cancel_Credit_Card_Within_DeadLine {
 	 }
 	 
 	  @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	  public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		 
+		
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
+
 
 		@AfterTest
 		public void afterTest() {

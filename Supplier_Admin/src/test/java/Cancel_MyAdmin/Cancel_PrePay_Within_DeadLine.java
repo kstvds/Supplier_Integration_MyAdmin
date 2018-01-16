@@ -65,7 +65,7 @@ public class Cancel_PrePay_Within_DeadLine {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-			    String URL = excel.getData(0, 1, 5);
+			    String URL = excel.getData(0, 1, 5) + "/_myadmin";
 				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
@@ -88,7 +88,9 @@ public class Cancel_PrePay_Within_DeadLine {
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Accommodation_Cancel_Prepay_Within_DeadLine/Log-In.jpg");
 
 		} catch (Exception e) {
+			
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_Within_DeadLine/Log-In.jpg");
+			errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_Within_DeadLine/Log-In.jpg";
 			test.log(LogStatus.FAIL, "Login");
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
@@ -122,6 +124,7 @@ public class Cancel_PrePay_Within_DeadLine {
 				rep.endTest(test);
 				rep.flush();
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_Within_DeadLine/Customer-Search.jpg");
+				errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_Within_DeadLine/Customer-Search.jpg";
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
 				Assert.assertTrue(false, e.getMessage());
 				
@@ -151,7 +154,8 @@ public class Cancel_PrePay_Within_DeadLine {
 			 }
 			 catch (Exception e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_Within_DeadLine/Customer-list.jpg");
-					test.log(LogStatus.FAIL, "Customer Selection");
+				    errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_Within_DeadLine/Customer-list.jpg";
+				    test.log(LogStatus.FAIL, "Customer Selection");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -206,6 +210,7 @@ public class Cancel_PrePay_Within_DeadLine {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search Prepay Within DeadLine");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_Within_DeadLine/Search-Result.jpg");
+				errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_Within_DeadLine/Search-Result.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -224,13 +229,14 @@ public class Cancel_PrePay_Within_DeadLine {
 					driverqa.findElement(NewAccoBooking.thirdPartyprocedetoBookingoutdead).click();
 					logger.info("Entering Passenger details");
 					test.log(LogStatus.INFO, "Entering Passenger details");
+					Thread.sleep(1000);
 					wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.paxFname));
 					driverqa.findElement(NewAccoBooking.paxFname).sendKeys(excel.getData(0, 21, 1));
 					Thread.sleep(2000);
 					driverqa.findElement(NewAccoBooking.paxLname).sendKeys(excel.getData(0, 21, 2));
 					Select passengertitle = new Select(driverqa.findElement(NewAccoBooking.paxtitle));
 					passengertitle.selectByIndex(1);
-					driverqa.findElement(NewAccoBooking.paxFname2).sendKeys(excel.getData(0, 22, 1));
+					/*driverqa.findElement(NewAccoBooking.paxFname2).sendKeys(excel.getData(0, 22, 1));
 					Thread.sleep(1000);
 					driverqa.findElement(NewAccoBooking.paxLname2).sendKeys(excel.getData(0, 22, 2));
 					Select passengertitle2 = new Select(driverqa.findElement(NewAccoBooking.paxtitle2));
@@ -239,10 +245,10 @@ public class Cancel_PrePay_Within_DeadLine {
 					Thread.sleep(1000);
 					driverqa.findElement(NewAccoBooking.paxLnameCHILD).sendKeys(excel.getData(0, 23, 2));
 					Select passengertitle3 = new Select(driverqa.findElement(NewAccoBooking.paxtitle3));
-					passengertitle3.selectByIndex(1);
+					passengertitle3.selectByIndex(1);*/
 					driverqa.findElement(NewAccoBooking.acceptChkBX).click();
 					Thread.sleep(2000);
-					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Accommodation_Cancel_Prepay_Within_DeadLine/Passenger-Details.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Accommodation_Cancel_Prepay_Within_DeadLine/Passenger-Details.jpg");
 					logger.info("Entered Passenger details");
 					test.log(LogStatus.INFO, "Entered Passenger details");
 					test.log(LogStatus.PASS, "Passenger details");
@@ -273,7 +279,8 @@ public class Cancel_PrePay_Within_DeadLine {
 
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Book Prepay Within DeadLine");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_Within_DeadLine/Save-Itenary.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_Within_DeadLine/booking.jpg");
+					errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_Within_DeadLine/booking.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -306,7 +313,8 @@ public class Cancel_PrePay_Within_DeadLine {
 					logger.info("Completed Cancellation PrePay Within DeadLine");
 
 				} catch (Exception e) {
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_Within_DeadLine/Amending.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_Within_DeadLine/Cancel.jpg");
+					errorpath=Config.SnapShotPath() + "/Cancel/Error/Accommodation_Cancel_Prepay_Within_DeadLine/Cancel.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
