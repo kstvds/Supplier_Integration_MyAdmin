@@ -53,7 +53,7 @@ public class NewAccoBooking {
 
 	public static final By thirdPartyChannel = By.xpath("//*[@id='Suppliers[Third Party Channels]']/span/span[1]");
 	
-	public static final By thirdParty = By.xpath("//*[@id='Suppliers[1818]']/span/span[2]");
+	public static final By thirdParty = By.xpath("//*[@id='Suppliers[1020]']/span/span[2]");
 
 	public static final By thirdPartyresultHotel = By.xpath("//*[@id='searchResults']/div[3]/h4");
 	

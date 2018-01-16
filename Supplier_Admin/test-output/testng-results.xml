@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="SupplierSuite" duration-ms="53272" started-at="2018-01-15T06:43:01Z" finished-at="2018-01-15T06:43:55Z">
+  <suite name="SupplierSuite" duration-ms="90412" started-at="2018-01-16T09:59:55Z" finished-at="2018-01-16T10:01:25Z">
     <groups>
     </groups>
-    <test name="SupplierTestone" duration-ms="53272" started-at="2018-01-15T06:43:01Z" finished-at="2018-01-15T06:43:55Z">
-      <class name="Search_MyAdmin.Search_Prepay">
-        <test-method status="PASS" signature="SearchPrepay(java.lang.String)[pri:0, instance:Search_MyAdmin.Search_Prepay@3d921e20]" name="SearchPrepay" duration-ms="52822" started-at="2018-01-15T12:13:02Z" finished-at="2018-01-15T12:13:54Z">
+    <test name="SupplierTestone" duration-ms="90412" started-at="2018-01-16T09:59:55Z" finished-at="2018-01-16T10:01:25Z">
+      <class name="Cancel_MyAdmin.Cancel_PrePay_Within_DeadLine">
+        <test-method status="PASS" signature="CancelPrepayWithinDeadLine(java.lang.String)[pri:0, instance:Cancel_MyAdmin.Cancel_PrePay_Within_DeadLine@3d921e20]" name="CancelPrepayWithinDeadLine" duration-ms="90051" started-at="2018-01-16T15:29:55Z" finished-at="2018-01-16T15:31:25Z">
           <params>
             <param index="0">
               <value>
@@ -17,23 +17,23 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchPrepay -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Search_MyAdmin.Search_Prepay@3d921e20]" name="getResult" is-config="true" duration-ms="2" started-at="2018-01-15T12:13:54Z" finished-at="2018-01-15T12:13:54Z">
+        </test-method> <!-- CancelPrepayWithinDeadLine -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Cancel_MyAdmin.Cancel_PrePay_Within_DeadLine@3d921e20]" name="getResult" is-config="true" duration-ms="2" started-at="2018-01-16T15:31:25Z" finished-at="2018-01-16T15:31:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SearchPrepay status=SUCCESS method=Search_Prepay.SearchPrepay(java.lang.String)[pri:0, instance:Search_MyAdmin.Search_Prepay@3d921e20] output={null}]]]>
+                <![CDATA[[TestResult name=CancelPrepayWithinDeadLine status=SUCCESS method=Cancel_PrePay_Within_DeadLine.CancelPrepayWithinDeadLine(java.lang.String)[pri:0, instance:Cancel_MyAdmin.Cancel_PrePay_Within_DeadLine@3d921e20] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Search_MyAdmin.Search_Prepay@3d921e20]" name="afterTest" is-config="true" duration-ms="435" started-at="2018-01-15T12:13:54Z" finished-at="2018-01-15T12:13:55Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Cancel_MyAdmin.Cancel_PrePay_Within_DeadLine@3d921e20]" name="afterTest" is-config="true" duration-ms="343" started-at="2018-01-16T15:31:25Z" finished-at="2018-01-16T15:31:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      </class> <!-- Cancel_MyAdmin.Cancel_PrePay_Within_DeadLine -->
     </test> <!-- SupplierTestone -->
   </suite> <!-- SupplierSuite -->
 </testng-results>

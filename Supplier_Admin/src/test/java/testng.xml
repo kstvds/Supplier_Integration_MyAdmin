@@ -3,19 +3,19 @@
 <test name="SupplierTestone" >
 <parameter name="browsername" value="CH"/>
 <classes> 
-<class name="Search_MyAdmin.Search_Prepay" />
+<class name="Cancel_MyAdmin.Cancel_PrePay_Within_DeadLine" />
 </classes> 
 </test>
 <!--test name="SupplierTesttwo" >
 <parameter name="browsername" value="CH"/>
 <classes> 
-<class name="Cancel_MyAdmin.Cancel_Credit_Card" />
+<class name="Cancel_MyAdmin.Cancel_Prepay" />
 </classes> 
 </test>
 <test name="SupplierTestthree" >
 <parameter name="browsername" value="CH"/>
 <classes> 
-<class name="Cancel_MyAdmin.Cancel_Credit_NFR" />
+<class name="Cancel_MyAdmin.Cancel_Prepay_NFR" />
 </classes> 
 </test-->
 </suite>
