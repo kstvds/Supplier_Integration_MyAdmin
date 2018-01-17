@@ -41,7 +41,7 @@ public class Search_Credit_NFR {
 	NewAccoBooking acco = new NewAccoBooking();
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Search_Credit_NFR");
-	
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void SearchCreditNFR(String browsername) throws Exception {
@@ -61,7 +61,7 @@ public class Search_Credit_NFR {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-			    String URL = excel.getData(0, 1, 5);
+			    String URL = excel.getData(0, 1, 5) + "/_myadmin";
 				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
@@ -86,6 +86,7 @@ public class Search_Credit_NFR {
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Credit_NFR/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Credit_NFR/Log-In.jpg";
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -119,6 +120,7 @@ public class Search_Credit_NFR {
 				rep.flush();
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Credit_NFR/Customer-Search.jpg");
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Credit_NFR/Customer-Search.jpg";
 				Assert.assertTrue(false, e.getMessage());
 				
 			}
@@ -148,6 +150,7 @@ public class Search_Credit_NFR {
 			 catch (Exception e) {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Credit_NFR/Customer-list.jpg");
 					test.log(LogStatus.FAIL, "Customer Selection");
+					errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Credit_NFR/Customer-list.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -203,7 +206,7 @@ public class Search_Credit_NFR {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search NFR for Credit");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Credit_NFR/Search-Result.jpg");
-
+				errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Credit_NFR/Search-Result.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -213,12 +216,14 @@ public class Search_Credit_NFR {
 	 }
 	 
 	  @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	  public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		  
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 
 		@AfterTest
 		public void afterTest() {

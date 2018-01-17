@@ -229,12 +229,13 @@ public class Cancel_PrePay_Within_DeadLine {
 					driverqa.findElement(NewAccoBooking.thirdPartyprocedetoBookingoutdead).click();
 					logger.info("Entering Passenger details");
 					test.log(LogStatus.INFO, "Entering Passenger details");
-					Thread.sleep(1000);
+					Thread.sleep(2000);
 					wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.paxFname));
 					driverqa.findElement(NewAccoBooking.paxFname).sendKeys(excel.getData(0, 21, 1));
 					Thread.sleep(2000);
 					driverqa.findElement(NewAccoBooking.paxLname).sendKeys(excel.getData(0, 21, 2));
 					Select passengertitle = new Select(driverqa.findElement(NewAccoBooking.paxtitle));
+					Thread.sleep(1000);
 					passengertitle.selectByIndex(1);
 					/*driverqa.findElement(NewAccoBooking.paxFname2).sendKeys(excel.getData(0, 22, 1));
 					Thread.sleep(1000);

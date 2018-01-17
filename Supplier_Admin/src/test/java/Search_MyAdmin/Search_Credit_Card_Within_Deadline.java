@@ -41,7 +41,7 @@ public class Search_Credit_Card_Within_Deadline {
 	NewAccoBooking acco = new NewAccoBooking();
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Search_Credit_Card_Within_Deadline");
-	
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void SearchCreditCardWithinDeadline(String browsername) throws Exception {
@@ -61,7 +61,8 @@ public class Search_Credit_Card_Within_Deadline {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-				driverqa.get(Config.getApplicationUrl());
+			    String URL = excel.getData(0, 1, 5) + "/_myadmin";
+				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);
@@ -84,6 +85,7 @@ public class Search_Credit_Card_Within_Deadline {
 
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Credit_Card_Within_Deadline/Log-In.jpg");
+			errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Credit_Card_Within_Deadline/Log-In.jpg";
 			test.log(LogStatus.FAIL, "Login");
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
@@ -118,6 +120,7 @@ public class Search_Credit_Card_Within_Deadline {
 				rep.flush();
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Credit_Card_Within_Deadline/Customer-Search.jpg");
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Credit_Card_Within_Deadline/Customer-Search.jpg";
 				Assert.assertTrue(false, e.getMessage());
 				
 			}
@@ -146,7 +149,8 @@ public class Search_Credit_Card_Within_Deadline {
 			 }
 			 catch (Exception e) {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Credit_Card_Within_Deadline/Customer-list.jpg");
-					test.log(LogStatus.FAIL, "Customer Selection");
+				 errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Credit_Card_Within_Deadline/Customer-lis.jpg";	
+				 test.log(LogStatus.FAIL, "Customer Selection");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -200,6 +204,7 @@ public class Search_Credit_Card_Within_Deadline {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search Within Deadline for Credit");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Credit_Within_Deadline/Search-Result.jpg");
+				errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Credit_Within_Deadline/Search-Result.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -209,13 +214,14 @@ public class Search_Credit_Card_Within_Deadline {
 	 }
 	 
 	  @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
-
+	  public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		  
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 		@AfterTest
 		public void afterTest() {
 

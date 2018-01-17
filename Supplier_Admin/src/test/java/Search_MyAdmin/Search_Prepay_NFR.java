@@ -41,7 +41,7 @@ public class Search_Prepay_NFR {
 	NewAccoBooking acco = new NewAccoBooking();
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Search_Prepay_NFR");
-	
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void SearchPrepayNFR(String browsername) throws Exception {
@@ -61,7 +61,7 @@ public class Search_Prepay_NFR {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-			    String URL = excel.getData(0, 1, 5);
+			    String URL = excel.getData(0, 1, 5) + "/_myadmin";
 				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
@@ -86,6 +86,7 @@ public class Search_Prepay_NFR {
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay_NFR/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay_NFR/Log-In.jpg";
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -118,6 +119,7 @@ public class Search_Prepay_NFR {
 				rep.endTest(test);
 				rep.flush();
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay_NFR/Customer-Search.jpg");
+				errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay_NFR/Customer-Search.jpg";
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
 				Assert.assertTrue(false, e.getMessage());
 				
@@ -147,6 +149,7 @@ public class Search_Prepay_NFR {
 			 }
 			 catch (Exception e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay_NFR/Customer-list.jpg");
+				    errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay_NFR/Customer-list.jpg";
 					test.log(LogStatus.FAIL, "Customer Selection");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
@@ -203,6 +206,7 @@ public class Search_Prepay_NFR {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search NFR for Prepay");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay_NFR/Search-Result.jpg");
+				errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay_NFR/Search-Result.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -212,12 +216,14 @@ public class Search_Prepay_NFR {
 	 }
 	 
 	  @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	  public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		  
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 
 		@AfterTest
 		public void afterTest() {

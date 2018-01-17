@@ -42,7 +42,7 @@ public class Search_Prepay {
 	NewAccoBooking acco = new NewAccoBooking();
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Search_Prepay");
-	
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void SearchPrepay(String browsername) throws Exception {
@@ -62,7 +62,7 @@ public class Search_Prepay {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-			    String URL = excel.getData(0, 1, 5);
+			    String URL = excel.getData(0, 1, 5) + "/_myadmin";
 				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
@@ -89,6 +89,7 @@ public class Search_Prepay {
 			
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login", Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Log-In.jpg");
+			errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Log-In.jpg";
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -117,6 +118,8 @@ public class Search_Prepay {
 			
 			} catch (Exception e) {
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Customer-Search.jpg");
+				errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Customer-Search.jpg";
+				errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Customer-Search.jpg";
 				Assert.assertTrue(false, e.getMessage());
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
 				logger.info(e.getMessage());
@@ -151,7 +154,8 @@ public class Search_Prepay {
 			 }
 			 catch (Exception e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Customer-list.jpg");
-					test.log(LogStatus.FAIL, "Customer Selection");
+				    errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Customer-list.jpg";
+				    test.log(LogStatus.FAIL, "Customer Selection");
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -198,6 +202,7 @@ public class Search_Prepay {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search Prepay" , Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Search-Result.jpg");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Search-Result.jpg");
+				errorpath=Config.SnapShotPath() + "/Search/Error/Accommodation_Search_Prepay/Search-Result.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -207,13 +212,14 @@ public class Search_Prepay {
 	 }
 	 
 	  @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
-
+	  public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		  
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 		@AfterTest
 		public void afterTest() {
 

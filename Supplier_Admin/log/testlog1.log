@@ -4441,3 +4441,737 @@ Session ID: 352f50ed4a5b0877894f9b5eb965d144
 2018-01-16 18:09:09,397 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Book Complete Prepay Within DeadLine
 2018-01-16 18:09:09,398 [main] INFO Cancel_PrePay_Within_DeadLine - Starting to Cancel PrePay Within DeadLine
 2018-01-16 18:09:22,260 [main] INFO Cancel_PrePay_Within_DeadLine - Completed Cancellation PrePay Within DeadLine
+2018-01-17 11:09:57,565 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 11:10:04,509 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 11:10:47,255 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 11:10:47,609 [main] INFO Cancel_PrePay_Within_DeadLine - no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/form/input[2]"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 126 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\WINDOWS\TEMP\scoped_dir5784_27201}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c17fe20115f1a8a473bff4b3f7195dff
+*** Element info: {Using=xpath, value=/html/body/div/form/input[2]}
+2018-01-17 11:12:11,338 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 11:13:13,662 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 11:16:04,339 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 11:17:40,900 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 11:18:00,735 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 11:18:05,152 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 11:18:11,690 [main] INFO Cancel_PrePay_Within_DeadLine - Login Successful
+2018-01-17 11:18:13,854 [main] INFO Cancel_PrePay_Within_DeadLine - Searching Customer
+2018-01-17 11:18:13,854 [main] INFO Cancel_PrePay_Within_DeadLine - Navigating to customer search page
+2018-01-17 11:18:19,275 [main] INFO Cancel_PrePay_Within_DeadLine - Navigated to customer search page
+2018-01-17 11:18:21,365 [main] INFO Cancel_PrePay_Within_DeadLine - Selecting Customer
+2018-01-17 11:18:37,044 [main] INFO Cancel_PrePay_Within_DeadLine - Customer Selected
+2018-01-17 11:18:37,044 [main] INFO Cancel_PrePay_Within_DeadLine - Applying search Filters
+2018-01-17 11:18:37,044 [main] INFO Cancel_PrePay_Within_DeadLine - Starting HotelSearch Prepay Within DeadLine
+2018-01-17 11:18:55,341 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Search Complete Prepay Within DeadLine
+2018-01-17 11:18:55,342 [main] INFO Cancel_PrePay_Within_DeadLine - Starting Hotel Book
+2018-01-17 11:18:57,655 [main] INFO Cancel_PrePay_Within_DeadLine - Entering Passenger details
+2018-01-17 11:19:04,309 [main] INFO Cancel_PrePay_Within_DeadLine - Entered Passenger details
+2018-01-17 11:19:15,438 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Book Complete Prepay Within DeadLine
+2018-01-17 11:19:15,439 [main] INFO Cancel_PrePay_Within_DeadLine - Starting to Cancel PrePay Within DeadLine
+2018-01-17 11:19:28,084 [main] INFO Cancel_PrePay_Within_DeadLine - Completed Cancellation PrePay Within DeadLine
+2018-01-17 11:21:30,300 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 11:21:34,427 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 11:21:40,540 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 11:21:47,104 [main] INFO Cancel_PrePay_Within_DeadLine - Login Successful
+2018-01-17 11:21:49,372 [main] INFO Cancel_PrePay_Within_DeadLine - Searching Customer
+2018-01-17 11:21:49,372 [main] INFO Cancel_PrePay_Within_DeadLine - Navigating to customer search page
+2018-01-17 11:21:54,910 [main] INFO Cancel_PrePay_Within_DeadLine - Navigated to customer search page
+2018-01-17 11:21:56,979 [main] INFO Cancel_PrePay_Within_DeadLine - Selecting Customer
+2018-01-17 11:22:27,619 [main] INFO Cancel_PrePay_Within_DeadLine - Customer Selected
+2018-01-17 11:22:27,620 [main] INFO Cancel_PrePay_Within_DeadLine - Applying search Filters
+2018-01-17 11:22:27,620 [main] INFO Cancel_PrePay_Within_DeadLine - Starting HotelSearch Prepay Within DeadLine
+2018-01-17 11:22:43,465 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Search Complete Prepay Within DeadLine
+2018-01-17 11:22:43,465 [main] INFO Cancel_PrePay_Within_DeadLine - Starting Hotel Book
+2018-01-17 11:22:45,789 [main] INFO Cancel_PrePay_Within_DeadLine - Entering Passenger details
+2018-01-17 11:22:52,383 [main] INFO Cancel_PrePay_Within_DeadLine - Entered Passenger details
+2018-01-17 11:23:03,132 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Book Complete Prepay Within DeadLine
+2018-01-17 11:23:03,133 [main] INFO Cancel_PrePay_Within_DeadLine - Starting to Cancel PrePay Within DeadLine
+2018-01-17 11:23:15,822 [main] INFO Cancel_PrePay_Within_DeadLine - Completed Cancellation PrePay Within DeadLine
+2018-01-17 11:23:16,567 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 11:23:18,794 [main] INFO Cancel_PrePay - Browser Opened
+2018-01-17 11:23:24,821 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 11:23:31,472 [main] INFO Cancel_PrePay - Login Successful
+2018-01-17 11:23:33,716 [main] INFO Cancel_PrePay - Searching Customer
+2018-01-17 11:23:33,717 [main] INFO Cancel_PrePay - Navigating to customer search page
+2018-01-17 11:23:39,244 [main] INFO Cancel_PrePay - Navigated to customer search page
+2018-01-17 11:23:41,326 [main] INFO Cancel_PrePay - Selecting Customer
+2018-01-17 11:24:12,000 [main] INFO Cancel_PrePay - Customer Selected
+2018-01-17 11:24:12,001 [main] INFO Cancel_PrePay - Applying search Filters
+2018-01-17 11:24:12,001 [main] INFO Cancel_PrePay - Starting HotelSearch Prepay
+2018-01-17 11:24:26,467 [main] INFO Cancel_PrePay - Hotel Search Complete Prepay
+2018-01-17 11:24:26,468 [main] INFO Cancel_PrePay - Starting Hotel Book
+2018-01-17 11:24:28,770 [main] INFO Cancel_PrePay - Entering Passenger details
+2018-01-17 11:24:35,425 [main] INFO Cancel_PrePay - Entered Passenger details
+2018-01-17 11:24:46,015 [main] INFO Cancel_PrePay - Hotel Book Complete Prepay
+2018-01-17 11:24:46,015 [main] INFO Cancel_PrePay - Starting to Cancel PrePay OutSide DeadLine
+2018-01-17 11:24:55,828 [main] INFO Cancel_PrePay - Completed Cancellation PrePay OutSide DeadLine
+2018-01-17 11:24:57,967 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 11:24:59,923 [main] INFO Cancel_Prepay_NFR - Browser Opened
+2018-01-17 11:25:05,495 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 11:25:12,372 [main] INFO Cancel_Prepay_NFR - Login Successful
+2018-01-17 11:25:14,496 [main] INFO Cancel_Prepay_NFR - Searching Customer
+2018-01-17 11:25:14,497 [main] INFO Cancel_Prepay_NFR - Navigating to customer search page
+2018-01-17 11:25:20,024 [main] INFO Cancel_Prepay_NFR - Navigated to customer search page
+2018-01-17 11:25:22,107 [main] INFO Cancel_Prepay_NFR - Selecting Customer
+2018-01-17 11:25:36,604 [main] INFO Cancel_Prepay_NFR - Customer Selected
+2018-01-17 11:25:36,604 [main] INFO Cancel_Prepay_NFR - Applying search Filters
+2018-01-17 11:25:36,605 [main] INFO Cancel_Prepay_NFR - Starting HotelSearch Prepay
+2018-01-17 11:26:18,786 [main] INFO Cancel_Prepay_NFR - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\WINDOWS\TEMP\scoped_dir16244_4181}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: eda4e78d9f04b888f1af5fe1ae6f8f9e
+2018-01-17 11:32:38,914 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 11:32:45,505 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 11:32:51,109 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 11:32:58,082 [main] INFO Cancel_PrePay_Within_DeadLine - Login Successful
+2018-01-17 11:33:00,538 [main] INFO Cancel_PrePay_Within_DeadLine - Searching Customer
+2018-01-17 11:33:00,539 [main] INFO Cancel_PrePay_Within_DeadLine - Navigating to customer search page
+2018-01-17 11:33:06,121 [main] INFO Cancel_PrePay_Within_DeadLine - Navigated to customer search page
+2018-01-17 11:33:08,239 [main] INFO Cancel_PrePay_Within_DeadLine - Selecting Customer
+2018-01-17 11:33:26,340 [main] INFO Cancel_PrePay_Within_DeadLine - Customer Selected
+2018-01-17 11:33:26,340 [main] INFO Cancel_PrePay_Within_DeadLine - Applying search Filters
+2018-01-17 11:33:26,340 [main] INFO Cancel_PrePay_Within_DeadLine - Starting HotelSearch Prepay Within DeadLine
+2018-01-17 11:33:43,376 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Search Complete Prepay Within DeadLine
+2018-01-17 11:33:43,377 [main] INFO Cancel_PrePay_Within_DeadLine - Starting Hotel Book
+2018-01-17 11:33:45,721 [main] INFO Cancel_PrePay_Within_DeadLine - Entering Passenger details
+2018-01-17 11:33:53,972 [main] INFO Cancel_PrePay_Within_DeadLine - Entered Passenger details
+2018-01-17 11:34:06,536 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Book Complete Prepay Within DeadLine
+2018-01-17 11:34:06,537 [main] INFO Cancel_PrePay_Within_DeadLine - Starting to Cancel PrePay Within DeadLine
+2018-01-17 11:34:19,377 [main] INFO Cancel_PrePay_Within_DeadLine - Completed Cancellation PrePay Within DeadLine
+2018-01-17 11:34:20,025 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 11:34:22,783 [main] INFO Cancel_PrePay - Browser Opened
+2018-01-17 11:34:27,051 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 11:34:33,566 [main] INFO Cancel_PrePay - Login Successful
+2018-01-17 11:34:35,730 [main] INFO Cancel_PrePay - Searching Customer
+2018-01-17 11:34:35,730 [main] INFO Cancel_PrePay - Navigating to customer search page
+2018-01-17 11:34:41,217 [main] INFO Cancel_PrePay - Navigated to customer search page
+2018-01-17 11:34:43,313 [main] INFO Cancel_PrePay - Selecting Customer
+2018-01-17 11:35:01,152 [main] INFO Cancel_PrePay - Customer Selected
+2018-01-17 11:35:01,153 [main] INFO Cancel_PrePay - Applying search Filters
+2018-01-17 11:35:01,153 [main] INFO Cancel_PrePay - Starting HotelSearch Prepay
+2018-01-17 11:35:15,550 [main] INFO Cancel_PrePay - Hotel Search Complete Prepay
+2018-01-17 11:35:15,550 [main] INFO Cancel_PrePay - Starting Hotel Book
+2018-01-17 11:35:17,882 [main] INFO Cancel_PrePay - Entering Passenger details
+2018-01-17 11:35:24,710 [main] INFO Cancel_PrePay - Entered Passenger details
+2018-01-17 11:35:35,657 [main] INFO Cancel_PrePay - Hotel Book Complete Prepay
+2018-01-17 11:35:35,657 [main] INFO Cancel_PrePay - Starting to Cancel PrePay OutSide DeadLine
+2018-01-17 11:35:45,612 [main] INFO Cancel_PrePay - Completed Cancellation PrePay OutSide DeadLine
+2018-01-17 11:35:45,824 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 11:35:48,707 [main] INFO Cancel_Prepay_NFR - Browser Opened
+2018-01-17 11:35:53,794 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 11:36:00,477 [main] INFO Cancel_Prepay_NFR - Login Successful
+2018-01-17 11:36:02,675 [main] INFO Cancel_Prepay_NFR - Searching Customer
+2018-01-17 11:36:02,676 [main] INFO Cancel_Prepay_NFR - Navigating to customer search page
+2018-01-17 11:36:08,302 [main] INFO Cancel_Prepay_NFR - Navigated to customer search page
+2018-01-17 11:36:10,406 [main] INFO Cancel_Prepay_NFR - Selecting Customer
+2018-01-17 11:36:32,558 [main] INFO Cancel_Prepay_NFR - Customer Selected
+2018-01-17 11:36:32,559 [main] INFO Cancel_Prepay_NFR - Applying search Filters
+2018-01-17 11:36:32,559 [main] INFO Cancel_Prepay_NFR - Starting HotelSearch Prepay
+2018-01-17 11:37:15,172 [main] INFO Cancel_Prepay_NFR - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir8484_5320}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fa3af93821930ce0f948458ce8f9ade7
+2018-01-17 11:55:14,882 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 11:55:19,439 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 11:55:24,975 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 11:55:31,697 [main] INFO Cancel_PrePay_Within_DeadLine - Login Successful
+2018-01-17 11:55:34,130 [main] INFO Cancel_PrePay_Within_DeadLine - Searching Customer
+2018-01-17 11:55:34,131 [main] INFO Cancel_PrePay_Within_DeadLine - Navigating to customer search page
+2018-01-17 11:55:39,673 [main] INFO Cancel_PrePay_Within_DeadLine - Navigated to customer search page
+2018-01-17 11:55:41,756 [main] INFO Cancel_PrePay_Within_DeadLine - Selecting Customer
+2018-01-17 11:55:58,632 [main] INFO Cancel_PrePay_Within_DeadLine - Customer Selected
+2018-01-17 11:55:58,632 [main] INFO Cancel_PrePay_Within_DeadLine - Applying search Filters
+2018-01-17 11:55:58,633 [main] INFO Cancel_PrePay_Within_DeadLine - Starting HotelSearch Prepay Within DeadLine
+2018-01-17 11:56:15,771 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Search Complete Prepay Within DeadLine
+2018-01-17 11:56:15,771 [main] INFO Cancel_PrePay_Within_DeadLine - Starting Hotel Book
+2018-01-17 11:56:18,211 [main] INFO Cancel_PrePay_Within_DeadLine - Entering Passenger details
+2018-01-17 11:56:24,907 [main] INFO Cancel_PrePay_Within_DeadLine - Entered Passenger details
+2018-01-17 11:56:35,712 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Book Complete Prepay Within DeadLine
+2018-01-17 11:56:35,713 [main] INFO Cancel_PrePay_Within_DeadLine - Starting to Cancel PrePay Within DeadLine
+2018-01-17 11:56:49,095 [main] INFO Cancel_PrePay_Within_DeadLine - Completed Cancellation PrePay Within DeadLine
+2018-01-17 11:56:49,652 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 11:56:52,317 [main] INFO Cancel_PrePay - Browser Opened
+2018-01-17 11:56:57,919 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 11:57:04,665 [main] INFO Cancel_PrePay - Login Successful
+2018-01-17 11:57:06,788 [main] INFO Cancel_PrePay - Searching Customer
+2018-01-17 11:57:06,788 [main] INFO Cancel_PrePay - Navigating to customer search page
+2018-01-17 11:57:12,365 [main] INFO Cancel_PrePay - Navigated to customer search page
+2018-01-17 11:57:14,437 [main] INFO Cancel_PrePay - Selecting Customer
+2018-01-17 11:57:31,321 [main] INFO Cancel_PrePay - Customer Selected
+2018-01-17 11:57:31,322 [main] INFO Cancel_PrePay - Applying search Filters
+2018-01-17 11:57:31,322 [main] INFO Cancel_PrePay - Starting HotelSearch Prepay
+2018-01-17 11:57:46,508 [main] INFO Cancel_PrePay - Hotel Search Complete Prepay
+2018-01-17 11:57:46,508 [main] INFO Cancel_PrePay - Starting Hotel Book
+2018-01-17 11:57:48,815 [main] INFO Cancel_PrePay - Entering Passenger details
+2018-01-17 11:57:55,625 [main] INFO Cancel_PrePay - Entered Passenger details
+2018-01-17 11:58:06,756 [main] INFO Cancel_PrePay - Hotel Book Complete Prepay
+2018-01-17 11:58:06,757 [main] INFO Cancel_PrePay - Starting to Cancel PrePay OutSide DeadLine
+2018-01-17 11:58:16,953 [main] INFO Cancel_PrePay - Completed Cancellation PrePay OutSide DeadLine
+2018-01-17 11:58:19,241 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 11:58:21,607 [main] INFO Cancel_Prepay_NFR - Browser Opened
+2018-01-17 11:58:26,922 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 11:58:33,577 [main] INFO Cancel_Prepay_NFR - Login Successful
+2018-01-17 11:58:35,707 [main] INFO Cancel_Prepay_NFR - Searching Customer
+2018-01-17 11:58:35,707 [main] INFO Cancel_Prepay_NFR - Navigating to customer search page
+2018-01-17 11:58:41,438 [main] INFO Cancel_Prepay_NFR - Navigated to customer search page
+2018-01-17 11:58:43,513 [main] INFO Cancel_Prepay_NFR - Selecting Customer
+2018-01-17 11:59:00,384 [main] INFO Cancel_Prepay_NFR - Customer Selected
+2018-01-17 11:59:00,384 [main] INFO Cancel_Prepay_NFR - Applying search Filters
+2018-01-17 11:59:00,385 [main] INFO Cancel_Prepay_NFR - Starting HotelSearch Prepay
+2018-01-17 11:59:42,846 [main] INFO Cancel_Prepay_NFR - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\WINDOWS\TEMP\scoped_dir10028_25185}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 4131f6f9a74dc2ec2dfb568e86b07711
+2018-01-17 12:02:32,587 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 12:02:35,672 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 12:02:39,696 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 12:02:46,568 [main] INFO Cancel_PrePay_Within_DeadLine - Login Successful
+2018-01-17 12:02:48,714 [main] INFO Cancel_PrePay_Within_DeadLine - Searching Customer
+2018-01-17 12:02:48,714 [main] INFO Cancel_PrePay_Within_DeadLine - Navigating to customer search page
+2018-01-17 12:02:54,210 [main] INFO Cancel_PrePay_Within_DeadLine - Navigated to customer search page
+2018-01-17 12:02:56,290 [main] INFO Cancel_PrePay_Within_DeadLine - Selecting Customer
+2018-01-17 12:03:12,434 [main] INFO Cancel_PrePay_Within_DeadLine - Customer Selected
+2018-01-17 12:03:12,435 [main] INFO Cancel_PrePay_Within_DeadLine - Applying search Filters
+2018-01-17 12:03:12,435 [main] INFO Cancel_PrePay_Within_DeadLine - Starting HotelSearch Prepay Within DeadLine
+2018-01-17 12:03:29,090 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Search Complete Prepay Within DeadLine
+2018-01-17 12:03:29,090 [main] INFO Cancel_PrePay_Within_DeadLine - Starting Hotel Book
+2018-01-17 12:03:31,414 [main] INFO Cancel_PrePay_Within_DeadLine - Entering Passenger details
+2018-01-17 12:03:38,034 [main] INFO Cancel_PrePay_Within_DeadLine - Entered Passenger details
+2018-01-17 12:03:48,949 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Book Complete Prepay Within DeadLine
+2018-01-17 12:03:48,950 [main] INFO Cancel_PrePay_Within_DeadLine - Starting to Cancel PrePay Within DeadLine
+2018-01-17 12:04:01,666 [main] INFO Cancel_PrePay_Within_DeadLine - Completed Cancellation PrePay Within DeadLine
+2018-01-17 12:04:02,113 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 12:04:04,413 [main] INFO Cancel_PrePay - Browser Opened
+2018-01-17 12:04:09,171 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 12:04:16,032 [main] INFO Cancel_PrePay - Login Successful
+2018-01-17 12:04:18,152 [main] INFO Cancel_PrePay - Searching Customer
+2018-01-17 12:04:18,152 [main] INFO Cancel_PrePay - Navigating to customer search page
+2018-01-17 12:04:23,629 [main] INFO Cancel_PrePay - Navigated to customer search page
+2018-01-17 12:04:25,701 [main] INFO Cancel_PrePay - Selecting Customer
+2018-01-17 12:04:42,430 [main] INFO Cancel_PrePay - Customer Selected
+2018-01-17 12:04:42,430 [main] INFO Cancel_PrePay - Applying search Filters
+2018-01-17 12:04:42,430 [main] INFO Cancel_PrePay - Starting HotelSearch Prepay
+2018-01-17 12:04:56,632 [main] INFO Cancel_PrePay - Hotel Search Complete Prepay
+2018-01-17 12:04:56,633 [main] INFO Cancel_PrePay - Starting Hotel Book
+2018-01-17 12:04:58,916 [main] INFO Cancel_PrePay - Entering Passenger details
+2018-01-17 12:05:05,522 [main] INFO Cancel_PrePay - Entered Passenger details
+2018-01-17 12:05:16,212 [main] INFO Cancel_PrePay - Hotel Book Complete Prepay
+2018-01-17 12:05:16,213 [main] INFO Cancel_PrePay - Starting to Cancel PrePay OutSide DeadLine
+2018-01-17 12:05:25,968 [main] INFO Cancel_PrePay - Completed Cancellation PrePay OutSide DeadLine
+2018-01-17 12:05:28,184 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 12:05:30,101 [main] INFO Cancel_Prepay_NFR - Browser Opened
+2018-01-17 12:05:33,999 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 12:05:40,465 [main] INFO Cancel_Prepay_NFR - Login Successful
+2018-01-17 12:05:42,587 [main] INFO Cancel_Prepay_NFR - Searching Customer
+2018-01-17 12:05:42,588 [main] INFO Cancel_Prepay_NFR - Navigating to customer search page
+2018-01-17 12:05:48,215 [main] INFO Cancel_Prepay_NFR - Navigated to customer search page
+2018-01-17 12:05:50,282 [main] INFO Cancel_Prepay_NFR - Selecting Customer
+2018-01-17 12:06:07,051 [main] INFO Cancel_Prepay_NFR - Customer Selected
+2018-01-17 12:06:07,051 [main] INFO Cancel_Prepay_NFR - Applying search Filters
+2018-01-17 12:06:07,051 [main] INFO Cancel_Prepay_NFR - Starting HotelSearch Prepay
+2018-01-17 12:06:49,448 [main] INFO Cancel_Prepay_NFR - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\WINDOWS\TEMP\scoped_dir12032_16207}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 25c8a34c96e2170c27dde3a15c8ce729
+2018-01-17 12:12:10,295 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 12:12:13,678 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 12:12:17,630 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 12:12:24,258 [main] INFO Cancel_PrePay_Within_DeadLine - Login Successful
+2018-01-17 12:12:26,394 [main] INFO Cancel_PrePay_Within_DeadLine - Searching Customer
+2018-01-17 12:12:26,394 [main] INFO Cancel_PrePay_Within_DeadLine - Navigating to customer search page
+2018-01-17 12:12:32,274 [main] INFO Cancel_PrePay_Within_DeadLine - Navigated to customer search page
+2018-01-17 12:12:34,353 [main] INFO Cancel_PrePay_Within_DeadLine - Selecting Customer
+2018-01-17 12:12:50,542 [main] INFO Cancel_PrePay_Within_DeadLine - Customer Selected
+2018-01-17 12:12:50,543 [main] INFO Cancel_PrePay_Within_DeadLine - Applying search Filters
+2018-01-17 12:12:50,543 [main] INFO Cancel_PrePay_Within_DeadLine - Starting HotelSearch Prepay Within DeadLine
+2018-01-17 12:13:07,328 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Search Complete Prepay Within DeadLine
+2018-01-17 12:13:07,328 [main] INFO Cancel_PrePay_Within_DeadLine - Starting Hotel Book
+2018-01-17 12:13:09,633 [main] INFO Cancel_PrePay_Within_DeadLine - Entering Passenger details
+2018-01-17 12:13:16,287 [main] INFO Cancel_PrePay_Within_DeadLine - Entered Passenger details
+2018-01-17 12:13:26,940 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Book Complete Prepay Within DeadLine
+2018-01-17 12:13:26,941 [main] INFO Cancel_PrePay_Within_DeadLine - Starting to Cancel PrePay Within DeadLine
+2018-01-17 12:13:40,018 [main] INFO Cancel_PrePay_Within_DeadLine - Completed Cancellation PrePay Within DeadLine
+2018-01-17 12:13:42,559 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 12:13:44,971 [main] INFO Cancel_PrePay - Browser Opened
+2018-01-17 12:13:48,816 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 12:13:55,720 [main] INFO Cancel_PrePay - Login Successful
+2018-01-17 12:13:57,832 [main] INFO Cancel_PrePay - Searching Customer
+2018-01-17 12:13:57,833 [main] INFO Cancel_PrePay - Navigating to customer search page
+2018-01-17 12:14:03,275 [main] INFO Cancel_PrePay - Navigated to customer search page
+2018-01-17 12:14:05,344 [main] INFO Cancel_PrePay - Selecting Customer
+2018-01-17 12:14:21,128 [main] INFO Cancel_PrePay - Customer Selected
+2018-01-17 12:14:21,129 [main] INFO Cancel_PrePay - Applying search Filters
+2018-01-17 12:14:21,129 [main] INFO Cancel_PrePay - Starting HotelSearch Prepay
+2018-01-17 12:14:36,231 [main] INFO Cancel_PrePay - Hotel Search Complete Prepay
+2018-01-17 12:14:36,232 [main] INFO Cancel_PrePay - Starting Hotel Book
+2018-01-17 12:14:38,735 [main] INFO Cancel_PrePay - Entering Passenger details
+2018-01-17 12:14:45,464 [main] INFO Cancel_PrePay - Entered Passenger details
+2018-01-17 12:14:56,111 [main] INFO Cancel_PrePay - Hotel Book Complete Prepay
+2018-01-17 12:14:56,112 [main] INFO Cancel_PrePay - Starting to Cancel PrePay OutSide DeadLine
+2018-01-17 12:15:06,245 [main] INFO Cancel_PrePay - Completed Cancellation PrePay OutSide DeadLine
+2018-01-17 12:15:06,449 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 12:15:08,402 [main] INFO Cancel_Prepay_NFR - Browser Opened
+2018-01-17 12:15:12,284 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 12:15:19,492 [main] INFO Cancel_Prepay_NFR - Login Successful
+2018-01-17 12:15:21,601 [main] INFO Cancel_Prepay_NFR - Searching Customer
+2018-01-17 12:15:21,601 [main] INFO Cancel_Prepay_NFR - Navigating to customer search page
+2018-01-17 12:15:27,154 [main] INFO Cancel_Prepay_NFR - Navigated to customer search page
+2018-01-17 12:15:29,229 [main] INFO Cancel_Prepay_NFR - Selecting Customer
+2018-01-17 12:15:44,995 [main] INFO Cancel_Prepay_NFR - Customer Selected
+2018-01-17 12:15:44,995 [main] INFO Cancel_Prepay_NFR - Applying search Filters
+2018-01-17 12:15:44,995 [main] INFO Cancel_Prepay_NFR - Starting HotelSearch Prepay
+2018-01-17 12:16:27,034 [main] INFO Cancel_Prepay_NFR - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\WINDOWS\TEMP\scoped_dir10388_11495}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 47aca0a44c7b1f2ed7229d7149188473
+2018-01-17 13:13:19,111 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 13:13:23,052 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 13:14:05,918 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 13:14:06,095 [main] INFO Cancel_PrePay_Within_DeadLine - no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/form/input[2]"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\WINDOWS\TEMP\scoped_dir13760_29472}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f46efe199b01de3be781888996b65699
+*** Element info: {Using=xpath, value=/html/body/div/form/input[2]}
+2018-01-17 13:14:06,713 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 13:14:09,081 [main] INFO Cancel_PrePay - Browser Opened
+2018-01-17 13:14:28,340 [main] INFO Cancel_PrePay - unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 19.17 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\WINDOWS\TEMP\scoped_dir20848_26663}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 43b450a689873d47627ef64d3e4871be
+2018-01-17 13:14:28,530 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 13:47:22,189 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 13:47:26,377 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 13:47:43,873 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 13:47:43,914 [main] INFO Cancel_PrePay_Within_DeadLine - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 17 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir10388_8488}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: af93c1989c2e0f1dbb2aaef89f8cc423
+*** Element info: {Using=xpath, value=/html/body/div/form/input[2]}
+2018-01-17 13:47:46,602 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 13:47:49,759 [main] INFO Cancel_PrePay - Browser Opened
+2018-01-17 13:47:50,675 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 13:47:50,692 [main] INFO Cancel_PrePay - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir12236_1542}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: cf3e542308b2e405297a473b9e20571f
+*** Element info: {Using=xpath, value=/html/body/div/form/input[2]}
+2018-01-17 13:47:52,909 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 13:47:55,763 [main] INFO Cancel_Prepay_NFR - Browser Opened
+2018-01-17 13:48:09,442 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 13:49:59,723 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 13:50:04,231 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 13:50:10,237 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 13:50:17,030 [main] INFO Cancel_PrePay_Within_DeadLine - Login Successful
+2018-01-17 13:50:19,354 [main] INFO Cancel_PrePay_Within_DeadLine - Searching Customer
+2018-01-17 13:50:19,354 [main] INFO Cancel_PrePay_Within_DeadLine - Navigating to customer search page
+2018-01-17 13:50:24,810 [main] INFO Cancel_PrePay_Within_DeadLine - Navigated to customer search page
+2018-01-17 13:50:26,903 [main] INFO Cancel_PrePay_Within_DeadLine - Selecting Customer
+2018-01-17 13:50:41,691 [main] INFO Cancel_PrePay_Within_DeadLine - Customer Selected
+2018-01-17 13:50:41,691 [main] INFO Cancel_PrePay_Within_DeadLine - Applying search Filters
+2018-01-17 13:50:41,691 [main] INFO Cancel_PrePay_Within_DeadLine - Starting HotelSearch Prepay Within DeadLine
+2018-01-17 13:50:59,176 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Search Complete Prepay Within DeadLine
+2018-01-17 13:50:59,176 [main] INFO Cancel_PrePay_Within_DeadLine - Starting Hotel Book
+2018-01-17 13:51:01,474 [main] INFO Cancel_PrePay_Within_DeadLine - Entering Passenger details
+2018-01-17 13:51:08,746 [main] INFO Cancel_PrePay_Within_DeadLine - Entered Passenger details
+2018-01-17 13:51:24,314 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Book Complete Prepay Within DeadLine
+2018-01-17 13:51:24,315 [main] INFO Cancel_PrePay_Within_DeadLine - Starting to Cancel PrePay Within DeadLine
+2018-01-17 13:51:37,170 [main] INFO Cancel_PrePay_Within_DeadLine - Completed Cancellation PrePay Within DeadLine
+2018-01-17 13:52:05,178 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 13:52:09,165 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 13:52:13,447 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 13:52:19,925 [main] INFO Cancel_PrePay_Within_DeadLine - Login Successful
+2018-01-17 13:52:22,106 [main] INFO Cancel_PrePay_Within_DeadLine - Searching Customer
+2018-01-17 13:52:22,107 [main] INFO Cancel_PrePay_Within_DeadLine - Navigating to customer search page
+2018-01-17 13:52:27,706 [main] INFO Cancel_PrePay_Within_DeadLine - Navigated to customer search page
+2018-01-17 13:52:29,801 [main] INFO Cancel_PrePay_Within_DeadLine - Selecting Customer
+2018-01-17 13:52:44,537 [main] INFO Cancel_PrePay_Within_DeadLine - Customer Selected
+2018-01-17 13:52:44,538 [main] INFO Cancel_PrePay_Within_DeadLine - Applying search Filters
+2018-01-17 13:52:44,538 [main] INFO Cancel_PrePay_Within_DeadLine - Starting HotelSearch Prepay Within DeadLine
+2018-01-17 13:53:00,735 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Search Complete Prepay Within DeadLine
+2018-01-17 13:53:00,736 [main] INFO Cancel_PrePay_Within_DeadLine - Starting Hotel Book
+2018-01-17 13:53:03,148 [main] INFO Cancel_PrePay_Within_DeadLine - Entering Passenger details
+2018-01-17 13:53:09,882 [main] INFO Cancel_PrePay_Within_DeadLine - Entered Passenger details
+2018-01-17 13:53:20,646 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Book Complete Prepay Within DeadLine
+2018-01-17 13:53:20,647 [main] INFO Cancel_PrePay_Within_DeadLine - Starting to Cancel PrePay Within DeadLine
+2018-01-17 13:53:33,366 [main] INFO Cancel_PrePay_Within_DeadLine - Completed Cancellation PrePay Within DeadLine
+2018-01-17 13:54:22,512 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 13:54:25,997 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 13:54:30,134 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 13:54:36,875 [main] INFO Cancel_PrePay_Within_DeadLine - Login Successful
+2018-01-17 13:54:39,054 [main] INFO Cancel_PrePay_Within_DeadLine - Searching Customer
+2018-01-17 13:54:39,055 [main] INFO Cancel_PrePay_Within_DeadLine - Navigating to customer search page
+2018-01-17 13:54:44,515 [main] INFO Cancel_PrePay_Within_DeadLine - Navigated to customer search page
+2018-01-17 13:54:46,616 [main] INFO Cancel_PrePay_Within_DeadLine - Selecting Customer
+2018-01-17 13:55:01,363 [main] INFO Cancel_PrePay_Within_DeadLine - Customer Selected
+2018-01-17 13:55:01,363 [main] INFO Cancel_PrePay_Within_DeadLine - Applying search Filters
+2018-01-17 13:55:01,363 [main] INFO Cancel_PrePay_Within_DeadLine - Starting HotelSearch Prepay Within DeadLine
+2018-01-17 13:55:17,633 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Search Complete Prepay Within DeadLine
+2018-01-17 13:55:17,633 [main] INFO Cancel_PrePay_Within_DeadLine - Starting Hotel Book
+2018-01-17 13:55:19,951 [main] INFO Cancel_PrePay_Within_DeadLine - Entering Passenger details
+2018-01-17 13:55:26,647 [main] INFO Cancel_PrePay_Within_DeadLine - Entered Passenger details
+2018-01-17 13:55:37,425 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Book Complete Prepay Within DeadLine
+2018-01-17 13:55:37,426 [main] INFO Cancel_PrePay_Within_DeadLine - Starting to Cancel PrePay Within DeadLine
+2018-01-17 13:55:50,075 [main] INFO Cancel_PrePay_Within_DeadLine - Completed Cancellation PrePay Within DeadLine
+2018-01-17 13:57:23,662 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 13:57:27,505 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 13:57:29,481 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 13:57:29,507 [main] INFO Cancel_PrePay_Within_DeadLine - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir14928_28766}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 806fa09da92cc86e379c84652c3f3532
+*** Element info: {Using=xpath, value=/html/body/div/form/input[2]}
+2018-01-17 13:57:32,574 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 13:57:39,284 [main] INFO Cancel_PrePay - Browser Opened
+2018-01-17 13:57:44,093 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 13:57:50,501 [main] INFO Cancel_PrePay - Login Successful
+2018-01-17 13:57:52,696 [main] INFO Cancel_PrePay - Searching Customer
+2018-01-17 13:57:52,697 [main] INFO Cancel_PrePay - Navigating to customer search page
+2018-01-17 13:57:58,148 [main] INFO Cancel_PrePay - Navigated to customer search page
+2018-01-17 13:58:00,243 [main] INFO Cancel_PrePay - Selecting Customer
+2018-01-17 13:58:16,051 [main] INFO Cancel_PrePay - Customer Selected
+2018-01-17 13:58:16,052 [main] INFO Cancel_PrePay - Applying search Filters
+2018-01-17 13:58:16,052 [main] INFO Cancel_PrePay - Starting HotelSearch Prepay
+2018-01-17 13:58:31,853 [main] INFO Cancel_PrePay - Hotel Search Complete Prepay
+2018-01-17 13:58:31,854 [main] INFO Cancel_PrePay - Starting Hotel Book
+2018-01-17 13:58:46,521 [main] INFO Cancel_PrePay - chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir752_32391}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: cfc415580608897f915636a9e61c40e7
+*** Element info: {Using=xpath, value=//button[contains(text(),'Proceed to booking')]}
+2018-01-17 13:58:46,772 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 13:58:50,060 [main] INFO Cancel_Prepay_NFR - Browser Opened
+2018-01-17 13:58:54,205 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 13:59:00,989 [main] INFO Cancel_Prepay_NFR - Login Successful
+2018-01-17 13:59:03,153 [main] INFO Cancel_Prepay_NFR - Searching Customer
+2018-01-17 13:59:03,154 [main] INFO Cancel_Prepay_NFR - Navigating to customer search page
+2018-01-17 13:59:08,652 [main] INFO Cancel_Prepay_NFR - Navigated to customer search page
+2018-01-17 13:59:14,661 [main] INFO Cancel_Prepay_NFR - Selecting Customer
+2018-01-17 14:00:23,242 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 14:00:27,675 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 14:00:33,482 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 14:00:39,947 [main] INFO Cancel_PrePay_Within_DeadLine - Login Successful
+2018-01-17 14:00:42,126 [main] INFO Cancel_PrePay_Within_DeadLine - Searching Customer
+2018-01-17 14:00:42,127 [main] INFO Cancel_PrePay_Within_DeadLine - Navigating to customer search page
+2018-01-17 14:00:47,690 [main] INFO Cancel_PrePay_Within_DeadLine - Navigated to customer search page
+2018-01-17 14:00:49,791 [main] INFO Cancel_PrePay_Within_DeadLine - Selecting Customer
+2018-01-17 14:01:08,544 [main] INFO Cancel_PrePay_Within_DeadLine - Customer Selected
+2018-01-17 14:01:08,545 [main] INFO Cancel_PrePay_Within_DeadLine - Applying search Filters
+2018-01-17 14:01:08,545 [main] INFO Cancel_PrePay_Within_DeadLine - Starting HotelSearch Prepay Within DeadLine
+2018-01-17 14:01:25,445 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Search Complete Prepay Within DeadLine
+2018-01-17 14:01:25,445 [main] INFO Cancel_PrePay_Within_DeadLine - Starting Hotel Book
+2018-01-17 14:01:27,803 [main] INFO Cancel_PrePay_Within_DeadLine - Entering Passenger details
+2018-01-17 14:01:34,600 [main] INFO Cancel_PrePay_Within_DeadLine - Entered Passenger details
+2018-01-17 14:01:45,536 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Book Complete Prepay Within DeadLine
+2018-01-17 14:01:45,537 [main] INFO Cancel_PrePay_Within_DeadLine - Starting to Cancel PrePay Within DeadLine
+2018-01-17 14:01:58,221 [main] INFO Cancel_PrePay_Within_DeadLine - Completed Cancellation PrePay Within DeadLine
+2018-01-17 14:01:58,709 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 14:02:01,588 [main] INFO Cancel_PrePay - Browser Opened
+2018-01-17 14:02:05,786 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 14:02:12,586 [main] INFO Cancel_PrePay - Login Successful
+2018-01-17 14:02:14,749 [main] INFO Cancel_PrePay - Searching Customer
+2018-01-17 14:02:14,749 [main] INFO Cancel_PrePay - Navigating to customer search page
+2018-01-17 14:02:20,152 [main] INFO Cancel_PrePay - Navigated to customer search page
+2018-01-17 14:02:22,249 [main] INFO Cancel_PrePay - Selecting Customer
+2018-01-17 14:02:40,984 [main] INFO Cancel_PrePay - Customer Selected
+2018-01-17 14:02:40,984 [main] INFO Cancel_PrePay - Applying search Filters
+2018-01-17 14:02:40,985 [main] INFO Cancel_PrePay - Starting HotelSearch Prepay
+2018-01-17 14:03:00,592 [main] INFO Cancel_PrePay - Hotel Search Complete Prepay
+2018-01-17 14:03:00,593 [main] INFO Cancel_PrePay - Starting Hotel Book
+2018-01-17 14:03:03,930 [main] INFO Cancel_PrePay - Entering Passenger details
+2018-01-17 14:03:10,662 [main] INFO Cancel_PrePay - Entered Passenger details
+2018-01-17 14:03:21,419 [main] INFO Cancel_PrePay - Hotel Book Complete Prepay
+2018-01-17 14:03:21,419 [main] INFO Cancel_PrePay - Starting to Cancel PrePay OutSide DeadLine
+2018-01-17 14:03:31,416 [main] INFO Cancel_PrePay - Completed Cancellation PrePay OutSide DeadLine
+2018-01-17 14:03:31,619 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 14:03:34,602 [main] INFO Cancel_Prepay_NFR - Browser Opened
+2018-01-17 14:03:38,779 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 14:03:45,170 [main] INFO Cancel_Prepay_NFR - Login Successful
+2018-01-17 14:03:47,314 [main] INFO Cancel_Prepay_NFR - Searching Customer
+2018-01-17 14:03:47,315 [main] INFO Cancel_Prepay_NFR - Navigating to customer search page
+2018-01-17 14:03:52,900 [main] INFO Cancel_Prepay_NFR - Navigated to customer search page
+2018-01-17 14:03:55,021 [main] INFO Cancel_Prepay_NFR - Selecting Customer
+2018-01-17 14:04:13,797 [main] INFO Cancel_Prepay_NFR - Customer Selected
+2018-01-17 14:04:13,798 [main] INFO Cancel_Prepay_NFR - Applying search Filters
+2018-01-17 14:04:13,798 [main] INFO Cancel_Prepay_NFR - Starting HotelSearch Prepay
+2018-01-17 14:04:55,754 [main] INFO Cancel_Prepay_NFR - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir18172_30450}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b807c1d65b9ce4a977b6c2608dc1d948
+2018-01-17 14:21:16,969 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 14:21:20,552 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 14:21:24,783 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 14:21:31,663 [main] INFO Cancel_PrePay_Within_DeadLine - Login Successful
+2018-01-17 14:21:33,856 [main] INFO Cancel_PrePay_Within_DeadLine - Searching Customer
+2018-01-17 14:21:33,856 [main] INFO Cancel_PrePay_Within_DeadLine - Navigating to customer search page
+2018-01-17 14:21:39,470 [main] INFO Cancel_PrePay_Within_DeadLine - Navigated to customer search page
+2018-01-17 14:21:41,565 [main] INFO Cancel_PrePay_Within_DeadLine - Selecting Customer
+2018-01-17 14:22:16,043 [main] INFO Cancel_PrePay_Within_DeadLine - Customer Selected
+2018-01-17 14:22:16,044 [main] INFO Cancel_PrePay_Within_DeadLine - Applying search Filters
+2018-01-17 14:22:16,044 [main] INFO Cancel_PrePay_Within_DeadLine - Starting HotelSearch Prepay Within DeadLine
+2018-01-17 14:22:33,145 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Search Complete Prepay Within DeadLine
+2018-01-17 14:22:33,146 [main] INFO Cancel_PrePay_Within_DeadLine - Starting Hotel Book
+2018-01-17 14:22:35,475 [main] INFO Cancel_PrePay_Within_DeadLine - Entering Passenger details
+2018-01-17 14:22:42,219 [main] INFO Cancel_PrePay_Within_DeadLine - Entered Passenger details
+2018-01-17 14:22:52,917 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Book Complete Prepay Within DeadLine
+2018-01-17 14:22:52,918 [main] INFO Cancel_PrePay_Within_DeadLine - Starting to Cancel PrePay Within DeadLine
+2018-01-17 14:23:05,615 [main] INFO Cancel_PrePay_Within_DeadLine - Completed Cancellation PrePay Within DeadLine
+2018-01-17 14:23:06,110 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 14:23:09,003 [main] INFO Cancel_PrePay - Browser Opened
+2018-01-17 14:23:13,169 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 14:23:19,568 [main] INFO Cancel_PrePay - Login Successful
+2018-01-17 14:23:21,721 [main] INFO Cancel_PrePay - Searching Customer
+2018-01-17 14:23:21,722 [main] INFO Cancel_PrePay - Navigating to customer search page
+2018-01-17 14:23:27,257 [main] INFO Cancel_PrePay - Navigated to customer search page
+2018-01-17 14:23:29,349 [main] INFO Cancel_PrePay - Selecting Customer
+2018-01-17 14:24:01,088 [main] INFO Cancel_PrePay - Customer Selected
+2018-01-17 14:24:01,089 [main] INFO Cancel_PrePay - Applying search Filters
+2018-01-17 14:24:01,089 [main] INFO Cancel_PrePay - Starting HotelSearch Prepay
+2018-01-17 14:24:15,920 [main] INFO Cancel_PrePay - Hotel Search Complete Prepay
+2018-01-17 14:24:15,920 [main] INFO Cancel_PrePay - Starting Hotel Book
+2018-01-17 14:24:18,268 [main] INFO Cancel_PrePay - Entering Passenger details
+2018-01-17 14:24:25,050 [main] INFO Cancel_PrePay - Entered Passenger details
+2018-01-17 14:24:35,873 [main] INFO Cancel_PrePay - Hotel Book Complete Prepay
+2018-01-17 14:24:35,874 [main] INFO Cancel_PrePay - Starting to Cancel PrePay OutSide DeadLine
+2018-01-17 14:24:45,695 [main] INFO Cancel_PrePay - Completed Cancellation PrePay OutSide DeadLine
+2018-01-17 14:24:45,940 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 14:24:49,000 [main] INFO Cancel_Prepay_NFR - Browser Opened
+2018-01-17 14:24:53,080 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 14:24:59,544 [main] INFO Cancel_Prepay_NFR - Login Successful
+2018-01-17 14:25:01,699 [main] INFO Cancel_Prepay_NFR - Searching Customer
+2018-01-17 14:25:01,699 [main] INFO Cancel_Prepay_NFR - Navigating to customer search page
+2018-01-17 14:25:07,121 [main] INFO Cancel_Prepay_NFR - Navigated to customer search page
+2018-01-17 14:25:09,200 [main] INFO Cancel_Prepay_NFR - Selecting Customer
+2018-01-17 14:25:40,916 [main] INFO Cancel_Prepay_NFR - Customer Selected
+2018-01-17 14:25:40,917 [main] INFO Cancel_Prepay_NFR - Applying search Filters
+2018-01-17 14:25:40,917 [main] INFO Cancel_Prepay_NFR - Starting HotelSearch Prepay
+2018-01-17 14:26:23,149 [main] INFO Cancel_Prepay_NFR - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir13612_9143}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 5868987a8569a113741ecf0f42dfb9e4
+2018-01-17 14:53:41,831 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 14:53:45,540 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 14:53:51,072 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 14:53:57,600 [main] INFO Cancel_PrePay_Within_DeadLine - Login Successful
+2018-01-17 14:53:59,778 [main] INFO Cancel_PrePay_Within_DeadLine - Searching Customer
+2018-01-17 14:53:59,779 [main] INFO Cancel_PrePay_Within_DeadLine - Navigating to customer search page
+2018-01-17 14:54:05,435 [main] INFO Cancel_PrePay_Within_DeadLine - Navigated to customer search page
+2018-01-17 14:54:07,514 [main] INFO Cancel_PrePay_Within_DeadLine - Selecting Customer
+2018-01-17 14:54:23,261 [main] INFO Cancel_PrePay_Within_DeadLine - Customer Selected
+2018-01-17 14:54:23,261 [main] INFO Cancel_PrePay_Within_DeadLine - Applying search Filters
+2018-01-17 14:54:23,261 [main] INFO Cancel_PrePay_Within_DeadLine - Starting HotelSearch Prepay Within DeadLine
+2018-01-17 14:54:40,938 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Search Complete Prepay Within DeadLine
+2018-01-17 14:54:40,938 [main] INFO Cancel_PrePay_Within_DeadLine - Starting Hotel Book
+2018-01-17 14:54:43,270 [main] INFO Cancel_PrePay_Within_DeadLine - Entering Passenger details
+2018-01-17 14:54:49,900 [main] INFO Cancel_PrePay_Within_DeadLine - Entered Passenger details
+2018-01-17 14:55:20,437 [main] INFO Cancel_PrePay_Within_DeadLine - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[contains(text(),'Status: Confirmed')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir7404_4226}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: ad17b87bcfe503a77baca272158f754a
+2018-01-17 14:55:22,949 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 14:55:26,127 [main] INFO Cancel_PrePay - Browser Opened
+2018-01-17 14:55:30,533 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 14:55:37,331 [main] INFO Cancel_PrePay - Login Successful
+2018-01-17 14:55:39,497 [main] INFO Cancel_PrePay - Searching Customer
+2018-01-17 14:55:39,498 [main] INFO Cancel_PrePay - Navigating to customer search page
+2018-01-17 14:55:45,007 [main] INFO Cancel_PrePay - Navigated to customer search page
+2018-01-17 14:55:47,114 [main] INFO Cancel_PrePay - Selecting Customer
+2018-01-17 14:56:02,886 [main] INFO Cancel_PrePay - Customer Selected
+2018-01-17 14:56:02,886 [main] INFO Cancel_PrePay - Applying search Filters
+2018-01-17 14:56:02,886 [main] INFO Cancel_PrePay - Starting HotelSearch Prepay
+2018-01-17 14:56:17,001 [main] INFO Cancel_PrePay - chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir19488_26822}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9f44db8105dc0d66279914e786eebbff
+*** Element info: {Using=xpath, value=//*[@id='Suppliers[Third Party Channels]']/span/span[1]}
+2018-01-17 14:56:17,328 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 14:56:20,588 [main] INFO Cancel_Prepay_NFR - Browser Opened
+2018-01-17 14:56:21,779 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 15:36:05,225 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 15:36:09,475 [main] INFO Cancel_PrePay_Within_DeadLine - Browser Opened
+2018-01-17 15:36:13,669 [main] INFO Cancel_PrePay_Within_DeadLine - Test Case Started
+2018-01-17 15:36:20,130 [main] INFO Cancel_PrePay_Within_DeadLine - Login Successful
+2018-01-17 15:36:22,310 [main] INFO Cancel_PrePay_Within_DeadLine - Searching Customer
+2018-01-17 15:36:22,311 [main] INFO Cancel_PrePay_Within_DeadLine - Navigating to customer search page
+2018-01-17 15:36:27,791 [main] INFO Cancel_PrePay_Within_DeadLine - Navigated to customer search page
+2018-01-17 15:36:29,885 [main] INFO Cancel_PrePay_Within_DeadLine - Selecting Customer
+2018-01-17 15:36:44,821 [main] INFO Cancel_PrePay_Within_DeadLine - Customer Selected
+2018-01-17 15:36:44,821 [main] INFO Cancel_PrePay_Within_DeadLine - Applying search Filters
+2018-01-17 15:36:44,822 [main] INFO Cancel_PrePay_Within_DeadLine - Starting HotelSearch Prepay Within DeadLine
+2018-01-17 15:37:02,562 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Search Complete Prepay Within DeadLine
+2018-01-17 15:37:02,562 [main] INFO Cancel_PrePay_Within_DeadLine - Starting Hotel Book
+2018-01-17 15:37:04,929 [main] INFO Cancel_PrePay_Within_DeadLine - Entering Passenger details
+2018-01-17 15:37:12,654 [main] INFO Cancel_PrePay_Within_DeadLine - Entered Passenger details
+2018-01-17 15:37:23,891 [main] INFO Cancel_PrePay_Within_DeadLine - Hotel Book Complete Prepay Within DeadLine
+2018-01-17 15:37:23,892 [main] INFO Cancel_PrePay_Within_DeadLine - Starting to Cancel PrePay Within DeadLine
+2018-01-17 15:37:36,671 [main] INFO Cancel_PrePay_Within_DeadLine - Completed Cancellation PrePay Within DeadLine
+2018-01-17 15:37:37,138 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 15:37:39,863 [main] INFO Cancel_PrePay - Browser Opened
+2018-01-17 15:37:44,053 [main] INFO Cancel_PrePay - Test Case Started
+2018-01-17 15:37:50,506 [main] INFO Cancel_PrePay - Login Successful
+2018-01-17 15:37:52,669 [main] INFO Cancel_PrePay - Searching Customer
+2018-01-17 15:37:52,669 [main] INFO Cancel_PrePay - Navigating to customer search page
+2018-01-17 15:37:58,155 [main] INFO Cancel_PrePay - Navigated to customer search page
+2018-01-17 15:38:00,255 [main] INFO Cancel_PrePay - Selecting Customer
+2018-01-17 15:38:15,088 [main] INFO Cancel_PrePay - Customer Selected
+2018-01-17 15:38:15,089 [main] INFO Cancel_PrePay - Applying search Filters
+2018-01-17 15:38:15,089 [main] INFO Cancel_PrePay - Starting HotelSearch Prepay
+2018-01-17 15:38:30,009 [main] INFO Cancel_PrePay - Hotel Search Complete Prepay
+2018-01-17 15:38:30,010 [main] INFO Cancel_PrePay - Starting Hotel Book
+2018-01-17 15:38:32,335 [main] INFO Cancel_PrePay - Entering Passenger details
+2018-01-17 15:38:39,084 [main] INFO Cancel_PrePay - Entered Passenger details
+2018-01-17 15:38:50,727 [main] INFO Cancel_PrePay - Hotel Book Complete Prepay
+2018-01-17 15:38:50,727 [main] INFO Cancel_PrePay - Starting to Cancel PrePay OutSide DeadLine
+2018-01-17 15:39:00,673 [main] INFO Cancel_PrePay - Completed Cancellation PrePay OutSide DeadLine
+2018-01-17 15:39:00,924 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 15:39:03,882 [main] INFO Cancel_Prepay_NFR - Browser Opened
+2018-01-17 15:39:08,026 [main] INFO Cancel_Prepay_NFR - Test Case Started
+2018-01-17 15:39:14,780 [main] INFO Cancel_Prepay_NFR - Login Successful
+2018-01-17 15:39:16,942 [main] INFO Cancel_Prepay_NFR - Searching Customer
+2018-01-17 15:39:16,942 [main] INFO Cancel_Prepay_NFR - Navigating to customer search page
+2018-01-17 15:39:22,371 [main] INFO Cancel_Prepay_NFR - Navigated to customer search page
+2018-01-17 15:39:24,471 [main] INFO Cancel_Prepay_NFR - Selecting Customer
+2018-01-17 15:39:39,192 [main] INFO Cancel_Prepay_NFR - Customer Selected
+2018-01-17 15:39:39,192 [main] INFO Cancel_Prepay_NFR - Applying search Filters
+2018-01-17 15:39:39,192 [main] INFO Cancel_Prepay_NFR - Starting HotelSearch Prepay
+2018-01-17 15:40:21,267 [main] INFO Cancel_Prepay_NFR - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir9536_30774}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: a56c726d6dd76ac551a390e3fde45f20
+2018-01-17 18:16:57,205 [main] INFO Search_Prepay - Test Case Started
+2018-01-17 18:17:00,704 [main] INFO Search_Prepay - Browser Opened
+2018-01-17 18:17:04,898 [main] INFO Search_Prepay - Test Case Started
+2018-01-17 18:17:10,906 [main] INFO Search_Prepay - Login Successful
+2018-01-17 18:17:13,104 [main] INFO Search_Prepay - Searching Customer
+2018-01-17 18:17:13,104 [main] INFO Search_Prepay - Navigating to customer search page
+2018-01-17 18:17:18,620 [main] INFO Search_Prepay - Navigated to customer search page
+2018-01-17 18:17:20,727 [main] INFO Search_Prepay - Selecting Customer
+2018-01-17 18:17:39,165 [main] INFO Search_Prepay - Customer Selected
+2018-01-17 18:17:39,165 [main] INFO Search_Prepay - Applying search Filters
+2018-01-17 18:17:39,165 [main] INFO Search_Prepay - Starting HotelSearch Prepay
+2018-01-17 18:17:51,904 [main] INFO Search_Prepay - Hotel Search Complete Prepay
+2018-01-17 18:17:52,418 [main] INFO Search_Credit - Test Case Started
+2018-01-17 18:17:55,857 [main] INFO Search_Credit - Browser Opened
+2018-01-17 18:17:59,937 [main] INFO Search_Credit - Test Case Started
+2018-01-17 18:18:06,776 [main] INFO Search_Credit - Login Successful
+2018-01-17 18:18:08,916 [main] INFO Search_Credit - Searching Customer
+2018-01-17 18:18:08,916 [main] INFO Search_Credit - Navigating to customer search page
+2018-01-17 18:18:14,371 [main] INFO Search_Credit - Navigated to customer search page
+2018-01-17 18:18:16,457 [main] INFO Search_Credit - Selecting Customer
+2018-01-17 18:18:31,970 [main] INFO Search_Credit - Customer Selected
+2018-01-17 18:18:31,971 [main] INFO Search_Credit - Applying search Filters
+2018-01-17 18:18:31,971 [main] INFO Search_Credit - Starting HotelSearch Credit
+2018-01-17 18:18:44,885 [main] INFO Search_Credit - Hotel Search Complete Credit
+2018-01-17 18:18:45,127 [main] INFO Search_Credit - Test Case Started
+2018-01-17 18:18:48,086 [main] INFO Search_Credit - Browser Opened
+2018-01-17 18:18:52,185 [main] INFO Search_Credit - Test Case Started
+2018-01-17 18:18:58,522 [main] INFO Search_Credit - Login Successful
+2018-01-17 18:19:00,669 [main] INFO Search_Credit - Searching Customer
+2018-01-17 18:19:00,670 [main] INFO Search_Credit - Navigating to customer search page
+2018-01-17 18:19:06,179 [main] INFO Search_Credit - Navigated to customer search page
+2018-01-17 18:19:08,276 [main] INFO Search_Credit - Selecting Customer
+2018-01-17 18:19:23,775 [main] INFO Search_Credit - Customer Selected
+2018-01-17 18:19:23,775 [main] INFO Search_Credit - Applying search Filters
+2018-01-17 18:19:23,775 [main] INFO Search_Credit - Starting HotelSearch Credit Card
+2018-01-17 18:19:36,751 [main] INFO Search_Credit - Hotel Search Complete Credit Card
+2018-01-17 18:45:42,369 [main] INFO Search_Prepay_Within_Deadline - Test Case Started
+2018-01-17 18:45:45,935 [main] INFO Search_Prepay_Within_Deadline - Browser Opened
+2018-01-17 18:45:50,102 [main] INFO Search_Prepay_Within_Deadline - Test Case Started
+2018-01-17 18:45:56,505 [main] INFO Search_Prepay_Within_Deadline - Login Successful
+2018-01-17 18:45:58,732 [main] INFO Search_Prepay_Within_Deadline - Searching Customer
+2018-01-17 18:45:58,733 [main] INFO Search_Prepay_Within_Deadline - Navigating to customer search page
+2018-01-17 18:46:04,183 [main] INFO Search_Prepay_Within_Deadline - Navigated to customer search page
+2018-01-17 18:46:06,278 [main] INFO Search_Prepay_Within_Deadline - Selecting Customer
+2018-01-17 18:46:19,988 [main] INFO Search_Prepay_Within_Deadline - Customer Selected
+2018-01-17 18:46:19,989 [main] INFO Search_Prepay_Within_Deadline - Applying search Filters
+2018-01-17 18:46:19,989 [main] INFO Search_Prepay_Within_Deadline - Starting HotelSearch Within Deadline
+2018-01-17 18:46:37,402 [main] INFO Search_Prepay_Within_Deadline - Hotel Search Complete Within Deadline
+2018-01-17 18:46:40,090 [main] INFO Search_Credit_Within_Deadline - Test Case Started
+2018-01-17 18:46:42,993 [main] INFO Search_Credit_Within_Deadline - Browser Opened
+2018-01-17 18:46:47,001 [main] INFO Search_Credit_Within_Deadline - Test Case Started
+2018-01-17 18:46:53,366 [main] INFO Search_Credit_Within_Deadline - Login Successful
+2018-01-17 18:46:55,573 [main] INFO Search_Credit_Within_Deadline - Searching Customer
+2018-01-17 18:46:55,574 [main] INFO Search_Credit_Within_Deadline - Navigating to customer search page
+2018-01-17 18:47:01,134 [main] INFO Search_Credit_Within_Deadline - Navigated to customer search page
+2018-01-17 18:47:03,212 [main] INFO Search_Credit_Within_Deadline - Selecting Customer
+2018-01-17 18:47:16,742 [main] INFO Search_Credit_Within_Deadline - Customer Selected
+2018-01-17 18:47:16,743 [main] INFO Search_Credit_Within_Deadline - Applying search Filters
+2018-01-17 18:47:16,743 [main] INFO Search_Credit_Within_Deadline - Starting HotelSearch Within Deadline
+2018-01-17 18:47:34,102 [main] INFO Search_Credit_Within_Deadline - Hotel Search Complete Within Deadline
+2018-01-17 18:47:34,327 [main] INFO Search_Credit_Card_Within_Deadline - Test Case Started
+2018-01-17 18:47:37,459 [main] INFO Search_Credit_Card_Within_Deadline - Browser Opened
+2018-01-17 18:47:41,520 [main] INFO Search_Credit_Card_Within_Deadline - Test Case Started
+2018-01-17 18:47:47,538 [main] INFO Search_Credit_Card_Within_Deadline - Login Successful
+2018-01-17 18:47:49,685 [main] INFO Search_Credit_Card_Within_Deadline - Searching Customer
+2018-01-17 18:47:49,686 [main] INFO Search_Credit_Card_Within_Deadline - Navigating to customer search page
+2018-01-17 18:47:55,119 [main] INFO Search_Credit_Card_Within_Deadline - Navigated to customer search page
+2018-01-17 18:47:57,206 [main] INFO Search_Credit_Card_Within_Deadline - Selecting Customer
+2018-01-17 18:48:10,655 [main] INFO Search_Credit_Card_Within_Deadline - Customer Selected
+2018-01-17 18:48:10,655 [main] INFO Search_Credit_Card_Within_Deadline - Applying search Filters
+2018-01-17 18:48:10,655 [main] INFO Search_Credit_Card_Within_Deadline - Starting HotelSearch Within Deadline
+2018-01-17 18:48:28,074 [main] INFO Search_Credit_Card_Within_Deadline - Hotel Search Complete Within Deadline
