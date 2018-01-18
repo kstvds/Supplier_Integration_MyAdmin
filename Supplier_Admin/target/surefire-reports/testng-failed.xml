@@ -5,18 +5,18 @@
   <test name="SupplierTestthree(failed)">
     <parameter name="browsername" value="CH"/>
     <classes>
-      <class name="Cancel_MyAdmin.Cancel_Prepay">
+      <class name="Cancel_MyAdmin.Cancel_Credit">
         <methods>
           <include name="getResult"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- Cancel_MyAdmin.Cancel_Prepay -->
-      <class name="Cancel_MyAdmin.Cancel_PrePay_Within_DeadLine">
+      </class> <!-- Cancel_MyAdmin.Cancel_Credit -->
+      <class name="Search_MyAdmin.Search_Prepay">
         <methods>
-          <include name="afterTest"/>
           <include name="getResult"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- Cancel_MyAdmin.Cancel_PrePay_Within_DeadLine -->
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
       <class name="Cancel_MyAdmin.Cancel_Prepay_NFR">
         <methods>
           <include name="CancelPrepay" invocation-numbers="0"/>

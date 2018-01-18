@@ -237,7 +237,7 @@ public class Cancel_PrePay_Within_DeadLine {
 					Select passengertitle = new Select(driverqa.findElement(NewAccoBooking.paxtitle));
 					Thread.sleep(1000);
 					passengertitle.selectByIndex(1);
-					/*driverqa.findElement(NewAccoBooking.paxFname2).sendKeys(excel.getData(0, 22, 1));
+					driverqa.findElement(NewAccoBooking.paxFname2).sendKeys(excel.getData(0, 22, 1));
 					Thread.sleep(1000);
 					driverqa.findElement(NewAccoBooking.paxLname2).sendKeys(excel.getData(0, 22, 2));
 					Select passengertitle2 = new Select(driverqa.findElement(NewAccoBooking.paxtitle2));
@@ -246,7 +246,7 @@ public class Cancel_PrePay_Within_DeadLine {
 					Thread.sleep(1000);
 					driverqa.findElement(NewAccoBooking.paxLnameCHILD).sendKeys(excel.getData(0, 23, 2));
 					Select passengertitle3 = new Select(driverqa.findElement(NewAccoBooking.paxtitle3));
-					passengertitle3.selectByIndex(1);*/
+					passengertitle3.selectByIndex(1);
 					driverqa.findElement(NewAccoBooking.acceptChkBX).click();
 					Thread.sleep(2000);
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Cancel/Accommodation_Cancel_Prepay_Within_DeadLine/Passenger-Details.jpg");

@@ -213,6 +213,7 @@ public class Save_Credit {
 					 driverqa.findElement(NewAccoBooking.thirdPartyprocedetoBooksaveoutdead).click();
 					 logger.info("Entering Passenger details");
 					 test.log(LogStatus.INFO, "Entering Passenger details");
+					
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.paxFname));
 					driverqa.findElement(NewAccoBooking.paxFname).sendKeys(excel.getData(1, 13, 0));
 					Thread.sleep(2000);
@@ -248,7 +249,8 @@ public class Save_Credit {
 					//Assert.assertTrue(actualRate.contains(SearchRateexpected));
 					Thread.sleep(2000);
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Save/Accommodation_Save_Credit/Itenary-Details.jpg");
-
+					test.log(LogStatus.PASS, "Hotel Saved");
+					logger.info("Hotel Saved");
 				} catch (Exception e) {
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
