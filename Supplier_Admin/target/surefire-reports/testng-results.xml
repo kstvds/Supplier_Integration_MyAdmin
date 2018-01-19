@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="SupplierSuite" duration-ms="234550" started-at="2018-01-18T08:18:52Z" finished-at="2018-01-18T08:22:47Z">
+  <suite name="SupplierSuite" duration-ms="276988" started-at="2018-01-19T10:11:31Z" finished-at="2018-01-19T10:16:08Z">
     <groups>
     </groups>
-    <test name="SupplierTestone" duration-ms="56464" started-at="2018-01-18T08:18:52Z" finished-at="2018-01-18T08:19:49Z">
+    <test name="SupplierTestone" duration-ms="78271" started-at="2018-01-19T10:11:31Z" finished-at="2018-01-19T10:12:49Z">
       <class name="Search_MyAdmin.Search_Prepay">
-        <test-method status="PASS" signature="SearchPrepay(java.lang.String)[pri:0, instance:Search_MyAdmin.Search_Prepay@2038ae61]" name="SearchPrepay" duration-ms="56144" started-at="2018-01-18T13:48:52Z" finished-at="2018-01-18T13:49:49Z">
+        <test-method status="PASS" signature="SearchPrepay(java.lang.String)[pri:0, instance:Search_MyAdmin.Search_Prepay@2038ae61]" name="SearchPrepay" duration-ms="75574" started-at="2018-01-19T15:41:31Z" finished-at="2018-01-19T15:42:46Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchPrepay -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Search_MyAdmin.Search_Prepay@2038ae61]" name="getResult" is-config="true" duration-ms="3" started-at="2018-01-18T13:49:49Z" finished-at="2018-01-18T13:49:49Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Search_MyAdmin.Search_Prepay@2038ae61]" name="getResult" is-config="true" duration-ms="3" started-at="2018-01-19T15:42:46Z" finished-at="2018-01-19T15:42:46Z">
           <params>
             <param index="0">
               <value>
@@ -29,15 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Search_MyAdmin.Search_Prepay@2038ae61]" name="afterTest" is-config="true" duration-ms="301" started-at="2018-01-18T13:49:49Z" finished-at="2018-01-18T13:49:49Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Search_MyAdmin.Search_Prepay@2038ae61]" name="afterTest" is-config="true" duration-ms="2675" started-at="2018-01-19T15:42:46Z" finished-at="2018-01-19T15:42:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- Search_MyAdmin.Search_Prepay -->
     </test> <!-- SupplierTestone -->
-    <test name="SupplierTesttwo" duration-ms="95643" started-at="2018-01-18T08:19:49Z" finished-at="2018-01-18T08:21:25Z">
+    <test name="SupplierTesttwo" duration-ms="112574" started-at="2018-01-19T10:12:49Z" finished-at="2018-01-19T10:14:42Z">
       <class name="Cancel_MyAdmin.Cancel_Credit">
-        <test-method status="PASS" signature="CancelCredit(java.lang.String)[pri:0, instance:Cancel_MyAdmin.Cancel_Credit@185d8b6]" name="CancelCredit" duration-ms="95471" started-at="2018-01-18T13:49:49Z" finished-at="2018-01-18T13:51:24Z">
+        <test-method status="PASS" signature="CancelCredit(java.lang.String)[pri:0, instance:Cancel_MyAdmin.Cancel_Credit@185d8b6]" name="CancelCredit" duration-ms="112370" started-at="2018-01-19T15:42:49Z" finished-at="2018-01-19T15:44:42Z">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CancelCredit -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Cancel_MyAdmin.Cancel_Credit@185d8b6]" name="getResult" is-config="true" duration-ms="1" started-at="2018-01-18T13:51:24Z" finished-at="2018-01-18T13:51:24Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Cancel_MyAdmin.Cancel_Credit@185d8b6]" name="getResult" is-config="true" duration-ms="1" started-at="2018-01-19T15:44:42Z" finished-at="2018-01-19T15:44:42Z">
           <params>
             <param index="0">
               <value>
@@ -59,15 +59,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Cancel_MyAdmin.Cancel_Credit@185d8b6]" name="afterTest" is-config="true" duration-ms="171" started-at="2018-01-18T13:51:24Z" finished-at="2018-01-18T13:51:25Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Cancel_MyAdmin.Cancel_Credit@185d8b6]" name="afterTest" is-config="true" duration-ms="202" started-at="2018-01-19T15:44:42Z" finished-at="2018-01-19T15:44:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- Cancel_MyAdmin.Cancel_Credit -->
     </test> <!-- SupplierTesttwo -->
-    <test name="SupplierTestthree" duration-ms="82418" started-at="2018-01-18T08:21:25Z" finished-at="2018-01-18T08:22:47Z">
+    <test name="SupplierTestthree" duration-ms="86114" started-at="2018-01-19T10:14:42Z" finished-at="2018-01-19T10:16:08Z">
       <class name="Cancel_MyAdmin.Cancel_Prepay_NFR">
-        <test-method status="FAIL" signature="CancelPrepay(java.lang.String)[pri:0, instance:Cancel_MyAdmin.Cancel_Prepay_NFR@57536d79]" name="CancelPrepay" duration-ms="82263" started-at="2018-01-18T13:51:25Z" finished-at="2018-01-18T13:52:47Z">
+        <test-method status="FAIL" signature="CancelPrepay(java.lang.String)[pri:0, instance:Cancel_MyAdmin.Cancel_Prepay_NFR@57536d79]" name="CancelPrepay" duration-ms="85927" started-at="2018-01-19T15:44:42Z" finished-at="2018-01-19T15:46:08Z">
           <params>
             <param index="0">
               <value>
@@ -81,16 +81,16 @@
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir21892_22966}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 2d49943bde9d5dfe57092b144efa2259 expected [true] but found [false]]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir27616_22743}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 04dfb51dd8db0acd217e6cf5a29544a0 expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir21892_22966}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 2d49943bde9d5dfe57092b144efa2259 expected [true] but found [false]
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir27616_22743}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 04dfb51dd8db0acd217e6cf5a29544a0 expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertTrue(Assert.java:42)
@@ -128,7 +128,7 @@ Session ID: 2d49943bde9d5dfe57092b144efa2259 expected [true] but found [false]
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CancelPrepay -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Cancel_MyAdmin.Cancel_Prepay_NFR@57536d79]" name="getResult" is-config="true" duration-ms="1" started-at="2018-01-18T13:52:47Z" finished-at="2018-01-18T13:52:47Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Cancel_MyAdmin.Cancel_Prepay_NFR@57536d79]" name="getResult" is-config="true" duration-ms="4" started-at="2018-01-19T15:46:08Z" finished-at="2018-01-19T15:46:08Z">
           <params>
             <param index="0">
               <value>
@@ -139,7 +139,7 @@ Session ID: 2d49943bde9d5dfe57092b144efa2259 expected [true] but found [false]
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Cancel_MyAdmin.Cancel_Prepay_NFR@57536d79]" name="afterTest" is-config="true" duration-ms="129" started-at="2018-01-18T13:52:47Z" finished-at="2018-01-18T13:52:47Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Cancel_MyAdmin.Cancel_Prepay_NFR@57536d79]" name="afterTest" is-config="true" duration-ms="177" started-at="2018-01-19T15:46:08Z" finished-at="2018-01-19T15:46:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

@@ -5486,3 +5486,756 @@ Session ID: ffae435d330870be1ddadda2d2616bd3
 2018-01-18 17:48:39,568 - Cancel_Credit -INFO - Login Successful
 2018-01-18 17:48:41,768 - Cancel_Credit -INFO - Searching Customer
 2018-01-18 17:48:41,768 - Cancel_Credit -INFO - Navigating to customer search page
+2018-01-18 20:37:14,147 - Search_Prepay -INFO - Test Case Started
+2018-01-18 20:37:17,969 - Search_Prepay -INFO - Browser Opened
+2018-01-18 20:37:22,283 - Search_Prepay -INFO - Test Case Started
+2018-01-18 20:37:29,731 - Search_Prepay -INFO - Login Successful
+2018-01-18 20:37:32,015 - Search_Prepay -INFO - Searching Customer
+2018-01-18 20:37:32,015 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-18 20:37:37,611 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-18 20:37:39,744 - Search_Prepay -INFO - Selecting Customer
+2018-01-18 20:37:50,419 - Search_Prepay -INFO - chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir23776_21827}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: ee4be881a82ca3dbaed3073839527896
+2018-01-18 20:37:53,097 - Cancel_Credit -INFO - Test Case Started
+2018-01-18 20:37:56,583 - Cancel_Credit -INFO - Browser Opened
+2018-01-18 20:38:02,558 - Cancel_Credit -INFO - Test Case Started
+2018-01-18 20:38:09,544 - Cancel_Credit -INFO - Login Successful
+2018-01-18 20:38:15,698 - Cancel_Credit -INFO - Searching Customer
+2018-01-18 20:38:15,699 - Cancel_Credit -INFO - Navigating to customer search page
+2018-01-18 20:38:19,707 - Cancel_Credit -INFO - chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir22728_8018}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 0a80f7c8a35b7fca5aeed98654776d24
+*** Element info: {Using=xpath, value=//a[contains(text(),'Operations')]}
+2018-01-18 20:38:24,097 - Cancel_Prepay_NFR -INFO - Test Case Started
+2018-01-18 20:38:28,440 - Cancel_Prepay_NFR -INFO - Browser Opened
+2018-01-18 20:38:35,340 - Cancel_Prepay_NFR -INFO - Test Case Started
+2018-01-18 20:38:42,153 - Cancel_Prepay_NFR -INFO - Login Successful
+2018-01-18 20:38:44,398 - Cancel_Prepay_NFR -INFO - Searching Customer
+2018-01-18 20:38:44,398 - Cancel_Prepay_NFR -INFO - Navigating to customer search page
+2018-01-18 20:38:50,620 - Cancel_Prepay_NFR -INFO - Navigated to customer search page
+2018-01-18 20:38:52,749 - Cancel_Prepay_NFR -INFO - Selecting Customer
+2018-01-19 11:27:33,657 - Search_Prepay -INFO - Test Case Started
+2018-01-19 11:27:38,500 - Search_Prepay -INFO - Browser Opened
+2018-01-19 11:27:43,796 - Search_Prepay -INFO - Test Case Started
+2018-01-19 11:27:50,365 - Search_Prepay -INFO - Login Successful
+2018-01-19 11:27:52,750 - Search_Prepay -INFO - Searching Customer
+2018-01-19 11:27:52,750 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-19 11:27:58,248 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-19 11:28:00,347 - Search_Prepay -INFO - Selecting Customer
+2018-01-19 11:28:33,233 - Search_Prepay -INFO - Customer Selected
+2018-01-19 11:28:33,234 - Search_Prepay -INFO - Applying search Filters
+2018-01-19 11:28:33,234 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-19 11:29:12,372 - Search_Prepay -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir24120_27139}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f7bc70681b236308f149ed35565cab60
+2018-01-19 11:29:15,227 - Cancel_Credit -INFO - Test Case Started
+2018-01-19 11:29:18,159 - Cancel_Credit -INFO - Browser Opened
+2018-01-19 11:29:23,626 - Cancel_Credit -INFO - Test Case Started
+2018-01-19 11:29:29,998 - Cancel_Credit -INFO - Login Successful
+2018-01-19 11:29:32,167 - Cancel_Credit -INFO - Searching Customer
+2018-01-19 11:29:32,167 - Cancel_Credit -INFO - Navigating to customer search page
+2018-01-19 11:29:37,678 - Cancel_Credit -INFO - Navigated to customer search page
+2018-01-19 11:29:39,834 - Cancel_Credit -INFO - Selecting Customer
+2018-01-19 11:29:57,173 - Cancel_Credit -INFO - Customer Selected
+2018-01-19 11:29:57,174 - Cancel_Credit -INFO - Applying search Filters
+2018-01-19 11:29:57,174 - Cancel_Credit -INFO - Starting HotelSearch Credit
+2018-01-19 11:30:37,193 - Cancel_Credit -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir26664_5763}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 57b21e46a14372aff11a1ae96c2bac90
+2018-01-19 11:30:37,503 - Cancel_Prepay_NFR -INFO - Test Case Started
+2018-01-19 11:30:40,626 - Cancel_Prepay_NFR -INFO - Browser Opened
+2018-01-19 11:30:46,147 - Cancel_Prepay_NFR -INFO - Test Case Started
+2018-01-19 11:30:53,852 - Cancel_Prepay_NFR -INFO - Login Successful
+2018-01-19 11:30:56,023 - Cancel_Prepay_NFR -INFO - Searching Customer
+2018-01-19 11:30:56,023 - Cancel_Prepay_NFR -INFO - Navigating to customer search page
+2018-01-19 11:31:01,502 - Cancel_Prepay_NFR -INFO - Navigated to customer search page
+2018-01-19 11:31:03,588 - Cancel_Prepay_NFR -INFO - Selecting Customer
+2018-01-19 11:31:20,963 - Cancel_Prepay_NFR -INFO - Customer Selected
+2018-01-19 11:31:20,964 - Cancel_Prepay_NFR -INFO - Applying search Filters
+2018-01-19 11:31:20,964 - Cancel_Prepay_NFR -INFO - Starting HotelSearch Prepay
+2018-01-19 11:32:00,254 - Cancel_Prepay_NFR -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir14404_30601}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: efec6f466041c8a74e3511a9bfc8a8fc
+2018-01-19 11:40:47,425 - Search_Prepay -INFO - Test Case Started
+2018-01-19 11:40:52,815 - Search_Prepay -INFO - Browser Opened
+2018-01-19 11:40:58,851 - Search_Prepay -INFO - Test Case Started
+2018-01-19 11:41:05,481 - Search_Prepay -INFO - Login Successful
+2018-01-19 11:41:07,873 - Search_Prepay -INFO - Searching Customer
+2018-01-19 11:41:07,873 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-19 11:41:13,404 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-19 11:41:15,505 - Search_Prepay -INFO - Selecting Customer
+2018-01-19 11:41:50,103 - Search_Prepay -INFO - Customer Selected
+2018-01-19 11:41:50,104 - Search_Prepay -INFO - Applying search Filters
+2018-01-19 11:41:50,104 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-19 11:42:29,194 - Search_Prepay -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir30688_4761}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 7f4fb6be82a777e65b090e12de10ebc5
+2018-01-19 11:42:29,894 - Cancel_Credit -INFO - Test Case Started
+2018-01-19 11:42:32,791 - Cancel_Credit -INFO - Browser Opened
+2018-01-19 11:42:37,119 - Cancel_Credit -INFO - Test Case Started
+2018-01-19 11:42:43,535 - Cancel_Credit -INFO - Login Successful
+2018-01-19 11:42:45,927 - Cancel_Credit -INFO - Searching Customer
+2018-01-19 11:42:45,927 - Cancel_Credit -INFO - Navigating to customer search page
+2018-01-19 11:42:51,486 - Cancel_Credit -INFO - Navigated to customer search page
+2018-01-19 11:42:53,580 - Cancel_Credit -INFO - Selecting Customer
+2018-01-19 11:43:27,693 - Cancel_Credit -INFO - Customer Selected
+2018-01-19 11:43:27,694 - Cancel_Credit -INFO - Applying search Filters
+2018-01-19 11:43:27,694 - Cancel_Credit -INFO - Starting HotelSearch Credit
+2018-01-19 11:44:15,212 - Cancel_Credit -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir27024_20694}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d9ed5d735be6a5e775a73ea4f6338bd6
+2018-01-19 11:44:15,548 - Cancel_Prepay_NFR -INFO - Test Case Started
+2018-01-19 11:44:18,705 - Cancel_Prepay_NFR -INFO - Browser Opened
+2018-01-19 11:44:22,790 - Cancel_Prepay_NFR -INFO - Test Case Started
+2018-01-19 11:44:29,218 - Cancel_Prepay_NFR -INFO - Login Successful
+2018-01-19 11:44:31,391 - Cancel_Prepay_NFR -INFO - Searching Customer
+2018-01-19 11:44:31,391 - Cancel_Prepay_NFR -INFO - Navigating to customer search page
+2018-01-19 11:44:36,880 - Cancel_Prepay_NFR -INFO - Navigated to customer search page
+2018-01-19 11:44:38,983 - Cancel_Prepay_NFR -INFO - Selecting Customer
+2018-01-19 11:45:13,395 - Cancel_Prepay_NFR -INFO - Customer Selected
+2018-01-19 11:45:13,395 - Cancel_Prepay_NFR -INFO - Applying search Filters
+2018-01-19 11:45:13,396 - Cancel_Prepay_NFR -INFO - Starting HotelSearch Prepay
+2018-01-19 11:45:52,698 - Cancel_Prepay_NFR -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir18248_20668}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 83052705a312d06c04c15321a2a97d3c
+2018-01-19 13:53:43,441 - Search_Prepay -INFO - Test Case Started
+2018-01-19 13:53:48,060 - Search_Prepay -INFO - Browser Opened
+2018-01-19 13:53:55,048 - Search_Prepay -INFO - Test Case Started
+2018-01-19 13:54:01,392 - Search_Prepay -INFO - Login Successful
+2018-01-19 13:54:03,566 - Search_Prepay -INFO - Searching Customer
+2018-01-19 13:54:03,567 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-19 13:54:09,136 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-19 13:54:11,223 - Search_Prepay -INFO - Selecting Customer
+2018-01-19 13:54:26,924 - Search_Prepay -INFO - Customer Selected
+2018-01-19 13:54:26,924 - Search_Prepay -INFO - Applying search Filters
+2018-01-19 13:54:26,925 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-19 13:55:06,740 - Search_Prepay -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir27512_17203}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 455b705749ec4c3a23b8136473db2fce
+2018-01-19 13:56:40,909 - Search_Prepay -INFO - Test Case Started
+2018-01-19 13:56:45,176 - Search_Prepay -INFO - Browser Opened
+2018-01-19 13:56:50,377 - Search_Prepay -INFO - Test Case Started
+2018-01-19 13:56:56,891 - Search_Prepay -INFO - Login Successful
+2018-01-19 13:56:59,066 - Search_Prepay -INFO - Searching Customer
+2018-01-19 13:56:59,066 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-19 13:57:04,492 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-19 13:57:06,582 - Search_Prepay -INFO - Selecting Customer
+2018-01-19 13:57:22,276 - Search_Prepay -INFO - Customer Selected
+2018-01-19 13:57:22,276 - Search_Prepay -INFO - Applying search Filters
+2018-01-19 13:57:22,277 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-19 13:58:01,608 - Search_Prepay -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir22908_29332}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 18ae2031dcf25a9e27adf8bc0c94811d
+2018-01-19 14:10:15,858 - Search_Prepay -INFO - Test Case Started
+2018-01-19 14:10:19,568 - Search_Prepay -INFO - Browser Opened
+2018-01-19 14:10:24,886 - Search_Prepay -INFO - Test Case Started
+2018-01-19 14:10:31,259 - Search_Prepay -INFO - Login Successful
+2018-01-19 14:10:33,447 - Search_Prepay -INFO - Searching Customer
+2018-01-19 14:10:33,448 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-19 14:10:38,800 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-19 14:10:40,894 - Search_Prepay -INFO - Selecting Customer
+2018-01-19 14:10:53,521 - Search_Prepay -INFO - Customer Selected
+2018-01-19 14:10:53,521 - Search_Prepay -INFO - Applying search Filters
+2018-01-19 14:10:53,522 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-19 14:11:32,738 - Search_Prepay -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir24052_18256}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d41690c06e1f4b2b88b3a28719736a64
+2018-01-19 14:17:39,766 - Search_Prepay -INFO - Test Case Started
+2018-01-19 14:17:43,474 - Search_Prepay -INFO - Browser Opened
+2018-01-19 14:17:47,695 - Search_Prepay -INFO - Test Case Started
+2018-01-19 14:17:54,061 - Search_Prepay -INFO - Login Successful
+2018-01-19 14:17:56,247 - Search_Prepay -INFO - Searching Customer
+2018-01-19 14:17:56,248 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-19 14:18:01,694 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-19 14:18:03,790 - Search_Prepay -INFO - Selecting Customer
+2018-01-19 14:18:18,456 - Search_Prepay -INFO - Customer Selected
+2018-01-19 14:18:18,456 - Search_Prepay -INFO - Applying search Filters
+2018-01-19 14:18:18,456 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-19 14:18:32,552 - Search_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-19 14:19:37,335 - Search_Prepay -INFO - Test Case Started
+2018-01-19 14:19:41,261 - Search_Prepay -INFO - Browser Opened
+2018-01-19 14:19:45,389 - Search_Prepay -INFO - Test Case Started
+2018-01-19 14:19:51,836 - Search_Prepay -INFO - Login Successful
+2018-01-19 14:19:54,010 - Search_Prepay -INFO - Searching Customer
+2018-01-19 14:19:54,010 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-19 14:19:59,537 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-19 14:20:01,663 - Search_Prepay -INFO - Selecting Customer
+2018-01-19 14:20:16,940 - Search_Prepay -INFO - Customer Selected
+2018-01-19 14:20:16,940 - Search_Prepay -INFO - Applying search Filters
+2018-01-19 14:20:16,940 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-19 14:20:29,185 - Search_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-19 14:23:38,371 - Search_Prepay -INFO - Test Case Started
+2018-01-19 14:23:42,836 - Search_Prepay -INFO - Browser Opened
+2018-01-19 14:23:48,086 - Search_Prepay -INFO - Test Case Started
+2018-01-19 14:23:54,563 - Search_Prepay -INFO - Login Successful
+2018-01-19 14:23:56,730 - Search_Prepay -INFO - Searching Customer
+2018-01-19 14:23:56,730 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-19 14:24:02,179 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-19 14:24:04,276 - Search_Prepay -INFO - Selecting Customer
+2018-01-19 14:24:18,948 - Search_Prepay -INFO - Customer Selected
+2018-01-19 14:24:18,948 - Search_Prepay -INFO - Applying search Filters
+2018-01-19 14:24:18,948 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-19 14:24:31,137 - Search_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-19 14:38:24,993 - Search_Prepay -INFO - Test Case Started
+2018-01-19 14:38:28,946 - Search_Prepay -INFO - Browser Opened
+2018-01-19 14:38:33,218 - Search_Prepay -INFO - Test Case Started
+2018-01-19 14:38:39,652 - Search_Prepay -INFO - Login Successful
+2018-01-19 14:38:41,828 - Search_Prepay -INFO - Searching Customer
+2018-01-19 14:38:41,828 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-19 14:38:47,259 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-19 14:38:49,382 - Search_Prepay -INFO - Selecting Customer
+2018-01-19 14:39:04,122 - Search_Prepay -INFO - Customer Selected
+2018-01-19 14:39:04,122 - Search_Prepay -INFO - Applying search Filters
+2018-01-19 14:39:04,123 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-19 14:39:18,348 - Search_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-19 14:39:18,849 - Cancel_Credit -INFO - Test Case Started
+2018-01-19 14:39:21,938 - Cancel_Credit -INFO - Browser Opened
+2018-01-19 14:39:26,635 - Cancel_Credit -INFO - Test Case Started
+2018-01-19 14:39:33,425 - Cancel_Credit -INFO - Login Successful
+2018-01-19 14:39:35,584 - Cancel_Credit -INFO - Searching Customer
+2018-01-19 14:39:35,584 - Cancel_Credit -INFO - Navigating to customer search page
+2018-01-19 14:39:41,018 - Cancel_Credit -INFO - Navigated to customer search page
+2018-01-19 14:39:43,111 - Cancel_Credit -INFO - Selecting Customer
+2018-01-19 14:39:58,616 - Cancel_Credit -INFO - Customer Selected
+2018-01-19 14:39:58,616 - Cancel_Credit -INFO - Applying search Filters
+2018-01-19 14:39:58,616 - Cancel_Credit -INFO - Starting HotelSearch Credit
+2018-01-19 14:40:14,905 - Cancel_Credit -INFO - Hotel Search Complete Credit
+2018-01-19 14:40:14,905 - Cancel_Credit -INFO - Starting Hotel Book
+2018-01-19 14:40:17,744 - Cancel_Credit -INFO - Entering Passenger details
+2018-01-19 14:40:26,853 - Cancel_Credit -INFO - Entered Passenger details
+2018-01-19 14:40:57,518 - Cancel_Credit -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[contains(text(),'Status: Confirmed')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir28420_29791}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bd6849566b5ec79a652ec401ed3d4ce4
+2018-01-19 14:40:57,783 - Cancel_Prepay_NFR -INFO - Test Case Started
+2018-01-19 14:41:00,615 - Cancel_Prepay_NFR -INFO - Browser Opened
+2018-01-19 14:41:04,762 - Cancel_Prepay_NFR -INFO - Test Case Started
+2018-01-19 14:41:11,192 - Cancel_Prepay_NFR -INFO - Login Successful
+2018-01-19 14:41:13,338 - Cancel_Prepay_NFR -INFO - Searching Customer
+2018-01-19 14:41:13,339 - Cancel_Prepay_NFR -INFO - Navigating to customer search page
+2018-01-19 14:41:18,932 - Cancel_Prepay_NFR -INFO - Navigated to customer search page
+2018-01-19 14:41:21,020 - Cancel_Prepay_NFR -INFO - Selecting Customer
+2018-01-19 14:41:35,075 - Cancel_Prepay_NFR -INFO - Customer Selected
+2018-01-19 14:41:35,076 - Cancel_Prepay_NFR -INFO - Applying search Filters
+2018-01-19 14:41:35,076 - Cancel_Prepay_NFR -INFO - Starting HotelSearch Prepay
+2018-01-19 14:42:17,768 - Cancel_Prepay_NFR -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir27836_15512}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: a3d55a0fa4973529677b1bc7a7dc5086
+2018-01-19 14:43:50,318 - Cancel_Credit -INFO - Test Case Started
+2018-01-19 14:43:54,509 - Cancel_Credit -INFO - Browser Opened
+2018-01-19 14:43:59,810 - Cancel_Credit -INFO - Test Case Started
+2018-01-19 14:44:06,158 - Cancel_Credit -INFO - Login Successful
+2018-01-19 14:44:08,342 - Cancel_Credit -INFO - Searching Customer
+2018-01-19 14:44:08,343 - Cancel_Credit -INFO - Navigating to customer search page
+2018-01-19 14:44:13,693 - Cancel_Credit -INFO - Navigated to customer search page
+2018-01-19 14:44:15,789 - Cancel_Credit -INFO - Selecting Customer
+2018-01-19 14:44:29,237 - Cancel_Credit -INFO - Customer Selected
+2018-01-19 14:44:29,238 - Cancel_Credit -INFO - Applying search Filters
+2018-01-19 14:44:29,238 - Cancel_Credit -INFO - Starting HotelSearch Credit
+2018-01-19 14:44:43,504 - Cancel_Credit -INFO - Hotel Search Complete Credit
+2018-01-19 14:44:43,505 - Cancel_Credit -INFO - Starting Hotel Book
+2018-01-19 14:44:46,337 - Cancel_Credit -INFO - Entering Passenger details
+2018-01-19 14:44:55,418 - Cancel_Credit -INFO - Entered Passenger details
+2018-01-19 14:45:25,867 - Cancel_Credit -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[contains(text(),'Status: Confirmed')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir26932_30265}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b17389c1d0da5b814a8806f2c855cbc1
+2018-01-19 15:17:22,470 - Cancel_Credit -INFO - Test Case Started
+2018-01-19 15:17:26,345 - Cancel_Credit -INFO - Browser Opened
+2018-01-19 15:17:30,516 - Cancel_Credit -INFO - Test Case Started
+2018-01-19 15:17:36,957 - Cancel_Credit -INFO - Login Successful
+2018-01-19 15:17:39,180 - Cancel_Credit -INFO - Searching Customer
+2018-01-19 15:17:39,181 - Cancel_Credit -INFO - Navigating to customer search page
+2018-01-19 15:17:44,566 - Cancel_Credit -INFO - Navigated to customer search page
+2018-01-19 15:17:46,650 - Cancel_Credit -INFO - Selecting Customer
+2018-01-19 15:18:01,135 - Cancel_Credit -INFO - Customer Selected
+2018-01-19 15:18:01,136 - Cancel_Credit -INFO - Applying search Filters
+2018-01-19 15:18:01,136 - Cancel_Credit -INFO - Starting HotelSearch Credit
+2018-01-19 15:18:25,211 - Cancel_Credit -INFO - Hotel Search Complete Credit
+2018-01-19 15:18:25,211 - Cancel_Credit -INFO - Starting Hotel Book
+2018-01-19 15:18:28,596 - Cancel_Credit -INFO - Entering Passenger details
+2018-01-19 15:18:37,677 - Cancel_Credit -INFO - Entered Passenger details
+2018-01-19 15:18:51,319 - Cancel_Credit -INFO - Hotel Book Complete Credit
+2018-01-19 15:18:51,320 - Cancel_Credit -INFO - Starting to Cancel Credit OutSide DeadLine
+2018-01-19 15:19:01,594 - Cancel_Credit -INFO - Completed Cancellation Credit OutSide DeadLine
+2018-01-19 15:20:46,971 - Search_Prepay -INFO - Test Case Started
+2018-01-19 15:20:55,259 - Search_Prepay -INFO - Browser Opened
+2018-01-19 15:21:02,295 - Search_Prepay -INFO - Test Case Started
+2018-01-19 15:21:14,918 - Search_Prepay -INFO - Login Successful
+2018-01-19 15:21:17,872 - Search_Prepay -INFO - Searching Customer
+2018-01-19 15:21:17,873 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-19 15:21:24,501 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-19 15:21:26,602 - Search_Prepay -INFO - Selecting Customer
+2018-01-19 15:21:41,882 - Search_Prepay -INFO - Customer Selected
+2018-01-19 15:21:41,883 - Search_Prepay -INFO - Applying search Filters
+2018-01-19 15:21:41,883 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-19 15:21:58,062 - Search_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-19 15:22:01,361 - Cancel_Credit -INFO - Test Case Started
+2018-01-19 15:22:06,912 - Cancel_Credit -INFO - Browser Opened
+2018-01-19 15:22:13,795 - Cancel_Credit -INFO - Test Case Started
+2018-01-19 15:22:19,916 - Cancel_Credit -INFO - Login Successful
+2018-01-19 15:22:22,081 - Cancel_Credit -INFO - Searching Customer
+2018-01-19 15:22:22,082 - Cancel_Credit -INFO - Navigating to customer search page
+2018-01-19 15:22:27,583 - Cancel_Credit -INFO - Navigated to customer search page
+2018-01-19 15:22:29,675 - Cancel_Credit -INFO - Selecting Customer
+2018-01-19 15:22:44,907 - Cancel_Credit -INFO - Customer Selected
+2018-01-19 15:22:44,907 - Cancel_Credit -INFO - Applying search Filters
+2018-01-19 15:22:44,907 - Cancel_Credit -INFO - Starting HotelSearch Credit
+2018-01-19 15:22:59,181 - Cancel_Credit -INFO - Hotel Search Complete Credit
+2018-01-19 15:22:59,182 - Cancel_Credit -INFO - Starting Hotel Book
+2018-01-19 15:23:02,625 - Cancel_Credit -INFO - Entering Passenger details
+2018-01-19 15:23:11,707 - Cancel_Credit -INFO - Entered Passenger details
+2018-01-19 15:23:23,703 - Cancel_Credit -INFO - Hotel Book Complete Credit
+2018-01-19 15:23:23,703 - Cancel_Credit -INFO - Starting to Cancel Credit OutSide DeadLine
+2018-01-19 15:23:34,159 - Cancel_Credit -INFO - Completed Cancellation Credit OutSide DeadLine
+2018-01-19 15:23:34,404 - Cancel_Prepay_NFR -INFO - Test Case Started
+2018-01-19 15:23:37,221 - Cancel_Prepay_NFR -INFO - Browser Opened
+2018-01-19 15:23:41,428 - Cancel_Prepay_NFR -INFO - Test Case Started
+2018-01-19 15:23:47,818 - Cancel_Prepay_NFR -INFO - Login Successful
+2018-01-19 15:23:49,965 - Cancel_Prepay_NFR -INFO - Searching Customer
+2018-01-19 15:23:49,965 - Cancel_Prepay_NFR -INFO - Navigating to customer search page
+2018-01-19 15:23:55,504 - Cancel_Prepay_NFR -INFO - Navigated to customer search page
+2018-01-19 15:23:57,607 - Cancel_Prepay_NFR -INFO - Selecting Customer
+2018-01-19 15:24:13,263 - Cancel_Prepay_NFR -INFO - Customer Selected
+2018-01-19 15:24:13,263 - Cancel_Prepay_NFR -INFO - Applying search Filters
+2018-01-19 15:24:13,264 - Cancel_Prepay_NFR -INFO - Starting HotelSearch Prepay
+2018-01-19 15:24:55,896 - Cancel_Prepay_NFR -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir12444_20412}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d90d6132bf8afec91be005a9de996e50
+2018-01-19 15:41:32,425 - Search_Prepay -INFO - Test Case Started
+2018-01-19 15:41:36,416 - Search_Prepay -INFO - Browser Opened
+2018-01-19 15:41:40,885 - Search_Prepay -INFO - Test Case Started
+2018-01-19 15:41:47,524 - Search_Prepay -INFO - Login Successful
+2018-01-19 15:41:49,754 - Search_Prepay -INFO - Searching Customer
+2018-01-19 15:41:49,755 - Search_Prepay -INFO - Navigating to customer search page
+2018-01-19 15:41:55,366 - Search_Prepay -INFO - Navigated to customer search page
+2018-01-19 15:41:57,459 - Search_Prepay -INFO - Selecting Customer
+2018-01-19 15:42:32,751 - Search_Prepay -INFO - Customer Selected
+2018-01-19 15:42:32,751 - Search_Prepay -INFO - Applying search Filters
+2018-01-19 15:42:32,752 - Search_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-19 15:42:46,939 - Search_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-19 15:42:49,709 - Cancel_Credit -INFO - Test Case Started
+2018-01-19 15:42:52,891 - Cancel_Credit -INFO - Browser Opened
+2018-01-19 15:42:58,219 - Cancel_Credit -INFO - Test Case Started
+2018-01-19 15:43:04,775 - Cancel_Credit -INFO - Login Successful
+2018-01-19 15:43:06,997 - Cancel_Credit -INFO - Searching Customer
+2018-01-19 15:43:06,997 - Cancel_Credit -INFO - Navigating to customer search page
+2018-01-19 15:43:12,599 - Cancel_Credit -INFO - Navigated to customer search page
+2018-01-19 15:43:14,702 - Cancel_Credit -INFO - Selecting Customer
+2018-01-19 15:43:49,709 - Cancel_Credit -INFO - Customer Selected
+2018-01-19 15:43:49,710 - Cancel_Credit -INFO - Applying search Filters
+2018-01-19 15:43:49,710 - Cancel_Credit -INFO - Starting HotelSearch Credit
+2018-01-19 15:44:06,733 - Cancel_Credit -INFO - Hotel Search Complete Credit
+2018-01-19 15:44:06,734 - Cancel_Credit -INFO - Starting Hotel Book
+2018-01-19 15:44:09,608 - Cancel_Credit -INFO - Entering Passenger details
+2018-01-19 15:44:18,898 - Cancel_Credit -INFO - Entered Passenger details
+2018-01-19 15:44:31,441 - Cancel_Credit -INFO - Hotel Book Complete Credit
+2018-01-19 15:44:31,441 - Cancel_Credit -INFO - Starting to Cancel Credit OutSide DeadLine
+2018-01-19 15:44:42,001 - Cancel_Credit -INFO - Completed Cancellation Credit OutSide DeadLine
+2018-01-19 15:44:42,303 - Cancel_Prepay_NFR -INFO - Test Case Started
+2018-01-19 15:44:45,827 - Cancel_Prepay_NFR -INFO - Browser Opened
+2018-01-19 15:44:50,316 - Cancel_Prepay_NFR -INFO - Test Case Started
+2018-01-19 15:44:56,406 - Cancel_Prepay_NFR -INFO - Login Successful
+2018-01-19 15:44:58,581 - Cancel_Prepay_NFR -INFO - Searching Customer
+2018-01-19 15:44:58,582 - Cancel_Prepay_NFR -INFO - Navigating to customer search page
+2018-01-19 15:45:04,258 - Cancel_Prepay_NFR -INFO - Navigated to customer search page
+2018-01-19 15:45:06,370 - Cancel_Prepay_NFR -INFO - Selecting Customer
+2018-01-19 15:45:25,073 - Cancel_Prepay_NFR -INFO - Customer Selected
+2018-01-19 15:45:25,074 - Cancel_Prepay_NFR -INFO - Applying search Filters
+2018-01-19 15:45:25,074 - Cancel_Prepay_NFR -INFO - Starting HotelSearch Prepay
+2018-01-19 15:46:08,115 - Cancel_Prepay_NFR -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //span[contains(text(),'Within Deadline')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir27616_22743}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 04dfb51dd8db0acd217e6cf5a29544a0
+2018-01-19 18:00:23,321 - Save_Prepay -INFO - Test Case Started
+2018-01-19 18:00:27,875 - Save_Prepay -INFO - Browser Opened
+2018-01-19 18:00:33,978 - Save_Prepay -INFO - Test Case Started
+2018-01-19 18:00:40,429 - Save_Prepay -INFO - Login Successful
+2018-01-19 18:00:43,468 - Save_Prepay -INFO - Searching Customer
+2018-01-19 18:00:43,468 - Save_Prepay -INFO - Navigating to customer search page
+2018-01-19 18:00:49,376 - Save_Prepay -INFO - Navigated to customer search page
+2018-01-19 18:00:51,482 - Save_Prepay -INFO - Selecting Customer
+2018-01-19 18:01:21,061 - Save_Prepay -INFO - Customer Selected
+2018-01-19 18:01:21,062 - Save_Prepay -INFO - Applying search Filters
+2018-01-19 18:01:21,062 - Save_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-19 18:01:35,066 - Save_Prepay -INFO - chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir7248_30504}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b74b4a304a39c97088e7a4a376e519be
+*** Element info: {Using=xpath, value=//*[@id='Suppliers[Third Party Channels]']/span/span[1]}
+2018-01-19 18:01:43,882 - Save_Prepay -INFO - Test Case Started
+2018-01-19 18:01:47,606 - Save_Prepay -INFO - Browser Opened
+2018-01-19 18:01:51,878 - Save_Prepay -INFO - Test Case Started
+2018-01-19 18:01:58,276 - Save_Prepay -INFO - Login Successful
+2018-01-19 18:02:00,479 - Save_Prepay -INFO - Searching Customer
+2018-01-19 18:02:00,480 - Save_Prepay -INFO - Navigating to customer search page
+2018-01-19 18:02:05,912 - Save_Prepay -INFO - Navigated to customer search page
+2018-01-19 18:02:08,020 - Save_Prepay -INFO - Selecting Customer
+2018-01-19 18:02:38,111 - Save_Prepay -INFO - Customer Selected
+2018-01-19 18:02:38,111 - Save_Prepay -INFO - Applying search Filters
+2018-01-19 18:02:38,111 - Save_Prepay -INFO - Starting HotelSearch Prepay
+2018-01-19 18:02:54,497 - Save_Prepay -INFO - Hotel Search Complete Prepay
+2018-01-19 18:02:54,498 - Save_Prepay -INFO - Starting Hotel Save
+2018-01-19 18:02:57,370 - Save_Prepay -INFO - Entering Passenger details
+2018-01-19 18:03:06,497 - Save_Prepay -INFO - Entered Passenger details
+2018-01-19 18:03:30,723 - Save_Prepay -INFO - Hotel Save Complete Prepay
+2018-01-19 18:19:17,184 - Save_Credit -INFO - Test Case Started
+2018-01-19 18:19:20,975 - Save_Credit -INFO - Browser Opened
+2018-01-19 18:19:26,784 - Save_Credit -INFO - Test Case Started
+2018-01-19 18:19:34,417 - Save_Credit -INFO - Login Successful
+2018-01-19 18:19:36,595 - Save_Credit -INFO - Searching Customer
+2018-01-19 18:19:36,595 - Save_Credit -INFO - Navigating to customer search page
+2018-01-19 18:19:43,188 - Save_Credit -INFO - Navigated to customer search page
+2018-01-19 18:19:45,287 - Save_Credit -INFO - Selecting Customer
+2018-01-19 18:20:16,697 - Save_Credit -INFO - Customer Selected
+2018-01-19 18:20:16,698 - Save_Credit -INFO - Applying search Filters
+2018-01-19 18:20:16,698 - Save_Credit -INFO - Starting HotelSearch Credit
+2018-01-19 18:20:32,991 - Save_Credit -INFO - Hotel Search Complete Credit
+2018-01-19 18:20:32,991 - Save_Credit -INFO - Starting Hotel Save
+2018-01-19 18:20:36,388 - Save_Credit -INFO - Entering Passenger details
+2018-01-19 18:20:45,349 - Save_Credit -INFO - Entered Passenger details
+2018-01-19 18:21:09,617 - Save_Credit -INFO - Hotel Saved
+2018-01-19 18:29:34,978 - Save_Credit_Card -INFO - Test Case Started
+2018-01-19 18:29:38,647 - Save_Credit_Card -INFO - Browser Opened
+2018-01-19 18:29:43,151 - Save_Credit_Card -INFO - Test Case Started
+2018-01-19 18:29:49,599 - Save_Credit_Card -INFO - Login Successful
+2018-01-19 18:29:51,840 - Save_Credit_Card -INFO - Searching Customer
+2018-01-19 18:29:51,840 - Save_Credit_Card -INFO - Navigating to customer search page
+2018-01-19 18:29:57,224 - Save_Credit_Card -INFO - Navigated to customer search page
+2018-01-19 18:29:59,362 - Save_Credit_Card -INFO - Selecting Customer
+2018-01-19 18:30:14,119 - Save_Credit_Card -INFO - Customer Selected
+2018-01-19 18:30:14,119 - Save_Credit_Card -INFO - Applying search Filters
+2018-01-19 18:30:14,120 - Save_Credit_Card -INFO - Starting HotelSearch Credit Card
+2018-01-19 18:30:32,148 - Save_Credit_Card -INFO - Hotel Search Complete Credit Card
+2018-01-19 18:30:32,148 - Save_Credit_Card -INFO - Starting Hotel Save
+2018-01-19 18:30:35,565 - Save_Credit_Card -INFO - Entering Passenger details
+2018-01-19 18:30:45,140 - Save_Credit_Card -INFO - Entered Passenger details
+2018-01-19 18:30:56,919 - Save_Credit_Card -INFO - 
+2018-01-19 18:32:19,269 - Save_Credit_Card -INFO - Test Case Started
+2018-01-19 18:32:22,862 - Save_Credit_Card -INFO - Browser Opened
+2018-01-19 18:32:26,942 - Save_Credit_Card -INFO - Test Case Started
+2018-01-19 18:32:33,341 - Save_Credit_Card -INFO - Login Successful
+2018-01-19 18:32:35,513 - Save_Credit_Card -INFO - Searching Customer
+2018-01-19 18:32:35,514 - Save_Credit_Card -INFO - Navigating to customer search page
+2018-01-19 18:32:40,988 - Save_Credit_Card -INFO - Navigated to customer search page
+2018-01-19 18:32:43,086 - Save_Credit_Card -INFO - Selecting Customer
+2018-01-19 18:32:59,834 - Save_Credit_Card -INFO - Customer Selected
+2018-01-19 18:32:59,835 - Save_Credit_Card -INFO - Applying search Filters
+2018-01-19 18:32:59,835 - Save_Credit_Card -INFO - Starting HotelSearch Credit Card
+2018-01-19 18:33:15,094 - Save_Credit_Card -INFO - Hotel Search Complete Credit Card
+2018-01-19 18:33:15,094 - Save_Credit_Card -INFO - Starting Hotel Save
+2018-01-19 18:33:18,455 - Save_Credit_Card -INFO - Entering Passenger details
+2018-01-19 18:33:27,532 - Save_Credit_Card -INFO - Entered Passenger details
+2018-01-19 18:46:52,227 - Save_Prepay_MultiSupplier -INFO - Test Case Started
+2018-01-19 18:46:55,837 - Save_Prepay_MultiSupplier -INFO - Browser Opened
+2018-01-19 18:47:00,010 - Save_Prepay_MultiSupplier -INFO - Test Case Started
+2018-01-19 18:47:06,801 - Save_Prepay_MultiSupplier -INFO - Login Successful
+2018-01-19 18:47:08,973 - Save_Prepay_MultiSupplier -INFO - Searching Customer
+2018-01-19 18:47:08,974 - Save_Prepay_MultiSupplier -INFO - Navigating to customer search page
+2018-01-19 18:47:14,437 - Save_Prepay_MultiSupplier -INFO - Navigated to customer search page
+2018-01-19 18:47:17,533 - Save_Prepay_MultiSupplier -INFO - Selecting Customer
+2018-01-19 18:47:46,096 - Save_Prepay_MultiSupplier -INFO - Customer Selected
+2018-01-19 18:47:46,096 - Save_Prepay_MultiSupplier -INFO - Applying search Filters for Supplier Room
+2018-01-19 18:47:46,097 - Save_Prepay_MultiSupplier -INFO - Starting HotelSearch Prepay for Supplier Room
+2018-01-19 18:48:02,271 - Save_Prepay_MultiSupplier -INFO - Hotel Search Complete Prepay for Supplier Room
+2018-01-19 18:48:02,271 - Save_Prepay_MultiSupplier -INFO - Starting Hotel Save for Supplier Room
+2018-01-19 18:48:05,693 - Save_Prepay_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 18:48:14,705 - Save_Prepay_MultiSupplier -INFO - Entered Passenger details for Supplier Room
+2018-01-19 18:48:38,959 - Save_Prepay_MultiSupplier -INFO - Hotel Save Complete Prepay for Supplier Room
+2018-01-19 18:48:38,996 - Save_Prepay_MultiSupplier -INFO - Applying search Filters for DOTW Room
+2018-01-19 18:48:38,997 - Save_Prepay_MultiSupplier -INFO - Starting HotelSearch Prepay for DOTW Room
+2018-01-19 18:48:52,898 - Save_Prepay_MultiSupplier -INFO - Hotel Search Complete Prepay for DOTW Room
+2018-01-19 18:48:52,898 - Save_Prepay_MultiSupplier -INFO - Starting Hotel Save for DOTW Room
+2018-01-19 18:48:55,241 - Save_Prepay_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 18:49:01,559 - Save_Prepay_MultiSupplier -INFO - Entered Passenger details for DOTW Room
+2018-01-19 18:50:41,788 - Save_Prepay_MultiSupplier -INFO - Test Case Started
+2018-01-19 18:50:45,270 - Save_Prepay_MultiSupplier -INFO - Browser Opened
+2018-01-19 18:50:49,575 - Save_Prepay_MultiSupplier -INFO - Test Case Started
+2018-01-19 18:50:55,961 - Save_Prepay_MultiSupplier -INFO - Login Successful
+2018-01-19 18:50:58,166 - Save_Prepay_MultiSupplier -INFO - Searching Customer
+2018-01-19 18:50:58,166 - Save_Prepay_MultiSupplier -INFO - Navigating to customer search page
+2018-01-19 18:51:03,584 - Save_Prepay_MultiSupplier -INFO - Navigated to customer search page
+2018-01-19 18:51:06,677 - Save_Prepay_MultiSupplier -INFO - Selecting Customer
+2018-01-19 18:51:20,108 - Save_Prepay_MultiSupplier -INFO - Customer Selected
+2018-01-19 18:51:20,109 - Save_Prepay_MultiSupplier -INFO - Applying search Filters for Supplier Room
+2018-01-19 18:51:20,109 - Save_Prepay_MultiSupplier -INFO - Starting HotelSearch Prepay for Supplier Room
+2018-01-19 18:51:34,297 - Save_Prepay_MultiSupplier -INFO - Hotel Search Complete Prepay for Supplier Room
+2018-01-19 18:51:34,297 - Save_Prepay_MultiSupplier -INFO - Starting Hotel Save for Supplier Room
+2018-01-19 18:51:37,688 - Save_Prepay_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 18:51:46,682 - Save_Prepay_MultiSupplier -INFO - Entered Passenger details for Supplier Room
+2018-01-19 18:51:56,560 - Save_Prepay_MultiSupplier -INFO - Hotel Save Complete Prepay for Supplier Room
+2018-01-19 18:51:56,601 - Save_Prepay_MultiSupplier -INFO - Applying search Filters for DOTW Room
+2018-01-19 18:51:56,601 - Save_Prepay_MultiSupplier -INFO - Starting HotelSearch Prepay for DOTW Room
+2018-01-19 18:52:09,936 - Save_Prepay_MultiSupplier -INFO - Hotel Search Complete Prepay for DOTW Room
+2018-01-19 18:52:09,936 - Save_Prepay_MultiSupplier -INFO - Starting Hotel Save for DOTW Room
+2018-01-19 18:52:12,244 - Save_Prepay_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 18:52:18,438 - Save_Prepay_MultiSupplier -INFO - Entered Passenger details for DOTW Room
+2018-01-19 18:52:26,994 - Save_Prepay_MultiSupplier -INFO - Hotel Save Complete Prepay for DOTW Room
+2018-01-19 18:52:26,994 - Save_Prepay_MultiSupplier -INFO - Starting Delete from Cart 1st Itenary
+2018-01-19 18:52:33,054 - Save_Prepay_MultiSupplier -INFO - Deleted from Cart 1st Itenary
+2018-01-19 18:52:36,302 - Save_Prepay_MultiSupplier -INFO - Starting Delete from Cart 2nd Itenary
+2018-01-19 18:52:42,854 - Save_Prepay_MultiSupplier -INFO - Deleted from Cart 2nd Itenary
+2018-01-19 19:07:41,681 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:07:45,056 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-19 19:07:45,218 - Save_Credit_MultiSupplier -INFO - 
+2018-01-19 19:08:17,791 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:08:21,657 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-19 19:08:26,227 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:08:35,623 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-19 19:08:37,870 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-19 19:08:37,870 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-19 19:08:43,902 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-19 19:08:47,006 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-19 19:09:16,561 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-19 19:09:16,562 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-19 19:09:16,562 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-19 19:09:34,570 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for Supplier Room
+2018-01-19 19:09:34,571 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save Credit for Supplier Room
+2018-01-19 19:09:37,949 - Save_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 19:09:47,668 - Save_Credit_MultiSupplier -INFO - Entered Passenger details for Supplier Room
+2018-01-19 19:12:14,077 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:12:18,838 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-19 19:12:24,858 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:12:31,254 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-19 19:12:33,448 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-19 19:12:33,448 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-19 19:12:38,931 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-19 19:12:42,017 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-19 19:13:11,638 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-19 19:13:11,638 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-19 19:13:11,638 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-19 19:13:26,273 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for Supplier Room
+2018-01-19 19:13:26,274 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save Credit for Supplier Room
+2018-01-19 19:13:29,657 - Save_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 19:13:39,320 - Save_Credit_MultiSupplier -INFO - Entered Passenger details for Supplier Room
+2018-01-19 19:14:27,553 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:14:31,304 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-19 19:14:35,540 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:14:41,951 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-19 19:14:44,145 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-19 19:14:44,145 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-19 19:14:49,704 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-19 19:14:52,792 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-19 19:15:09,343 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-19 19:15:09,343 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-19 19:15:09,344 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-19 19:15:24,603 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for Supplier Room
+2018-01-19 19:15:24,604 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save Credit for Supplier Room
+2018-01-19 19:15:27,992 - Save_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 19:15:36,997 - Save_Credit_MultiSupplier -INFO - Entered Passenger details for Supplier Room
+2018-01-19 19:15:52,876 - Save_Credit_MultiSupplier -INFO - Hotel Save Complete Credit for Supplier Room
+2018-01-19 19:15:52,928 - Save_Credit_MultiSupplier -INFO - Applying search Filters for DOTW Room
+2018-01-19 19:15:52,929 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for DOTW Room
+2018-01-19 19:16:06,640 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for DOTW Room
+2018-01-19 19:16:06,641 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save for DOTW Room
+2018-01-19 19:16:57,875 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:17:01,318 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-19 19:17:05,644 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:17:12,444 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-19 19:17:14,635 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-19 19:17:14,636 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-19 19:17:19,987 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-19 19:17:23,071 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-19 19:17:39,909 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-19 19:17:39,909 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-19 19:17:39,910 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-19 19:17:54,829 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for Supplier Room
+2018-01-19 19:17:54,829 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save Credit for Supplier Room
+2018-01-19 19:17:58,166 - Save_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 19:18:07,171 - Save_Credit_MultiSupplier -INFO - Entered Passenger details for Supplier Room
+2018-01-19 19:18:22,872 - Save_Credit_MultiSupplier -INFO - Hotel Save Complete Credit for Supplier Room
+2018-01-19 19:18:22,912 - Save_Credit_MultiSupplier -INFO - Applying search Filters for DOTW Room
+2018-01-19 19:18:22,912 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for DOTW Room
+2018-01-19 19:18:36,633 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for DOTW Room
+2018-01-19 19:18:36,634 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save for DOTW Room
+2018-01-19 19:18:38,943 - Save_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 19:18:45,152 - Save_Credit_MultiSupplier -INFO - Entered Passenger details for DOTW Room
+2018-01-19 19:19:01,624 - Save_Credit_MultiSupplier -INFO - Hotel Save Complete Credit for DOTW Room
+2018-01-19 19:19:01,624 - Save_Credit_MultiSupplier -INFO - Starting Delete from Cart 1st Itenary
+2018-01-19 19:19:07,658 - Save_Credit_MultiSupplier -INFO - Deleted from Cart 1st Itenary
+2018-01-19 19:19:10,904 - Save_Credit_MultiSupplier -INFO - Starting Delete from Cart 2nd Itenary
+2018-01-19 19:19:43,799 - Save_Credit_MultiSupplier -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //button[contains(text(),'OK')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir28000_1913}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 264b696226c2f18154b53d7fdb5ce346
+2018-01-19 19:20:49,540 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:20:53,061 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-19 19:20:57,244 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:21:03,661 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-19 19:21:05,834 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-19 19:21:05,834 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-19 19:21:11,224 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-19 19:21:14,362 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-19 19:21:29,889 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-19 19:21:29,889 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-19 19:21:29,889 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-19 19:21:45,036 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for Supplier Room
+2018-01-19 19:21:45,037 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save Credit for Supplier Room
+2018-01-19 19:21:47,896 - Save_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 19:21:57,418 - Save_Credit_MultiSupplier -INFO - Entered Passenger details for Supplier Room
+2018-01-19 19:22:12,143 - Save_Credit_MultiSupplier -INFO - Hotel Save Complete Credit for Supplier Room
+2018-01-19 19:22:12,187 - Save_Credit_MultiSupplier -INFO - Applying search Filters for DOTW Room
+2018-01-19 19:22:12,187 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for DOTW Room
+2018-01-19 19:22:25,449 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for DOTW Room
+2018-01-19 19:22:25,449 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save for DOTW Room
+2018-01-19 19:22:27,775 - Save_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 19:22:34,017 - Save_Credit_MultiSupplier -INFO - Entered Passenger details for DOTW Room
+2018-01-19 19:22:47,779 - Save_Credit_MultiSupplier -INFO - Hotel Save Complete Credit for DOTW Room
+2018-01-19 19:22:47,780 - Save_Credit_MultiSupplier -INFO - Starting Delete from Cart 1st Itenary
+2018-01-19 19:22:53,879 - Save_Credit_MultiSupplier -INFO - Deleted from Cart 1st Itenary
+2018-01-19 19:22:57,163 - Save_Credit_MultiSupplier -INFO - Starting Delete from Cart 2nd Itenary
+2018-01-19 19:23:30,498 - Save_Credit_MultiSupplier -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //button[contains(text(),'OK')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir19532_32162}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: ff1fd9bb547b315b3c042486675c1565
+2018-01-19 19:25:37,046 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:25:40,436 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-19 19:25:44,504 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:25:51,299 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-19 19:25:53,509 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-19 19:25:53,509 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-19 19:25:58,978 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-19 19:26:02,079 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-19 19:26:16,540 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-19 19:26:16,540 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-19 19:26:16,540 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-19 19:26:33,816 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for Supplier Room
+2018-01-19 19:26:33,817 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save Credit for Supplier Room
+2018-01-19 19:26:38,711 - Save_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 19:26:47,758 - Save_Credit_MultiSupplier -INFO - Entered Passenger details for Supplier Room
+2018-01-19 19:27:02,422 - Save_Credit_MultiSupplier -INFO - Hotel Save Complete Credit for Supplier Room
+2018-01-19 19:27:02,464 - Save_Credit_MultiSupplier -INFO - Applying search Filters for DOTW Room
+2018-01-19 19:27:02,465 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for DOTW Room
+2018-01-19 19:27:15,827 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for DOTW Room
+2018-01-19 19:27:15,828 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save for DOTW Room
+2018-01-19 19:27:18,124 - Save_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 19:27:24,301 - Save_Credit_MultiSupplier -INFO - Entered Passenger details for DOTW Room
+2018-01-19 19:27:27,610 - Save_Credit_MultiSupplier -INFO - unknown error: Element <span class="glyphicon glyphicon-shopping-cart" style="font-size: 20px;">...</span> is not clickable at point (28, 175). Other element would receive the click: <div class="modal fade error in" tabindex="-1" style="z-index: 9999; display: block;">...</div>
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir27236_7450}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b6b954c12e8f21bd1158ccf307df18dd
+2018-01-19 19:30:43,934 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:30:47,457 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-19 19:30:51,547 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:31:01,253 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-19 19:31:03,422 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-19 19:31:03,422 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-19 19:31:08,806 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-19 19:31:11,908 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-19 19:31:29,441 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-19 19:31:29,442 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-19 19:31:29,442 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-19 19:31:44,630 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for Supplier Room
+2018-01-19 19:31:44,630 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save Credit for Supplier Room
+2018-01-19 19:31:48,032 - Save_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 19:31:57,106 - Save_Credit_MultiSupplier -INFO - Entered Passenger details for Supplier Room
+2018-01-19 19:32:14,172 - Save_Credit_MultiSupplier -INFO - Hotel Save Complete Credit for Supplier Room
+2018-01-19 19:32:14,209 - Save_Credit_MultiSupplier -INFO - Applying search Filters for DOTW Room
+2018-01-19 19:32:14,210 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for DOTW Room
+2018-01-19 19:32:27,520 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for DOTW Room
+2018-01-19 19:32:27,521 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save for DOTW Room
+2018-01-19 19:32:29,853 - Save_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 19:32:35,991 - Save_Credit_MultiSupplier -INFO - Entered Passenger details for DOTW Room
+2018-01-19 19:32:39,312 - Save_Credit_MultiSupplier -INFO - unknown error: Element <span class="glyphicon glyphicon-shopping-cart" style="font-size: 20px;">...</span> is not clickable at point (28, 175). Other element would receive the click: <div class="modal fade in" id="bookingModal" tabindex="-1" role="dialog" aria-hidden="true" style="display: block; padding-right: 0px;">...</div>
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 43 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir10032_16763}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b9d725d2de3c889fd224feca8626db29
+2018-01-19 19:33:14,670 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:33:18,549 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-19 19:33:22,734 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-19 19:33:29,124 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-19 19:33:31,309 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-19 19:33:31,309 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-19 19:33:36,698 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-19 19:33:39,793 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-19 19:33:58,228 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-19 19:33:58,229 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-19 19:33:58,229 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-19 19:34:13,826 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for Supplier Room
+2018-01-19 19:34:13,827 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save Credit for Supplier Room
+2018-01-19 19:34:17,199 - Save_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 19:34:26,330 - Save_Credit_MultiSupplier -INFO - Entered Passenger details for Supplier Room
+2018-01-19 19:34:43,112 - Save_Credit_MultiSupplier -INFO - Hotel Save Complete Credit for Supplier Room
+2018-01-19 19:34:43,151 - Save_Credit_MultiSupplier -INFO - Applying search Filters for DOTW Room
+2018-01-19 19:34:43,151 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for DOTW Room
+2018-01-19 19:34:57,257 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for DOTW Room
+2018-01-19 19:34:57,258 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save for DOTW Room
+2018-01-19 19:34:59,612 - Save_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-19 19:35:06,429 - Save_Credit_MultiSupplier -INFO - Entered Passenger details for DOTW Room
+2018-01-19 19:35:22,306 - Save_Credit_MultiSupplier -INFO - Hotel Save Complete Credit for DOTW Room
+2018-01-19 19:35:22,306 - Save_Credit_MultiSupplier -INFO - Starting Delete from Cart 1st Itenary
+2018-01-19 19:35:28,330 - Save_Credit_MultiSupplier -INFO - Deleted from Cart 1st Itenary
+2018-01-19 19:35:31,613 - Save_Credit_MultiSupplier -INFO - Starting Delete from Cart 2nd Itenary
+2018-01-19 19:35:38,232 - Save_Credit_MultiSupplier -INFO - Deleted from Cart 2nd Itenary
+2018-01-19 20:01:04,219 - Save_Credit_MultiSupplier -INFO - Test Case Started

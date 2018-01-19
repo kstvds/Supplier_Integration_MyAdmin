@@ -2,15 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [SupplierSuite]">
   <parameter name="browsername" value="CH"/>
-  <test name="SupplierTestone(failed)">
+  <test name="SupplierTestSeven(failed)">
     <parameter name="browsername" value="CH"/>
     <classes>
-      <class name="Search_MyAdmin.Search_Prepay">
+      <class name="SaveItenary_MyAdmin.Save_Credit_MultiSupplier">
         <methods>
-          <include name="SearchPrepay" invocation-numbers="0"/>
           <include name="getResult"/>
+          <include name="SaveCreditMultiSupplier" invocation-numbers="0"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      </class> <!-- SaveItenary_MyAdmin.Save_Credit_MultiSupplier -->
     </classes>
-  </test> <!-- SupplierTestone(failed) -->
+  </test> <!-- SupplierTestSeven(failed) -->
 </suite> <!-- Failed suite [SupplierSuite] -->
