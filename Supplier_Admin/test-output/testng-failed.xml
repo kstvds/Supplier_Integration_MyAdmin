@@ -5,13 +5,12 @@
   <test name="SupplierTestSeven(failed)">
     <parameter name="browsername" value="CH"/>
     <classes>
-      <class name="SaveItenary_MyAdmin.Save_Credit_MultiSupplier">
+      <class name="SaveItenary_MyAdmin.Save_Prepay_Within_Deadline">
         <methods>
+          <include name="SavePrepayWithinDeadLine" invocation-numbers="0"/>
           <include name="getResult"/>
-          <include name="SaveCreditMultiSupplier" invocation-numbers="0"/>
-          <include name="afterTest"/>
         </methods>
-      </class> <!-- SaveItenary_MyAdmin.Save_Credit_MultiSupplier -->
+      </class> <!-- SaveItenary_MyAdmin.Save_Prepay_Within_Deadline -->
     </classes>
   </test> <!-- SupplierTestSeven(failed) -->
 </suite> <!-- Failed suite [SupplierSuite] -->

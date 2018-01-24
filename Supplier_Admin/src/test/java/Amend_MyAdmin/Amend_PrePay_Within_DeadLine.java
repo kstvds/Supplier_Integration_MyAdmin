@@ -50,7 +50,7 @@ public class Amend_PrePay_Within_DeadLine {
 	  public void AmendPrepayWithinDeadLine(String browsername) throws Exception {
 		  test = rep.startTest("PrePay Amend Within DeadLine");
 		  ExcelDataConfig excel;
-		  excel = new ExcelDataConfig(Config.getExcelPathAmendCancel());
+		  excel = new ExcelDataConfig(Config.getExcelPathBook());
 		  PropertyConfigurator.configure("Log4j.properties");
 		  logger.info("Test Case Started");
 		if (browsername.equalsIgnoreCase("CH")) {
@@ -64,7 +64,7 @@ public class Amend_PrePay_Within_DeadLine {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-			    String URL = excel.getData(0, 1, 5);
+			    String URL = excel.getData(0, 1, 5) + "/_myadmin";
 				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");

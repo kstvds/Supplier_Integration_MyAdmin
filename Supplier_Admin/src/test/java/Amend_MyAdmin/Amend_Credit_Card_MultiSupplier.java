@@ -50,7 +50,7 @@ public class Amend_Credit_Card_MultiSupplier {
 	  public void AmeendCreditCardMultiSupplier(String browsername) throws Exception {
 		  test = rep.startTest("Amend Credit Card MultiSupplier");
 		  ExcelDataConfig excel;
-		  excel = new ExcelDataConfig(Config.getExcelPathAmendCancel());
+		  excel = new ExcelDataConfig(Config.getExcelPathBook());
 		  PropertyConfigurator.configure("Log4j.properties");
 		  logger.info("Test Case Started");
 		if (browsername.equalsIgnoreCase("CH")) {
@@ -64,7 +64,7 @@ public class Amend_Credit_Card_MultiSupplier {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-			    String URL = excel.getData(0, 1, 5);
+			    String URL = excel.getData(0, 1, 5) + "/_myadmin";
 				driverqa.get(URL);
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
@@ -129,7 +129,7 @@ public class Amend_Credit_Card_MultiSupplier {
 		     test.log(LogStatus.INFO, "Selecting Customer");
 			 try {
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
-				 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 5, 1));
+				 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 6, 1));
 				 Thread.sleep(2000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();

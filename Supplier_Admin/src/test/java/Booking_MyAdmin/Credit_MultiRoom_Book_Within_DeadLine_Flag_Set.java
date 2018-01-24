@@ -64,8 +64,9 @@ public class Credit_MultiRoom_Book_Within_DeadLine_Flag_Set {
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
-			    String URL = excel.getData(0, 1, 5);
-				driverqa.get(URL + "settings/framework/accommodation/booking-channels");
+			    String URL = excel.getData(0, 1, 5) + "/_myadmin";
+				//driverqa.get(URL);
+				driverqa.get(URL + "/settings/framework/accommodation/booking-channels");
 				logger.info("Test Case Started");
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);

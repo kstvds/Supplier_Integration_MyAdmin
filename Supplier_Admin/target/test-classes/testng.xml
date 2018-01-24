@@ -39,7 +39,13 @@
 <test name="SupplierTestSeven" >
 <parameter name="browsername" value="CH"/>
 <classes> 
-<class name="SaveItenary_MyAdmin.Save_Credit_MultiSupplier" />
+<class name="Booking_MyAdmin.Book_Credit" />
 </classes> 
 </test>
+<!--test name="SupplierTestEight" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveItenary_MyAdmin.Save_Credit_MultiSupplier" />
+</classes> 
+</test-->
 </suite>

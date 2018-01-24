@@ -46,7 +46,7 @@ public class Save_Credit_Card_MultiSupplier {
 	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
-	  public void SaveCreditMultiSupplier(String browsername) throws Exception {
+	  public void SaveCreditCardMultiSupplier(String browsername) throws Exception {
 		  test = rep.startTest("Save Credit Card MultiSupplier");
 		  ExcelDataConfig excel;
 		  excel = new ExcelDataConfig(Config.getExcelPathBook());
@@ -166,7 +166,7 @@ public class Save_Credit_Card_MultiSupplier {
 				 test.log(LogStatus.INFO, "Starting HotelSearch Credit Card for Supplier Room");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.AccomUnit));
 				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 9, 1));
-				 Thread.sleep(2000);
+				 Thread.sleep(3000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
 				 driverqa.findElement(NewAccoBooking.inDate).clear();
@@ -183,9 +183,13 @@ public class Save_Credit_Card_MultiSupplier {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Save/Accommodation_Save_Credit_Card_MultiSupplier/Search-Hotel-Supplier-filters.jpg");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.bookChannel));
 				 driverqa.findElement(NewAccoBooking.bookChannel).click();
+				 Thread.sleep(2000);
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyChannel));
+				 wait.until(ExpectedConditions.elementToBeClickable(NewAccoBooking.thirdPartyChannel));
 				 driverqa.findElement(NewAccoBooking.thirdPartyChannel).click();
+				 Thread.sleep(3000);
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdParty));
+				 wait.until(ExpectedConditions.elementToBeClickable(NewAccoBooking.thirdParty));
 				 driverqa.findElement(NewAccoBooking.thirdParty).click();
 				 Thread.sleep(2000);
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.searchButton));

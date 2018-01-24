@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="SupplierSuite" duration-ms="153767" started-at="2018-01-19T14:03:13Z" finished-at="2018-01-19T14:05:47Z">
+  <suite name="SupplierSuite" duration-ms="88810" started-at="2018-01-24T12:45:46Z" finished-at="2018-01-24T12:47:14Z">
     <groups>
     </groups>
-    <test name="SupplierTestSeven" duration-ms="153767" started-at="2018-01-19T14:03:13Z" finished-at="2018-01-19T14:05:47Z">
-      <class name="SaveItenary_MyAdmin.Save_Credit_MultiSupplier">
-        <test-method status="PASS" signature="SaveCreditMultiSupplier(java.lang.String)[pri:0, instance:SaveItenary_MyAdmin.Save_Credit_MultiSupplier@32d2fa64]" name="SaveCreditMultiSupplier" duration-ms="153463" started-at="2018-01-19T19:33:13Z" finished-at="2018-01-19T19:35:47Z">
+    <test name="SupplierTestSeven" duration-ms="88810" started-at="2018-01-24T12:45:46Z" finished-at="2018-01-24T12:47:14Z">
+      <class name="SaveItenary_MyAdmin.Save_Prepay_Within_Deadline">
+        <test-method status="PASS" signature="SavePrepayWithinDeadLine(java.lang.String)[pri:0, instance:SaveItenary_MyAdmin.Save_Prepay_Within_Deadline@8e24743]" name="SavePrepayWithinDeadLine" duration-ms="86267" started-at="2018-01-24T18:15:46Z" finished-at="2018-01-24T18:17:12Z">
           <params>
             <param index="0">
               <value>
@@ -17,23 +17,23 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SaveCreditMultiSupplier -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:SaveItenary_MyAdmin.Save_Credit_MultiSupplier@32d2fa64]" name="getResult" is-config="true" duration-ms="3" started-at="2018-01-19T19:35:47Z" finished-at="2018-01-19T19:35:47Z">
+        </test-method> <!-- SavePrepayWithinDeadLine -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:SaveItenary_MyAdmin.Save_Prepay_Within_Deadline@8e24743]" name="getResult" is-config="true" duration-ms="3" started-at="2018-01-24T18:17:12Z" finished-at="2018-01-24T18:17:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SaveCreditMultiSupplier status=SUCCESS method=Save_Credit_MultiSupplier.SaveCreditMultiSupplier(java.lang.String)[pri:0, instance:SaveItenary_MyAdmin.Save_Credit_MultiSupplier@32d2fa64] output={null}]]]>
+                <![CDATA[[TestResult name=SavePrepayWithinDeadLine status=SUCCESS method=Save_Prepay_Within_Deadline.SavePrepayWithinDeadLine(java.lang.String)[pri:0, instance:SaveItenary_MyAdmin.Save_Prepay_Within_Deadline@8e24743] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:SaveItenary_MyAdmin.Save_Credit_MultiSupplier@32d2fa64]" name="afterTest" is-config="true" duration-ms="283" started-at="2018-01-19T19:35:47Z" finished-at="2018-01-19T19:35:47Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:SaveItenary_MyAdmin.Save_Prepay_Within_Deadline@8e24743]" name="afterTest" is-config="true" duration-ms="2526" started-at="2018-01-24T18:17:12Z" finished-at="2018-01-24T18:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- SaveItenary_MyAdmin.Save_Credit_MultiSupplier -->
+      </class> <!-- SaveItenary_MyAdmin.Save_Prepay_Within_Deadline -->
     </test> <!-- SupplierTestSeven -->
   </suite> <!-- SupplierSuite -->
 </testng-results>

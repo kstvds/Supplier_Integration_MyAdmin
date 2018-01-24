@@ -2,6 +2,7 @@ package SaveItenary_MyAdmin;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -20,6 +21,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+//import ObjectRepository.Booking;
 import ObjectRepository.HomePage;
 import ObjectRepository.LoginPage;
 import ObjectRepository.NewAccoBooking;
@@ -176,9 +178,13 @@ public class Save_Credit_MultiSupplier {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Save/Accommodation_Save_Credit_MultiSupplier/Search-Hotel-Supplier-filters.jpg");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.bookChannel));
 				 driverqa.findElement(NewAccoBooking.bookChannel).click();
+				 Thread.sleep(2000);
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyChannel));
+				 wait.until(ExpectedConditions.elementToBeClickable(NewAccoBooking.thirdPartyChannel));
 				 driverqa.findElement(NewAccoBooking.thirdPartyChannel).click();
+				 Thread.sleep(3000);
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdParty));
+				 wait.until(ExpectedConditions.elementToBeClickable(NewAccoBooking.thirdParty));
 				 driverqa.findElement(NewAccoBooking.thirdParty).click();
 				 Thread.sleep(2000);
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.searchButton));
@@ -291,8 +297,10 @@ public class Save_Credit_MultiSupplier {
 					 Thread.sleep(2000);
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Save/Accommodation_Save_Credit_MultiSupplier/Search-Hotel-filters-DOTW.jpg");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.bookChannel));
+					 wait.until(ExpectedConditions.elementToBeClickable(NewAccoBooking.bookChannel));
 					 driverqa.findElement(NewAccoBooking.bookChannel).click();
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.OfflineContract));
+					 wait.until(ExpectedConditions.elementToBeClickable(NewAccoBooking.OfflineContract));
 					 driverqa.findElement(NewAccoBooking.OfflineContract).click();
 					 Thread.sleep(2000);
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.searchButton));

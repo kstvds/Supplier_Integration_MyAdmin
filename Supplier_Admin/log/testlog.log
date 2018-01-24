@@ -6239,3 +6239,744 @@ Session ID: b9d725d2de3c889fd224feca8626db29
 2018-01-19 19:35:31,613 - Save_Credit_MultiSupplier -INFO - Starting Delete from Cart 2nd Itenary
 2018-01-19 19:35:38,232 - Save_Credit_MultiSupplier -INFO - Deleted from Cart 2nd Itenary
 2018-01-19 20:01:04,219 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 11:54:11,056 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 11:54:16,628 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 11:54:34,705 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 11:54:35,138 - Save_Credit_Card_MultiSupplier -INFO - no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/form/input[2]"}
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir12236_28739}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: aca32a23a299a98a1e19c7a45e6a4458
+*** Element info: {Using=xpath, value=/html/body/div/form/input[2]}
+2018-01-24 11:54:41,989 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 11:54:44,921 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 11:54:49,019 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 11:54:55,820 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 11:54:58,251 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 11:54:58,260 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 11:55:03,589 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 11:55:06,833 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 11:55:24,413 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 11:55:24,419 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 11:55:24,419 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 11:55:30,897 - Save_Credit_Card_MultiSupplier -INFO - unknown error: Element is not clickable at point (566, 683)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir3648_23440}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9a236bf2a176882de9e7c4b9d9055c29
+2018-01-24 11:56:56,910 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 11:57:00,183 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 11:57:05,337 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 11:57:11,707 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 11:57:14,039 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 11:57:14,051 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 11:57:19,324 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 11:57:22,566 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 11:57:40,136 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 11:57:40,145 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 11:57:40,145 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 11:57:46,533 - Save_Credit_Card_MultiSupplier -INFO - unknown error: Element is not clickable at point (566, 683)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir11500_8364}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e24fb63f4d4493fda797aefeef301697
+2018-01-24 12:00:15,943 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:00:18,898 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:00:23,031 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:00:29,308 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 12:00:31,662 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:00:31,662 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:00:36,991 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:00:40,248 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:00:57,807 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:00:57,814 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 12:00:57,814 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 12:01:04,407 - Save_Credit_Card_MultiSupplier -INFO - unknown error: Element is not clickable at point (566, 683)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 46 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir1696_25211}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 0df8f31b4dd9c1a6a54f29a6708690ee
+2018-01-24 12:01:51,881 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:01:54,819 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:01:59,209 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:02:05,440 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 12:02:07,781 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:02:07,794 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:02:13,034 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:02:16,317 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:02:34,034 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:02:34,036 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 12:02:34,036 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 12:02:40,534 - Save_Credit_Card_MultiSupplier -INFO - unknown error: Element is not clickable at point (566, 683)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir6632_27171}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f3ba57fe971ad7669b2af80338ba7c7d
+2018-01-24 12:03:39,014 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:03:41,903 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:03:47,592 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:03:53,881 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 12:03:56,229 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:03:56,242 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:04:01,497 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:04:04,743 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:04:21,372 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:04:21,381 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 12:04:21,381 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 12:04:29,279 - Save_Credit_Card_MultiSupplier -INFO - unknown error: Element is not clickable at point (566, 683)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir11976_11504}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f49c79f2b989f7d72f80eac38974033c
+2018-01-24 12:04:41,059 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:04:43,902 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:04:49,608 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:04:55,816 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 12:04:58,152 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:04:58,164 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:05:03,538 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:05:06,774 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:05:23,730 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:05:23,745 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 12:05:23,745 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 12:05:33,823 - Save_Credit_Card_MultiSupplier -INFO - unknown error: Element is not clickable at point (601, 1698)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 46 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir5476_13714}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 078f99569b1f9095f2905bbaf17c9d6c
+2018-01-24 12:06:17,574 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:06:20,685 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:06:25,959 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:06:32,989 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 12:06:35,337 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:06:35,349 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:06:40,579 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:06:43,827 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:07:00,444 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:07:00,444 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 12:07:00,451 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 12:07:11,587 - Save_Credit_Card_MultiSupplier -INFO - unknown error: Element is not clickable at point (601, 715)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 38 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir7884_29853}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 7c8e46b40d9a250afcc0d574fc98a5f6
+2018-01-24 12:08:16,047 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:08:19,433 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:08:24,867 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:08:31,272 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 12:08:33,628 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:08:33,629 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:08:39,347 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:08:42,607 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:08:57,041 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:08:57,047 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 12:08:57,047 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 12:09:36,080 - Save_Credit_Card_MultiSupplier -INFO - unknown error: Element <span class="fancytree-checkbox"></span> is not clickable at point (601, 424). Other element would receive the click: <span class="fancytree-checkbox"></span>
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir9512_13509}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9e5c12c02e43585e55e058ccd944a5c5
+2018-01-24 12:10:50,089 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:10:53,354 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:10:58,552 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:11:04,903 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 12:11:07,265 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:11:07,265 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:11:12,512 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:11:15,752 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:11:45,167 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:11:45,168 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 12:11:45,169 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 12:11:56,299 - Save_Credit_Card_MultiSupplier -INFO - unknown error: Element is not clickable at point (601, 1049)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 39 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir12700_27906}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 433ae9df8ac5118b45bc5f9c80f17282
+2018-01-24 12:12:48,853 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:12:51,789 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:12:55,987 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:13:02,568 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 12:13:04,915 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:13:04,916 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:13:10,234 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:13:13,740 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:13:28,538 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:13:28,539 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 12:13:28,540 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 12:14:12,366 - Save_Credit_Card_MultiSupplier -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir6644_24834}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 5d0ad5be9fa117984600be8e2525de64
+2018-01-24 12:15:08,627 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:15:11,597 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:15:15,576 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:15:21,792 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 12:15:24,105 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:15:24,106 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:15:29,413 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:15:32,747 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:15:45,595 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:15:45,596 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 12:15:45,596 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 12:15:53,393 - Save_Credit_MultiSupplier -INFO - unknown error: Element is not clickable at point (601, 1698)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir1540_26126}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 7b57ded655999f01c1764e2319dc0b2a
+2018-01-24 12:16:39,039 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:16:42,187 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:16:46,574 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:16:52,811 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 12:16:55,151 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:16:55,163 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:17:00,438 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:17:03,701 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:17:16,643 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:17:16,645 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 12:17:16,646 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 12:17:23,063 - Save_Credit_MultiSupplier -INFO - unknown error: Element is not clickable at point (550, 642)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir14320_15894}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fcaa077cd9db3b3deac499d966bd525e
+2018-01-24 12:19:21,422 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:19:24,351 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:19:28,399 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:19:34,682 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 12:19:37,018 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:19:37,031 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:19:42,370 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:19:45,646 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:19:58,554 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:19:58,568 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 12:19:58,570 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 12:20:06,693 - Save_Credit_MultiSupplier -INFO - unknown error: Element is not clickable at point (601, 1698)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir10680_31888}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 906b7f3e3a95bcd6e45720fc532dfe98
+2018-01-24 12:22:17,563 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:22:20,560 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:22:24,586 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:22:30,897 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 12:22:33,216 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:22:33,228 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:22:38,586 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:22:41,838 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:23:13,456 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:23:13,456 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 12:23:13,456 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 12:23:21,224 - Save_Credit_MultiSupplier -INFO - unknown error: Element is not clickable at point (601, 1346)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir13768_6120}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b61631e26445379957fac09c7fd134e1
+2018-01-24 12:29:24,489 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:29:27,444 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:29:33,130 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:29:39,780 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 12:29:42,129 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:29:42,141 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:29:47,508 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:29:50,754 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:30:23,349 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:30:23,353 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 12:30:23,353 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 12:30:30,448 - Save_Credit_MultiSupplier -INFO - unknown error: Element is not clickable at point (566, 632)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir11144_13244}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3461328824746f203069815533ccd715
+2018-01-24 12:32:00,478 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:32:03,954 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:32:10,224 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:32:16,691 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 12:32:19,045 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:32:19,049 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:32:24,341 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:32:27,604 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:33:00,178 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:33:00,185 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 12:33:00,185 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 12:33:08,315 - Save_Credit_MultiSupplier -INFO - unknown error: Element is not clickable at point (601, 1774)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir13764_26152}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1d9781b01e8cf8204ae291bfb198b4bf
+2018-01-24 12:34:26,289 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:34:29,883 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:34:35,539 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:34:41,791 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 12:34:44,157 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:34:44,157 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:34:49,514 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:34:52,765 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:35:09,115 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:35:09,121 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 12:35:09,121 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 12:35:15,944 - Save_Credit_MultiSupplier -INFO - unknown error: Element is not clickable at point (550, 642)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir14516_6254}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 0e335750048173da1dd040f5ee4c5bee
+2018-01-24 12:41:10,378 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:41:13,804 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:41:18,913 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:41:25,528 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 12:41:27,890 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:41:27,897 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:41:33,262 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:41:36,507 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:41:51,945 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:41:51,950 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 12:41:51,950 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 12:42:02,377 - Save_Credit_MultiSupplier -INFO - unknown error: Element is not clickable at point (867, 1363)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 54 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir15380_21242}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 27a0d677905098641e5399ffebcfe7a0
+2018-01-24 12:43:35,307 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:43:38,763 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:43:44,373 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:43:51,112 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 12:43:53,476 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:43:53,483 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:43:58,848 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:44:02,121 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:44:17,693 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:44:17,699 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 12:44:17,699 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 12:44:33,317 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for Supplier Room
+2018-01-24 12:44:33,318 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save Credit for Supplier Room
+2018-01-24 12:45:52,193 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:45:55,867 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:46:01,955 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:46:08,447 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 12:46:10,821 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:46:10,825 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:46:16,167 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:46:19,428 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:46:53,575 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:46:53,581 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 12:46:53,581 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 12:47:09,176 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for Supplier Room
+2018-01-24 12:47:09,177 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save Credit for Supplier Room
+2018-01-24 12:47:39,773 - Save_Credit_MultiSupplier -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //input[@type='radio']
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir16012_26555}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 5c0765d711cb832c612c236d4e5b0916
+2018-01-24 12:48:34,898 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:48:38,073 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:48:43,561 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:48:49,935 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 12:48:52,300 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:48:52,305 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:48:57,630 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:49:00,883 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:49:15,597 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:49:15,600 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 12:49:15,600 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 12:49:26,896 - Save_Credit_MultiSupplier -INFO - unknown error: Element is not clickable at point (867, 2155)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 56 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir17248_27063}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 050cba0466e9eb14356ceee44ef4e1dc
+2018-01-24 12:50:30,882 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:50:34,413 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:50:41,067 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:50:48,173 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 12:50:50,509 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:50:50,516 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:50:56,478 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:50:59,732 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:51:17,791 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:51:17,797 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 12:51:17,797 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 12:51:36,328 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for Supplier Room
+2018-01-24 12:51:36,329 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save Credit for Supplier Room
+2018-01-24 12:51:39,262 - Save_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-24 12:51:48,342 - Save_Credit_MultiSupplier -INFO - Entered Passenger details for Supplier Room
+2018-01-24 12:52:05,387 - Save_Credit_MultiSupplier -INFO - Hotel Save Complete Credit for Supplier Room
+2018-01-24 12:52:05,431 - Save_Credit_MultiSupplier -INFO - Applying search Filters for DOTW Room
+2018-01-24 12:52:05,431 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for DOTW Room
+2018-01-24 12:52:11,177 - Save_Credit_MultiSupplier -INFO - unknown error: Element is not clickable at point (550, 642)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir17180_8321}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 6d67123e45cae5b7a49b42b44bfdbfd7
+2018-01-24 12:53:30,366 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:53:33,314 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:53:37,515 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:53:43,818 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 12:53:46,152 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:53:46,164 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:53:51,539 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:53:54,794 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 12:54:09,595 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 12:54:09,602 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 12:54:09,602 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 12:54:20,539 - Save_Credit_MultiSupplier -INFO - unknown error: Element is not clickable at point (867, 2156)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 37 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir14876_30304}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 4f95835204c4fd91cbd363efc797b3b9
+2018-01-24 12:59:15,121 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:59:18,076 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 12:59:22,156 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 12:59:31,824 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 12:59:34,155 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 12:59:34,167 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 12:59:39,508 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 12:59:42,774 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 13:00:15,308 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 13:00:15,319 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 13:00:15,319 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 13:00:33,627 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:00:36,621 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 13:00:37,049 - Save_Credit_MultiSupplier -INFO - chrome not reachable
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.08 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir12688_25059}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 29a1b5a379e48844034165cf23011c62
+*** Element info: {Using=xpath, value=//*[@id='Suppliers[Third Party Channels]']/span/span[1]}
+2018-01-24 13:00:40,668 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:00:50,317 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 13:00:52,659 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 13:00:52,659 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 13:00:57,948 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 13:01:01,195 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 13:01:33,712 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 13:01:33,714 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 13:01:33,714 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 13:01:44,676 - Save_Credit_MultiSupplier -INFO - unknown error: Element is not clickable at point (867, 1280)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 37 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir16948_160}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 89521a92638aeeeebbf8c6e228a7450a
+2018-01-24 13:02:48,953 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:02:51,962 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 13:02:56,061 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:03:05,751 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 13:03:08,083 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 13:03:08,095 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 13:03:13,378 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 13:03:16,636 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 13:03:31,633 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 13:03:31,636 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 13:03:31,636 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 13:03:47,759 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for Supplier Room
+2018-01-24 13:03:47,767 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save Credit for Supplier Room
+2018-01-24 13:04:09,790 - Save_Credit_MultiSupplier -INFO - chrome not reachable
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir16104_20766}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 081895b604512bb7f4a9cdd604bcdb3f
+*** Element info: {Using=xpath, value=//input[@type='radio']}
+2018-01-24 13:04:35,278 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:04:38,299 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 13:04:42,358 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:04:52,112 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 13:04:54,457 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 13:04:54,470 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 13:04:59,755 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 13:05:03,009 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 13:05:17,610 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 13:05:17,610 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 13:05:17,610 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 13:05:20,651 - Save_Credit_Card_MultiSupplier -INFO - unknown error: cannot focus element
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir3536_26734}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: ed315e8b8a8f021f84c0f85efe65ae10
+2018-01-24 13:06:46,963 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:06:49,970 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 13:06:54,064 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:07:03,735 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 13:07:06,075 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 13:07:06,087 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 13:07:11,329 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 13:07:14,594 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 13:07:28,276 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 13:07:28,279 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 13:07:28,280 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 13:07:37,164 - Save_Credit_Card_MultiSupplier -INFO - unknown error: Element is not clickable at point (566, 683)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir12412_30934}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 166ccddcc47070d70f3e9a705cac79cd
+2018-01-24 13:31:28,096 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:31:48,469 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:32:16,671 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:33:23,542 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:35:50,297 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:38:24,637 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:42:09,875 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:43:11,402 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:43:14,348 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 13:43:18,531 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:43:25,610 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 13:43:27,947 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 13:43:27,947 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 13:43:33,282 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 13:43:36,536 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 13:43:53,364 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 13:43:53,365 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 13:43:53,366 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 13:44:05,362 - Save_Credit_Card_MultiSupplier -INFO - unknown error: Element is not clickable at point (601, 1749)
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 39 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir13572_25857}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: cb95a7a22bd25fab21f2f733428e9a2c
+2018-01-24 13:46:10,655 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:46:26,674 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:46:29,620 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 13:46:33,691 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:46:40,748 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 13:46:43,104 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 13:46:43,105 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 13:46:48,399 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 13:46:51,645 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 13:47:08,281 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 13:47:08,282 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 13:47:08,283 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 13:47:50,658 - Save_Credit_Card_MultiSupplier -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //li[@id='Suppliers[1818]']//child::span[2]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir13740_20763}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 6a5983857673080c31788e19dcfbb121
+2018-01-24 13:49:47,781 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:49:50,828 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 13:49:54,952 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 13:50:02,020 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 13:50:04,372 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 13:50:04,372 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 13:50:09,731 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 13:50:12,970 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 13:50:31,608 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 13:50:31,609 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 13:50:31,610 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 13:51:16,259 - Save_Credit_Card_MultiSupplier -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir14596_2711}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ce100a44c6604a0a09ccfe0ac59552a9
+2018-01-24 17:54:24,704 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 17:54:27,732 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 17:54:33,605 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 17:54:40,451 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 17:54:42,784 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 17:54:42,784 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 17:54:48,127 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 17:54:51,387 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 17:55:08,511 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 17:55:08,511 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 17:55:08,511 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 17:55:53,409 - Save_Credit_Card_MultiSupplier -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir10804_17373}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 5369521b15240013a43848443109d15d
+2018-01-24 17:55:56,094 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 17:55:58,772 - Save_Credit_MultiSupplier -INFO - Browser Opened
+2018-01-24 17:56:03,798 - Save_Credit_MultiSupplier -INFO - Test Case Started
+2018-01-24 17:56:10,258 - Save_Credit_MultiSupplier -INFO - Login Successful
+2018-01-24 17:56:12,603 - Save_Credit_MultiSupplier -INFO - Searching Customer
+2018-01-24 17:56:12,603 - Save_Credit_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 17:56:17,992 - Save_Credit_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 17:56:21,253 - Save_Credit_MultiSupplier -INFO - Selecting Customer
+2018-01-24 17:56:37,620 - Save_Credit_MultiSupplier -INFO - Customer Selected
+2018-01-24 17:56:37,621 - Save_Credit_MultiSupplier -INFO - Applying search Filters Credit for Supplier Room
+2018-01-24 17:56:37,621 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for Supplier Room
+2018-01-24 17:56:59,696 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for Supplier Room
+2018-01-24 17:56:59,696 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save Credit for Supplier Room
+2018-01-24 17:57:03,180 - Save_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-24 17:57:12,244 - Save_Credit_MultiSupplier -INFO - Entered Passenger details for Supplier Room
+2018-01-24 17:57:22,182 - Save_Credit_MultiSupplier -INFO - Hotel Save Complete Credit for Supplier Room
+2018-01-24 17:57:22,217 - Save_Credit_MultiSupplier -INFO - Applying search Filters for DOTW Room
+2018-01-24 17:57:22,217 - Save_Credit_MultiSupplier -INFO - Starting HotelSearch Credit for DOTW Room
+2018-01-24 17:57:36,275 - Save_Credit_MultiSupplier -INFO - Hotel Search Complete Credit for DOTW Room
+2018-01-24 17:57:36,275 - Save_Credit_MultiSupplier -INFO - Starting Hotel Save for DOTW Room
+2018-01-24 17:57:38,723 - Save_Credit_MultiSupplier -INFO - Entering Passenger details
+2018-01-24 17:57:45,515 - Save_Credit_MultiSupplier -INFO - Entered Passenger details for DOTW Room
+2018-01-24 17:57:54,362 - Save_Credit_MultiSupplier -INFO - Hotel Save Complete Credit for DOTW Room
+2018-01-24 17:57:54,362 - Save_Credit_MultiSupplier -INFO - Starting Delete from Cart 1st Itenary
+2018-01-24 17:58:00,704 - Save_Credit_MultiSupplier -INFO - Deleted from Cart 1st Itenary
+2018-01-24 17:58:03,950 - Save_Credit_MultiSupplier -INFO - Starting Delete from Cart 2nd Itenary
+2018-01-24 17:58:10,703 - Save_Credit_MultiSupplier -INFO - Deleted from Cart 2nd Itenary
+2018-01-24 17:58:52,853 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 17:58:55,828 - Save_Credit_Card_MultiSupplier -INFO - Browser Opened
+2018-01-24 17:59:00,846 - Save_Credit_Card_MultiSupplier -INFO - Test Case Started
+2018-01-24 17:59:07,226 - Save_Credit_Card_MultiSupplier -INFO - Login Successful
+2018-01-24 17:59:09,594 - Save_Credit_Card_MultiSupplier -INFO - Searching Customer
+2018-01-24 17:59:09,594 - Save_Credit_Card_MultiSupplier -INFO - Navigating to customer search page
+2018-01-24 17:59:14,965 - Save_Credit_Card_MultiSupplier -INFO - Navigated to customer search page
+2018-01-24 17:59:18,223 - Save_Credit_Card_MultiSupplier -INFO - Selecting Customer
+2018-01-24 17:59:34,600 - Save_Credit_Card_MultiSupplier -INFO - Customer Selected
+2018-01-24 17:59:34,601 - Save_Credit_Card_MultiSupplier -INFO - Applying search Filters Credit Card for Supplier Room
+2018-01-24 17:59:34,601 - Save_Credit_Card_MultiSupplier -INFO - Starting HotelSearch Credit Card for Supplier Room
+2018-01-24 18:00:19,310 - Save_Credit_Card_MultiSupplier -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir14340_11529}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 797ca010ad7dffc2a8cfa9ff9f6b8a54
+2018-01-24 18:11:16,797 - Save_Prepay_Within_Deadline -INFO - Test Case Started
+2018-01-24 18:11:19,960 - Save_Prepay_Within_Deadline -INFO - Browser Opened
+2018-01-24 18:11:25,524 - Save_Prepay_Within_Deadline -INFO - Test Case Started
+2018-01-24 18:11:32,345 - Save_Prepay_Within_Deadline -INFO - Login Successful
+2018-01-24 18:11:34,696 - Save_Prepay_Within_Deadline -INFO - Searching Customer
+2018-01-24 18:11:34,697 - Save_Prepay_Within_Deadline -INFO - Navigating to customer search page
+2018-01-24 18:11:40,074 - Save_Prepay_Within_Deadline -INFO - Navigated to customer search page
+2018-01-24 18:11:42,310 - Save_Prepay_Within_Deadline -INFO - Selecting Customer
+2018-01-24 18:11:57,105 - Save_Prepay_Within_Deadline -INFO - Customer Selected
+2018-01-24 18:11:57,106 - Save_Prepay_Within_Deadline -INFO - Applying search Filters
+2018-01-24 18:11:57,107 - Save_Prepay_Within_Deadline -INFO - Starting HotelSearch Prepay
+2018-01-24 18:12:14,284 - Save_Prepay_Within_Deadline -INFO - Hotel Search Complete Prepay
+2018-01-24 18:12:14,285 - Save_Prepay_Within_Deadline -INFO - Starting Hotel Save
+2018-01-24 18:12:16,729 - Save_Prepay_Within_Deadline -INFO - Entering Passenger details
+2018-01-24 18:12:25,789 - Save_Prepay_Within_Deadline -INFO - Entered Passenger details
+2018-01-24 18:15:46,906 - Save_Prepay_Within_Deadline -INFO - Test Case Started
+2018-01-24 18:15:50,133 - Save_Prepay_Within_Deadline -INFO - Browser Opened
+2018-01-24 18:15:54,368 - Save_Prepay_Within_Deadline -INFO - Test Case Started
+2018-01-24 18:16:00,720 - Save_Prepay_Within_Deadline -INFO - Login Successful
+2018-01-24 18:16:03,081 - Save_Prepay_Within_Deadline -INFO - Searching Customer
+2018-01-24 18:16:03,081 - Save_Prepay_Within_Deadline -INFO - Navigating to customer search page
+2018-01-24 18:16:08,399 - Save_Prepay_Within_Deadline -INFO - Navigated to customer search page
+2018-01-24 18:16:10,640 - Save_Prepay_Within_Deadline -INFO - Selecting Customer
+2018-01-24 18:16:24,383 - Save_Prepay_Within_Deadline -INFO - Customer Selected
+2018-01-24 18:16:24,385 - Save_Prepay_Within_Deadline -INFO - Applying search Filters
+2018-01-24 18:16:24,386 - Save_Prepay_Within_Deadline -INFO - Starting HotelSearch Prepay
+2018-01-24 18:16:39,694 - Save_Prepay_Within_Deadline -INFO - Hotel Search Complete Prepay
+2018-01-24 18:16:39,695 - Save_Prepay_Within_Deadline -INFO - Starting Hotel Save
+2018-01-24 18:16:42,140 - Save_Prepay_Within_Deadline -INFO - Entering Passenger details
+2018-01-24 18:16:51,284 - Save_Prepay_Within_Deadline -INFO - Entered Passenger details
+2018-01-24 18:17:06,104 - Save_Prepay_Within_Deadline -INFO - Hotel Save Complete Prepay
+2018-01-24 18:17:06,104 - Save_Prepay_Within_Deadline -INFO - Starting Delete from Itenary
+2018-01-24 18:17:12,444 - Save_Prepay_Within_Deadline -INFO - Deleted from Itenary
+2018-01-24 18:45:27,703 - Book_Credit -INFO - Test Case Started
+2018-01-24 18:45:30,846 - Book_Credit -INFO - Browser Opened
+2018-01-24 18:45:35,362 - Book_Credit -INFO - Test Case Started
+2018-01-24 18:45:46,957 - Book_Credit -INFO - Login Successful
+2018-01-24 18:45:49,398 - Book_Credit -INFO - Searching Customer
+2018-01-24 18:45:49,400 - Book_Credit -INFO - Navigating to customer search page
+2018-01-24 18:45:54,805 - Book_Credit -INFO - Navigated to customer search page
+2018-01-24 18:45:57,118 - Book_Credit -INFO - Selecting Customer
+2018-01-24 18:46:28,913 - Book_Credit -INFO - Customer Selected
+2018-01-24 18:46:28,926 - Book_Credit -INFO - Applying search Filters
+2018-01-24 18:46:28,927 - Book_Credit -INFO - Starting HotelSearch Credit
