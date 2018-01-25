@@ -44,6 +44,7 @@ public class Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set {
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set");
 	String SearchRateexpected;
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void BookPrepayMultiRoomwithinDeadlineFlagset(String browsername) throws Exception {
@@ -89,6 +90,7 @@ public class Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set {
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Log-In.jpg";
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -120,6 +122,7 @@ public class Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set {
 			} catch (Exception e) {
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Set-Flag.jpg");
 				test.log(LogStatus.FAIL, "Login");
+				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Set-Flag.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -146,12 +149,14 @@ public class Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set {
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Customer-Search.jpg");
 				
 				} catch (Exception e) {
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Customer-Search.jpg");
+					test.log(LogStatus.FAIL, "Navigation to customer search page");
+					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Customer-Search.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Customer-Search.jpg");
-					test.log(LogStatus.FAIL, "Navigation to customer search page");
+					
 					Assert.assertTrue(false, e.getMessage());
 					
 				}
@@ -182,6 +187,7 @@ public class Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set {
 				 catch (Exception e) {
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Customer-list.jpg");
 						test.log(LogStatus.FAIL, "Customer Selection");
+						errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Customer-list.jpg";
 						logger.info(e.getMessage());
 						test.log(LogStatus.FAIL, e.getMessage());
 						rep.endTest(test);
@@ -238,6 +244,7 @@ public class Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set {
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Search Prepay MultiRoom Within DeadLine");
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Search-Result.jpg");
+					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Search-Result.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -267,7 +274,8 @@ public class Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set {
 				 
 					catch (Exception e) {
 						test.log(LogStatus.FAIL, "Hotel Search Prepay");
-						obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Search-Result.jpg");
+						obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Book.jpg");
+						errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine_Flag_Set/Book.jpg";
 						logger.info(e.getMessage());
 						test.log(LogStatus.FAIL, e.getMessage());
 						rep.endTest(test);
@@ -277,12 +285,15 @@ public class Prepay_MultiRoom_Book_Within_DeadLine_Flag_Set {
 											}
 	 }
 	 @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	 public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		 
+		
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 
 		@AfterTest
 		public void afterTest() {

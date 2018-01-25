@@ -44,6 +44,7 @@ public class Prepay_Book_Single_Pax_Same_First_Last_Name {
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Prepay_Book_Single_Pax_Same_First_Last_Name");
 	String SearchRateexpected;
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void BookPrepaySameFirstLastName(String browsername) throws Exception {
@@ -59,7 +60,7 @@ public class Prepay_Book_Single_Pax_Same_First_Last_Name {
 				} else {
 					driverqa = new DriverAndObjectDetails(DriverName.FF).CreateDriver();
 				}
-			    WebDriverWait wait= new WebDriverWait(driverqa, 30);
+			    WebDriverWait wait= new WebDriverWait(driverqa, 40);
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
@@ -88,6 +89,7 @@ public class Prepay_Book_Single_Pax_Same_First_Last_Name {
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Single_Pax_Same_First_Last_Name/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Single_Pax_Same_First_Last_Name/Log-In.jpg";
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -115,12 +117,14 @@ public class Prepay_Book_Single_Pax_Same_First_Last_Name {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_Single_Pax_Same_First_Last_Name/Customer-Search.jpg");
 			
 			} catch (Exception e) {
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Single_Pax_Same_First_Last_Name/Customer-Search.jpg");
+				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Single_Pax_Same_First_Last_Name/Customer-Search.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Single_Pax_Same_First_Last_Name/Customer-Search.jpg");
-				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				
 				Assert.assertTrue(false, e.getMessage());
 				
 			}
@@ -150,6 +154,7 @@ public class Prepay_Book_Single_Pax_Same_First_Last_Name {
 			 catch (Exception e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Single_Pax_Same_First_Last_Name/Customer-list.jpg");
 					test.log(LogStatus.FAIL, "Customer Selection");
+					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Single_Pax_Same_First_Last_Name/Customer-list.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -204,6 +209,7 @@ public class Prepay_Book_Single_Pax_Same_First_Last_Name {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search Prepay");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Single_Pax_Same_First_Last_Name/Search-Result.jpg");
+				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Single_Pax_Same_First_Last_Name/Search-Result.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -270,7 +276,8 @@ public class Prepay_Book_Single_Pax_Same_First_Last_Name {
 
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Book Prepay Single PAX with Same First and Last Name");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Single_Pax_Same_First_Last_Name/Save-Itenary.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Single_Pax_Same_First_Last_Name/Booking.jpg");
+					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Single_Pax_Same_First_Last_Name/Booking.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -281,12 +288,15 @@ public class Prepay_Book_Single_Pax_Same_First_Last_Name {
 	 }
 	 
 	  @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	  public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		 
+		
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 
 		@AfterTest
 		public void afterTest() {

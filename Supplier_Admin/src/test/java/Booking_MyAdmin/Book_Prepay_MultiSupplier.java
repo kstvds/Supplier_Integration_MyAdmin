@@ -44,6 +44,7 @@ public class Book_Prepay_MultiSupplier {
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Book_Prepay_MultiSupplier");
 	String SearchRateexpected;
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void BookPrepayMultiSupplier(String browsername) throws Exception {
@@ -88,6 +89,7 @@ public class Book_Prepay_MultiSupplier {
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Log-In.jpg";
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -115,13 +117,15 @@ public class Book_Prepay_MultiSupplier {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Prepay_MultiSupplier/Customer-Search.jpg");
 			
 			} catch (Exception e) {
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Customer-Search.jpg");
+				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Customer-Search.jpg";
+
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Customer-Search.jpg");
-				test.log(LogStatus.FAIL, "Navigation to customer search page");
-				Assert.assertTrue(false, e.getMessage());
+			    Assert.assertTrue(false, e.getMessage());
 				
 			}
 		     logger.info("Selecting Customer");
@@ -150,6 +154,7 @@ public class Book_Prepay_MultiSupplier {
 			 catch (Exception e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Customer-list.jpg");
 					test.log(LogStatus.FAIL, "Customer Selection");
+					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Customer-list.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -198,6 +203,7 @@ public class Book_Prepay_MultiSupplier {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search Prepay for Supplier Room");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Search-Result-Supplier.jpg");
+				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Search-Result-Supplier.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -250,6 +256,7 @@ public class Book_Prepay_MultiSupplier {
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Save Itenary Prepay for Supplier Room");
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Save-Itenary-Supplier.jpg");
+					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Save-Itenary-Supplier.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -303,6 +310,7 @@ public class Book_Prepay_MultiSupplier {
 					catch (Exception e) {
 						test.log(LogStatus.FAIL, "Hotel Search Prepay for DOTW Room");
 						obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Search-Result-DOTW.jpg");
+						errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Search-Result-DOTW.jpg";
 						logger.info(e.getMessage());
 						test.log(LogStatus.FAIL, e.getMessage());
 						rep.endTest(test);
@@ -348,7 +356,8 @@ public class Book_Prepay_MultiSupplier {
 					logger.info("Hotel Save Complete Prepay for DOTW Room");
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Save Prepay for DOTW Room");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Search-Result-DOTW.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Save-DOTW.jpg");
+					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Save-DOTW.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -404,6 +413,7 @@ public class Book_Prepay_MultiSupplier {
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "HotelBook Prepay Book from Saved Itenary Multi Supplier");
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Booking-Details.jpg");
+					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_MultiSupplier/Booking-Details.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -416,12 +426,15 @@ public class Book_Prepay_MultiSupplier {
 	 
 	 
 	  @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	  public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		 
+		
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 
 		@AfterTest
 		public void afterTest() {

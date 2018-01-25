@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="SupplierSuite" duration-ms="88810" started-at="2018-01-24T12:45:46Z" finished-at="2018-01-24T12:47:14Z">
+  <suite name="SupplierSuite" duration-ms="89032" started-at="2018-01-25T10:47:26Z" finished-at="2018-01-25T10:48:55Z">
     <groups>
     </groups>
-    <test name="SupplierTestSeven" duration-ms="88810" started-at="2018-01-24T12:45:46Z" finished-at="2018-01-24T12:47:14Z">
-      <class name="SaveItenary_MyAdmin.Save_Prepay_Within_Deadline">
-        <test-method status="PASS" signature="SavePrepayWithinDeadLine(java.lang.String)[pri:0, instance:SaveItenary_MyAdmin.Save_Prepay_Within_Deadline@8e24743]" name="SavePrepayWithinDeadLine" duration-ms="86267" started-at="2018-01-24T18:15:46Z" finished-at="2018-01-24T18:17:12Z">
+    <test name="SupplierTestSeven" duration-ms="89032" started-at="2018-01-25T10:47:26Z" finished-at="2018-01-25T10:48:55Z">
+      <class name="Amend_MyAdmin.Amend_PrePay_Within_DeadLine">
+        <test-method status="FAIL" signature="AmendPrepayWithinDeadLine(java.lang.String)[pri:0, instance:Amend_MyAdmin.Amend_PrePay_Within_DeadLine@8e24743]" name="AmendPrepayWithinDeadLine" duration-ms="88978" started-at="2018-01-25T16:17:26Z" finished-at="2018-01-25T16:18:55Z">
           <params>
             <param index="0">
               <value>
@@ -15,25 +15,82 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='passengerDetails']/div[1]/div[3]/div[2]/input"}
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir18004_4628}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 2a00ee5f4690d9f19b75eb4410f02426
+*** Element info: {Using=xpath, value=//*[@id='passengerDetails']/div[1]/div[3]/div[2]/input} expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='passengerDetails']/div[1]/div[3]/div[2]/input"}
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir18004_4628}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 2a00ee5f4690d9f19b75eb4410f02426
+*** Element info: {Using=xpath, value=//*[@id='passengerDetails']/div[1]/div[3]/div[2]/input} expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at Amend_MyAdmin.Amend_PrePay_Within_DeadLine.AmendPrepayWithinDeadLine(Amend_PrePay_Within_DeadLine.java:287)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SavePrepayWithinDeadLine -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:SaveItenary_MyAdmin.Save_Prepay_Within_Deadline@8e24743]" name="getResult" is-config="true" duration-ms="3" started-at="2018-01-24T18:17:12Z" finished-at="2018-01-24T18:17:12Z">
+        </test-method> <!-- AmendPrepayWithinDeadLine -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Amend_MyAdmin.Amend_PrePay_Within_DeadLine@8e24743]" name="getResult" is-config="true" duration-ms="0" started-at="2018-01-25T16:18:55Z" finished-at="2018-01-25T16:18:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SavePrepayWithinDeadLine status=SUCCESS method=Save_Prepay_Within_Deadline.SavePrepayWithinDeadLine(java.lang.String)[pri:0, instance:SaveItenary_MyAdmin.Save_Prepay_Within_Deadline@8e24743] output={null}]]]>
+                <![CDATA[[TestResult name=AmendPrepayWithinDeadLine status=FAILURE method=Amend_PrePay_Within_DeadLine.AmendPrepayWithinDeadLine(java.lang.String)[pri:0, instance:Amend_MyAdmin.Amend_PrePay_Within_DeadLine@8e24743] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:SaveItenary_MyAdmin.Save_Prepay_Within_Deadline@8e24743]" name="afterTest" is-config="true" duration-ms="2526" started-at="2018-01-24T18:17:12Z" finished-at="2018-01-24T18:17:14Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Amend_MyAdmin.Amend_PrePay_Within_DeadLine@8e24743]" name="afterTest" is-config="true" duration-ms="54" started-at="2018-01-25T16:18:55Z" finished-at="2018-01-25T16:18:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- SaveItenary_MyAdmin.Save_Prepay_Within_Deadline -->
+      </class> <!-- Amend_MyAdmin.Amend_PrePay_Within_DeadLine -->
     </test> <!-- SupplierTestSeven -->
   </suite> <!-- SupplierSuite -->
 </testng-results>

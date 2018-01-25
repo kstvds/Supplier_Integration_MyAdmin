@@ -44,6 +44,7 @@ public class Amend_PrePay {
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Amend_PrePay");
 	String SearchRateexpected;
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void AmendPrepay(String browsername) throws Exception {
@@ -59,7 +60,7 @@ public class Amend_PrePay {
 				} else {
 					driverqa = new DriverAndObjectDetails(DriverName.FF).CreateDriver();
 				}
-			    WebDriverWait wait= new WebDriverWait(driverqa, 30);
+			    WebDriverWait wait= new WebDriverWait(driverqa, 40);
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
@@ -88,6 +89,7 @@ public class Amend_PrePay {
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Log-In.jpg";
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -117,6 +119,7 @@ public class Amend_PrePay {
 			} catch (Exception e) {
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Customer-Search.jpg");
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Customer-Search.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -149,6 +152,7 @@ public class Amend_PrePay {
 			 catch (Exception e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Customer-list.jpg");
 					test.log(LogStatus.FAIL, "Customer Selection");
+					errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Customer-list.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -200,7 +204,8 @@ public class Amend_PrePay {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search Prepay");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Search-Result.jpg");
-                logger.info(e.getMessage());
+				errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Search-Result.jpg";
+				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
@@ -262,8 +267,9 @@ public class Amend_PrePay {
 
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Book Prepay");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Save-Itenary.jpg");
-                    logger.info(e.getMessage());
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Book.jpg");
+					errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Book.jpg";
+					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
@@ -349,7 +355,8 @@ public class Amend_PrePay {
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Amend Prepay");
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Amending.jpg");
-                    logger.info(e.getMessage());
+					errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay/Amending.jpg";
+					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
@@ -359,12 +366,15 @@ public class Amend_PrePay {
 	 }
 	 
 	  @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	  public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		 
+		
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 
 		@AfterTest
 		public void afterTest() {

@@ -26,6 +26,7 @@ import ObjectRepository.LoginPage;
 import ObjectRepository.MultiAcco;
 import ObjectRepository.NewAccoBooking;
 import ObjectRepository.Operations;
+import ObjectRepository.PaymentPage;
 import Utility.Configuration;
 import lib.DriverAndObjectDetails;
 import lib.ExcelDataConfig;
@@ -45,9 +46,10 @@ public class Amend_Credit_Card_MultiSupplier {
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Amend_Credit_Card_MultiSupplier");
 	String SearchRateexpected;
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
-	  public void AmeendCreditCardMultiSupplier(String browsername) throws Exception {
+	  public void AmendCreditCardMultiSupplier(String browsername) throws Exception {
 		  test = rep.startTest("Amend Credit Card MultiSupplier");
 		  ExcelDataConfig excel;
 		  excel = new ExcelDataConfig(Config.getExcelPathBook());
@@ -60,7 +62,7 @@ public class Amend_Credit_Card_MultiSupplier {
 				} else {
 					driverqa = new DriverAndObjectDetails(DriverName.FF).CreateDriver();
 				}
-			    WebDriverWait wait= new WebDriverWait(driverqa, 30);
+			    WebDriverWait wait= new WebDriverWait(driverqa, 40);
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
@@ -87,8 +89,9 @@ public class Amend_Credit_Card_MultiSupplier {
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit_Card_MultiSupplier/Log-In.jpg");
 
 		} catch (Exception e) {
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit_Card_MultiSupplier/Log-In.jpg");
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Log-In.jpg";
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -116,12 +119,14 @@ public class Amend_Credit_Card_MultiSupplier {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit_Card_MultiSupplier/Customer-Search.jpg");
 			
 			} catch (Exception e) {
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Customer-Search.jpg");
+				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Customer-Search.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Customer-Search.jpg");
-				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				
 				Assert.assertTrue(false, e.getMessage());
 				
 			}
@@ -151,6 +156,7 @@ public class Amend_Credit_Card_MultiSupplier {
 			 catch (Exception e) {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Customer-list.jpg");
 					test.log(LogStatus.FAIL, "Customer Selection");
+					errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Customer-list.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -201,6 +207,7 @@ public class Amend_Credit_Card_MultiSupplier {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search Credit Card for Supplier Room");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Search-Result-Supplier.jpg");
+				errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Search-Result-Supplier.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -258,6 +265,7 @@ public class Amend_Credit_Card_MultiSupplier {
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Save Itenary Credit Card for Supplier Room");
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Save-Itenary-Supplier.jpg");
+					errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Save-Itenary-Supplier.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -311,6 +319,7 @@ public class Amend_Credit_Card_MultiSupplier {
 					catch (Exception e) {
 						test.log(LogStatus.FAIL, "Hotel Search Credit Card for DOTW Room");
 						obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Search-Result-DOTW.jpg");
+						errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Search-Result-DOTW.jpg";
 						logger.info(e.getMessage());
 						test.log(LogStatus.FAIL, e.getMessage());
 						rep.endTest(test);
@@ -356,7 +365,8 @@ public class Amend_Credit_Card_MultiSupplier {
 					logger.info("Hotel Save Complete Credit Card for DOTW Room");
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Save Credit Card for DOTW Room");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Search-Result-DOTW.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Save-DOTW.jpg");
+					errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Save-DOTW.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -368,9 +378,30 @@ public class Amend_Credit_Card_MultiSupplier {
 					test.log(LogStatus.INFO, "Starting Hotel Book from Saved Itenary Multi Supplier");
 					 logger.info("Starting Hotel Book from Saved Itenary Multi Supplier");
 					 driverqa.findElement(NewAccoBooking.BookSavedITN).click();
+					 System.out.println("ABC");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.ConfirmbuttonafterbookingsavedITN));
 					 wait.until(ExpectedConditions.elementToBeClickable(NewAccoBooking.ConfirmbuttonafterbookingsavedITN));
 					 driverqa.findElement(NewAccoBooking.ConfirmbuttonafterbookingsavedITN).click();
+					 System.out.println("ABCD");
+					 logger.info("Entering Payment Details");
+					 test.log(LogStatus.INFO, "Entering Payment Details");
+					 wait.until(ExpectedConditions.visibilityOfElementLocated(PaymentPage.ccType));
+					 Select paymentmode = new Select(driverqa.findElement(PaymentPage.ccType));
+					 paymentmode.selectByIndex(1);
+					 driverqa.findElement(PaymentPage.ccNum).sendKeys(excel.getData(0, 42, 1));
+					 driverqa.findElement(PaymentPage.cvv).sendKeys(excel.getData(0, 43, 1));
+					 driverqa.findElement(PaymentPage.ccName).sendKeys(excel.getData(0, 44, 1));
+				     Select expiryYear = new Select(driverqa.findElement(PaymentPage.expYear));
+					 expiryYear.selectByIndex(2);
+					 Select expirydate = new Select(driverqa.findElement(PaymentPage.expMonth));
+					 expirydate.selectByIndex(11);
+					 driverqa.findElement(PaymentPage.zip).sendKeys(excel.getData(0, 41, 1));
+					 driverqa.findElement(PaymentPage.termsconditions).click();
+					 Thread.sleep(2000);
+					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit_Card/Card-Details.jpg");
+					 driverqa.findElement(PaymentPage.confirmPayment).click();
+					 logger.info("Completed Payment Details");
+					 test.log(LogStatus.PASS, "Completed Payment Details");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(MultiAcco.multisupplierstatus));
 					 String expectedbookingstatus = "Confirmed";
 					 String actualbookingstatus = driverqa.findElement(MultiAcco.multisupplierstatus).getText();
@@ -414,7 +445,8 @@ public class Amend_Credit_Card_MultiSupplier {
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit_Card_MultiSupplier/Booking-Details.jpg");
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "HotelBook Credit Card Book from Saved Itenary Multi Supplier");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Booking-Details.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Booking.jpg");
+					errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Booking.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -487,7 +519,9 @@ public class Amend_Credit_Card_MultiSupplier {
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit_Card_MultiSupplier/After-Amend.jpg");
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Amend Credit Card for DOTW Room");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Search-Result-DOTW.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Amend.jpg");
+					errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_Card_MultiSupplier/Amend.jpg";
+					
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -500,12 +534,15 @@ public class Amend_Credit_Card_MultiSupplier {
 	 
 	 
 	  @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	  public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		 
+		
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 
 		@AfterTest
 		public void afterTest() {

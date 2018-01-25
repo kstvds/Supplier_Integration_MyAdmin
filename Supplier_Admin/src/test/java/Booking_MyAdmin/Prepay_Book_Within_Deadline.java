@@ -44,6 +44,7 @@ public class Prepay_Book_Within_Deadline {
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Prepay_Book_Within_Deadline");
 	String SearchRateexpected;
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void BookPrepayWithinDeadLine(String browsername) throws Exception {
@@ -88,6 +89,7 @@ public class Prepay_Book_Within_Deadline {
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine/Log-In.jpg";
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -116,11 +118,13 @@ public class Prepay_Book_Within_Deadline {
 			
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine/Customer-Search.jpg");
+				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine/Customer-Search.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine/Customer-Search.jpg");
+				
 				Assert.assertTrue(false, e.getMessage());
 				
 			}
@@ -150,6 +154,7 @@ public class Prepay_Book_Within_Deadline {
 			 catch (Exception e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine/Customer-list.jpg");
 					test.log(LogStatus.FAIL, "Customer Selection");
+					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine/Customer-list.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -207,6 +212,7 @@ public class Prepay_Book_Within_Deadline {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search Prepay Within Deadline");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine/Search-Result.jpg");
+				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine/Search-Result.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -275,7 +281,8 @@ public class Prepay_Book_Within_Deadline {
 
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Book Prepay Within Deadline");
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine/Save-Itenary.jpg");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine/Booking.jpg");
+					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Within_DeadLine/Booking.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -286,12 +293,15 @@ public class Prepay_Book_Within_Deadline {
 	 }
 	 
 	  @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	  public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		 
+		
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 
 		@AfterTest
 		public void afterTest() {

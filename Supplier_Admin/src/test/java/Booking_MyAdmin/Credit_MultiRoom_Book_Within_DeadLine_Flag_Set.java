@@ -45,6 +45,7 @@ public class Credit_MultiRoom_Book_Within_DeadLine_Flag_Set {
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Credit_MultiRoom_Book_Within_DeadLine_Flag_Set");
 	String SearchRateexpected;
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void BookCreditMultiRoomwithinDeadlineFlagset(String browsername) throws Exception {
@@ -60,7 +61,7 @@ public class Credit_MultiRoom_Book_Within_DeadLine_Flag_Set {
 				} else {
 					driverqa = new DriverAndObjectDetails(DriverName.FF).CreateDriver();
 				}
-			    WebDriverWait wait= new WebDriverWait(driverqa, 30);
+			    WebDriverWait wait= new WebDriverWait(driverqa, 40);
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
@@ -90,6 +91,7 @@ public class Credit_MultiRoom_Book_Within_DeadLine_Flag_Set {
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Within_DeadLine_Flag_Set/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Within_DeadLine_Flag_Set/Log-In.jpg";
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -120,10 +122,11 @@ public class Credit_MultiRoom_Book_Within_DeadLine_Flag_Set {
 					   driverqa.findElement(Others.Homebutton).click();
 				   }
 			} catch (Exception e) {
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Within_DeadLine_Flag_Set/Log-In.jpg");
+				test.log(LogStatus.FAIL, "Setting Flag");
+				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Within_DeadLine_Flag_Set/Flag-Setting.jpg";
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Within_DeadLine_Flag_Set/Flag-Setting.jpg");
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
-				test.log(LogStatus.FAIL, "Setting Flag");
 				rep.endTest(test);
 				rep.flush();
 				Assert.assertTrue(false, e.getMessage());
@@ -151,11 +154,13 @@ public class Credit_MultiRoom_Book_Within_DeadLine_Flag_Set {
 				
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Navigation to customer search page");
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Within_DeadLine_Flag_Set/Customer-Search.jpg");
+					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Within_DeadLine_Flag_Set/Customer-Search.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
-					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Within_DeadLine_Flag_Set/Customer-Search.jpg");
+					
 					Assert.assertTrue(false, e.getMessage());
 					
 				}
@@ -186,6 +191,7 @@ public class Credit_MultiRoom_Book_Within_DeadLine_Flag_Set {
 				 catch (Exception e) {
 					    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Within_DeadLine_Flag_Set/Customer-list.jpg");
 						test.log(LogStatus.FAIL, "Customer Selection");
+						errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Within_DeadLine_Flag_Set/Customer-list.jpg";
 						logger.info(e.getMessage());
 						test.log(LogStatus.FAIL, e.getMessage());
 						rep.endTest(test);
@@ -245,6 +251,7 @@ public class Credit_MultiRoom_Book_Within_DeadLine_Flag_Set {
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Search Credit MultiRoom Within DeadLine");
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Within_DeadLine_Flag_Set/Search-Result.jpg");
+					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Within_DeadLine_Flag_Set/Search-Result.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -274,7 +281,8 @@ public class Credit_MultiRoom_Book_Within_DeadLine_Flag_Set {
 				 
 					catch (Exception e) {
 						test.log(LogStatus.FAIL, "Hotel Search Credit");
-						obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Within_DeadLine_Flag_Set/Search-Result.jpg");
+						obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Within_DeadLine_Flag_Set/Booking.jpg");
+						errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Within_DeadLine_Flag_Set/Booking.jpg";
 						logger.info(e.getMessage());
 						test.log(LogStatus.FAIL, e.getMessage());
 						rep.endTest(test);
@@ -284,12 +292,15 @@ public class Credit_MultiRoom_Book_Within_DeadLine_Flag_Set {
 											}
 	 }
 	 @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	 public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		 
+		
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 
 		@AfterTest
 		public void afterTest() {

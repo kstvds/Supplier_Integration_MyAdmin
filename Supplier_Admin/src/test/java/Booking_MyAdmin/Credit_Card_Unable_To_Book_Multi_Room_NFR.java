@@ -44,6 +44,7 @@ public class Credit_Card_Unable_To_Book_Multi_Room_NFR {
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Credit_Card_Unable_To_Book_Multi_Room_NFR");
 	//String SearchRateexpected;
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void BookCreditCardUnableToBookMultiNFR(String browsername) throws Exception {
@@ -59,7 +60,7 @@ public class Credit_Card_Unable_To_Book_Multi_Room_NFR {
 				} else {
 					driverqa = new DriverAndObjectDetails(DriverName.FF).CreateDriver();
 				}
-			    WebDriverWait wait= new WebDriverWait(driverqa, 30);
+			    WebDriverWait wait= new WebDriverWait(driverqa, 40);
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
@@ -88,6 +89,7 @@ public class Credit_Card_Unable_To_Book_Multi_Room_NFR {
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Unable_To_Book_MultiRoom_NFR/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Unable_To_Book_MultiRoom_NFR/Log-In.jpg";
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -115,13 +117,15 @@ public class Credit_Card_Unable_To_Book_Multi_Room_NFR {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Accommodation_Book_Credit_Card_Unable_To_Book_MultiRoom_NFR/Customer-Search.jpg");
 			
 			} catch (Exception e) {
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Unable_To_Book_MultiRoom_NFR/Customer-Search.jpg");
+				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Unable_To_Book_MultiRoom_NFR/Customer-Search.jpg";
+
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Unable_To_Book_MultiRoom_NFR/Customer-Search.jpg");
-				test.log(LogStatus.FAIL, "Navigation to customer search page");
-				Assert.assertTrue(false, e.getMessage());
+								Assert.assertTrue(false, e.getMessage());
 				
 			}
 		     logger.info("Selecting Customer");
@@ -149,8 +153,10 @@ public class Credit_Card_Unable_To_Book_Multi_Room_NFR {
 			 }
 			 catch (Exception e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Unable_To_Book_MultiRoom_NFR/Customer-list.jpg");
-					test.log(LogStatus.FAIL, "Customer Selection");
-					logger.info(e.getMessage());
+					
+				    test.log(LogStatus.FAIL, "Customer Selection");
+				    errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Unable_To_Book_MultiRoom_NFR/Customer-list.jpg";
+				    logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
@@ -206,6 +212,7 @@ public class Credit_Card_Unable_To_Book_Multi_Room_NFR {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search Credit Card NFR Multirooms");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Unable_To_Book_MultiRoom_NFR/Search-Result.jpg");
+				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Credit_Card_Unable_To_Book_MultiRoom_NFR/Search-Result.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -214,12 +221,15 @@ public class Credit_Card_Unable_To_Book_Multi_Room_NFR {
 							}
 }
 	 @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	 public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		 
+		
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 
 		@AfterTest
 		public void afterTest() {

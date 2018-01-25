@@ -45,6 +45,7 @@ public class Prepay_Unable_To_Book_Multi_Room_NFR {
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Prepay_Unable_To_Book_Multi_Room_NFR");
 	//String SearchRateexpected;
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void BookPrepayUnableToBookMultiNFR(String browsername) throws Exception {
@@ -89,6 +90,7 @@ public class Prepay_Unable_To_Book_Multi_Room_NFR {
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Unable_To_Book_MultiRoom_NFR/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Unable_To_Book_MultiRoom_NFR/Log-In.jpg";
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -122,6 +124,7 @@ public class Prepay_Unable_To_Book_Multi_Room_NFR {
 				rep.flush();
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Unable_To_Book_MultiRoom_NFR/Customer-Search.jpg");
 				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Unable_To_Book_MultiRoom_NFR/Customer-Search.jpg";
 				Assert.assertTrue(false, e.getMessage());
 				
 			}
@@ -151,6 +154,7 @@ public class Prepay_Unable_To_Book_Multi_Room_NFR {
 			 catch (Exception e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Unable_To_Book_MultiRoom_NFR/Customer-list.jpg");
 					test.log(LogStatus.FAIL, "Customer Selection");
+					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Unable_To_Book_MultiRoom_NFR/Customer-list.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -207,6 +211,7 @@ public class Prepay_Unable_To_Book_Multi_Room_NFR {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search Prepay NFR Multirooms");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay/Search-Result.jpg");
+				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_Book_Prepay_Unable_To_Book_MultiRoom_NFR/Search-Result.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -215,19 +220,22 @@ public class Prepay_Unable_To_Book_Multi_Room_NFR {
 							}
 }
 	 @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	 public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		 
+		
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 
 		@AfterTest
 		public void afterTest() {
 
 			rep.endTest(test);
 			rep.flush();
-			//driverqa.close();
+			driverqa.close();
 		}
 }
 

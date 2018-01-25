@@ -39,7 +39,7 @@
 <test name="SupplierTestSeven" >
 <parameter name="browsername" value="CH"/>
 <classes> 
-<class name="Booking_MyAdmin.Book_Credit" />
+<class name="Amend_MyAdmin.Amend_Prepay_MultiSupplier" />
 </classes> 
 </test>
 <!--test name="SupplierTestEight" >
