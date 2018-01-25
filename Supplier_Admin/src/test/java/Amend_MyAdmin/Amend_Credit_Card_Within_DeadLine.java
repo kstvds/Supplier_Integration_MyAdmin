@@ -178,8 +178,8 @@ public class Amend_Credit_Card_Within_DeadLine {
 				 driverqa.findElement(NewAccoBooking.outDate).clear();
 				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 18, 2));
 				 String expected=excel.getData(0, 9, 1);
-				 Select noofchild = new Select(driverqa.findElement(MultiAcco.child1));
-				 noofchild.selectByIndex(1);
+				 /*Select noofchild = new Select(driverqa.findElement(MultiAcco.child1));
+				 noofchild.selectByIndex(1);*/
 				 Thread.sleep(2000);
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit_Card_Within_DeadLine/Search-Hotel-filters.jpg");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.bookChannel));
@@ -241,11 +241,11 @@ public class Amend_Credit_Card_Within_DeadLine {
 					driverqa.findElement(NewAccoBooking.paxLname2).sendKeys(excel.getData(0, 22, 2));
 					Select passengertitle2 = new Select(driverqa.findElement(NewAccoBooking.paxtitle2));
 					passengertitle2.selectByIndex(1);
-					driverqa.findElement(NewAccoBooking.paxFnameCHILD).sendKeys(excel.getData(0, 23, 1));
+					/*driverqa.findElement(NewAccoBooking.paxFnameCHILD).sendKeys(excel.getData(0, 23, 1));
 					Thread.sleep(1000);
 					driverqa.findElement(NewAccoBooking.paxLnameCHILD).sendKeys(excel.getData(0, 23, 2));
 					Select passengertitle3 = new Select(driverqa.findElement(NewAccoBooking.paxtitle3));
-					passengertitle3.selectByIndex(1);
+					passengertitle3.selectByIndex(1);*/
 					driverqa.findElement(NewAccoBooking.acceptChkBX).click();
 					Thread.sleep(2000);
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit_Card_Within_DeadLine/Passenger-Details.jpg");

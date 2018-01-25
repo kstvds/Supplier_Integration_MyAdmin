@@ -429,7 +429,7 @@ public class Amend_Prepay_MultiSupplier {
 				}
 				try {
 					driverqa.findElement(Amend.SelectDOTWBooking).click();
-					wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyconfirmStatus));
+					wait.until(ExpectedConditions.visibilityOfElementLocated(Amend.amendBtn));
 					test.log(LogStatus.INFO, "Navigating to Amend Page For DOTW Room");
 					logger.info("Navigating to Amend Page For DOTW Room");
 					driverqa.findElement(Amend.amendBtn).click();

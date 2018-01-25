@@ -44,6 +44,7 @@ public class Credit_Amend_NFR {
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Amend_Credit_NFR");
 	String SearchRateexpected;
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void AmendCreditNFR(String browsername) throws Exception {
@@ -59,7 +60,7 @@ public class Credit_Amend_NFR {
 				} else {
 					driverqa = new DriverAndObjectDetails(DriverName.FF).CreateDriver();
 				}
-			    WebDriverWait wait= new WebDriverWait(driverqa, 30);
+			    WebDriverWait wait= new WebDriverWait(driverqa, 40);
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
@@ -88,6 +89,7 @@ public class Credit_Amend_NFR {
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_NFR/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_NFR/Log-In.jpg";
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -114,12 +116,14 @@ public class Credit_Amend_NFR {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Credit_NFR/Customer-Search.jpg");
 			
 			} catch (Exception e) {
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_NFR/Customer-Search.jpg");
+				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_NFR/Customer-Search.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_NFR/Customer-Search.jpg");
-				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				
 				Assert.assertTrue(false, e.getMessage());
 				
 			}
@@ -149,6 +153,7 @@ public class Credit_Amend_NFR {
 			 catch (Exception e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_NFR/Customer-list.jpg");
 					test.log(LogStatus.FAIL, "Customer Selection");
+					errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_NFR/Customer-list.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -205,6 +210,7 @@ public class Credit_Amend_NFR {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search Credit NFR");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_NFR/Search-Result.jpg");
+				errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_NFR/Search-Result.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
@@ -266,9 +272,11 @@ public class Credit_Amend_NFR {
 
 
 				} catch (Exception e) {
-					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, "Hotel Book Credit NFR");
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_NFR/Unable-To-Book.jpg");
+					errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_NFR/Unable-To-Book.jpg";
+					logger.info(e.getMessage());
+					
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
@@ -282,6 +290,7 @@ public class Credit_Amend_NFR {
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Amend Credit NFR");
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_NFR/Amend-Button-Present.jpg");
+					errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Credit_NFR/Amend-Button-Present.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -292,12 +301,15 @@ public class Credit_Amend_NFR {
 	 }
 	 
 	  @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	  public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		 
+		
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 
 		@AfterTest
 		public void afterTest() {

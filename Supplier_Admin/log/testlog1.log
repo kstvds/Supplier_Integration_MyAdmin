@@ -7534,3 +7534,111 @@ Session ID: 2a00ee5f4690d9f19b75eb4410f02426
 2018-01-25 17:09:21,355 [main] INFO Amend_Prepay_MultiSupplier - Customer Selected
 2018-01-25 17:09:21,361 [main] INFO Amend_Prepay_MultiSupplier - Applying search Filters for Supplier Room
 2018-01-25 17:09:21,362 [main] INFO Amend_Prepay_MultiSupplier - Starting HotelSearch Prepay for Supplier Room
+2018-01-25 17:09:38,632 [main] INFO Amend_Prepay_MultiSupplier - Hotel Search Complete Prepay for Supplier Room
+2018-01-25 17:09:38,632 [main] INFO Amend_Prepay_MultiSupplier - Starting Hotel Save for Supplier Room
+2018-01-25 17:09:41,732 [main] INFO Amend_Prepay_MultiSupplier - Entering Passenger details
+2018-01-25 17:09:50,871 [main] INFO Amend_Prepay_MultiSupplier - Entered Passenger details for Supplier Room
+2018-01-25 17:10:06,386 [main] INFO Amend_Prepay_MultiSupplier - Hotel Save Complete Prepay for Supplier Room
+2018-01-25 17:10:06,421 [main] INFO Amend_Prepay_MultiSupplier - Applying search Filters for DOTW Room
+2018-01-25 17:10:06,421 [main] INFO Amend_Prepay_MultiSupplier - Starting HotelSearch Prepay for DOTW Room
+2018-01-25 17:10:20,698 [main] INFO Amend_Prepay_MultiSupplier - Hotel Search Complete Prepay for DOTW Room
+2018-01-25 17:10:20,706 [main] INFO Amend_Prepay_MultiSupplier - Starting Hotel Save for DOTW Room
+2018-01-25 17:10:23,218 [main] INFO Amend_Prepay_MultiSupplier - Entering Passenger details
+2018-01-25 17:10:31,712 [main] INFO Amend_Prepay_MultiSupplier - Entered Passenger details for DOTW Room
+2018-01-25 17:10:45,805 [main] INFO Amend_Prepay_MultiSupplier - Hotel Save Complete Prepay for DOTW Room
+2018-01-25 17:10:45,813 [main] INFO Amend_Prepay_MultiSupplier - Starting Hotel Book from Saved Itenary Multi Supplier
+2018-01-25 17:11:04,289 [main] INFO Amend_Prepay_MultiSupplier - Hotel Book Complete Prepay Book from Saved Itenary Multi Supplier
+2018-01-25 17:11:46,925 [main] INFO Amend_Prepay_MultiSupplier - Timed out after 40 seconds waiting for visibility of element located by By.xpath: //*[contains(text(),'Status: Confirmed')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir4400_7631}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f23771e1fd077787d968eefda1115488
+2018-01-25 17:13:00,085 [main] INFO Amend_Prepay_MultiSupplier - Test Case Started
+2018-01-25 17:13:03,181 [main] INFO Amend_Prepay_MultiSupplier - Browser Opened
+2018-01-25 17:13:07,759 [main] INFO Amend_Prepay_MultiSupplier - Test Case Started
+2018-01-25 17:13:14,510 [main] INFO Amend_Prepay_MultiSupplier - Login Successful
+2018-01-25 17:13:16,890 [main] INFO Amend_Prepay_MultiSupplier - Searching Customer
+2018-01-25 17:13:16,904 [main] INFO Amend_Prepay_MultiSupplier - Navigating to customer search page
+2018-01-25 17:13:22,466 [main] INFO Amend_Prepay_MultiSupplier - Navigated to customer search page
+2018-01-25 17:13:25,761 [main] INFO Amend_Prepay_MultiSupplier - Selecting Customer
+2018-01-25 17:13:57,042 [main] INFO Amend_Prepay_MultiSupplier - Customer Selected
+2018-01-25 17:13:57,049 [main] INFO Amend_Prepay_MultiSupplier - Applying search Filters for Supplier Room
+2018-01-25 17:13:57,049 [main] INFO Amend_Prepay_MultiSupplier - Starting HotelSearch Prepay for Supplier Room
+2018-01-25 17:14:11,862 [main] INFO Amend_Prepay_MultiSupplier - Hotel Search Complete Prepay for Supplier Room
+2018-01-25 17:14:11,862 [main] INFO Amend_Prepay_MultiSupplier - Starting Hotel Save for Supplier Room
+2018-01-25 17:14:14,896 [main] INFO Amend_Prepay_MultiSupplier - Entering Passenger details
+2018-01-25 17:14:24,089 [main] INFO Amend_Prepay_MultiSupplier - Entered Passenger details for Supplier Room
+2018-01-25 17:14:48,462 [main] INFO Amend_Prepay_MultiSupplier - Hotel Save Complete Prepay for Supplier Room
+2018-01-25 17:14:48,514 [main] INFO Amend_Prepay_MultiSupplier - Applying search Filters for DOTW Room
+2018-01-25 17:14:48,514 [main] INFO Amend_Prepay_MultiSupplier - Starting HotelSearch Prepay for DOTW Room
+2018-01-25 17:15:02,145 [main] INFO Amend_Prepay_MultiSupplier - Hotel Search Complete Prepay for DOTW Room
+2018-01-25 17:15:02,154 [main] INFO Amend_Prepay_MultiSupplier - Starting Hotel Save for DOTW Room
+2018-01-25 17:15:04,657 [main] INFO Amend_Prepay_MultiSupplier - Entering Passenger details
+2018-01-25 17:15:13,109 [main] INFO Amend_Prepay_MultiSupplier - Entered Passenger details for DOTW Room
+2018-01-25 17:15:36,593 [main] INFO Amend_Prepay_MultiSupplier - Hotel Save Complete Prepay for DOTW Room
+2018-01-25 17:15:36,601 [main] INFO Amend_Prepay_MultiSupplier - Starting Hotel Book from Saved Itenary Multi Supplier
+2018-01-25 17:15:54,958 [main] INFO Amend_Prepay_MultiSupplier - Hotel Book Complete Prepay Book from Saved Itenary Multi Supplier
+2018-01-25 17:16:01,534 [main] INFO Amend_Prepay_MultiSupplier - Navigating to Amend Page For DOTW Room
+2018-01-25 17:16:04,487 [main] INFO Amend_Prepay_MultiSupplier - Navigated to Amend Page For DOTW Room
+2018-01-25 17:16:06,783 [main] INFO Amend_Prepay_MultiSupplier - Starting to Amend For DOTW Room
+2018-01-25 17:16:06,792 [main] INFO Amend_Prepay_MultiSupplier - Changing Name
+2018-01-25 17:16:07,181 [main] INFO Amend_Prepay_MultiSupplier - Changed name
+2018-01-25 17:16:27,870 [main] INFO Amend_Prepay_MultiSupplier - Amended For DOTW Room
+2018-01-25 17:18:56,027 [main] INFO Amend_Credit_Card_Within_DeadLine - Test Case Started
+2018-01-25 17:18:58,977 [main] INFO Amend_Credit_Card_Within_DeadLine - Browser Opened
+2018-01-25 17:19:03,561 [main] INFO Amend_Credit_Card_Within_DeadLine - Test Case Started
+2018-01-25 17:19:10,330 [main] INFO Amend_Credit_Card_Within_DeadLine - Login Successful
+2018-01-25 17:19:12,750 [main] INFO Amend_Credit_Card_Within_DeadLine - Searching Customer
+2018-01-25 17:19:12,763 [main] INFO Amend_Credit_Card_Within_DeadLine - Navigating to customer search page
+2018-01-25 17:19:18,319 [main] INFO Amend_Credit_Card_Within_DeadLine - Navigated to customer search page
+2018-01-25 17:19:20,604 [main] INFO Amend_Credit_Card_Within_DeadLine - Selecting Customer
+2018-01-25 17:19:34,641 [main] INFO Amend_Credit_Card_Within_DeadLine - Customer Selected
+2018-01-25 17:19:34,646 [main] INFO Amend_Credit_Card_Within_DeadLine - Applying search Filters
+2018-01-25 17:19:34,646 [main] INFO Amend_Credit_Card_Within_DeadLine - Starting HotelSearch Credit Card Within DeadLine
+2018-01-25 17:19:54,111 [main] INFO Amend_Credit_Card_Within_DeadLine - Hotel Search Complete Credit Card Within DeadLine
+2018-01-25 17:19:54,124 [main] INFO Amend_Credit_Card_Within_DeadLine - Starting Hotel Book
+2018-01-25 17:19:56,693 [main] INFO Amend_Credit_Card_Within_DeadLine - Entering Passenger details
+2018-01-25 17:20:05,837 [main] INFO Amend_Credit_Card_Within_DeadLine - Entered Passenger details
+2018-01-25 17:20:13,669 [main] INFO Amend_Credit_Card_Within_DeadLine - Entering Payment Details
+2018-01-25 17:20:17,625 [main] INFO Amend_Credit_Card_Within_DeadLine - Completed Payment Details
+2018-01-25 17:20:32,033 [main] INFO Amend_Credit_Card_Within_DeadLine - Hotel Book Complete Credit Card Within DeadLine
+2018-01-25 17:20:32,033 [main] INFO Amend_Credit_Card_Within_DeadLine - Navigating to Amend Page
+2018-01-25 17:20:35,021 [main] INFO Amend_Credit_Card_Within_DeadLine - Navigated to Amend Page
+2018-01-25 17:20:37,309 [main] INFO Amend_Credit_Card_Within_DeadLine - Starting to Amend
+2018-01-25 17:20:37,317 [main] INFO Amend_Credit_Card_Within_DeadLine - Changing Name
+2018-01-25 17:20:37,886 [main] INFO Amend_Credit_Card_Within_DeadLine - Changed name
+2018-01-25 17:20:37,886 [main] INFO Amend_Credit_Card_Within_DeadLine - Changing Dates
+2018-01-25 17:20:38,303 [main] INFO Amend_Credit_Card_Within_DeadLine - Changed Dates
+2018-01-25 17:21:34,591 [main] INFO Amend_Credit_Card_Within_DeadLine - Timed out after 40 seconds waiting for visibility of element located by By.xpath: //*[contains(text(),'Amended Confirmed')]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC350015', ip: '10.245.98.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479739\AppData\Local\Temp\scoped_dir12744_5297}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 51c0824ce0c04c76ad9aebd7a1449389
+2018-01-25 17:28:33,984 [main] INFO Amend_Credit_Card_Within_DeadLine - Test Case Started
+2018-01-25 17:28:37,138 [main] INFO Amend_Credit_Card_Within_DeadLine - Browser Opened
+2018-01-25 17:28:41,574 [main] INFO Amend_Credit_Card_Within_DeadLine - Test Case Started
+2018-01-25 17:28:48,368 [main] INFO Amend_Credit_Card_Within_DeadLine - Login Successful
+2018-01-25 17:28:50,733 [main] INFO Amend_Credit_Card_Within_DeadLine - Searching Customer
+2018-01-25 17:28:50,745 [main] INFO Amend_Credit_Card_Within_DeadLine - Navigating to customer search page
+2018-01-25 17:28:57,533 [main] INFO Amend_Credit_Card_Within_DeadLine - Navigated to customer search page
+2018-01-25 17:28:59,802 [main] INFO Amend_Credit_Card_Within_DeadLine - Selecting Customer
+2018-01-25 17:29:15,799 [main] INFO Amend_Credit_Card_Within_DeadLine - Customer Selected
+2018-01-25 17:29:15,799 [main] INFO Amend_Credit_Card_Within_DeadLine - Applying search Filters
+2018-01-25 17:29:15,799 [main] INFO Amend_Credit_Card_Within_DeadLine - Starting HotelSearch Credit Card Within DeadLine
+2018-01-25 17:29:33,902 [main] INFO Amend_Credit_Card_Within_DeadLine - Hotel Search Complete Credit Card Within DeadLine
+2018-01-25 17:29:33,903 [main] INFO Amend_Credit_Card_Within_DeadLine - Starting Hotel Book
+2018-01-25 17:29:36,435 [main] INFO Amend_Credit_Card_Within_DeadLine - Entering Passenger details
+2018-01-25 17:29:45,623 [main] INFO Amend_Credit_Card_Within_DeadLine - Entered Passenger details
+2018-01-25 17:29:54,020 [main] INFO Amend_Credit_Card_Within_DeadLine - Entering Payment Details
+2018-01-25 17:29:57,982 [main] INFO Amend_Credit_Card_Within_DeadLine - Completed Payment Details
+2018-01-25 17:30:12,557 [main] INFO Amend_Credit_Card_Within_DeadLine - Hotel Book Complete Credit Card Within DeadLine
+2018-01-25 17:30:12,557 [main] INFO Amend_Credit_Card_Within_DeadLine - Navigating to Amend Page
+2018-01-25 17:30:15,578 [main] INFO Amend_Credit_Card_Within_DeadLine - Navigated to Amend Page
+2018-01-25 17:30:17,857 [main] INFO Amend_Credit_Card_Within_DeadLine - Starting to Amend
+2018-01-25 17:30:17,857 [main] INFO Amend_Credit_Card_Within_DeadLine - Changing Name
+2018-01-25 17:30:18,437 [main] INFO Amend_Credit_Card_Within_DeadLine - Changed name
+2018-01-25 17:30:18,438 [main] INFO Amend_Credit_Card_Within_DeadLine - Changing Dates
+2018-01-25 17:30:18,836 [main] INFO Amend_Credit_Card_Within_DeadLine - Changed Dates
+2018-01-25 17:30:41,947 [main] INFO Amend_Credit_Card_Within_DeadLine - Amended

@@ -44,6 +44,7 @@ public class Prepay_Amend_NFR {
 	Operations opo = new Operations();
 	Logger logger = Logger.getLogger("Amend_Prepay_NFR");
 	String SearchRateexpected;
+	String errorpath;
 	 @Test
 	 @Parameters({ "browsername" })
 	  public void BookPrepay(String browsername) throws Exception {
@@ -59,7 +60,7 @@ public class Prepay_Amend_NFR {
 				} else {
 					driverqa = new DriverAndObjectDetails(DriverName.FF).CreateDriver();
 				}
-			    WebDriverWait wait= new WebDriverWait(driverqa, 30);
+			    WebDriverWait wait= new WebDriverWait(driverqa, 40);
 			    Actions action = new Actions(driverqa);
 	           try{
 			    logger.info("Browser Opened");
@@ -88,6 +89,7 @@ public class Prepay_Amend_NFR {
 		} catch (Exception e) {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Log-In.jpg");
 			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Log-In.jpg";
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -115,13 +117,14 @@ public class Prepay_Amend_NFR {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Accommodation_Amend_Prepay_NFR/Customer-Search.jpg");
 			
 			} catch (Exception e) {
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Customer-Search.jpg");
+				test.log(LogStatus.FAIL, "Navigation to customer search page");
+				errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Customer-Search.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Customer-Search.jpg");
-				test.log(LogStatus.FAIL, "Navigation to customer search page");
-				Assert.assertTrue(false, e.getMessage());
+								Assert.assertTrue(false, e.getMessage());
 				
 			}
 		     logger.info("Selecting Customer");
@@ -150,6 +153,7 @@ public class Prepay_Amend_NFR {
 			 catch (Exception e) {
 				    obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Customer-list.jpg");
 					test.log(LogStatus.FAIL, "Customer Selection");
+					errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Customer-list.jpg";
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -206,14 +210,13 @@ public class Prepay_Amend_NFR {
 			} catch (Exception e) {
 				test.log(LogStatus.FAIL, "Hotel Search Prepay NFR");
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Search-Result.jpg");
+				errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Search-Result.jpg";
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
 				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Hotel Search Prepay NFR");
-				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Search-Result.jpg");
-			}
+							}
 			
 				try {
 					test.log(LogStatus.INFO, "Starting Hotel Book PrePay NFR");
@@ -271,7 +274,8 @@ public class Prepay_Amend_NFR {
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Book Prepay NFR");
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Unable-To-Book.jpg");
-                    logger.info(e.getMessage());
+					errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Unable-To-Book.jpg";
+					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
@@ -285,7 +289,8 @@ public class Prepay_Amend_NFR {
 				} catch (Exception e) {
 					test.log(LogStatus.FAIL, "Hotel Amend Prepay NFR");
 					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Amend-Button-Present.jpg");
-                    logger.info(e.getMessage());
+					errorpath=Config.SnapShotPath() + "/Amend/Error/Accommodation_Amend_Prepay_NFR/Amend-Button-Present.jpg";
+					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
 					rep.flush();
@@ -295,12 +300,15 @@ public class Prepay_Amend_NFR {
 	 }
 	 
 	  @AfterMethod
-		public void getResult(ITestResult result) {
-			if (result.getStatus() == ITestResult.FAILURE) {
-				test.log(LogStatus.FAIL, result.getThrowable());
-			}
-			rep.endTest(test);
-		}
+	  public void getResult(ITestResult result) {
+		  if (result.getStatus() == ITestResult.FAILURE) {
+		 
+		
+		test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+		  test.log(LogStatus.FAIL, result.getThrowable());
+		  }
+		  rep.endTest(test);
+		  }
 
 		@AfterTest
 		public void afterTest() {
