@@ -2,16 +2,1551 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [SupplierSuite]">
   <parameter name="browsername" value="CH"/>
-  <test name="SupplierTestSeven(failed)">
+  <test name="SupplierTest1(failed)">
     <parameter name="browsername" value="CH"/>
     <classes>
-      <class name="Amend_MyAdmin.Amend_Credit_Card_Within_DeadLine">
+      <class name="Search_MyAdmin.Search_Credit">
         <methods>
           <include name="getResult"/>
-          <include name="AmendCreditCardWithinDeadLine" invocation-numbers="0"/>
-          <include name="afterTest"/>
         </methods>
-      </class> <!-- Amend_MyAdmin.Amend_Credit_Card_Within_DeadLine -->
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="SearchPrepay" invocation-numbers="0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
     </classes>
-  </test> <!-- SupplierTestSeven(failed) -->
+  </test> <!-- SupplierTest1(failed) -->
+  <test name="SupplierTest2(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+          <include name="SearchCredit" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
+    </classes>
+  </test> <!-- SupplierTest2(failed) -->
+  <test name="SupplierTest3(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+          <include name="SearchCreditCard" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
+    </classes>
+  </test> <!-- SupplierTest3(failed) -->
+  <test name="SupplierTest4(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="SearchPrepayWithinDeadline" invocation-numbers="0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
+    </classes>
+  </test> <!-- SupplierTest4(failed) -->
+  <test name="SupplierTest5(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="SearchCreditWithinDeadline" invocation-numbers="0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
+    </classes>
+  </test> <!-- SupplierTest5(failed) -->
+  <test name="SupplierTest6(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="SearchCreditCardWithinDeadline" invocation-numbers="0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
+    </classes>
+  </test> <!-- SupplierTest6(failed) -->
+  <test name="SupplierTest7(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+          <include name="SearchPrepayNFR" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
+    </classes>
+  </test> <!-- SupplierTest7(failed) -->
+  <test name="SupplierTest8(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+          <include name="SearchCreditNFR" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
+    </classes>
+  </test> <!-- SupplierTest8(failed) -->
+  <test name="SupplierTest9(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="SearchCreditCardNFR" invocation-numbers="0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
+    </classes>
+  </test> <!-- SupplierTest9(failed) -->
+  <test name="SupplierTest10(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+          <include name="BookPrepay" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
+    </classes>
+  </test> <!-- SupplierTest10(failed) -->
+  <test name="SupplierTest11(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="BookCredit" invocation-numbers="0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
+    </classes>
+  </test> <!-- SupplierTest11(failed) -->
+  <test name="SupplierTest12(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+          <include name="BookCreditCard" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
+    </classes>
+  </test> <!-- SupplierTest12(failed) -->
+  <test name="SupplierTest13(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+          <include name="BookCreditCardMultiSupplier" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
+    </classes>
+  </test> <!-- SupplierTest13(failed) -->
+  <test name="SupplierTest14(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+          <include name="BookSavedITNCreditCardNFR" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
+    </classes>
+  </test> <!-- SupplierTest14(failed) -->
+  <test name="SupplierTest15(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+          <include name="BookCreditMultiSupplier" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
+    </classes>
+  </test> <!-- SupplierTest15(failed) -->
+  <test name="SupplierTest16(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="BookSavedITNCreditNFR" invocation-numbers="0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
+    </classes>
+  </test> <!-- SupplierTest16(failed) -->
+  <test name="SupplierTest17(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="Search_MyAdmin.Search_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit -->
+      <class name="Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Saved_Itenary_NFR -->
+      <class name="Booking_MyAdmin.Book_Prepay_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+          <include name="BookPrepayMultiSupplier" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_Within_Deadline -->
+      <class name="Search_MyAdmin.Search_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay -->
+      <class name="Booking_MyAdmin.Book_Prepay">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Prepay -->
+      <class name="Search_MyAdmin.Search_Credit_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit -->
+      <class name="Search_MyAdmin.Search_Credit_Card_Within_Deadline">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_Within_Deadline -->
+      <class name="Booking_MyAdmin.Book_Credit_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Credit_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card_NFR -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_Saved_Itenary_NFR -->
+      <class name="Search_MyAdmin.Search_Credit_Card">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Credit_Card -->
+      <class name="Booking_MyAdmin.Book_Credit_Card_MultiSupplier">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Booking_MyAdmin.Book_Credit_Card_MultiSupplier -->
+      <class name="Search_MyAdmin.Search_Prepay_NFR">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Search_MyAdmin.Search_Prepay_NFR -->
+    </classes>
+  </test> <!-- SupplierTest17(failed) -->
 </suite> <!-- Failed suite [SupplierSuite] -->
